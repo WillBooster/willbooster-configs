@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "husky": "2.1.0",
-    "lerna": "3.13.3",
+    "lerna": "3.13.4",
     "lint-staged": "8.1.5",
     "prettier": "1.17.0",
     "renovate-config-willbooster": "^0.0.2",

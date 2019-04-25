@@ -1,6 +1,6 @@
 {
   "name": "tslint-willbooster",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A TSLint config for WillBooster repositories",
   "license": "Apache-2.0",
   "author": "WillBooster LLC",

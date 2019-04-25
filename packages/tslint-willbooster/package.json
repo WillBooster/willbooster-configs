@@ -1,0 +1,15 @@
+{
+  "name": "tslint-willbooster",
+  "version": "1.0.0",
+  "description": "A TSLint config for WillBooster repositories",
+  "license": "Apache-2.0",
+  "author": "WillBooster LLC",
+  "scripts": {
+    "sort-package-json": "sort-package-json"
+  },
+  "devDependencies": {
+    "tslint": "5.16.0",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-microsoft-contrib": "6.1.1"
+  }
+}

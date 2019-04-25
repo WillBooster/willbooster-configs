@@ -1,0 +1,31 @@
+{
+  "name": "renovate-config-willbooster",
+  "version": "1.0.0",
+  "description": "A renovate config for WillBooster repositories",
+  "license": "Apache-2.0",
+  "author": "WillBooster LLC",
+  "scripts": {
+    "sort-package-json": "sort-package-json"
+  },
+  "renovate-config": {
+    "default": {
+      "extends": [
+        "config:base"
+      ],
+      "automergeType": "branch-push",
+      "prCreation": "immediate",
+      "rebaseStalePrs": true,
+      "semanticCommits": true,
+      "timezone": "Asia/Tokyo",
+      "dependencies": {
+        "automerge": false
+      },
+      "devDependencies": {
+        "automerge": true,
+        "major": {
+          "automerge": false
+        }
+      }
+    }
+  }
+}

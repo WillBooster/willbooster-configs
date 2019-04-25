@@ -1,0 +1,13 @@
+{
+  "name": "prettierrc-willbooster",
+  "version": "1.0.0",
+  "description": "A Prettier config for WillBooster repositories",
+  "license": "Apache-2.0",
+  "author": "WillBooster LLC",
+  "scripts": {
+    "sort-package-json": "sort-package-json"
+  },
+  "devDependencies": {
+    "prettier": "1.17.0"
+  }
+}

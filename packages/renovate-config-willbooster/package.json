@@ -18,7 +18,10 @@
       "semanticCommits": true,
       "timezone": "Asia/Tokyo",
       "dependencies": {
-        "automerge": false
+        "automerge": true,
+        "minor": {
+          "automerge": false
+        }
       },
       "devDependencies": {
         "automerge": true,

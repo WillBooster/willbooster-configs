@@ -11,11 +11,6 @@
     "prettier": "prettier --write **/*.{css,html,js,json,md,scss,yml}",
     "sort-all-package-json": "yarn sort-package-json && yarn lerna run sort-package-json"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "devDependencies": {
     "husky": "2.1.0",
     "lerna": "3.13.4",

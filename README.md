@@ -1,3 +1,3 @@
 # WillBooster Configs
 
-A set of configure files used in WillBooster LLC.
+A set of configuration files used in WillBooster LLC.

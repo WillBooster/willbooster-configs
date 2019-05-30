@@ -9,7 +9,7 @@
     "sort-package-json": "sort-package-json"
   },
   "devDependencies": {
-    "tslint": "5.16.0",
+    "tslint": "5.17.0",
     "tslint-config-prettier": "1.18.0",
     "tslint-microsoft-contrib": "6.1.1",
     "tslint-plugin-prettier": "2.0.1"

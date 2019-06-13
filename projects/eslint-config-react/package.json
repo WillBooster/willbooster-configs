@@ -1,6 +1,6 @@
 {
   "name": "@willbooster/eslint-config-react",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A ESLint config for WillBooster projects depending on react",
   "license": "Apache-2.0",
   "author": "WillBooster LLC",
@@ -9,7 +9,7 @@
     "sort-package-json": "sort-package-json"
   },
   "dependencies": {
-    "@willbooster/eslint-config": "0.0.4"
+    "@willbooster/eslint-config": "^0.0.5"
   },
   "devDependencies": {
     "eslint-plugin-react": ">= 7"

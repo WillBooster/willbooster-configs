@@ -13,7 +13,7 @@
     "sort-all-package-json": "yarn sort-package-json && yarn lerna run sort-package-json"
   },
   "devDependencies": {
-    "husky": "2.3.0",
+    "husky": "2.4.1",
     "lerna": "3.13.4",
     "lint-staged": "8.2.1",
     "prettier": "1.17.1",

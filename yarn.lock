@@ -4516,10 +4516,10 @@ regexpp@^2.0.1:
   resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-2.0.1.tgz#8d19d31cf632482b589049f8281f93dbcba4d07f"
   integrity sha512-lv0M6+TkDVniA3aD1Eg0DVpfU/booSu7Eev3TDO/mZKHBfVjgCGTV4t4buppESEYDtkArYFOxTJWv6S5C+iaNw==
 
-renovate-config-willbooster@0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/renovate-config-willbooster/-/renovate-config-willbooster-0.0.2.tgz#162aa0f1be8333e361031a60942daae9ed856bb2"
-  integrity sha512-hIwgGajS4rORArgeu2RfIcj9rBWEn590P37UToVG/4IabTTZUNRzxeGwK7GDG6gFxP+9JcM64w0mL0MRNvLwlw==
+renovate-config-willbooster@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/renovate-config-willbooster/-/renovate-config-willbooster-0.0.4.tgz#1a6df5b9f9f6ea8de4bafec2e63680029af013d8"
+  integrity sha512-eCT/KzooW6N7GRopc22JhQgR3VkBKK/hvwDUTnyf0p93qoHWrbQ7D/+cMUHD4NaxMow+OvJk3aOyxMJQzQhq2g==
 
 repeat-element@^1.1.2:
   version "1.1.3"

@@ -1,7 +1,7 @@
 {
-  "name": "renovate-config-willbooster",
+  "name": "@willbooster/renovate-config",
   "version": "0.0.4",
-  "description": "A renovate config for WillBooster repositories",
+  "description": "A renovate config for WillBooster projects",
   "license": "Apache-2.0",
   "author": "WillBooster LLC",
   "scripts": {

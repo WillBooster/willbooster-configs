@@ -1,7 +1,7 @@
 {
-  "name": "tsconfig-willbooster",
+  "name": "@willbooster/tsconfig",
   "version": "0.0.4",
-  "description": "A TypeScript config for WillBooster repositories",
+  "description": "A TypeScript config for WillBooster projects",
   "license": "Apache-2.0",
   "author": "WillBooster LLC",
   "scripts": {

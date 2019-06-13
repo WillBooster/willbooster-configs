@@ -1,0 +1,9 @@
+{
+  "extends": ["plugin:react/recommended", "@willbooster"],
+  "plugins": ["@typescript-eslint", "prettier", "react"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

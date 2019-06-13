@@ -13,7 +13,7 @@
     "@willbooster/eslint-config": "^0.0.6"
   },
   "devDependencies": {
-    "eslint-plugin-react": ">= 7"
+    "eslint-plugin-react": "7.13.0"
   },
   "peerDependencies": {
     "eslint-plugin-react": ">= 7"

@@ -8,6 +8,7 @@
   "scripts": {
     "sort-package-json": "sort-package-json"
   },
+  "gitHead": "560159bcce0d38618512b744ed87dedfbf73c804",
   "renovate-config": {
     "default": {
       "extends": [

@@ -24,5 +24,6 @@
     "eslint-config-prettier": ">= 4",
     "eslint-plugin-prettier": ">= 3",
     "typescript": ">= 3"
-  }
+  },
+  "gitHead": "560159bcce0d38618512b744ed87dedfbf73c804"
 }

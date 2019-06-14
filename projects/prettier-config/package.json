@@ -10,7 +10,7 @@
     "sort-package-json": "sort-package-json"
   },
   "devDependencies": {
-    "prettier": "1.17.1"
+    "prettier": "1.18.2"
   },
   "gitHead": "560159bcce0d38618512b744ed87dedfbf73c804"
 }

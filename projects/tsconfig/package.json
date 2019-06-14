@@ -9,7 +9,7 @@
     "sort-package-json": "sort-package-json"
   },
   "dependencies": {
-    "tslib": "1.9.3"
+    "tslib": "1.10.0"
   },
   "gitHead": "560159bcce0d38618512b744ed87dedfbf73c804"
 }

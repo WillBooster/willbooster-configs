@@ -12,6 +12,15 @@
   },
   "plugins": ["@typescript-eslint", "prettier"],
   "rules": {
+    "no-console": "off",
+    "@typescript-eslint/camelcase": [
+      "error",
+      {
+        "properties": "never",
+        "ignoreDestructuring": true,
+        "allow": ["child_process"]
+      }
+    ],
     "@typescript-eslint/explicit-function-return-type": [
       "error",
       {

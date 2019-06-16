@@ -1,6 +1,6 @@
 {
   "name": "@willbooster/prettier-config",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "private": false,
   "description": "A Prettier config for WillBooster projects",
   "license": "Apache-2.0",

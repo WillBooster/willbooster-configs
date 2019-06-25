@@ -1,6 +1,6 @@
 {
   "name": "@willbooster/eslint-config-react",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "private": false,
   "description": "A ESLint config for WillBooster projects depending on react",
   "license": "Apache-2.0",
@@ -10,7 +10,7 @@
     "sort-package-json": "sort-package-json"
   },
   "dependencies": {
-    "@willbooster/eslint-config": "^0.0.12",
+    "@willbooster/eslint-config": "^0.0.13",
     "eslint-plugin-react": "7.14.2"
   },
   "gitHead": "560159bcce0d38618512b744ed87dedfbf73c804"

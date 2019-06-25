@@ -1,6 +1,6 @@
 {
   "name": "@willbooster/renovate-config",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "private": false,
   "description": "A renovate config for WillBooster projects",
   "license": "Apache-2.0",

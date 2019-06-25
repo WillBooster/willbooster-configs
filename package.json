@@ -9,7 +9,7 @@
   "scripts": {
     "bootstrap": "yarn lerna bootstrap --use-workspaces",
     "format": "yarn prettier && yarn sort-all-package-json",
-    "prettier": "prettier --write {*,**/*}.{css,htm,html,js,json,md,scss,yaml,yml} && yarn sort-all-package-json",
+    "prettier": "prettier --write {,*/}**/*.{css,htm,html,js,json,md,scss,yaml,yml}",
     "sort-all-package-json": "yarn sort-package-json && yarn lerna run sort-package-json"
   },
   "devDependencies": {

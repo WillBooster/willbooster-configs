@@ -10,13 +10,8 @@
     "sort-package-json": "sort-package-json"
   },
   "dependencies": {
-    "@willbooster/eslint-config": "^0.0.11"
-  },
-  "devDependencies": {
+    "@willbooster/eslint-config": "^0.0.11",
     "eslint-plugin-react": "7.14.2"
-  },
-  "peerDependencies": {
-    "eslint-plugin-react": ">= 7"
   },
   "gitHead": "560159bcce0d38618512b744ed87dedfbf73c804"
 }

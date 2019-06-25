@@ -3,6 +3,9 @@
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import/typescript",
     "plugin:prettier/recommended",
     "prettier/@typescript-eslint"
   ],
@@ -12,8 +15,12 @@
   },
   "plugins": ["@typescript-eslint", "prettier"],
   "rules": {
-    "no-console": "off",
+    "no-console": "off", // allow `console.log()`
+    "import/newline-after-import": "error",
+    "import/no-duplicates": "error",
+    "import/order": "error",
     "@typescript-eslint/camelcase": [
+      // allow `child_process`
       "error",
       {
         "properties": "never",
@@ -34,6 +41,7 @@
         "accessibility": "no-public"
       }
     ],
-    "@typescript-eslint/no-use-before-define": "off"
+    "@typescript-eslint/no-explicit-any": "off", // allow `any`
+    "@typescript-eslint/no-use-before-define": "off" // abstract code should appear first
   }
 }

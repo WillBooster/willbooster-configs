@@ -27,9 +27,6 @@
       },
       "devDependencies": {
         "automerge": true,
-        "major": {
-          "automerge": false
-        }
       },
       "packageRules": [
         {

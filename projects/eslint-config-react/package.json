@@ -14,15 +14,8 @@
     "eslint-plugin-react": "7.14.3"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": ">=1",
-    "@typescript-eslint/parser": ">=1",
     "@willbooster/eslint-config": ">=0.1",
-    "eslint": ">=6",
-    "eslint-config-prettier": ">=6",
-    "eslint-plugin-import": ">=2",
-    "eslint-plugin-prettier": ">=3",
-    "eslint-plugin-react": ">=7",
-    "typescript": ">=3"
+    "eslint-plugin-react": ">=7"
   },
   "gitHead": "560159bcce0d38618512b744ed87dedfbf73c804"
 }

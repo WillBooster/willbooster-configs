@@ -8,8 +8,8 @@
   "scripts": {
     "sort-package-json": "sort-package-json"
   },
-  "dependencies": {
-    "tslib": "1.10.0"
+  "peerDependencies": {
+    "tslib": ">=1"
   },
   "gitHead": "560159bcce0d38618512b744ed87dedfbf73c804"
 }

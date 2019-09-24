@@ -2,5 +2,8 @@
   "packages": ["projects/*"],
   "version": "0.1.4",
   "npmClient": "yarn",
-  "useWorkspaces": true
+  "useWorkspaces": true,
+  "publishConfig": {
+    "access": "public"
+  }
 }

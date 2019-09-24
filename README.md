@@ -11,3 +11,8 @@ A set of configuration packages used in WillBooster LLC.
 - [prettier-config](projects/prettier-config)
 - [renovate-config](projects/renovate-config)
 - [tsconfig](projects/tsconfig)
+
+## Deployment
+
+1. `npm login`
+1. `yarn lerna publish`

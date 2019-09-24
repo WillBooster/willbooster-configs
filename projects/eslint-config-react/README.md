@@ -1,6 +1,6 @@
 # eslint-config-react
 
-A ESLint config file for my repositories using React.
+A ESLint config file for my repositories using React & TypeScript.
 You need to do the following command to install peer dependencies.
 
 ```

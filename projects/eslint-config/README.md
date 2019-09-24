@@ -1,6 +1,6 @@
 # eslint-config
 
-A ESLint config file for my repositories.
+A ESLint config file for my repositories using TypeScript.
 You need to do the following command to install peer dependencies.
 
 ```

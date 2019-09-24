@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
-    "target": "es2015",
-    "module": "commonjs",
+    "target": "esnext",
+    "module": "esnext",
     "moduleResolution": "node",
+    "jsx": "preserve",
     "alwaysStrict": true,
     "strict": true,
     "skipLibCheck": true,

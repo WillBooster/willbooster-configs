@@ -29,5 +29,5 @@
     "eslint-plugin-prettier": ">=3",
     "typescript": ">=3"
   },
-  "gitHead": "dd9f883adfe583f565540544cbb54a11c257ade3"
+  "gitHead": "8a2de2ad864aba79f7423051691208c47b96e4e4"
 }

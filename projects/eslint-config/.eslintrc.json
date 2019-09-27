@@ -16,6 +16,7 @@
   "plugins": ["@typescript-eslint", "prettier"],
   "rules": {
     "no-console": "off", // allow `console.log()`
+    "import/default": "off", // to use `import XXX from YYY` instead of `import XXX = require(YYY)`
     "import/newline-after-import": "error",
     "import/no-duplicates": "error",
     "import/order": "error",

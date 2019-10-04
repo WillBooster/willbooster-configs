@@ -6,11 +6,11 @@ A set of configuration packages used in WillBooster LLC.
 
 ## Projects
 
-- [eslint-config](projects/eslint-config)
-- [eslint-config-react](projects/eslint-config-react)
-- [prettier-config](projects/prettier-config)
-- [renovate-config](projects/renovate-config)
-- [tsconfig](projects/tsconfig)
+- [eslint-config](packages/eslint-config)
+- [eslint-config-react](packages/eslint-config-react)
+- [prettier-config](packages/prettier-config)
+- [renovate-config](packages/renovate-config)
+- [tsconfig](packages/tsconfig)
 
 ## Deployment
 

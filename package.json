@@ -4,7 +4,7 @@
   "license": "Apache-2.0",
   "author": "WillBooster LLC",
   "workspaces": [
-    "projects/*"
+    "packages/*"
   ],
   "scripts": {
     "bootstrap": "yarn lerna bootstrap --use-workspaces",

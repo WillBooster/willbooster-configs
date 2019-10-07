@@ -1,0 +1,23 @@
+{
+  "name": "@willbooster/gen-configs",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A config generator for WillBooster projects",
+  "license": "Apache-2.0",
+  "author": "WillBooster LLC",
+  "main": ".eslintrc.json",
+  "scripts": {
+    "sort-package-json": "sort-package-json",
+    "test": "ts-node src/main.ts ."
+  },
+  "dependencies": {
+    "fs-extra": "8.1.0",
+    "node-fetch": "2.6.0",
+    "yargs": "14.0.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "8.0.0",
+    "@types/node-fetch": "2.5.2",
+    "@types/yargs": "13.0.3"
+  }
+}

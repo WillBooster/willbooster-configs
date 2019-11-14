@@ -23,7 +23,7 @@
     "glob": "7.1.4",
     "node-fetch": "2.6.0",
     "tslib": "1.10.0",
-    "yargs": "14.0.0"
+    "yargs": "14.2.0"
   },
   "devDependencies": {
     "@types/fs-extra": "8.0.0",

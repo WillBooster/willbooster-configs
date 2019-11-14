@@ -1,0 +1,10 @@
+{
+  "extends": ["plugin:react/recommended", "@willbooster/eslint-config-ts"],
+  "plugins": ["@typescript-eslint", "prettier", "react"],
+  "settings": {
+    "import/core-modules": ["react-dom"],
+    "react": {
+      "version": "detect"
+    }
+  }
+}

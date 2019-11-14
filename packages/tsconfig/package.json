@@ -1,0 +1,25 @@
+{
+  "name": "@willbooster/tsconfig",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A TypeScript config for WillBooster projects",
+  "license": "Apache-2.0",
+  "author": "WillBooster LLC",
+  "scripts": {
+    "format": "yarn prettier && yarn sort-package-json && yarn lint-fix",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint-fix": "yarn lint --fix",
+    "prettier": "prettier --write \"**/{.*/,}*.{css,htm,html,js,json,jsx,md,scss,ts,tsx,yaml,yml}\"",
+    "sort-package-json": "sort-package-json",
+    "test": "jest"
+  },
+  "prettier": "@willbooster/prettier-config",
+  "dependencies": {},
+  "devDependencies": {
+    "tslib": "1.10.0"
+  },
+  "peerDependencies": {
+    "tslib": ">=1"
+  },
+  "gitHead": "8a2de2ad864aba79f7423051691208c47b96e4e4"
+}

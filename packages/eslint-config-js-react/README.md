@@ -3,6 +3,14 @@
 A ESLint config for JavaScript projects using React.
 You need to do the following command to install peer dependencies.
 
-```
-yarn add -D eslint-plugin-react @willbooster/eslint-config-js eslint eslint-config-prettier eslint-plugin-import eslint-plugin-prettier @willbooster/prettier-config prettier
+```sh
+yarn add -D @willbooster/eslint-config-js \\
+    @willbooster/eslint-config-js-react \\
+    eslint \\
+    eslint-config-prettier \\
+    eslint-plugin-import \\
+    eslint-plugin-prettier \\
+    eslint-plugin-react \\
+    prettier \\
+    @willbooster/prettier-config
 ```

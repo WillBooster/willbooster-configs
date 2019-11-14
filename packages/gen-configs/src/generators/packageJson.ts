@@ -7,7 +7,7 @@ import { PackageConfig } from '../types/packageConfig';
 const scriptsWithLerna = {
   bootstrap: 'yarn && yarn lerna bootstrap --use-workspaces',
   format: 'yarn lint-fix && yarn prettier && yarn sort-all-package-json',
-  lint: 'eslint . --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore',
+  lint: 'eslint . --ext .js,.jsx,.ts,.tsx',
   'lint-fix': 'yarn lint --fix',
   prettier: 'prettier --write "**/{.*/,}*.{css,htm,html,js,json,jsx,md,scss,ts,tsx,yaml,yml}"',
   'sort-all-package-json': 'yarn sort-package-json && yarn lerna run sort-package-json',
@@ -17,11 +17,10 @@ const scriptsWithLerna = {
 
 const scriptsWithoutLerna = {
   format: 'yarn prettier && yarn sort-package-json && yarn lint-fix',
-  lint: 'eslint . --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore',
+  lint: 'eslint . --ext .js,.jsx,.ts,.tsx',
   'lint-fix': 'yarn lint --fix',
   prettier: 'prettier --write "**/{.*/,}*.{css,htm,html,js,json,jsx,md,scss,ts,tsx,yaml,yml}"',
   'sort-package-json': 'sort-package-json',
-  test: 'jest',
   typecheck: 'tsc --noEmit',
 };
 

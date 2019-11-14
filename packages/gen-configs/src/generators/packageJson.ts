@@ -118,6 +118,10 @@ export async function generatePackageJson(
   jsonObj.scripts = merge(jsonObj.scripts, config.containingPackages ? scriptsWithLerna : scriptsWithoutLerna);
   jsonObj.scripts.prettier += generatePrettierSuffix(dirPath);
 
+  if (!config.containingTypeScript) {
+    delete jsonObj.scripts.typecheck;
+  }
+
   fs.outputFileSync(filePath, JSON.stringify(jsonObj));
 
   if (dependencies.length) {

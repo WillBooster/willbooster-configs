@@ -12,8 +12,7 @@
     "lint-fix": "yarn lint --fix",
     "prettier": "prettier --write \"**/{.*/,}*.{css,htm,html,js,json,jsx,md,scss,ts,tsx,yaml,yml}\"",
     "sort-package-json": "sort-package-json",
-    "test": "jest",
-    "typecheck": "tsc --noEmit"
+    "test": "jest"
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {},

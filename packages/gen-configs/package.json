@@ -26,7 +26,6 @@
     "yargs": "14.0.0"
   },
   "devDependencies": {
-    "@types/deepmerge": "2.2.0",
     "@types/fs-extra": "8.0.0",
     "@types/glob": "7.1.1",
     "@types/node-fetch": "2.5.2",

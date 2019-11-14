@@ -6,8 +6,16 @@
   "license": "Apache-2.0",
   "author": "WillBooster LLC",
   "scripts": {
-    "sort-package-json": "sort-package-json"
+    "format": "yarn prettier && yarn sort-package-json && yarn lint-fix",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore",
+    "lint-fix": "yarn lint --fix",
+    "prettier": "prettier --write \"**/{.*/,}*.{css,htm,html,js,json,jsx,md,scss,ts,tsx,yaml,yml}\"",
+    "sort-package-json": "sort-package-json",
+    "test": "jest",
+    "typecheck": "tsc --noEmit"
   },
+  "prettier": "@willbooster/prettier-config",
+  "dependencies": {},
   "devDependencies": {
     "tslib": "1.10.0"
   },

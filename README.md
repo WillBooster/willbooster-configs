@@ -6,11 +6,18 @@ A set of configuration packages used in WillBooster LLC.
 
 ## Projects
 
-- [eslint-config](packages/eslint-config)
-- [eslint-config-react](packages/eslint-config-react)
+- [eslint-config-js](packages/eslint-config-js)
+- [eslint-config-js-react](packages/eslint-config-js-react)
+- [eslint-config-ts](packages/eslint-config-ts)
+- [eslint-config-ts-react](packages/eslint-config-ts-react)
+- [gen-configs](packages/gen-configs)
 - [prettier-config](packages/prettier-config)
 - [renovate-config](packages/renovate-config)
 - [tsconfig](packages/tsconfig)
+
+## Guides
+
+- [TypeScript StyleGuide and Coding Conventions](https://basarat.gitbooks.io/typescript/content/docs/styleguide/styleguide.html)
 
 ## Deployment
 

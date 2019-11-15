@@ -65,12 +65,8 @@ const devDeps: { [prop: string]: string[] } = {
   '../../.eslintrc.json': [],
 };
 
-export async function generatePackageJson(
-  dirPath: string,
-  config: PackageConfig,
-  allConfigs: PackageConfig[]
-): Promise<void> {
-  const filePath = path.resolve(dirPath, 'package.json');
+export async function generatePackageJson(config: PackageConfig, allConfigs: PackageConfig[]): Promise<void> {
+  const filePath = path.resolve(config.dirPath, 'package.json');
   const jsonText = fs.readFileSync(filePath).toString();
   const jsonObj = JSON.parse(jsonText);
   jsonObj.scripts = jsonObj.scripts || {};
@@ -116,7 +112,7 @@ export async function generatePackageJson(
   }
 
   jsonObj.scripts = merge(jsonObj.scripts, config.containingPackages ? scriptsWithLerna : scriptsWithoutLerna);
-  jsonObj.scripts.prettier += generatePrettierSuffix(dirPath);
+  jsonObj.scripts.prettier += generatePrettierSuffix(config.dirPath);
 
   if (!config.containingTypeScript) {
     delete jsonObj.scripts.typecheck;
@@ -125,10 +121,10 @@ export async function generatePackageJson(
   fs.outputFileSync(filePath, JSON.stringify(jsonObj));
 
   if (dependencies.length) {
-    execSync(`yarn add -W ${[...new Set(dependencies)].join(' ')}`, dirPath);
+    spawnSync('yarn', ['add', '-W', ...new Set(dependencies)], config.dirPath);
   }
   if (devDependencies.length) {
-    execSync(`yarn add -W -D ${[...new Set(devDependencies)].join(' ')}`, dirPath);
+    spawnSync('yarn', ['add', '-W', '-D', ...new Set(devDependencies)], config.dirPath);
   }
 }
 
@@ -150,7 +146,7 @@ function generatePrettierSuffix(dirPath: string): string {
   return lines.map(line => ` \\"!**/${line}/**\\"`).join('');
 }
 
-function execSync(command: string, cwd: string): void {
+function spawnSync(command: string, args: string[], cwd: string): void {
   console.log(`$ ${command} at ${cwd}`);
-  child_process.execSync(command, { cwd });
+  child_process.spawnSync(command, args, { cwd, shell: true, stdio: 'inherit' });
 }

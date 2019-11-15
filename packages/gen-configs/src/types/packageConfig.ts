@@ -1,4 +1,5 @@
 export interface PackageConfig {
+  dirPath: string;
   root: boolean;
   willBoosterConfigs: boolean;
   containingPackages: boolean;

@@ -13,6 +13,7 @@
   ],
   "scripts": {
     "bootstrap": "yarn && yarn lerna bootstrap --use-workspaces",
+    "build": "yarn lerna run build",
     "format": "yarn lint-fix && yarn prettier && yarn sort-all-package-json",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint-fix": "yarn lint --fix",
@@ -38,9 +39,13 @@
     "lerna": "3.18.4",
     "lint-staged": "9.4.3",
     "prettier": "1.19.1",
+    "rimraf": "3.0.0",
     "semantic-release": "15.13.30",
     "semantic-release-monorepo": "6.1.1",
     "sort-package-json": "1.23.1",
-    "typescript": "3.7.2"
+    "ts-loader": "6.2.1",
+    "typescript": "3.7.2",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.10"
   }
 }

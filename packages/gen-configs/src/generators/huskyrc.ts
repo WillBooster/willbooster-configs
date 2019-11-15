@@ -12,13 +12,13 @@ function generateJsonObj(): any {
   };
 }
 
-export async function generateHuskyrc(dirPath: string, config: PackageConfig): Promise<void> {
+export async function generateHuskyrc(config: PackageConfig): Promise<void> {
   let jsonObj = generateJsonObj();
   if (!config.containingTypeScript) {
     delete jsonObj.hooks['pre-push'];
   }
 
-  const filePath = path.resolve(dirPath, '.huskyrc.json');
+  const filePath = path.resolve(config.dirPath, '.huskyrc.json');
   if (fs.existsSync(filePath)) {
     const existingContent = fs.readFileSync(filePath).toString();
     try {
@@ -28,5 +28,6 @@ export async function generateHuskyrc(dirPath: string, config: PackageConfig): P
       // do nothing
     }
   }
-  return fs.outputFile(filePath, JSON.stringify(jsonObj));
+  await fs.outputFile(filePath, JSON.stringify(jsonObj));
+  console.log(`Generated ${filePath}`);
 }

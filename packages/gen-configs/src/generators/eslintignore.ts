@@ -1,6 +1,7 @@
 import path from 'path';
 import fs from 'fs-extra';
 import { IgnoreFileUtil } from '../utils/ignoreFileUtil';
+import { PackageConfig } from '../types/packageConfig';
 
 const defaultUserContent = `${IgnoreFileUtil.header}
 
@@ -14,12 +15,13 @@ __generated__/
 *.config.js
 `;
 
-export async function generateEslintignore(dirPath: string): Promise<void> {
-  const filePath = path.resolve(dirPath, '.eslintignore');
+export async function generateEslintignore(config: PackageConfig): Promise<void> {
+  const filePath = path.resolve(config.dirPath, '.eslintignore');
   const userContent = IgnoreFileUtil.getUserContent(filePath) || defaultUserContent;
 
-  const gitignoreFilePath = path.resolve(dirPath, '.gitignore');
+  const gitignoreFilePath = path.resolve(config.dirPath, '.gitignore');
   const gitignoreContent = IgnoreFileUtil.getExistingContent(gitignoreFilePath) || '';
 
-  return fs.outputFile(filePath, userContent + commonContent + gitignoreContent);
+  await fs.outputFile(filePath, userContent + commonContent + gitignoreContent);
+  console.log(`Generated ${filePath}`);
 }

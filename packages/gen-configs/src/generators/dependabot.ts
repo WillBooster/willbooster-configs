@@ -2,7 +2,8 @@ import path from 'path';
 import fs from 'fs-extra';
 import yaml from 'js-yaml';
 import merge from 'deepmerge';
-import { combineMerge, overwriteMerge } from '../utils/mergeUtil';
+import { combineMerge } from '../utils/mergeUtil';
+import { PackageConfig } from '../types/packageConfig';
 
 const defaultContent = `version: 1
 update_configs:
@@ -25,10 +26,10 @@ update_configs:
       include_scope: true
 `;
 
-export async function generateDependabotConfig(dirPath: string): Promise<void> {
+export async function generateDependabotConfig(config: PackageConfig): Promise<void> {
   let content = defaultContent;
 
-  const subDirPath = path.resolve(dirPath, '.dependabot');
+  const subDirPath = path.resolve(config.dirPath, '.dependabot');
   const filePath = path.join(subDirPath, 'config.yml');
   fs.ensureDirSync(subDirPath);
 
@@ -43,5 +44,6 @@ export async function generateDependabotConfig(dirPath: string): Promise<void> {
       // do nothing
     }
   }
-  return fs.outputFile(filePath, content);
+  await fs.outputFile(filePath, content);
+  console.log(`Generated ${filePath}`);
 }

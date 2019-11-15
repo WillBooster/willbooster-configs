@@ -20,16 +20,12 @@ function getExtensionBase(config: PackageConfig): string {
   }
 }
 
-export async function generateEslintrc(
-  dirPath: string,
-  config: PackageConfig,
-  rootConfig: PackageConfig
-): Promise<void> {
+export async function generateEslintrc(config: PackageConfig, rootConfig: PackageConfig): Promise<void> {
   const eslintBase = getExtensionBase(config);
   config.eslintBase = rootConfig.eslintBase === eslintBase ? '../../.eslintrc.json' : eslintBase;
   let jsonObj = { extends: [config.eslintBase] };
 
-  const filePath = path.resolve(dirPath, '.eslintrc.json');
+  const filePath = path.resolve(config.dirPath, '.eslintrc.json');
   if (fs.existsSync(filePath)) {
     const existingContent = fs.readFileSync(filePath).toString();
     try {
@@ -39,5 +35,6 @@ export async function generateEslintrc(
       // do nothing
     }
   }
-  return fs.outputFile(filePath, JSON.stringify(jsonObj));
+  await fs.outputFile(filePath, JSON.stringify(jsonObj));
+  console.log(`Generated ${filePath}`);
 }

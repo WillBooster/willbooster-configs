@@ -26,7 +26,7 @@ function generateSubJsonObj(): any {
   };
 }
 
-export async function generateTsconfig(dirPath: string, config: PackageConfig): Promise<void> {
+export async function generateTsconfig(config: PackageConfig): Promise<void> {
   let jsonObj = config.root ? generateRootJsonObj() : generateSubJsonObj();
   if (!config.containingJsxOrTsx) {
     delete jsonObj.compilerOptions.jsx;
@@ -35,7 +35,7 @@ export async function generateTsconfig(dirPath: string, config: PackageConfig): 
     delete jsonObj.compilerOptions.module;
   }
 
-  const filePath = path.resolve(dirPath, 'tsconfig.json');
+  const filePath = path.resolve(config.dirPath, 'tsconfig.json');
   if (fs.existsSync(filePath)) {
     const existingContent = fs.readFileSync(filePath).toString();
     try {
@@ -45,5 +45,6 @@ export async function generateTsconfig(dirPath: string, config: PackageConfig): 
       // do nothing
     }
   }
-  return fs.outputFile(filePath, JSON.stringify(jsonObj));
+  await fs.outputFile(filePath, JSON.stringify(jsonObj));
+  console.log(`Generated ${filePath}`);
 }

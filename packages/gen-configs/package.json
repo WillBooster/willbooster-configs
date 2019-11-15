@@ -1,6 +1,6 @@
 {
   "name": "@willbooster/gen-configs",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "private": false,
   "description": "A config generator for WillBooster projects",
   "license": "Apache-2.0",

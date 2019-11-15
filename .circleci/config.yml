@@ -50,10 +50,6 @@ jobs:
       - restore-deps
       - install-deps
       - run:
-          name: Build
-          command: |
-            yarn build
-      - run:
           name: Release
           command: |
             yarn lerna exec --concurrency 1 yarn semantic-release -e semantic-release-monorepo || true

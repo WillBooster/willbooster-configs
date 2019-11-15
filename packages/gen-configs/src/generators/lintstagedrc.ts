@@ -1,6 +1,7 @@
 import path from 'path';
 import fs from 'fs-extra';
 import merge from 'deepmerge';
+import { PackageConfig } from '../types/packageConfig';
 
 function generateJsonObj(): { [prop: string]: string[] } {
   return {
@@ -12,10 +13,10 @@ function generateJsonObj(): { [prop: string]: string[] } {
 
 const firstItemShouldBeDeleted = Object.values(generateJsonObj()).map((array: string[]) => array[0]);
 
-export async function generateLintstagedrc(dirPath: string): Promise<void> {
+export async function generateLintstagedrc(config: PackageConfig): Promise<void> {
   let jsonObj = generateJsonObj();
 
-  const filePath = path.resolve(dirPath, '.lintstagedrc.json');
+  const filePath = path.resolve(config.dirPath, '.lintstagedrc.json');
   if (fs.existsSync(filePath)) {
     const existingContent = fs.readFileSync(filePath).toString();
     try {
@@ -30,5 +31,6 @@ export async function generateLintstagedrc(dirPath: string): Promise<void> {
       // do nothing
     }
   }
-  return fs.outputFile(filePath, JSON.stringify(jsonObj));
+  await fs.outputFile(filePath, JSON.stringify(jsonObj));
+  console.log(`Generated ${filePath}`);
 }

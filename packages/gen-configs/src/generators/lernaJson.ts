@@ -2,6 +2,7 @@ import path from 'path';
 import fs from 'fs-extra';
 import merge from 'deepmerge';
 import { overwriteMerge } from '../utils/mergeUtil';
+import { PackageConfig } from '../types/packageConfig';
 
 function generateJsonObj(): any {
   return {
@@ -15,10 +16,10 @@ function generateJsonObj(): any {
   };
 }
 
-export async function generateLernaJson(dirPath: string): Promise<void> {
+export async function generateLernaJson(config: PackageConfig): Promise<void> {
   let jsonObj = generateJsonObj();
 
-  const filePath = path.resolve(dirPath, 'lerna.json');
+  const filePath = path.resolve(config.dirPath, 'lerna.json');
   if (fs.existsSync(filePath)) {
     const existingContent = fs.readFileSync(filePath).toString();
     try {
@@ -30,5 +31,6 @@ export async function generateLernaJson(dirPath: string): Promise<void> {
       // do nothing
     }
   }
-  return fs.outputFile(filePath, JSON.stringify(jsonObj));
+  await fs.outputFile(filePath, JSON.stringify(jsonObj));
+  console.log(`Generated ${filePath}`);
 }

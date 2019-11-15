@@ -1,6 +1,7 @@
 import path from 'path';
 import fs from 'fs-extra';
 import { IgnoreFileUtil } from '../utils/ignoreFileUtil';
+import { PackageConfig } from '../types/packageConfig';
 
 const defaultUserContent = `${IgnoreFileUtil.header}
 
@@ -12,12 +13,13 @@ const commonContent = `
 yarn.lock
 `;
 
-export async function generatePrettierignore(dirPath: string): Promise<void> {
-  const filePath = path.resolve(dirPath, '.prettierignore');
+export async function generatePrettierignore(config: PackageConfig): Promise<void> {
+  const filePath = path.resolve(config.dirPath, '.prettierignore');
   const userContent = IgnoreFileUtil.getUserContent(filePath) || defaultUserContent;
 
-  const gitignoreFilePath = path.resolve(dirPath, '.gitignore');
+  const gitignoreFilePath = path.resolve(config.dirPath, '.gitignore');
   const gitignoreContent = IgnoreFileUtil.getExistingContent(gitignoreFilePath) || '';
 
-  return fs.outputFile(filePath, userContent + commonContent + gitignoreContent);
+  await fs.outputFile(filePath, userContent + commonContent + gitignoreContent);
+  console.log(`Generated ${filePath}`);
 }

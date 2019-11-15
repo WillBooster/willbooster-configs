@@ -56,8 +56,6 @@ async function main(): Promise<void> {
       const config = allPackageConfigs[i];
       if (!config) continue;
 
-      console.log(dirPath, config);
-
       await generateGitignore(dirPath);
       await generatePrettierignore(dirPath);
       if (rootConfig.containingTypeScript) {

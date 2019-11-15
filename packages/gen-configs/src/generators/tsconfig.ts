@@ -40,9 +40,7 @@ export async function generateTsconfig(dirPath: string, config: PackageConfig): 
     const existingContent = fs.readFileSync(filePath).toString();
     try {
       const existingJsonObj = JSON.parse(existingContent);
-      console.log(existingJsonObj);
       jsonObj = merge(existingJsonObj, jsonObj, { arrayMerge: overwriteMerge });
-      console.log(jsonObj);
     } catch (e) {
       // do nothing
     }

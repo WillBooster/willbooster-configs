@@ -1,4 +1,25 @@
 version: 2.1
+executors:
+  default:
+    docker:
+      - image: circleci/node:lts
+commands:
+  restore-deps:
+    steps:
+      - restore_cache:
+          key: yarn-packages-{{ checksum "yarn.lock" }}
+  install-deps:
+    steps:
+      - run:
+          name: Install dependencies
+          command: |
+            yarn install
+  save-deps:
+    steps:
+      - save_cache:
+          key: yarn-packages-{{ checksum "yarn.lock" }}
+          paths:
+            - node_modules
 jobs:
   build:
     docker:
@@ -10,13 +31,40 @@ jobs:
           command: |
             echo "node: $(node -v)"
             echo "yarn: $(yarn -v)"
-      - restore_cache:
-          key: yarn-packages-{{ checksum "yarn.lock" }}
+      - restore-deps
+      - install-deps
+      - save-deps
       - run:
-          name: Install dependencies
+          name: Run typecheck
           command: |
-            yarn install
-      - save_cache:
-          key: yarn-packages-{{ checksum "yarn.lock" }}
-          paths:
-            - node_modules
+            yarn typecheck
+      - run:
+          name: Run lint
+          command: |
+            yarn lint
+  deploy:
+    docker:
+      - image: circleci/node:lts
+    steps:
+      - checkout
+      - restore-deps
+      - install-deps
+      - run:
+          name: Build
+          command: |
+            yarn build
+      - run:
+          name: Release
+          command: |
+            yarn lerna exec --concurrency 1 yarn semantic-release -e semantic-release-monorepo || true
+workflows:
+  build-and-deploy:
+    jobs:
+      - build
+      - deploy:
+          name: deploy
+          requires:
+            - build
+          filters:
+            branches:
+              only: release

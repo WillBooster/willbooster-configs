@@ -1,6 +1,6 @@
 {
   "name": "@willbooster/eslint-config-js",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "private": false,
   "description": "A ESLint config for JavaScript projects",
   "license": "Apache-2.0",
@@ -17,7 +17,7 @@
   "prettier": "@willbooster/prettier-config",
   "dependencies": {},
   "devDependencies": {
-    "@willbooster/prettier-config": "^1.0.0",
+    "@willbooster/prettier-config": "^0.0.0-development",
     "eslint": "6.6.0",
     "eslint-config-prettier": "6.5.0",
     "eslint-plugin-import": "2.18.2",

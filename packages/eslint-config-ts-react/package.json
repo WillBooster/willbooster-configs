@@ -1,6 +1,6 @@
 {
   "name": "@willbooster/eslint-config-ts-react",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": false,
   "description": "A ESLint config for TypeScript projects using React",
   "license": "Apache-2.0",
@@ -15,9 +15,8 @@
     "test": "jest"
   },
   "prettier": "@willbooster/prettier-config",
-  "dependencies": {},
   "devDependencies": {
-    "@willbooster/eslint-config-ts": "^1.0.0",
+    "@willbooster/eslint-config-ts": "^2.0.0",
     "eslint-plugin-react": "7.16.0"
   },
   "peerDependencies": {

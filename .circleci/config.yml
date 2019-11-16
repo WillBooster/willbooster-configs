@@ -34,33 +34,7 @@ jobs:
       - restore-deps
       - install-deps
       - save-deps
-      - run:
-          name: Run typecheck
-          command: |
-            yarn typecheck
-      - run:
-          name: Run lint
-          command: |
-            yarn lint
-  deploy:
-    docker:
-      - image: circleci/node:lts
-    steps:
-      - checkout
-      - restore-deps
-      - install-deps
-      - run:
-          name: Release
-          command: |
-            yarn lerna exec --concurrency 1 "yarn semantic-release -e semantic-release-monorepo" || true
 workflows:
-  build-and-deploy:
+  build:
     jobs:
       - build
-      - deploy:
-          name: deploy
-          requires:
-            - build
-          filters:
-            branches:
-              only: release

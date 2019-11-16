@@ -1,10 +1,10 @@
 {
   "name": "@willbooster/eslint-config-ts-react",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "private": false,
   "description": "A ESLint config for TypeScript projects using React",
   "license": "Apache-2.0",
-  "author": "WillBooster LLC",
+  "author": "WillBooster Inc.",
   "main": ".eslintrc.json",
   "scripts": {
     "format": "yarn prettier && yarn sort-package-json && yarn lint-fix",
@@ -17,7 +17,7 @@
   "prettier": "@willbooster/prettier-config",
   "dependencies": {},
   "devDependencies": {
-    "@willbooster/eslint-config-ts": "^0.0.0-development",
+    "@willbooster/eslint-config-ts": "^1.0.0",
     "eslint-plugin-react": "7.16.0"
   },
   "peerDependencies": {

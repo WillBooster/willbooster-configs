@@ -1,10 +1,10 @@
 {
   "name": "@willbooster/eslint-config-js",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "private": false,
   "description": "A ESLint config for JavaScript projects",
   "license": "Apache-2.0",
-  "author": "WillBooster LLC",
+  "author": "WillBooster Inc.",
   "main": ".eslintrc.json",
   "scripts": {
     "format": "yarn prettier && yarn sort-package-json && yarn lint-fix",
@@ -17,7 +17,7 @@
   "prettier": "@willbooster/prettier-config",
   "dependencies": {},
   "devDependencies": {
-    "@willbooster/prettier-config": "^0.0.0-development",
+    "@willbooster/prettier-config": "^1.0.0",
     "eslint": "6.6.0",
     "eslint-config-prettier": "6.5.0",
     "eslint-plugin-import": "2.18.2",

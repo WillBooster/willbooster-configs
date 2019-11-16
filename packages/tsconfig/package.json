@@ -1,10 +1,10 @@
 {
   "name": "@willbooster/tsconfig",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "private": false,
   "description": "A TypeScript config for WillBooster projects",
   "license": "Apache-2.0",
-  "author": "WillBooster LLC",
+  "author": "WillBooster Inc.",
   "scripts": {
     "format": "yarn prettier && yarn sort-package-json && yarn lint-fix",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",

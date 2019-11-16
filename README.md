@@ -20,5 +20,4 @@
 
 ## Deployment
 
-1. `npm login`
-1. `yarn lerna publish`
+1. `yarn publish-all`

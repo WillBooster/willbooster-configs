@@ -15,6 +15,7 @@
     "bootstrap": "yarn && yarn lerna bootstrap --use-workspaces",
     "format": "yarn prettier && yarn sort-all-package-json",
     "prettier": "prettier --write \"**/{.*/,}*.{css,htm,html,js,json,jsx,md,scss,ts,tsx,yaml,yml}\"",
+    "publish-all": "npm login && npm config set access public && yarn lerna publish",
     "sort-all-package-json": "yarn sort-package-json && yarn lerna run sort-package-json"
   },
   "prettier": "@willbooster/prettier-config",

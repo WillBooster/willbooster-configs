@@ -14,7 +14,7 @@
     "test": "jest"
   },
   "prettier": "@willbooster/prettier-config",
-  "gitHead": "8a2de2ad864aba79f7423051691208c47b96e4e4",
+  "gitHead": "865a18e97886b4051f555430f8fc0c89bd364001",
   "renovate-config": {
     "default": {
       "extends": [

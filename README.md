@@ -6,13 +6,13 @@
 
 ## Packages
 
-- [eslint-config-js](packages/eslint-config-js)
-- [eslint-config-js-react](packages/eslint-config-js-react)
-- [eslint-config-ts](packages/eslint-config-ts)
-- [eslint-config-ts-react](packages/eslint-config-ts-react)
-- [prettier-config](packages/prettier-config)
-- [renovate-config](packages/renovate-config)
-- [tsconfig](packages/tsconfig)
+- [@willbooster/eslint-config-js](packages/eslint-config-js)
+- [@willbooster/eslint-config-js-react](packages/eslint-config-js-react)
+- [@willbooster/eslint-config-ts](packages/eslint-config-ts)
+- [@willbooster/eslint-config-ts-react](packages/eslint-config-ts-react)
+- [@willbooster/prettier-config](packages/prettier-config)
+- [@willbooster/renovate-config](packages/renovate-config)
+- [@willbooster/tsconfig](packages/tsconfig)
 
 ## Guides
 

@@ -7,14 +7,13 @@
   "author": "WillBooster Inc.",
   "main": ".eslintrc.json",
   "scripts": {
-    "format": "yarn prettier && yarn sort-package-json && yarn lint-fix",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "lint-fix": "yarn lint --fix",
+    "format": "yarn prettier && yarn sort-package-json",
     "prettier": "prettier --write \"**/{.*/,}*.{css,htm,html,js,json,jsx,md,scss,ts,tsx,yaml,yml}\"",
     "sort-package-json": "sort-package-json",
     "test": "jest"
   },
   "prettier": "@willbooster/prettier-config",
+  "dependencies": {},
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "2.6.1",
     "@typescript-eslint/parser": "2.6.1",

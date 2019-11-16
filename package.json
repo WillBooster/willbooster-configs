@@ -1,51 +1,28 @@
 {
   "name": "@willbooster/configs",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/WillBooster/willbooster-configs.git"
   },
   "license": "Apache-2.0",
-  "author": "WillBooster LLC",
+  "author": "WillBooster Inc.",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "bootstrap": "yarn && yarn lerna bootstrap --use-workspaces",
-    "build": "yarn lerna run build",
-    "format": "yarn lint-fix && yarn prettier && yarn sort-all-package-json",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "lint-fix": "yarn lint --fix",
+    "format": "yarn prettier && yarn sort-all-package-json",
     "prettier": "prettier --write \"**/{.*/,}*.{css,htm,html,js,json,jsx,md,scss,ts,tsx,yaml,yml}\"",
-    "release-test": "dotenv lerna exec --concurrency 1 yarn semantic-release -e semantic-release-monorepo -d",
-    "sort-all-package-json": "yarn sort-package-json && yarn lerna run sort-package-json",
-    "test": "yarn lerna run test",
-    "typecheck": "yarn lerna run typecheck"
+    "sort-all-package-json": "yarn sort-package-json && yarn lerna run sort-package-json"
   },
   "prettier": "@willbooster/prettier-config",
-  "dependencies": {
-    "tslib": "1.10.0"
-  },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "2.7.0",
-    "@typescript-eslint/parser": "2.7.0",
-    "dotenv-cli": "3.0.0",
-    "eslint": "6.6.0",
-    "eslint-config-prettier": "6.5.0",
-    "eslint-plugin-import": "2.18.2",
-    "eslint-plugin-prettier": "3.1.1",
     "husky": "3.0.9",
     "lerna": "3.18.4",
     "lint-staged": "9.4.3",
     "prettier": "1.19.1",
-    "rimraf": "3.0.0",
-    "semantic-release": "15.13.30",
-    "semantic-release-monorepo": "6.1.1",
-    "sort-package-json": "1.23.1",
-    "ts-loader": "6.2.1",
-    "typescript": "3.7.2",
-    "webpack": "4.41.2",
-    "webpack-cli": "3.3.10"
+    "sort-package-json": "1.23.1"
   }
 }

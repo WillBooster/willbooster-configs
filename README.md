@@ -2,7 +2,7 @@
 
 :books: A set of conventional configuration files used in WillBooster Inc..
 
-[![wercker status](https://app.wercker.com/status/4baee16fa4d9da6b00ee7b2919e407a3/m/master 'wercker status')](https://app.wercker.com/project/byKey/4baee16fa4d9da6b00ee7b2919e407a3) [![CircleCI](https://circleci.com/gh/WillBooster/willbooster-configs.svg?style=svg&circle-token=21b4491b423050edf6c830f9195a70c0b7f95d5f)](https://circleci.com/gh/WillBooster/willbooster-configs)
+[![CircleCI](https://circleci.com/gh/WillBooster/willbooster-configs.svg?style=svg&circle-token=21b4491b423050edf6c830f9195a70c0b7f95d5f)](https://circleci.com/gh/WillBooster/willbooster-configs)
 
 ## Packages
 

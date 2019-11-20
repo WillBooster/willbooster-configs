@@ -1,6 +1,6 @@
 {
   "name": "@willbooster/tsconfig",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "private": false,
   "description": "A TypeScript config for WillBooster projects",
   "license": "Apache-2.0",
@@ -12,7 +12,6 @@
     "test": "jest"
   },
   "prettier": "@willbooster/prettier-config",
-  "dependencies": {},
   "devDependencies": {
     "tslib": "1.10.0"
   },

@@ -1,6 +1,9 @@
 {
   "extends": ["plugin:react/recommended", "@willbooster/eslint-config-ts"],
   "plugins": ["@typescript-eslint", "prettier", "react"],
+  "rules": {
+    "react/prop-types": "off"
+  },
   "settings": {
     "import/core-modules": ["react-dom"],
     "react": {

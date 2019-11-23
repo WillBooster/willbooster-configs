@@ -16,12 +16,17 @@
   "renovate-config": {
     "default": {
       "extends": [
-        "config:base"
+        ":base",
+        ":automergeBranch",
+        ":maintainLockFilesWeekly",
+        ":rebaseStalePrs",
+        ":semanticCommits",
+        "group:allNonMajor",
+        "group:linters",
+        "group:monorepos",
+        "group:test",
+        "schedule:weekly"
       ],
-      "automergeType": "branch-push",
-      "prCreation": "immediate",
-      "rebaseStalePrs": true,
-      "semanticCommits": true,
       "timezone": "Asia/Tokyo",
       "dependencies": {
         "automerge": true,

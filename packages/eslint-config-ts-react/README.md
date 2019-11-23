@@ -10,6 +10,7 @@ yarn add -D @willbooster/eslint-config-ts \\
     eslint-plugin-import \\
     eslint-plugin-prettier \\
     eslint-plugin-react \\
+    eslint-plugin-react-hooks \\
     typescript \\
     @typescript-eslint/eslint-plugin \\
     @typescript-eslint/parser \\

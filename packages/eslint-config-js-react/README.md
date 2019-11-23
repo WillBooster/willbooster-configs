@@ -11,6 +11,7 @@ yarn add -D @willbooster/eslint-config-js \\
     eslint-plugin-import \\
     eslint-plugin-prettier \\
     eslint-plugin-react \\
+    eslint-plugin-react-hooks \\
     prettier \\
     @willbooster/prettier-config
 ```

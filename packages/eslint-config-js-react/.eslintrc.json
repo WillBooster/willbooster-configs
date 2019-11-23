@@ -1,8 +1,10 @@
 {
   "extends": ["plugin:react/recommended", "@willbooster/eslint-config-js"],
-  "plugins": ["prettier", "react"],
+  "plugins": ["prettier", "react", "react-hooks"],
   "rules": {
-    "react/prop-types": "off"
+    "react/prop-types": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
   },
   "settings": {
     "import/core-modules": ["react-dom"],

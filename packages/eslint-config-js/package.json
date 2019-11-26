@@ -8,11 +8,12 @@
   "main": ".eslintrc.json",
   "scripts": {
     "format": "yarn prettier && yarn sort-package-json",
-    "prettier": "prettier --write \"**/{.*/,}*.{css,htm,html,js,json,jsx,md,scss,ts,tsx,vue,yaml,yml}\"",
+    "prettier": "prettier --write \"**/{.*/,}*.{css,htm,html,js,json,jsx,md,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\"",
     "sort-package-json": "sort-package-json",
     "test": "jest"
   },
   "prettier": "@willbooster/prettier-config",
+  "dependencies": {},
   "devDependencies": {
     "@willbooster/prettier-config": "^2.1.0",
     "eslint": "6.7.0",

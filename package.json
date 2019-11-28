@@ -8,9 +8,11 @@
   },
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
-  "workspaces": [
-    "packages/*"
-  ],
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
   "scripts": {
     "bootstrap": "yarn && yarn lerna bootstrap --use-workspaces",
     "format": "yarn prettier && yarn sort-all-package-json",

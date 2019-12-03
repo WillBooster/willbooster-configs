@@ -27,6 +27,6 @@
     "lerna": "3.19.0",
     "lint-staged": "9.5.0",
     "prettier": "1.19.1",
-    "sort-package-json": "1.28.0"
+    "sort-package-json": "1.30.0"
   }
 }

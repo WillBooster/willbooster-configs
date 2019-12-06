@@ -21,6 +21,7 @@
       "extends": [
         ":base",
         ":automergeBranch",
+        ":automergeMinor",
         ":maintainLockFilesWeekly",
         ":rebaseStalePrs",
         ":semanticCommits",
@@ -31,15 +32,6 @@
         "schedule:weekly"
       ],
       "timezone": "Asia/Tokyo",
-      "dependencies": {
-        "automerge": true,
-        "major": {
-          "automerge": false
-        }
-      },
-      "devDependencies": {
-        "automerge": true
-      },
       "packageRules": [
         {
           "groupName": "willbooster-config",

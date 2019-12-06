@@ -13,6 +13,7 @@
     "test": "jest"
   },
   "prettier": "@willbooster/prettier-config",
+  "dependencies": {},
   "devDependencies": {
     "tslib": "1.10.0"
   },

@@ -19,7 +19,7 @@
   "renovate-config": {
     "default": {
       "extends": [
-        ":base",
+        "config:base",
         ":automergeBranch",
         ":automergeMinor",
         ":maintainLockFilesWeekly",

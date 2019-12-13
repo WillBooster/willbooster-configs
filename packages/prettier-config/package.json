@@ -1,6 +1,6 @@
 {
   "name": "@willbooster/prettier-config",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "private": false,
   "description": "A Prettier config for WillBooster projects",
   "license": "Apache-2.0",
@@ -14,7 +14,6 @@
     "test": "jest"
   },
   "prettier": "@willbooster/prettier-config",
-  "dependencies": {},
   "devDependencies": {
     "prettier": "1.19.1"
   },

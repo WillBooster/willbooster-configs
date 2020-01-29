@@ -12,7 +12,6 @@
 - [@willbooster/eslint-config-ts-react](packages/eslint-config-ts-react)
 - [@willbooster/prettier-config](packages/prettier-config)
 - [@willbooster/renovate-config](packages/renovate-config)
-- [@willbooster/tsconfig](packages/tsconfig)
 
 ## Guides
 

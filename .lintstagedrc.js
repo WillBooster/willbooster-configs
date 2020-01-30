@@ -1,7 +1,14 @@
 const micromatch = require('micromatch');
+const path = require('path');
+
 module.exports = {
   './**/*.{css,htm,html,js,json,jsx,md,scss,ts,tsx,vue,yaml,yml}': files => {
-    const fileList = files.filter(file => !file.includes('/test-fixtures/')).join(' ');
-    return fileList ? [`prettier --write ${fileList}`, `git add ${fileList}`] : [];
+    const filteredFiles = files.filter(file => !file.includes('/test-fixtures/')).map(file => path.relative('', file));
+    if (filteredFiles.length === 0) return [];
+    const commands = [`prettier --write ${filteredFiles.join(' ')}`];
+    if (filteredFiles.some(file => file.endsWith('package.json'))) {
+      commands.push('yarn sort-package-json');
+    }
+    return commands;
   },
 };

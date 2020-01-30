@@ -8,9 +8,8 @@
   "main": ".prettierrc.json",
   "scripts": {
     "cleanup": "yarn format",
-    "format": "yarn sort-package-json && yarn prettier",
+    "format": "sort-package-json && yarn prettier",
     "prettier": "prettier --write \"**/{.*/,}*.{css,htm,html,js,json,jsx,md,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\"",
-    "sort-package-json": "sort-package-json",
     "test": "jest"
   },
   "prettier": "@willbooster/prettier-config",

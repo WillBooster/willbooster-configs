@@ -16,13 +16,12 @@
   "scripts": {
     "bootstrap": "yarn && yarn lerna bootstrap --use-workspaces",
     "cleanup": "yarn format",
-    "format": "yarn sort-all-package-json && yarn prettier",
+    "format": "yarn sort-package-json && yarn prettier",
     "prettier": "prettier --write \"**/{.*/,}*.{css,htm,html,js,json,jsx,md,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\"",
     "publish-all": "npm login && npm whoami && npm config set access public && yarn lerna publish",
-    "sort-all-package-json": "yarn sort-package-json && yarn lerna run sort-package-json --stream"
+    "sort-package-json": "sort-package-json && yarn lerna exec sort-package-json --stream"
   },
   "prettier": "@willbooster/prettier-config",
-  "dependencies": {},
   "devDependencies": {
     "husky": "3.1.0",
     "lerna": "3.20.2",

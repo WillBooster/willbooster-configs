@@ -25,7 +25,7 @@
   "devDependencies": {
     "husky": "4.2.1",
     "lerna": "3.20.2",
-    "lint-staged": "10.0.5",
+    "lint-staged": "10.0.7",
     "prettier": "1.19.1",
     "sort-package-json": "1.39.1"
   }

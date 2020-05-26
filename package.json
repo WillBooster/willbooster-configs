@@ -17,7 +17,8 @@
     "cleanup": "yarn format",
     "format": "yarn sort-package-json && yarn prettier",
     "prettier": "prettier --write \"**/{.*/,}*.{css,htm,html,js,json,jsx,md,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\"",
-    "publish-all": "npm login && npm whoami && npm config set access public && yarn lerna publish",
+    "publish-all": "dotenv -- yarn publish-all-innner",
+    "publish-all-innner": "npm whoami && npm config set access public && yarn lerna publish",
     "sort-package-json": "sort-package-json && yarn lerna exec sort-package-json --stream"
   },
   "prettier": "@willbooster/prettier-config",

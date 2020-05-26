@@ -19,7 +19,7 @@
     "eslint-plugin-react-hooks": "4.0.2"
   },
   "peerDependencies": {
-    "@willbooster/eslint-config-ts": ">=1",
+    "@willbooster/eslint-config-ts": ">=4",
     "eslint-plugin-react": ">=7",
     "eslint-plugin-react-hooks": ">=4"
   },

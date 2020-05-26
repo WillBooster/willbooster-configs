@@ -14,7 +14,6 @@
     ]
   },
   "scripts": {
-    "bootstrap": "yarn && yarn lerna bootstrap --use-workspaces",
     "cleanup": "yarn format",
     "format": "yarn sort-package-json && yarn prettier",
     "prettier": "prettier --write \"**/{.*/,}*.{css,htm,html,js,json,jsx,md,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\"",
@@ -23,6 +22,7 @@
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
+    "dotenv-cli": "3.1.0",
     "husky": "4.2.5",
     "lerna": "3.21.0",
     "lint-staged": "10.2.6",

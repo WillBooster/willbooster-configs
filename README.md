@@ -2,7 +2,7 @@
 
 :books: A set of conventional configuration files used in WillBooster Inc..
 
-[![CircleCI](https://circleci.com/gh/WillBooster/willbooster-configs.svg?style=svg&circle-token=21b4491b423050edf6c830f9195a70c0b7f95d5f)](https://circleci.com/gh/WillBooster/willbooster-configs)
+![Check and build code](https://github.com/WillBooster/willbooster-configs/workflows/Check%20and%20build%20code/badge.svg)
 
 ## Packages
 

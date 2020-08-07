@@ -1,13 +1,23 @@
-name: Check and build code
+name: Test
 
 on:
   pull_request:
+    branches:
+      - '**'
+      - '!renovate/**'
+    paths-ignore:
+      - 'docs/**'
+      - '**.md'
   push:
     branches:
-      - master
+      - 'master'
+      - 'renovate/**'
+    paths-ignore:
+      - 'docs/**'
+      - '**.md'
 
 jobs:
-  check-and-build:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

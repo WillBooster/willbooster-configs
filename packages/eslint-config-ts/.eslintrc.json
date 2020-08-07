@@ -20,6 +20,7 @@
     "import/newline-after-import": "error",
     "import/no-duplicates": "error",
     "import/order": "error",
+    "@typescript-eslint/camelcase": "off", // c.f. https://github.com/typescript-eslint/typescript-eslint/issues/2050
     "@typescript-eslint/naming-convention": [
       "warn",
       {

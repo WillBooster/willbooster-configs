@@ -13,9 +13,9 @@
 - [@willbooster/prettier-config](packages/prettier-config)
 - [@willbooster/renovate-config](packages/renovate-config)
 
-## Guides
+## Following Guides
 
-- [TypeScript StyleGuide and Coding Conventions](https://basarat.gitbooks.io/typescript/content/docs/styleguide/styleguide.html)
+- [TypeScript StyleGuide](https://basarat.gitbook.io/typescript/styleguide)
 
 ## Deployment
 

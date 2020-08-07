@@ -21,10 +21,10 @@
     "import/no-duplicates": "error",
     "import/order": "error",
     "@typescript-eslint/naming-convention": [
-      "error",
+      "warn",
       {
         "selector": "default",
-        "format": ["camelCase", "PascalCase"],
+        "format": ["camelCase"],
         "leadingUnderscore": "allow",
         "trailingUnderscore": "allow"
       },
@@ -35,7 +35,7 @@
       },
       {
         "selector": "variable",
-        "format": ["camelCase", "PascalCase", "UPPER_CASE"],
+        "format": ["camelCase", "PascalCase", "UPPER_CASE"], // to use 'const ReactElem = () => { ...  };'
         "leadingUnderscore": "allow",
         "trailingUnderscore": "allow"
       },

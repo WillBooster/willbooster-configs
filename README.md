@@ -2,7 +2,7 @@
 
 :books: A set of conventional configuration files used in WillBooster Inc..
 
-![Test](https://github.com/WillBooster/willbooster-configs/workflows/Test/badge.svg)
+[![Test](https://github.com/WillBooster/willbooster-configs/workflows/Test/badge.svg)](https://github.com/WillBooster/willbooster-configs/actions?query=workflow%3ATest)
 
 ## Packages
 

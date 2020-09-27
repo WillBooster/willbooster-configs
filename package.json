@@ -23,7 +23,7 @@
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
-    "dotenv-cli": "3.2.0",
+    "dotenv-cli": "4.0.0",
     "husky": "4.3.0",
     "lerna": "3.22.1",
     "lint-staged": "10.4.0",

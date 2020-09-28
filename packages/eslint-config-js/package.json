@@ -17,15 +17,13 @@
     "@willbooster/prettier-config": "^4.0.0",
     "eslint": "7.10.0",
     "eslint-config-prettier": "6.12.0",
-    "eslint-plugin-import": "2.22.0",
-    "eslint-plugin-prettier": "3.1.4"
+    "eslint-plugin-import": "2.22.0"
   },
   "peerDependencies": {
     "@willbooster/prettier-config": ">=4",
     "eslint": ">=7",
     "eslint-config-prettier": ">=6",
-    "eslint-plugin-import": ">=2",
-    "eslint-plugin-prettier": ">=3"
+    "eslint-plugin-import": ">=2"
   },
   "gitHead": "865a18e97886b4051f555430f8fc0c89bd364001"
 }

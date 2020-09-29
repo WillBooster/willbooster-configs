@@ -1,7 +1,11 @@
 {
-  "packages": ["packages/*"],
-  "version": "4.0.3",
+  "packages": [
+    "packages/*"
+  ],
+  "version": "5.0.0",
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "publishConfig": { "access": "public" }
+  "publishConfig": {
+    "access": "public"
+  }
 }

@@ -9,8 +9,7 @@
   "scripts": {
     "cleanup": "yarn format",
     "format": "sort-package-json && yarn prettier",
-    "lint": "eslint __tests__",
-    "prettier": "prettier --write \"**/{.*/,}*.{css,htm,html,js,json,jsx,md,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\"",
+    "prettier": "prettier --write \"**/{.*/,}*.{css,htm,html,js,json,jsx,md,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\" --color",
     "test": "jest"
   },
   "prettier": "@willbooster/prettier-config",

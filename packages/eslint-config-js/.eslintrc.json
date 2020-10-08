@@ -4,6 +4,14 @@
     "no-console": "off", // allow `console.log()`
     "import/newline-after-import": "error",
     "import/no-duplicates": "error",
-    "import/order": "error"
+    "import/order": [
+      "error",
+      {
+        "newlines-between": "always",
+        "alphabetize": {
+          "order": "asc"
+        }
+      }
+    ]
   }
 }

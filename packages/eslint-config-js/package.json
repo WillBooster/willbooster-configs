@@ -7,19 +7,20 @@
   "main": ".eslintrc.json",
   "scripts": {
     "cleanup": "yarn format",
-    "format": "sort-package-json && yarn prettier",
-    "prettier": "prettier --write \"**/{.*/,}*.{css,htm,html,js,json,jsx,md,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\" --color",
-    "test": "jest"
+    "format": "sort-package-json && yarn prettify",
+    "prettify": "prettier --write \"**/{.*/,}*.{css,htm,html,js,json,jsx,md,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\" --color"
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
     "@willbooster/prettier-config": "^5.0.1",
     "eslint": "7.12.1",
     "eslint-config-prettier": "6.15.0",
-    "eslint-plugin-import": "2.22.1"
+    "eslint-plugin-import": "2.22.1",
+    "prettier": "2.1.2",
+    "sort-package-json": "1.46.1"
   },
   "peerDependencies": {
-    "@willbooster/prettier-config": ">=4",
+    "@willbooster/prettier-config": ">=5",
     "eslint": ">=7",
     "eslint-config-prettier": ">=6",
     "eslint-plugin-import": ">=2"

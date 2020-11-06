@@ -1157,13 +1157,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:14.14.6":
-  version: 14.14.6
-  resolution: "@types/node@npm:14.14.6"
-  checksum: 9b06b04ab2ae3761136fb39b573f95d90e748ebcf232e126304d642e4910039a74973547635729b627a0401791a1f2491aa9aa6d4d6bb80922a0b869a2731a63
-  languageName: node
-  linkType: hard
-
 "@types/normalize-package-data@npm:^2.4.0":
   version: 2.4.0
   resolution: "@types/normalize-package-data@npm:2.4.0"
@@ -1282,6 +1275,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/configs@workspace:."
   dependencies:
+    "@willbooster/prettier-config": 5.0.1
     dotenv-cli: 4.0.0
     husky: 4.3.0
     lerna: 3.22.1
@@ -1295,26 +1289,31 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-js-react@workspace:packages/eslint-config-js-react"
   dependencies:
-    "@willbooster/eslint-config-js": ^5.0.0
+    "@willbooster/eslint-config-js": ^5.0.1
+    "@willbooster/prettier-config": ^5.0.1
+    eslint: 7.12.1
     eslint-plugin-react: 7.21.5
     eslint-plugin-react-hooks: 4.2.0
+    prettier: 2.1.2
+    sort-package-json: 1.46.1
   peerDependencies:
-    "@willbooster/eslint-config-js": ">=4"
     eslint-plugin-react: ">=7"
     eslint-plugin-react-hooks: ">=2"
   languageName: unknown
   linkType: soft
 
-"@willbooster/eslint-config-js@^5.0.0, @willbooster/eslint-config-js@workspace:packages/eslint-config-js":
+"@willbooster/eslint-config-js@^5.0.1, @willbooster/eslint-config-js@workspace:packages/eslint-config-js":
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-js@workspace:packages/eslint-config-js"
   dependencies:
-    "@willbooster/prettier-config": ^5.0.0
+    "@willbooster/prettier-config": ^5.0.1
     eslint: 7.12.1
     eslint-config-prettier: 6.15.0
     eslint-plugin-import: 2.22.1
+    prettier: 2.1.2
+    sort-package-json: 1.46.1
   peerDependencies:
-    "@willbooster/prettier-config": ">=4"
+    "@willbooster/prettier-config": ">=5"
     eslint: ">=7"
     eslint-config-prettier: ">=6"
     eslint-plugin-import: ">=2"
@@ -1325,44 +1324,49 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-ts-react@workspace:packages/eslint-config-ts-react"
   dependencies:
-    "@willbooster/eslint-config-ts": ^5.0.0
+    "@willbooster/eslint-config-ts": ^5.0.1
+    "@willbooster/prettier-config": ^5.0.1
+    eslint: 7.12.1
     eslint-plugin-react: 7.21.5
     eslint-plugin-react-hooks: 4.2.0
+    prettier: 2.1.2
+    sort-package-json: 1.46.1
   peerDependencies:
-    "@willbooster/eslint-config-ts": ">=4"
     eslint-plugin-react: ">=7"
     eslint-plugin-react-hooks: ">=4"
   languageName: unknown
   linkType: soft
 
-"@willbooster/eslint-config-ts@^5.0.0, @willbooster/eslint-config-ts@workspace:packages/eslint-config-ts":
+"@willbooster/eslint-config-ts@^5.0.1, @willbooster/eslint-config-ts@workspace:packages/eslint-config-ts":
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-ts@workspace:packages/eslint-config-ts"
   dependencies:
-    "@types/node": 14.14.6
     "@typescript-eslint/eslint-plugin": 4.6.0
     "@typescript-eslint/parser": 4.6.0
-    "@willbooster/prettier-config": ^5.0.0
+    "@willbooster/prettier-config": ^5.0.1
     eslint: 7.12.1
     eslint-config-prettier: 6.15.0
     eslint-plugin-import: 2.22.1
+    prettier: 2.1.2
+    sort-package-json: 1.46.1
     typescript: 4.0.5
   peerDependencies:
-    "@typescript-eslint/eslint-plugin": ">=3"
-    "@typescript-eslint/parser": ">=3"
-    "@willbooster/prettier-config": ">=4"
+    "@typescript-eslint/eslint-plugin": ">=4"
+    "@typescript-eslint/parser": ">=4"
+    "@willbooster/prettier-config": ">=5"
     eslint: ">=7"
     eslint-config-prettier: ">=6"
     eslint-plugin-import: ">=2"
-    typescript: ">=3"
+    typescript: ">=4"
   languageName: unknown
   linkType: soft
 
-"@willbooster/prettier-config@^5.0.0, @willbooster/prettier-config@workspace:packages/prettier-config":
+"@willbooster/prettier-config@5.0.1, @willbooster/prettier-config@^5.0.1, @willbooster/prettier-config@workspace:packages/prettier-config":
   version: 0.0.0-use.local
   resolution: "@willbooster/prettier-config@workspace:packages/prettier-config"
   dependencies:
     prettier: 2.1.2
+    sort-package-json: 1.46.1
   peerDependencies:
     prettier: ">=2"
   languageName: unknown
@@ -1371,6 +1375,10 @@ __metadata:
 "@willbooster/renovate-config@workspace:packages/renovate-config":
   version: 0.0.0-use.local
   resolution: "@willbooster/renovate-config@workspace:packages/renovate-config"
+  dependencies:
+    "@willbooster/prettier-config": ^5.0.1
+    prettier: 2.1.2
+    sort-package-json: 1.46.1
   languageName: unknown
   linkType: soft
 

@@ -1,6 +1,6 @@
 {
   "name": "@willbooster/eslint-config-js-react",
-  "version": "5.0.1",
+  "version": "5.1.0",
   "description": "A ESLint config for JavaScript projects using React",
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
@@ -12,10 +12,10 @@
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {
-    "@willbooster/eslint-config-js": "^5.0.1"
+    "@willbooster/eslint-config-js": "^5.1.0"
   },
   "devDependencies": {
-    "@willbooster/prettier-config": "^5.0.1",
+    "@willbooster/prettier-config": "^5.1.0",
     "eslint": "7.12.1",
     "eslint-plugin-react": "7.21.5",
     "eslint-plugin-react-hooks": "4.2.0",

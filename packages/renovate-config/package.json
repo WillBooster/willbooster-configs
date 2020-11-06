@@ -1,6 +1,6 @@
 {
   "name": "@willbooster/renovate-config",
-  "version": "5.0.1",
+  "version": "5.1.0",
   "description": "A renovate config for WillBooster projects",
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
@@ -12,7 +12,7 @@
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
-    "@willbooster/prettier-config": "^5.0.1",
+    "@willbooster/prettier-config": "^5.1.0",
     "prettier": "2.1.2",
     "sort-package-json": "1.46.1"
   },

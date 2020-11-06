@@ -1,6 +1,6 @@
 {
   "name": "@willbooster/eslint-config-ts",
-  "version": "5.0.1",
+  "version": "5.1.0",
   "description": "A ESLint config for TypeScript projects",
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
@@ -14,7 +14,7 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "4.6.0",
     "@typescript-eslint/parser": "4.6.0",
-    "@willbooster/prettier-config": "^5.0.1",
+    "@willbooster/prettier-config": "^5.1.0",
     "eslint": "7.12.1",
     "eslint-config-prettier": "6.15.0",
     "eslint-plugin-import": "2.22.1",

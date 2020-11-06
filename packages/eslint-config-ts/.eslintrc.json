@@ -51,6 +51,14 @@
       {
         "selector": "typeLike",
         "format": ["PascalCase"]
+      },
+      {
+        "selector": "enumMember",
+        "format": ["PascalCase"]
+      },
+      {
+        "selector": "property",
+        "format": null
       }
     ],
     "@typescript-eslint/explicit-function-return-type": [

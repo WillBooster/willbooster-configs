@@ -19,7 +19,15 @@
     "import/default": "off", // to use `import XXX from YYY` instead of `import XXX = require(YYY)`
     "import/newline-after-import": "error",
     "import/no-duplicates": "error",
-    "import/order": "error",
+    "import/order": [
+      "error",
+      {
+        "newlines-between": "always",
+        "alphabetize": {
+          "order": "asc"
+        }
+      }
+    ],
     "@typescript-eslint/camelcase": "off", // c.f. https://github.com/typescript-eslint/typescript-eslint/issues/2050
     "@typescript-eslint/naming-convention": [
       "warn",

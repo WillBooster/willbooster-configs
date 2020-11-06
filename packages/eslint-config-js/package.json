@@ -1,7 +1,6 @@
 {
   "name": "@willbooster/eslint-config-js",
   "version": "5.0.0",
-  "private": false,
   "description": "A ESLint config for JavaScript projects",
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",

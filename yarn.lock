@@ -1275,7 +1275,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/configs@workspace:."
   dependencies:
-    "@willbooster/prettier-config": 5.0.1
+    "@willbooster/prettier-config": ./packages/prettier-config
     dotenv-cli: 4.0.0
     husky: 4.3.0
     lerna: 3.22.1
@@ -1289,8 +1289,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-js-react@workspace:packages/eslint-config-js-react"
   dependencies:
-    "@willbooster/eslint-config-js": ^5.0.1
-    "@willbooster/prettier-config": ^5.0.1
+    "@willbooster/eslint-config-js": ^5.1.0
+    "@willbooster/prettier-config": ^5.1.0
     eslint: 7.12.1
     eslint-plugin-react: 7.21.5
     eslint-plugin-react-hooks: 4.2.0
@@ -1302,11 +1302,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/eslint-config-js@^5.0.1, @willbooster/eslint-config-js@workspace:packages/eslint-config-js":
+"@willbooster/eslint-config-js@^5.1.0, @willbooster/eslint-config-js@workspace:packages/eslint-config-js":
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-js@workspace:packages/eslint-config-js"
   dependencies:
-    "@willbooster/prettier-config": ^5.0.1
+    "@willbooster/prettier-config": ^5.1.0
     eslint: 7.12.1
     eslint-config-prettier: 6.15.0
     eslint-plugin-import: 2.22.1
@@ -1324,8 +1324,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-ts-react@workspace:packages/eslint-config-ts-react"
   dependencies:
-    "@willbooster/eslint-config-ts": ^5.0.1
-    "@willbooster/prettier-config": ^5.0.1
+    "@willbooster/eslint-config-ts": ^5.1.0
+    "@willbooster/prettier-config": ^5.1.0
     eslint: 7.12.1
     eslint-plugin-react: 7.21.5
     eslint-plugin-react-hooks: 4.2.0
@@ -1337,13 +1337,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/eslint-config-ts@^5.0.1, @willbooster/eslint-config-ts@workspace:packages/eslint-config-ts":
+"@willbooster/eslint-config-ts@^5.1.0, @willbooster/eslint-config-ts@workspace:packages/eslint-config-ts":
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-ts@workspace:packages/eslint-config-ts"
   dependencies:
     "@typescript-eslint/eslint-plugin": 4.6.0
     "@typescript-eslint/parser": 4.6.0
-    "@willbooster/prettier-config": ^5.0.1
+    "@willbooster/prettier-config": ^5.1.0
     eslint: 7.12.1
     eslint-config-prettier: 6.15.0
     eslint-plugin-import: 2.22.1
@@ -1361,7 +1361,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/prettier-config@5.0.1, @willbooster/prettier-config@^5.0.1, @willbooster/prettier-config@workspace:packages/prettier-config":
+"@willbooster/prettier-config@^5.1.0, @willbooster/prettier-config@workspace:packages/prettier-config":
   version: 0.0.0-use.local
   resolution: "@willbooster/prettier-config@workspace:packages/prettier-config"
   dependencies:
@@ -1372,11 +1372,20 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@willbooster/prettier-config@file:./packages/prettier-config::locator=%40willbooster%2Fconfigs%40workspace%3A.":
+  version: 5.1.0
+  resolution: "@willbooster/prettier-config@file:./packages/prettier-config#./packages/prettier-config::hash=78aad7&locator=%40willbooster%2Fconfigs%40workspace%3A."
+  peerDependencies:
+    prettier: ">=2"
+  checksum: 339a4ab1e2984de2280250c87a98e4ddf80b0f39886488406950679fc5051c9e85397c25c239c83c149f1e2f6607eb9916099ec13831f001afd04afcab12ddc9
+  languageName: node
+  linkType: hard
+
 "@willbooster/renovate-config@workspace:packages/renovate-config":
   version: 0.0.0-use.local
   resolution: "@willbooster/renovate-config@workspace:packages/renovate-config"
   dependencies:
-    "@willbooster/prettier-config": ^5.0.1
+    "@willbooster/prettier-config": ^5.1.0
     prettier: 2.1.2
     sort-package-json: 1.46.1
   languageName: unknown

@@ -10,7 +10,7 @@ on:
       - '**.md'
   push:
     branches:
-      - 'master'
+      - 'main'
       - 'renovate/**'
     paths-ignore:
       - 'docs/**'
@@ -29,14 +29,11 @@ jobs:
         run: |
           echo "node: $(node -v)"
           echo "yarn: $(yarn -v)"
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
       - uses: actions/cache@v2
-        id: yarn-cache
         with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          path: .yarn
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
       - run: yarn install
+      - run: yarn test

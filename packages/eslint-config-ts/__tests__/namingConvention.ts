@@ -1,4 +1,6 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const child_process = require('child_process');
+import child_process from 'child_process';
+
+import { useImmer } from 'use-immer';
 
 child_process.exec('echo 0');
+console.log(useImmer);

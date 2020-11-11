@@ -10,7 +10,7 @@ on:
       - '**.md'
   push:
     branches:
-      - 'master'
+      - 'main'
       - 'renovate/**'
     paths-ignore:
       - 'docs/**'

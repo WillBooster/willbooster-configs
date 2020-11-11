@@ -7,8 +7,7 @@
   "scripts": {
     "cleanup": "yarn format",
     "format": "sort-package-json && yarn prettify",
-    "prettify": "prettier --write \"**/{.*/,}*.{css,htm,html,js,json,jsx,md,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\" --color",
-    "test": "jest"
+    "prettify": "prettier --write \"**/{.*/,}*.{css,htm,html,js,json,jsx,md,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\" --color"
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {

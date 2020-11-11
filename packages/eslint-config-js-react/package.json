@@ -23,6 +23,10 @@
     "sort-package-json": "1.46.1"
   },
   "peerDependencies": {
+    "@willbooster/prettier-config": ">=5",
+    "eslint": ">=7",
+    "eslint-config-prettier": ">=6",
+    "eslint-plugin-import": ">=2",
     "eslint-plugin-react": ">=7",
     "eslint-plugin-react-hooks": ">=2"
   },

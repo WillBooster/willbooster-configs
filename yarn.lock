@@ -1157,6 +1157,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:14.14.7":
+  version: 14.14.7
+  resolution: "@types/node@npm:14.14.7"
+  checksum: 4fc8434bfe81c2a3102fa76777712ecee9e9177d43ec5929ba0dfd5a77a6c459cf10a37df64ea880a328f06973f6210eabf04b312428e309b2e8998147a6cd63
+  languageName: node
+  linkType: hard
+
 "@types/normalize-package-data@npm:^2.4.0":
   version: 2.4.0
   resolution: "@types/normalize-package-data@npm:2.4.0"
@@ -1277,6 +1284,7 @@ __metadata:
   dependencies:
     "@willbooster/prettier-config": ./packages/prettier-config
     dotenv-cli: 4.0.0
+    eslint-import-resolver-node: 0.3.4
     husky: 4.3.0
     lerna: 3.22.1
     lint-staged: 10.5.1
@@ -1297,6 +1305,10 @@ __metadata:
     prettier: 2.1.2
     sort-package-json: 1.46.1
   peerDependencies:
+    "@willbooster/prettier-config": ">=5"
+    eslint: ">=7"
+    eslint-config-prettier: ">=6"
+    eslint-plugin-import: ">=2"
     eslint-plugin-react: ">=7"
     eslint-plugin-react-hooks: ">=2"
   languageName: unknown
@@ -1332,8 +1344,15 @@ __metadata:
     prettier: 2.1.2
     sort-package-json: 1.46.1
   peerDependencies:
+    "@typescript-eslint/eslint-plugin": ">=4"
+    "@typescript-eslint/parser": ">=4"
+    "@willbooster/prettier-config": ">=5"
+    eslint: ">=7"
+    eslint-config-prettier: ">=6"
+    eslint-plugin-import: ">=2"
     eslint-plugin-react: ">=7"
     eslint-plugin-react-hooks: ">=4"
+    typescript: ">=4"
   languageName: unknown
   linkType: soft
 
@@ -1341,6 +1360,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-ts@workspace:packages/eslint-config-ts"
   dependencies:
+    "@types/node": 14.14.7
     "@typescript-eslint/eslint-plugin": 4.6.0
     "@typescript-eslint/parser": 4.6.0
     "@willbooster/prettier-config": ^5.1.0
@@ -1350,6 +1370,7 @@ __metadata:
     prettier: 2.1.2
     sort-package-json: 1.46.1
     typescript: 4.0.5
+    use-immer: 0.4.1
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ">=4"
     "@typescript-eslint/parser": ">=4"
@@ -1374,10 +1395,10 @@ __metadata:
 
 "@willbooster/prettier-config@file:./packages/prettier-config::locator=%40willbooster%2Fconfigs%40workspace%3A.":
   version: 5.1.0
-  resolution: "@willbooster/prettier-config@file:./packages/prettier-config#./packages/prettier-config::hash=78aad7&locator=%40willbooster%2Fconfigs%40workspace%3A."
+  resolution: "@willbooster/prettier-config@file:./packages/prettier-config#./packages/prettier-config::hash=fdaa51&locator=%40willbooster%2Fconfigs%40workspace%3A."
   peerDependencies:
     prettier: ">=2"
-  checksum: 339a4ab1e2984de2280250c87a98e4ddf80b0f39886488406950679fc5051c9e85397c25c239c83c149f1e2f6607eb9916099ec13831f001afd04afcab12ddc9
+  checksum: b0c3e9136dabd95cb5f93c23762e8e82fa028640c092b0ead4d812b7e4798080538823a7d1969a6a353be3b643a27b1cee9dc052dc231d017426fb73ad6de3f1
   languageName: node
   linkType: hard
 
@@ -3007,7 +3028,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-node@npm:^0.3.4":
+"eslint-import-resolver-node@npm:0.3.4, eslint-import-resolver-node@npm:^0.3.4":
   version: 0.3.4
   resolution: "eslint-import-resolver-node@npm:0.3.4"
   dependencies:
@@ -8093,6 +8114,16 @@ typescript@4.0.5:
   version: 0.1.0
   resolution: "urix@npm:0.1.0"
   checksum: 6bdfca4e7fb7d035537068a47a04ace1bacfa32e6b1aaf54c5a0340c83125a186d59109a19b9a3a1c1f986d3eb718b82faf9ad03d53cb99cf868068580b15b3b
+  languageName: node
+  linkType: hard
+
+"use-immer@npm:0.4.1":
+  version: 0.4.1
+  resolution: "use-immer@npm:0.4.1"
+  peerDependencies:
+    immer: ">=2.0.0"
+    react: ^16.8.0
+  checksum: 3b91885145869623556539143580d20d16250a1a29ab69791c91794fda25b73eaf47bb24d9b9dbb870b26ac72c0a72ef2d5480b05e4d360b58e5dd8b12337348
   languageName: node
   linkType: hard
 

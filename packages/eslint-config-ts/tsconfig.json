@@ -10,9 +10,10 @@
     "sourceMap": true,
     "importHelpers": false,
     "outDir": "dist",
-    "typeRoots": ["./node_modules/@types", "./@types"],
     "target": "esnext",
     "module": "esnext"
   },
-  "include": ["__tests__/**/*"]
+  "include": [
+    "__tests__/**/*", "../../@types", "./@types"
+  ]
 }

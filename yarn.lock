@@ -7966,9 +7966,9 @@ __metadata:
   linkType: hard
 
 "type-fest@npm:^0.18.0":
-  version: 0.18.0
-  resolution: "type-fest@npm:0.18.0"
-  checksum: 22f7fb528bf187ef3964e718a4cad2c669bf47989486ae8f66a140954f555760f7220fe5028f30df816d62a741c4748499ebc3ffcf37c8bbfb9f5a47d2c9a0d0
+  version: 0.18.1
+  resolution: "type-fest@npm:0.18.1"
+  checksum: 0d6d338e72b625a0d2c8fb4c138f5221301e40ac127e1b909bc12890ce358ef9cf11136e13aa0efd82e248bbeefd7148c01985dce2e5ab79d47a2efa75dfe8d2
   languageName: node
   linkType: hard
 
@@ -8021,11 +8021,11 @@ typescript@4.0.5:
   linkType: hard
 
 "uglify-js@npm:^3.1.4":
-  version: 3.11.5
-  resolution: "uglify-js@npm:3.11.5"
+  version: 3.11.6
+  resolution: "uglify-js@npm:3.11.6"
   bin:
     uglifyjs: bin/uglifyjs
-  checksum: 8614bb84f305d229ed42a4cfba1687725a32d17828e67ea06f8c972f2d71eaaccc973c21dd65d4271a9bbd8e45cdde096ebf3f21c0f041dd39b2592862e7713a
+  checksum: 26b7dc245f6db4c786517dae7ed06e3928a3542546cea08c4e3cbc0fc716390bea14007314157dd27d6c64ed3f5f5278ef5bcd0bcbf77d9ce54a527b0f03eaf9
   languageName: node
   linkType: hard
 

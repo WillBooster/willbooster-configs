@@ -1152,14 +1152,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:>= 8":
-  version: 14.14.7
-  resolution: "@types/node@npm:14.14.7"
-  checksum: 4fc8434bfe81c2a3102fa76777712ecee9e9177d43ec5929ba0dfd5a77a6c459cf10a37df64ea880a328f06973f6210eabf04b312428e309b2e8998147a6cd63
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:14.14.9":
+"@types/node@npm:*, @types/node@npm:14.14.9, @types/node@npm:>= 8":
   version: 14.14.9
   resolution: "@types/node@npm:14.14.9"
   checksum: df0405c708fa94831e7f71ed01cd6f859a38ab0daeae99e01afdd408905479f205556a43bafe5692c82cd126abbdc68baeb99b4b7d653c1480c289080b71622b
@@ -1397,10 +1390,10 @@ __metadata:
 
 "@willbooster/prettier-config@file:./packages/prettier-config::locator=%40willbooster%2Fconfigs%40workspace%3A.":
   version: 5.1.0
-  resolution: "@willbooster/prettier-config@file:./packages/prettier-config#./packages/prettier-config::hash=d261a4&locator=%40willbooster%2Fconfigs%40workspace%3A."
+  resolution: "@willbooster/prettier-config@file:./packages/prettier-config#./packages/prettier-config::hash=f4a8a2&locator=%40willbooster%2Fconfigs%40workspace%3A."
   peerDependencies:
     prettier: ">=2"
-  checksum: 4c67904a49297649f51e5c9ef96def681b2bdecd07e23d1a453f9adda3fe5f90fac2fe1080c84f74b5c29f5587f183316c694f1726353902642a9dcdc938f23c
+  checksum: 5591394e6e4d4004a3e9bd3573c94fd11b1aab4c61d34fe4cd85435ec860d0327231d1140c38808ea08ffc935b6fbaaede117f259e9623c17ba35bf2c99fc2ae
   languageName: node
   linkType: hard
 
@@ -1663,13 +1656,15 @@ __metadata:
   linkType: hard
 
 "array-includes@npm:^3.1.1":
-  version: 3.1.1
-  resolution: "array-includes@npm:3.1.1"
+  version: 3.1.2
+  resolution: "array-includes@npm:3.1.2"
   dependencies:
+    call-bind: ^1.0.0
     define-properties: ^1.1.3
-    es-abstract: ^1.17.0
+    es-abstract: ^1.18.0-next.1
+    get-intrinsic: ^1.0.1
     is-string: ^1.0.5
-  checksum: 9fa86fdad9b07f733ab9994fe1058228d4835917ea26788cbd88eed0805f8b87baddb03e6f277498f96297532d6aac678be2a65694fb44ea561cba71d619a611
+  checksum: 219971a123679ed6e3be130ec61ebabe82421283a8a5db7427a115bb75df7db2575cc4bf101d8a523a77fcfb1cb7d047154a98c6f8ccc2d1c4c28298e5878ad0
   languageName: node
   linkType: hard
 
@@ -2956,7 +2951,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"es-abstract@npm:^1.17.0, es-abstract@npm:^1.17.0-next.1, es-abstract@npm:^1.17.5":
+"es-abstract@npm:^1.17.0-next.1":
   version: 1.17.7
   resolution: "es-abstract@npm:1.17.7"
   dependencies:
@@ -3684,7 +3679,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"get-intrinsic@npm:^1.0.0":
+"get-intrinsic@npm:^1.0.0, get-intrinsic@npm:^1.0.1":
   version: 1.0.1
   resolution: "get-intrinsic@npm:1.0.1"
   dependencies:
@@ -4402,11 +4397,11 @@ __metadata:
   linkType: hard
 
 "is-core-module@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "is-core-module@npm:2.1.0"
+  version: 2.2.0
+  resolution: "is-core-module@npm:2.2.0"
   dependencies:
     has: ^1.0.3
-  checksum: 6e9d45be21c607e5af4f0ff91e68f808c53cafb8729dc30425fc83dc2538ac2af65242752e4e5c5f75aac767cae6bd8bd1834a998931e1c236fb121f9bad7029
+  checksum: 2344744de98a3bc22e2bb30895f307d7889f09e963f9bcb1cc321788f508c8b463f75e0a9ca009eeeb8eb9465181b5c15f1ec9299a6bb6921cfbb2423892e0ba
   languageName: node
   linkType: hard
 
@@ -4947,8 +4942,8 @@ __metadata:
   linkType: hard
 
 "listr2@npm:^3.2.2":
-  version: 3.2.2
-  resolution: "listr2@npm:3.2.2"
+  version: 3.2.3
+  resolution: "listr2@npm:3.2.3"
   dependencies:
     chalk: ^4.1.0
     cli-truncate: ^2.1.0
@@ -4960,7 +4955,7 @@ __metadata:
     through: ^2.3.8
   peerDependencies:
     enquirer: ">= 2.3.0 < 3"
-  checksum: e4cccac610bc18cf75f1248f599ce6fb9637e481dc8ebca480c84b6a57802f580a2df2915b54acaa4268dfcc42a87bb6c86bd7ec5cee793e4df8ee1c8f0822ff
+  checksum: 83f7659bd94f714274284e238562e4f78beb213d02ec0575210a1254e9bb3415a8040c691d419633e029099f2629a99e05c8b0adb0dade3f6a9ff6499e69c69f
   languageName: node
   linkType: hard
 
@@ -5865,35 +5860,37 @@ __metadata:
   linkType: hard
 
 "object.entries@npm:^1.1.2":
-  version: 1.1.2
-  resolution: "object.entries@npm:1.1.2"
+  version: 1.1.3
+  resolution: "object.entries@npm:1.1.3"
   dependencies:
+    call-bind: ^1.0.0
     define-properties: ^1.1.3
-    es-abstract: ^1.17.5
+    es-abstract: ^1.18.0-next.1
     has: ^1.0.3
-  checksum: bcde47ee0396df8bc074e3194b74d3983e3da205321836f132cc55403f26cd06cd8d677492ca35697fa4d52419428fec2e01b60a96db1c22d21f1978d37db97d
+  checksum: 89eec6d43bf8440dfd800ad76486d76a900ff7e3e20b560abb4cba8494bdc8524af8cf49a897739da776fe434f8091569b2422333075378f9fd5a50d599601eb
   languageName: node
   linkType: hard
 
 "object.fromentries@npm:^2.0.2":
-  version: 2.0.2
-  resolution: "object.fromentries@npm:2.0.2"
+  version: 2.0.3
+  resolution: "object.fromentries@npm:2.0.3"
   dependencies:
+    call-bind: ^1.0.0
     define-properties: ^1.1.3
-    es-abstract: ^1.17.0-next.1
-    function-bind: ^1.1.1
+    es-abstract: ^1.18.0-next.1
     has: ^1.0.3
-  checksum: 58fa9edab136a299e81828842e0c2dd12df1985025f13e451a2c5609d8b16e4c7ebd2c574691f3b6edffb44ada8d5d12aef3b060ce1a65660b65e3202a7897a1
+  checksum: a843ed6403914265625ae82106142538749168732ab6466ea6ff566e97f4ded0bdcfc7f9dd5d93d6e56145e42fd3f2985e4503ece034ca6ea0bc59b0db134452
   languageName: node
   linkType: hard
 
 "object.getownpropertydescriptors@npm:^2.0.3":
-  version: 2.1.0
-  resolution: "object.getownpropertydescriptors@npm:2.1.0"
+  version: 2.1.1
+  resolution: "object.getownpropertydescriptors@npm:2.1.1"
   dependencies:
+    call-bind: ^1.0.0
     define-properties: ^1.1.3
-    es-abstract: ^1.17.0-next.1
-  checksum: c33dcc3061b56ec4d9f6d30620a364a5218aba8f592662f5ce346fcf523eb0483bc865d3f52848e267217285d831ca0a3d85836787bef5f86ecfa29f77dc249e
+    es-abstract: ^1.18.0-next.1
+  checksum: 0d43ad1bce8a751eaee4456e33d3b0a12cf3d166b54c8bba89e4bc1be01c3e45b588e2a5a1c7ddc43f01d07261768bf7dbaff8f8ef593a6750e4b5e58e3a2ede
   languageName: node
   linkType: hard
 
@@ -5907,14 +5904,14 @@ __metadata:
   linkType: hard
 
 "object.values@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "object.values@npm:1.1.1"
+  version: 1.1.2
+  resolution: "object.values@npm:1.1.2"
   dependencies:
+    call-bind: ^1.0.0
     define-properties: ^1.1.3
-    es-abstract: ^1.17.0-next.1
-    function-bind: ^1.1.1
+    es-abstract: ^1.18.0-next.1
     has: ^1.0.3
-  checksum: 33e99ceb5cdb4c4b43372aa133ecb1d73d5cf73ebbbe9ec64f45cd39c87d0226ca88d6a354cd8b819fbde6b9ebbc7df1a6a093f91d2c951c51a07546f54fe33d
+  checksum: d9e492095a46caa1531d5917ba707967ae882193b6e0b318d56f5f867b756ad62a3e600fae434e9d0b6a33f1a35d7a604631d6db3f876266c7802c5b63923f16
   languageName: node
   linkType: hard
 
@@ -7368,9 +7365,9 @@ __metadata:
   linkType: hard
 
 "spdx-license-ids@npm:^3.0.0":
-  version: 3.0.6
-  resolution: "spdx-license-ids@npm:3.0.6"
-  checksum: 90f9f7db7f049e5b2b315d45858368ba0451036f5e3536acad5c9771d7506543be0e1ee641441d813c7cddf9d06337a14ceae21e18e2622bbf3dbcc9d396c193
+  version: 3.0.7
+  resolution: "spdx-license-ids@npm:3.0.7"
+  checksum: 21e38ec5dd970643f78d37700b6c6ebd42d68c0e4618db914a56cabd2fe4cc1608404ce6abc7535d5165c6555560e821553d06edf6af6ae439617883cf932c0e
   languageName: node
   linkType: hard
 
@@ -8031,11 +8028,11 @@ typescript@4.1.2:
   linkType: hard
 
 "uglify-js@npm:^3.1.4":
-  version: 3.11.6
-  resolution: "uglify-js@npm:3.11.6"
+  version: 3.12.0
+  resolution: "uglify-js@npm:3.12.0"
   bin:
     uglifyjs: bin/uglifyjs
-  checksum: 26b7dc245f6db4c786517dae7ed06e3928a3542546cea08c4e3cbc0fc716390bea14007314157dd27d6c64ed3f5f5278ef5bcd0bcbf77d9ce54a527b0f03eaf9
+  checksum: 9b9316bf331e80b94dfa6a4dc9f5b94e0a8731ab80ea567f04ee89d3f089598bbf291496a1d02114eb0fa3992556cf3d04b868e6d1dc75d53264eb46f11b474a
   languageName: node
   linkType: hard
 

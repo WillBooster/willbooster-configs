@@ -12,7 +12,7 @@
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
     "@willbooster/prettier-config": "^5.1.0",
-    "prettier": "2.2.0",
+    "prettier": "2.2.1",
     "sort-package-json": "1.48.0"
   },
   "gitHead": "865a18e97886b4051f555430f8fc0c89bd364001",

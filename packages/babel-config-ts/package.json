@@ -1,0 +1,24 @@
+{
+  "name": "@willbooster/babel-config-ts",
+  "version": "5.1.1",
+  "description": "A Babel config for TypeScript projects",
+  "license": "Apache-2.0",
+  "author": "WillBooster Inc.",
+  "main": "lib",
+  "scripts": {
+    "cleanup": "yarn format",
+    "format": "sort-package-json && yarn prettify",
+    "prettify": "prettier --write \"**/{.*/,}*.{css,htm,html,js,json,jsx,md,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\" --color",
+    "test": "eslint __tests__"
+  },
+  "prettier": "@willbooster/prettier-config",
+  "devDependencies": {
+    "@babel/cli": "7.12.1",
+    "@babel/core": "7.12.3",
+    "@babel/preset-env": "7.12.1",
+    "@babel/preset-typescript": "7.12.1",
+    "@willbooster/prettier-config": "^5.1.0",
+    "prettier": "2.1.2",
+    "sort-package-json": "1.46.1"
+  }
+}

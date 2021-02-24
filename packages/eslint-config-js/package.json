@@ -14,7 +14,7 @@
   "devDependencies": {
     "@willbooster/prettier-config": "^5.1.0",
     "eslint": "7.19.0",
-    "eslint-config-prettier": "6.15.0",
+    "eslint-config-prettier": "8.0.0",
     "eslint-plugin-import": "2.22.1",
     "prettier": "2.2.1",
     "sort-package-json": "1.48.1"

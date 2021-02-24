@@ -3,6 +3,7 @@
   "parserOptions": {
     "ecmaVersion": 2021
   },
+  "env": { "es2021": true },
   "rules": {
     "eqeqeq": "warn",
     "no-console": "off", // allow `console.log()`

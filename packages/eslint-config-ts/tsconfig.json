@@ -13,7 +13,5 @@
     "target": "esnext",
     "module": "esnext"
   },
-  "include": [
-    "__tests__/**/*", "../../@types", "./@types"
-  ]
+  "include": ["__tests__/**/*", "../../@types", "./@types"]
 }

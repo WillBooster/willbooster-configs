@@ -1,6 +1,7 @@
 {
-  "extends": ["eslint:recommended", "plugin:import/errors", "plugin:import/warnings", "prettier", "prettier/babel"],
+  "extends": ["eslint:recommended", "plugin:import/errors", "plugin:import/warnings", "prettier"],
   "rules": {
+    "eqeqeq": "warn",
     "no-console": "off", // allow `console.log()`
     "import/newline-after-import": "error",
     "import/no-duplicates": "error",

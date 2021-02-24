@@ -38,6 +38,12 @@
           "packagePatterns": [
             "^@willbooster/.*config"
           ]
+        },
+        {
+          "packageNames": [
+            "husky"
+          ],
+          "enabled": false
         }
       ]
     }

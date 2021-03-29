@@ -23,6 +23,7 @@
         ":automergeBranch",
         ":automergeMinor",
         ":maintainLockFilesWeekly",
+        ":prImmediately",
         ":rebaseStalePrs",
         ":semanticCommits",
         "group:allNonMajor",

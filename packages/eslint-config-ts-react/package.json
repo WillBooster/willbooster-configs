@@ -1,6 +1,6 @@
 {
   "name": "@willbooster/eslint-config-ts-react",
-  "version": "6.2.0",
+  "version": "6.2.1",
   "description": "A ESLint config for TypeScript projects using React",
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
@@ -12,10 +12,10 @@
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {
-    "@willbooster/eslint-config-ts": "^6.2.0"
+    "@willbooster/eslint-config-ts": "^6.2.1"
   },
   "devDependencies": {
-    "@willbooster/prettier-config": "^6.0.0",
+    "@willbooster/prettier-config": "^6.2.1",
     "eslint": "7.21.0",
     "eslint-plugin-react": "7.22.0",
     "eslint-plugin-react-hooks": "4.2.0",

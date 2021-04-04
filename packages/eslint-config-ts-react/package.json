@@ -16,8 +16,8 @@
   },
   "devDependencies": {
     "@willbooster/prettier-config": "^6.2.1",
-    "eslint": "7.21.0",
-    "eslint-plugin-react": "7.22.0",
+    "eslint": "7.23.0",
+    "eslint-plugin-react": "7.23.1",
     "eslint-plugin-react-hooks": "4.2.0",
     "prettier": "2.2.1",
     "sort-package-json": "1.49.0"

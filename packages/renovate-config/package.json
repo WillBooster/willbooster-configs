@@ -28,8 +28,10 @@
         "group:allNonMajor",
         "group:linters",
         "group:monorepos",
-        "group:test",
-        "schedule:weekly"
+        "group:test"
+      ],
+      "schedule": [
+        "before 10am on Saturday"
       ],
       "timezone": "Asia/Tokyo",
       "packageRules": [

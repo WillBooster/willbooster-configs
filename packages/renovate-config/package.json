@@ -13,7 +13,7 @@
   "devDependencies": {
     "@willbooster/prettier-config": "^6.2.1",
     "prettier": "2.2.1",
-    "sort-package-json": "1.49.0"
+    "sort-package-json": "1.50.0"
   },
   "gitHead": "865a18e97886b4051f555430f8fc0c89bd364001",
   "renovate-config": {

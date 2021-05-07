@@ -20,7 +20,7 @@
     "eslint-plugin-react": "7.23.2",
     "eslint-plugin-react-hooks": "4.2.0",
     "prettier": "2.2.1",
-    "sort-package-json": "1.49.0"
+    "sort-package-json": "1.50.0"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">=4",

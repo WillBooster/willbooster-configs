@@ -13,10 +13,10 @@
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
     "@willbooster/prettier-config": "^6.2.1",
-    "eslint": "7.25.0",
+    "eslint": "7.26.0",
     "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-import": "2.22.1",
-    "prettier": "2.2.1",
+    "eslint-plugin-import": "2.23.0",
+    "prettier": "2.3.0",
     "sort-package-json": "1.50.0"
   },
   "peerDependencies": {

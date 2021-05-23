@@ -984,20 +984,20 @@ __metadata:
   linkType: hard
 
 "@octokit/graphql@npm:^4.5.8":
-  version: 4.6.1
-  resolution: "@octokit/graphql@npm:4.6.1"
+  version: 4.6.2
+  resolution: "@octokit/graphql@npm:4.6.2"
   dependencies:
     "@octokit/request": ^5.3.0
     "@octokit/types": ^6.0.3
     universal-user-agent: ^6.0.0
-  checksum: bcac6e3d9011a89a776fc5dd775a9ec1ced8d65909074f40f81413adadd2909153c02dea68b82b2117e9af1cd8b820422c55949a078b37073205c97771918ae1
+  checksum: b7a015d3c594b6606a9b93c2b03032489598ea3a097c82bc4803cc58898af63328d1c771a38060e596b31dbdbd6043fe028ea4564e4e932c478dcde529c32530
   languageName: node
   linkType: hard
 
-"@octokit/openapi-types@npm:^7.0.0":
-  version: 7.0.0
-  resolution: "@octokit/openapi-types@npm:7.0.0"
-  checksum: 703727ff2e1956c353350628cdbc54f7c206cd363908b887b632c7b7c8840e7d25528442485f77d3c7059c85ed3797de9083fdfd036b1d8f752bbd1bb12979ec
+"@octokit/openapi-types@npm:^7.2.0":
+  version: 7.2.1
+  resolution: "@octokit/openapi-types@npm:7.2.1"
+  checksum: 4bf89367c4e211f7cfa9561d5534cff272ee6293407bb4ad50055786eac8fc54a799123d58aef7d4e616aa12ff5d1d32dd9fa65030b5f39ceb3f0f88423ff306
   languageName: node
   linkType: hard
 
@@ -1078,11 +1078,11 @@ __metadata:
   linkType: hard
 
 "@octokit/types@npm:^6.0.3, @octokit/types@npm:^6.11.0, @octokit/types@npm:^6.13.1, @octokit/types@npm:^6.7.1":
-  version: 6.14.2
-  resolution: "@octokit/types@npm:6.14.2"
+  version: 6.16.0
+  resolution: "@octokit/types@npm:6.16.0"
   dependencies:
-    "@octokit/openapi-types": ^7.0.0
-  checksum: b717cb855c7ea65b721452e278d6543a0cbe9729f9dc1fa02da93d726202e6526f95f21870ef0c67d7dceeb769e4ff183f650f362aceb6bd6b766caa781ca025
+    "@octokit/openapi-types": ^7.2.0
+  checksum: e24da19b64b6ce856b55d6e614de7675431eaecb13e507cb9e58ba3c5e288d114d10b186ad8c93c872d59de62b21b93becd96e43b284b77843745f107b627ee8
   languageName: node
   linkType: hard
 
@@ -1132,9 +1132,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 15.3.0
-  resolution: "@types/node@npm:15.3.0"
-  checksum: 44039665ab71a6ec12e6637a9db4ec3123fdfaf52952ca8028a6f1b37c41c2d380e88d28a41e02693bf9d4815307e0ad938815bf8ffedc5f4d045855fa28db06
+  version: 15.6.0
+  resolution: "@types/node@npm:15.6.0"
+  checksum: 54515155db4f5d18e36725dafa477e0cee664b5a807560a026692c2c2251034675d9ef55a15bc44b7694a4a2e4866b9ca063872915b34a0564ab955b0da101eb
   languageName: node
   linkType: hard
 
@@ -1480,14 +1480,14 @@ __metadata:
   linkType: hard
 
 "ajv@npm:^8.0.1":
-  version: 8.4.0
-  resolution: "ajv@npm:8.4.0"
+  version: 8.5.0
+  resolution: "ajv@npm:8.5.0"
   dependencies:
     fast-deep-equal: ^3.1.1
     json-schema-traverse: ^1.0.0
     require-from-string: ^2.0.2
     uri-js: ^4.2.2
-  checksum: 0dcdfe0ecaafca2de60d01601c041853a1057f26bcb24de79484a3f6947486cad7b84d2779f93a9a315345451248aca14ed4996213905b42fac4ec11c7a76a6c
+  checksum: 91274ac6627004c68467e8a05643b448d5581e77218c0331527d080c494cd24b5713c662ad8632fb2e46cbe5c9475aa73c8385ed59fa44b5813ff1c5e7b066c8
   languageName: node
   linkType: hard
 
@@ -1786,8 +1786,8 @@ __metadata:
   linkType: hard
 
 "cacache@npm:^15.0.5":
-  version: 15.0.6
-  resolution: "cacache@npm:15.0.6"
+  version: 15.1.0
+  resolution: "cacache@npm:15.1.0"
   dependencies:
     "@npmcli/move-file": ^1.0.1
     chownr: ^2.0.0
@@ -1806,7 +1806,7 @@ __metadata:
     ssri: ^8.0.1
     tar: ^6.0.2
     unique-filename: ^1.1.1
-  checksum: 14a42beacacd46eeb11577c27e866d17285f3647e5f870ded539eedb98ffc4d7d84bd49998e0eda140756494fd14e24b6a028710e2c00653fd6479f4e3dc47a3
+  checksum: 620f1cc942f820ab701121237488a25b892516b18346b13a4e9028722f0e7c9e7b5f82dbaf1a19a97df5ae2b4b32fb223fc5e8670ae7b84d1ae3e0a71aeb473b
   languageName: node
   linkType: hard
 
@@ -5009,8 +5009,8 @@ __metadata:
   linkType: hard
 
 "npm-registry-fetch@npm:^10.0.0":
-  version: 10.1.1
-  resolution: "npm-registry-fetch@npm:10.1.1"
+  version: 10.1.2
+  resolution: "npm-registry-fetch@npm:10.1.2"
   dependencies:
     lru-cache: ^6.0.0
     make-fetch-happen: ^8.0.9
@@ -5019,7 +5019,7 @@ __metadata:
     minipass-json-stream: ^1.0.1
     minizlib: ^2.0.0
     npm-package-arg: ^8.0.0
-  checksum: 485ee8cffcd9481cddbe8c5f441be5bc1b3404566b14efc97afe6fe5fb0b0f2864f2163d18a70bf97a6afb3735f4c2967750d38c4096c4ceb88f3db0b32909e6
+  checksum: 974a36df896156e5bd15341ad8c52aeeebd27c9bb2acf6011bef7ddd4231beacc265742dec7afc6a8369bb3fdef06c7ea679fa5b50314157158431cd6534d25c
   languageName: node
   linkType: hard
 
@@ -5531,9 +5531,9 @@ __metadata:
   linkType: hard
 
 "picomatch@npm:^2.2.1, picomatch@npm:^2.2.3":
-  version: 2.2.3
-  resolution: "picomatch@npm:2.2.3"
-  checksum: f8c9323bc3b21ff448e81dd32277135d781abae5d53a1415d69a4ce6317a2c11404d449c550110b8fa402c07d5e80ff0e2657f263a312517cc809e9010d25791
+  version: 2.3.0
+  resolution: "picomatch@npm:2.3.0"
+  checksum: 80113a0fb70cfa62730d5aa3fd3d45b76bf3985f8494080ab2de1cc1fa3ba96d77990c7553a81401e16c51c0eb19c27cf5bc94f2196155090f26c8a167968001
   languageName: node
   linkType: hard
 
@@ -6449,9 +6449,9 @@ resolve@^2.0.0-next.3:
   linkType: hard
 
 "spdx-license-ids@npm:^3.0.0":
-  version: 3.0.7
-  resolution: "spdx-license-ids@npm:3.0.7"
-  checksum: 21e38ec5dd970643f78d37700b6c6ebd42d68c0e4618db914a56cabd2fe4cc1608404ce6abc7535d5165c6555560e821553d06edf6af6ae439617883cf932c0e
+  version: 3.0.9
+  resolution: "spdx-license-ids@npm:3.0.9"
+  checksum: a4d970d859bc5eeef3a95d7597fa39b36b2c046153d3d2c9876293d84457b0456a56aef7f45e1d3c3129cf7557c35305dffaddbcff630f7df72cb359aed78ce1
   languageName: node
   linkType: hard
 
@@ -6874,11 +6874,11 @@ resolve@^2.0.0-next.3:
   linkType: hard
 
 "tr46@npm:^2.0.2":
-  version: 2.0.2
-  resolution: "tr46@npm:2.0.2"
+  version: 2.1.0
+  resolution: "tr46@npm:2.1.0"
   dependencies:
     punycode: ^2.1.1
-  checksum: c8c221907944e8b577c4fff14d180a213c21a29b54a12a031aa6986cbb711a5d470588b556a7be9c7844f09142e12deef6b76fe10f6bd4d274b54f1a7e0aac9e
+  checksum: d6da91f2463fa8d30c938331d02bebf01bd96af68016bc233ad37c9e4bc7e607a46065f5eab2034076aab5fdac362c02421b34c29c57095d0d310d3833e2736f
   languageName: node
   linkType: hard
 
@@ -7037,11 +7037,11 @@ typescript@4.2.4:
   linkType: hard
 
 "uglify-js@npm:^3.1.4":
-  version: 3.13.6
-  resolution: "uglify-js@npm:3.13.6"
+  version: 3.13.7
+  resolution: "uglify-js@npm:3.13.7"
   bin:
     uglifyjs: bin/uglifyjs
-  checksum: 73138b225359ad4f10f009982c5a6c34521b8254036581b9d0f40cb4a423d7667f1c3460e5f96d6e6d280e89969207c08682d7420feb81c385937ba63c5c7a59
+  checksum: fe48f37dc39092eb42c4f0dcd2be7b45899b577e91716f5ba7922b369d741fb2ce3698e7c2a216377bcd0772df9e759d938f07cc742039d5106684848201f2ff
   languageName: node
   linkType: hard
 

@@ -1,6 +1,6 @@
 {
   "name": "@willbooster/prettier-config",
-  "version": "5.1.0",
+  "version": "6.2.1",
   "description": "A Prettier config for WillBooster projects",
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
@@ -11,8 +11,8 @@
     "prettify": "prettier --write \"**/{.*/,}*.{css,htm,html,js,json,jsx,md,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\" --color"
   },
   "devDependencies": {
-    "prettier": "2.1.2",
-    "sort-package-json": "1.46.1"
+    "prettier": "2.3.1",
+    "sort-package-json": "1.50.0"
   },
   "peerDependencies": {
     "prettier": ">=2"

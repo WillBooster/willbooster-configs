@@ -6,8 +6,7 @@
     "plugin:import/errors",
     "plugin:import/warnings",
     "plugin:import/typescript",
-    "prettier",
-    "prettier/@typescript-eslint"
+    "prettier"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -15,6 +14,7 @@
   },
   "plugins": ["@typescript-eslint"],
   "rules": {
+    "eqeqeq": "warn",
     "no-console": "off", // allow `console.log()`
     "import/default": "off", // to use `import XXX from YYY` instead of `import XXX = require(YYY)`
     "import/newline-after-import": "error",

@@ -1,5 +1,5 @@
 {
-  "extends": ["plugin:react/recommended", "@willbooster/eslint-config-ts", "prettier/react"],
+  "extends": ["plugin:react/recommended", "@willbooster/eslint-config-ts"],
   "plugins": ["@typescript-eslint", "react", "react-hooks"],
   "rules": {
     "react/prop-types": "off",

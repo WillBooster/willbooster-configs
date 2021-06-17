@@ -13,22 +13,24 @@
   ],
   "scripts": {
     "cleanup": "yarn format && yarn lint-fix",
-    "format": "sort-package-json && yarn prettify && lerna run format",
-    "lint": "lerna run lint",
-    "lint-fix": "lerna run lint-fix",
-    "prettify": "prettier --write \"**/{.*/,}*.{css,htm,html,js,json,jsx,md,scss,ts,tsx,vue,yaml,yml}\" \"!**/packages/**\" \"!**/test-fixtures/**\" --color",
+    "format": "sort-package-json && yarn prettify && lerna run format --no-sort",
+    "lint": "lerna run lint --no-sort",
+    "lint-fix": "lerna run lint-fix --no-sort",
+    "prettify": "prettier --color --write \"**/{.*/,}*.{css,htm,html,js,json,json5,jsx,md,scss,ts,tsx,vue,yaml,yml}\" \"!**/packages/**\" \"!**/test-fixtures/**\"",
     "publish-all": "dotenv -- yarn publish-all-innner",
     "publish-all-innner": "npm whoami && npm config set access public && lerna publish",
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "postinstall": "husky install"
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
     "@willbooster/prettier-config": "./packages/prettier-config",
     "dotenv-cli": "4.0.0",
     "eslint-import-resolver-node": "0.3.4",
-    "husky": "4.3.8",
+    "husky": "6.0.0",
     "lerna": "4.0.0",
     "lint-staged": "11.0.0",
+    "pinst": "2.1.6",
     "prettier": "2.3.1",
     "sort-package-json": "1.50.0"
   }

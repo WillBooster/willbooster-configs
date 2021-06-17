@@ -1,11 +1,12 @@
-{
+module.exports = {
   "presets": [
     [
       "@babel/preset-env",
       {
+        // Keep import statements for tree-shaking
         "modules": false,
         "useBuiltIns": "usage",
-        "corejs": "3.8",
+        "corejs": "3.14",
         "bugfixes": true
       }
     ],

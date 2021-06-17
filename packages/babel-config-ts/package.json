@@ -1,10 +1,10 @@
 {
-  "name": "@willbooster/eslint-config-js",
+  "name": "@willbooster/babel-config-ts",
   "version": "6.3.0",
-  "description": "A ESLint config for JavaScript projects",
+  "description": "A Babel config for TypeScript projects",
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
-  "main": ".eslintrc.json",
+  "main": "lib",
   "scripts": {
     "cleanup": "yarn format",
     "format": "sort-package-json && yarn prettify",
@@ -17,10 +17,12 @@
     "sort-package-json": "1.50.0"
   },
   "peerDependencies": {
-    "@willbooster/prettier-config": ">=5",
-    "eslint": ">=7",
-    "eslint-config-prettier": ">=8",
-    "eslint-plugin-import": ">=2"
-  },
-  "gitHead": "865a18e97886b4051f555430f8fc0c89bd364001"
+    "@babel/core": "^7.14.6",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-proposal-numeric-separator": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "@babel/preset-typescript": "^7.14.5",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "core-js": "^3.14.0"
+  }
 }

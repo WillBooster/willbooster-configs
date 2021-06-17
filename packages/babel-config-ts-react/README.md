@@ -1,6 +1,6 @@
-# eslint-config-ts
+# babel-config-ts-react
 
-A ESLint config for TypeScript projects.
+A Babel config for TypeScript projects using React.
 You need to do the following command to install peer dependencies.
 
 ```sh

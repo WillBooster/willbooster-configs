@@ -1,1 +1,0 @@
-{ "hooks": { "pre-commit": "lerna exec lint-staged --concurrency 1 --stream --since HEAD --exclude-dependents" } }

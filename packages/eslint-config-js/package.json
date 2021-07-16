@@ -16,7 +16,7 @@
     "eslint": "7.30.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-import": "2.23.4",
-    "prettier": "2.3.1",
+    "prettier": "2.3.2",
     "sort-package-json": "1.50.0"
   },
   "peerDependencies": {

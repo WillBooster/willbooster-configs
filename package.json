@@ -28,8 +28,8 @@
     "eslint-import-resolver-node": "0.3.4",
     "husky": "4.3.8",
     "lerna": "4.0.0",
-    "lint-staged": "11.0.0",
-    "prettier": "2.3.1",
+    "lint-staged": "11.0.1",
+    "prettier": "2.3.2",
     "sort-package-json": "1.50.0"
   }
 }

@@ -1,9 +1,9 @@
 const path = require('path');
 
 module.exports = {
-  './**/*.{css,htm,html,js,json,jsx,md,scss,ts,tsx,vue,yaml,yml}': (files) => {
+  './**/*.{css,htm,html,js,json,json5,jsx,md,scss,ts,tsx,vue,yaml,yml}': (files) => {
     const filteredFiles = files
-      .filter((file) => !file.includes('/test-fixtures/') && !file.includes('/packages/'))
+      .filter((file) => !file.includes('/test-fixtures/'))
       .map((file) => path.relative('', file));
     if (filteredFiles.length === 0) return [];
     const commands = [`prettier --write ${filteredFiles.join(' ')}`];

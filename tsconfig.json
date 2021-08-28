@@ -1,7 +1,5 @@
 {
-  "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "outDir": "dist",
     "moduleResolution": "node",
     "alwaysStrict": true,
     "strict": true,
@@ -11,8 +9,16 @@
     "resolveJsonModule": true,
     "sourceMap": true,
     "importHelpers": false,
+    "outDir": "dist",
     "target": "esnext",
     "module": "esnext"
   },
-  "include": ["src/**/*", "__tests__/**/*", "../../node_modules/@types", "../../@types", "./@types"]
+  "include": [
+    "src/**/*",
+    "__tests__/**/*",
+    "packages/*/src/**/*",
+    "packages/*/__tests__/**/*",
+    "./node_modules/@types",
+    "./@types"
+  ]
 }

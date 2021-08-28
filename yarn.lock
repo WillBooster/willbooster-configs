@@ -1283,10 +1283,10 @@ __metadata:
 
 "@willbooster/prettier-config@file:./packages/prettier-config::locator=%40willbooster%2Fconfigs%40workspace%3A.":
   version: 6.2.1
-  resolution: "@willbooster/prettier-config@file:./packages/prettier-config#./packages/prettier-config::hash=56c8d2&locator=%40willbooster%2Fconfigs%40workspace%3A."
+  resolution: "@willbooster/prettier-config@file:./packages/prettier-config#./packages/prettier-config::hash=304171&locator=%40willbooster%2Fconfigs%40workspace%3A."
   peerDependencies:
     prettier: ">=2"
-  checksum: e4b24c43ea9042e76a4aed11bc2186c519bccc4f473d6f583e11890ef504fd0d2f7920c214471d2ff4d555384299014a51bd0df9dbf3ff4176a1c90144072bdf
+  checksum: df64df77e0919dd08b4915b7a7d15f32b2400af685432666c12efa947d9f5574d9972fd72d9e6c1f7bf490a5177954559089cdec4220c9fcd04bfcf9c4308066
   languageName: node
   linkType: hard
 

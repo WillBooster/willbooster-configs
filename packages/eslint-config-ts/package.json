@@ -13,12 +13,12 @@
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
-    "@types/node": "14.17.3",
+    "@types/node": "14.17.12",
     "@willbooster/prettier-config": "^6.2.1",
-    "prettier": "2.3.1",
+    "prettier": "2.3.2",
     "sort-package-json": "1.50.0",
-    "typescript": "4.3.2",
-    "use-immer": "0.5.2"
+    "typescript": "4.4.2",
+    "use-immer": "0.6.0"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">=4",

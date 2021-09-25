@@ -11,8 +11,8 @@
     "prettify": "prettier --color --write \"**/{.*/,}*.{css,htm,html,js,json,json5,jsx,md,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\""
   },
   "devDependencies": {
-    "prettier": "2.3.2",
-    "sort-package-json": "1.50.0"
+    "prettier": "2.4.1",
+    "sort-package-json": "1.52.0"
   },
   "peerDependencies": {
     "prettier": ">=2"

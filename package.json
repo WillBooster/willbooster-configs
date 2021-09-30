@@ -32,5 +32,6 @@
     "pinst": "2.1.6",
     "prettier": "2.4.1",
     "sort-package-json": "1.52.0"
-  }
+  },
+  "packageManager": "yarn@3.0.2"
 }

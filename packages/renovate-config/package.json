@@ -20,9 +20,10 @@
     "default": {
       "extends": [
         "config:base",
-        ":automergeBranch",
         ":automergeMinor",
+        ":automergePr",
         ":maintainLockFilesWeekly",
+        ":prImmediately",
         ":rebaseStalePrs",
         ":semanticCommits",
         "group:allNonMajor",

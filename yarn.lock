@@ -1035,10 +1035,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/openapi-types@npm:^10.6.1":
-  version: 10.6.1
-  resolution: "@octokit/openapi-types@npm:10.6.1"
-  checksum: 96c61479479581a5793c86c700a1b2fe4aa6365a4737862362e26efa51843f18ec09f5d8a4858df79096c6336960727bd1bd2dce9843b46b7d932c7168949443
+"@octokit/openapi-types@npm:^10.6.4":
+  version: 10.6.4
+  resolution: "@octokit/openapi-types@npm:10.6.4"
+  checksum: 2ee92ac55f2bfd45dd13f2d643f0041945398a9bf4643c47d25dbb307588ddb662a8f7b1ac3ed667b4cb43b369d14c5119c80d19dde03e5719930ca886037ab9
   languageName: node
   linkType: hard
 
@@ -1050,13 +1050,13 @@ __metadata:
   linkType: hard
 
 "@octokit/plugin-paginate-rest@npm:^2.16.4":
-  version: 2.16.5
-  resolution: "@octokit/plugin-paginate-rest@npm:2.16.5"
+  version: 2.16.7
+  resolution: "@octokit/plugin-paginate-rest@npm:2.16.7"
   dependencies:
-    "@octokit/types": ^6.31.0
+    "@octokit/types": ^6.31.3
   peerDependencies:
     "@octokit/core": ">=2"
-  checksum: dba2b22e8da063b8fb7809ecc096c60e2733622b1924592f3b1aa33d0de3e0082aab586ce5c7dcfbfeab9663e2999bc4889e3cf2be5db828633905523b3318bf
+  checksum: 86e394527347245b4fce73ee24aff9b585b944bd90fa1e4c2ce56ef25f413150a89f363a6ac21f79c5c5cc3e9d58a394dd10cd1d95f726469757a9251f901e6e
   languageName: node
   linkType: hard
 
@@ -1069,15 +1069,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/plugin-rest-endpoint-methods@npm:5.11.3":
-  version: 5.11.3
-  resolution: "@octokit/plugin-rest-endpoint-methods@npm:5.11.3"
+"@octokit/plugin-rest-endpoint-methods@npm:5.11.4":
+  version: 5.11.4
+  resolution: "@octokit/plugin-rest-endpoint-methods@npm:5.11.4"
   dependencies:
-    "@octokit/types": ^6.31.1
+    "@octokit/types": ^6.31.2
     deprecation: ^2.3.1
   peerDependencies:
     "@octokit/core": ">=3"
-  checksum: 9ffe12061e7cd193fa7ad852bd9214c64973b2218c9b4f8cb6ebe02e75fce4adb84c2e36cc4b0d3ebd98d0c6805119d387cbcaa174bfa506bb82d5836e013cfa
+  checksum: 3e1f8bd469dffb04f0a87de38989b9cc3ce726c8ad1ae3f777a17589bfdf092cfae0644caab6227f338f700c566fd9b17c8c25e6b8a4798ca44bd4c0e081e46d
   languageName: node
   linkType: hard
 
@@ -1107,23 +1107,23 @@ __metadata:
   linkType: hard
 
 "@octokit/rest@npm:^18.1.0":
-  version: 18.11.3
-  resolution: "@octokit/rest@npm:18.11.3"
+  version: 18.11.4
+  resolution: "@octokit/rest@npm:18.11.4"
   dependencies:
     "@octokit/core": ^3.5.1
     "@octokit/plugin-paginate-rest": ^2.16.4
     "@octokit/plugin-request-log": ^1.0.4
-    "@octokit/plugin-rest-endpoint-methods": 5.11.3
-  checksum: e5d2dd15364521d51705eed55fc50990a5d9a2b4ba08fa12ba13f882882398f1d8ffaf84d0fe7f86195d352d9119e75a7acec0983be5c09952054c3522f280ce
+    "@octokit/plugin-rest-endpoint-methods": 5.11.4
+  checksum: 3ca3df2a4be8689d9a8e49527928110cfeb4ff312950101e31157ad9c08421fb41135adadc04718e65be4a7c087ceeb9f897ce22e121c59302d21f855f8c258e
   languageName: node
   linkType: hard
 
-"@octokit/types@npm:^6.0.3, @octokit/types@npm:^6.16.1, @octokit/types@npm:^6.31.0, @octokit/types@npm:^6.31.1":
-  version: 6.31.1
-  resolution: "@octokit/types@npm:6.31.1"
+"@octokit/types@npm:^6.0.3, @octokit/types@npm:^6.16.1, @octokit/types@npm:^6.31.2, @octokit/types@npm:^6.31.3":
+  version: 6.31.3
+  resolution: "@octokit/types@npm:6.31.3"
   dependencies:
-    "@octokit/openapi-types": ^10.6.1
-  checksum: 3f16e2794db77a1f6d10b202b02b2ee52361873cab5ccc8510c79a451dd433103c639080d7719ea7d9450572649decd690757275fcd98946e3247e80bd106663
+    "@octokit/openapi-types": ^10.6.4
+  checksum: 2dc2638f83f00771a10375a3da59a8bd4de2a2f367d522c3c1648b5d2167bef2affd25819076d32c408f05592bbaa007e3bb8aed23f370ff635729c9e3d040ad
   languageName: node
   linkType: hard
 
@@ -1320,8 +1320,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-js-react@workspace:packages/eslint-config-js-react"
   dependencies:
-    "@willbooster/eslint-config-js": ^6.3.0
-    "@willbooster/prettier-config": ^6.2.1
+    "@willbooster/eslint-config-js": ^6.4.0
+    "@willbooster/prettier-config": ^6.4.0
     prettier: 2.4.1
     sort-package-json: 1.52.0
   peerDependencies:
@@ -1334,11 +1334,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/eslint-config-js@^6.3.0, @willbooster/eslint-config-js@workspace:packages/eslint-config-js":
+"@willbooster/eslint-config-js@^6.4.0, @willbooster/eslint-config-js@workspace:packages/eslint-config-js":
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-js@workspace:packages/eslint-config-js"
   dependencies:
-    "@willbooster/prettier-config": ^6.2.1
+    "@willbooster/prettier-config": ^6.4.0
     prettier: 2.4.1
     sort-package-json: 1.52.0
   peerDependencies:
@@ -1353,8 +1353,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-ts-react@workspace:packages/eslint-config-ts-react"
   dependencies:
-    "@willbooster/eslint-config-ts": ^6.3.0
-    "@willbooster/prettier-config": ^6.2.1
+    "@willbooster/eslint-config-ts": ^6.4.0
+    "@willbooster/prettier-config": ^6.4.0
     prettier: 2.4.1
     sort-package-json: 1.52.0
   peerDependencies:
@@ -1370,14 +1370,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/eslint-config-ts@^6.3.0, @willbooster/eslint-config-ts@workspace:packages/eslint-config-ts":
+"@willbooster/eslint-config-ts@^6.4.0, @willbooster/eslint-config-ts@workspace:packages/eslint-config-ts":
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-ts@workspace:packages/eslint-config-ts"
   dependencies:
     "@types/node": 14.17.20
     "@typescript-eslint/eslint-plugin": 4.32.0
     "@typescript-eslint/parser": 4.32.0
-    "@willbooster/prettier-config": ^6.2.1
+    "@willbooster/prettier-config": ^6.4.0
     eslint: 7.32.0
     eslint-config-prettier: 8.3.0
     eslint-plugin-import: 2.24.2
@@ -1396,7 +1396,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/prettier-config@^6.2.1, @willbooster/prettier-config@workspace:packages/prettier-config":
+"@willbooster/prettier-config@^6.4.0, @willbooster/prettier-config@workspace:packages/prettier-config":
   version: 0.0.0-use.local
   resolution: "@willbooster/prettier-config@workspace:packages/prettier-config"
   dependencies:
@@ -1408,11 +1408,11 @@ __metadata:
   linkType: soft
 
 "@willbooster/prettier-config@file:./packages/prettier-config::locator=%40willbooster%2Fconfigs%40workspace%3A.":
-  version: 6.2.1
-  resolution: "@willbooster/prettier-config@file:./packages/prettier-config#./packages/prettier-config::hash=2e0e99&locator=%40willbooster%2Fconfigs%40workspace%3A."
+  version: 6.4.0
+  resolution: "@willbooster/prettier-config@file:./packages/prettier-config#./packages/prettier-config::hash=1a2426&locator=%40willbooster%2Fconfigs%40workspace%3A."
   peerDependencies:
     prettier: ">=2"
-  checksum: 95911d3f37eeda0b59c2931b84c2e9177c9dc6114218911da4bfd2e005fef3d9f0efc7e8f133726467a48cfea09891f062068778afb4510e06d5bbfce9ef7f5f
+  checksum: c320cfc693658f39c4768661dad0da246bd4d33f472ae3a44b17a7a380d6587537e0b7a9895df41126679694de9bfceca10f851fad91987ed7fb81e52d826b02
   languageName: node
   linkType: hard
 
@@ -1420,7 +1420,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/renovate-config@workspace:packages/renovate-config"
   dependencies:
-    "@willbooster/prettier-config": ^6.2.1
+    "@willbooster/prettier-config": ^6.4.0
     prettier: 2.4.1
     sort-package-json: 1.52.0
   languageName: unknown
@@ -1647,13 +1647,13 @@ __metadata:
   linkType: hard
 
 "array.prototype.flat@npm:^1.2.4":
-  version: 1.2.4
-  resolution: "array.prototype.flat@npm:1.2.4"
+  version: 1.2.5
+  resolution: "array.prototype.flat@npm:1.2.5"
   dependencies:
-    call-bind: ^1.0.0
+    call-bind: ^1.0.2
     define-properties: ^1.1.3
-    es-abstract: ^1.18.0-next.1
-  checksum: 1ec5d9887ae45e70e4b993e801b440ae5ddcd0d2c6d1dbe214c311e91436152f510916bdac82b066693544b9801a3c510dfbec8a278ababf8de7eb0bde74636f
+    es-abstract: ^1.19.0
+  checksum: 9cc6414b111abfc7717e39546e4887b1e5ec74df8f1618d83425deaa95752bf05d475d1d241253b4d88d4a01f8e1bc84845ad5b7cc2047f8db2f614512acd40e
   languageName: node
   linkType: hard
 
@@ -2567,9 +2567,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"es-abstract@npm:^1.18.0-next.1, es-abstract@npm:^1.18.0-next.2, es-abstract@npm:^1.18.2":
-  version: 1.18.7
-  resolution: "es-abstract@npm:1.18.7"
+"es-abstract@npm:^1.18.0-next.2, es-abstract@npm:^1.18.2, es-abstract@npm:^1.19.0":
+  version: 1.19.1
+  resolution: "es-abstract@npm:1.19.1"
   dependencies:
     call-bind: ^1.0.2
     es-to-primitive: ^1.2.1
@@ -2582,14 +2582,16 @@ __metadata:
     is-callable: ^1.2.4
     is-negative-zero: ^2.0.1
     is-regex: ^1.1.4
+    is-shared-array-buffer: ^1.0.1
     is-string: ^1.0.7
+    is-weakref: ^1.0.1
     object-inspect: ^1.11.0
     object-keys: ^1.1.1
     object.assign: ^4.1.2
     string.prototype.trimend: ^1.0.4
     string.prototype.trimstart: ^1.0.4
     unbox-primitive: ^1.0.1
-  checksum: ec466f4a236b1f511dc20ddf2518d6192e60c741e0cdd151c6de1dadecbc7af469bf5359c3d33237955f39b177f53349cf73eae196e092e5d12e73b4910c77a7
+  checksum: b6be8410672c5364db3fb01eb786e30c7b4bb32b4af63d381c08840f4382c4a168e7855cd338bf59d4f1a1a1138f4d748d1fd40ec65aaa071876f9e9fbfed949
   languageName: node
   linkType: hard
 
@@ -3838,6 +3840,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"is-shared-array-buffer@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "is-shared-array-buffer@npm:1.0.1"
+  checksum: 2ffb92533e64e2876e6cfe6906871d28400b6f1a53130fe652ec8007bc0e5044d05e7af8e31bdc992fbba520bd92938cfbeedd0f286be92f250c7c76191c4d90
+  languageName: node
+  linkType: hard
+
 "is-ssh@npm:^1.3.0":
   version: 1.3.3
   resolution: "is-ssh@npm:1.3.3"
@@ -3892,6 +3901,15 @@ __metadata:
   version: 0.1.0
   resolution: "is-unicode-supported@npm:0.1.0"
   checksum: a2aab86ee7712f5c2f999180daaba5f361bdad1efadc9610ff5b8ab5495b86e4f627839d085c6530363c6d6d4ecbde340fb8e54bdb83da4ba8e0865ed5513c52
+  languageName: node
+  linkType: hard
+
+"is-weakref@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "is-weakref@npm:1.0.1"
+  dependencies:
+    call-bind: ^1.0.0
+  checksum: fdafb7b955671dd2f9658ff47c86e4025c0650fc68a3542a40e5a75898a763b1abd6b1e1f9f13207eed49541cdd76af67d73c44989ea358b201b70274cf8f6c1
   languageName: node
   linkType: hard
 
@@ -4417,19 +4435,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mime-db@npm:1.49.0":
-  version: 1.49.0
-  resolution: "mime-db@npm:1.49.0"
-  checksum: 3744efc45b17896ff8a5934a761c434d5ffe3c7816662002d799ca9934347e00f99ae4d9b4ddf1c48d391cc9e522cc4523a6e77e7701f8e27c426e3e1d6e215a
+"mime-db@npm:1.50.0":
+  version: 1.50.0
+  resolution: "mime-db@npm:1.50.0"
+  checksum: 95fcc19c3664ae72391c8a7e4015dde7fb6817c98c951493ca3a1d48050feb8ee08810a372ce7d9e16310042d26e5bda168916f600583a9a583655eeea8ff5f5
   languageName: node
   linkType: hard
 
 "mime-types@npm:^2.1.12, mime-types@npm:~2.1.19":
-  version: 2.1.32
-  resolution: "mime-types@npm:2.1.32"
+  version: 2.1.33
+  resolution: "mime-types@npm:2.1.33"
   dependencies:
-    mime-db: 1.49.0
-  checksum: 4487dfd2f872126d2c219ec731ad47a6169a438d5a4cce6ecef7594ce08eaefaf0d85429485a76ec005f095016c7ec488a24cf8bfcc0ea06de0355e23395746f
+    mime-db: 1.50.0
+  checksum: 05f2a0b3f169fbc51d79bdc7674ceb379dd07dbeadb0143059a7def865224686ee9f9051aeb340e98b6c11dbc06794ce0122181db4312cb1ad054fd90b0d510e
   languageName: node
   linkType: hard
 
@@ -6199,7 +6217,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"string-width@npm:^4.1.0, string-width@npm:^4.2.0":
+"string-width@npm:^4.1.0, string-width@npm:^4.2.0, string-width@npm:^4.2.3":
   version: 4.2.3
   resolution: "string-width@npm:4.2.3"
   dependencies:
@@ -6355,16 +6373,16 @@ __metadata:
   linkType: hard
 
 "table@npm:^6.0.9":
-  version: 6.7.1
-  resolution: "table@npm:6.7.1"
+  version: 6.7.2
+  resolution: "table@npm:6.7.2"
   dependencies:
     ajv: ^8.0.1
     lodash.clonedeep: ^4.5.0
     lodash.truncate: ^4.4.2
     slice-ansi: ^4.0.0
-    string-width: ^4.2.0
-    strip-ansi: ^6.0.0
-  checksum: 053b61fa4e8f8396c65ff7a95da90e85620370932652d501ff7a0a3ed7317f1cc549702bd2abf2bd9ed01e20757b73a8b57374f8a8a2ac02fbe0550276263fb6
+    string-width: ^4.2.3
+    strip-ansi: ^6.0.1
+  checksum: d61f91d64b9be56ac66edd2a8c0f10fcc59995313f37198cb87de73a6b441a05ad36f4a567bd8736da35bc4a2f8f4049b0e4ff1d4356c0a7c2b91af48b8bf8b2
   languageName: node
   linkType: hard
 

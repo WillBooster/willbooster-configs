@@ -17,8 +17,8 @@
     "lint": "lerna run lint --no-sort",
     "lint-fix": "lerna run lint-fix --no-sort",
     "prettify": "prettier --color --write \"**/{.*/,}*.{css,htm,html,js,json,json5,jsx,md,scss,ts,tsx,vue,yaml,yml}\" \"!**/packages/**\" \"!**/test-fixtures/**\"",
-    "publish-all": "dotenv -- yarn publish-all-innner",
-    "publish-all-innner": "npm whoami && npm config set access public && lerna publish",
+    "publish-all": "dotenv -- yarn publish-all-core",
+    "publish-all-core": "npm whoami && npm config set access public && lerna publish",
     "test": "lerna run test"
   },
   "prettier": "@willbooster/prettier-config",

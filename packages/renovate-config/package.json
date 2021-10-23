@@ -26,10 +26,7 @@
         ":prImmediately",
         ":rebaseStalePrs",
         ":semanticCommits",
-        "group:allNonMajor",
-        "group:linters",
-        "group:monorepos",
-        "group:test"
+        "group:allNonMajor"
       ],
       "schedule": [
         "before 10am on Saturday"

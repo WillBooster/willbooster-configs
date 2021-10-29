@@ -28,7 +28,7 @@
     "eslint-import-resolver-node": "0.3.6",
     "husky": "7.0.4",
     "lerna": "4.0.0",
-    "lint-staged": "11.2.3",
+    "lint-staged": "11.2.6",
     "pinst": "2.1.6",
     "prettier": "2.4.1",
     "sort-package-json": "1.52.0"

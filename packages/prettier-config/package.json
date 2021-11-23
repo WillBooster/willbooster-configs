@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "prettier": "2.4.1",
-    "sort-package-json": "1.52.0"
+    "sort-package-json": "1.53.1"
   },
   "peerDependencies": {
     "prettier": ">=2"

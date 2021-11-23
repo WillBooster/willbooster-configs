@@ -17,7 +17,7 @@
   "devDependencies": {
     "@willbooster/prettier-config": "^6.4.0",
     "prettier": "2.4.1",
-    "sort-package-json": "1.52.0"
+    "sort-package-json": "1.53.1"
   },
   "peerDependencies": {
     "@willbooster/prettier-config": ">=6",

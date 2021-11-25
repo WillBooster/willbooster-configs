@@ -14,24 +14,32 @@
   "scripts": {
     "cleanup": "yarn format && yarn lint-fix",
     "format": "sort-package-json && yarn prettify && lerna run format --no-sort",
+    "postinstall": "husky install",
     "lint": "lerna run lint --no-sort",
     "lint-fix": "lerna run lint-fix --no-sort",
-    "prettify": "prettier --color --write \"**/{.*/,}*.{css,htm,html,js,json,json5,jsx,md,scss,ts,tsx,vue,yaml,yml}\" \"!**/packages/**\" \"!**/test-fixtures/**\"",
+    "prettify": "prettier --color --write \"**/{.*/,}*.{cjs,css,htm,html,js,json,json5,jsx,md,mjs,scss,ts,tsx,vue,yaml,yml}\" \"!**/packages/**\" \"!**/test-fixtures/**\"",
     "publish-all": "dotenv -- yarn publish-all-core",
     "publish-all-core": "npm whoami && npm config set access public && lerna publish",
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "typecheck": "lerna run typecheck --no-sort"
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
+    "@types/eslint": "8",
+    "@types/micromatch": "4",
+    "@typescript-eslint/parser": "5.4.0",
     "@willbooster/prettier-config": "./packages/prettier-config",
     "dotenv-cli": "4.1.0",
+    "eslint": "8.3.0",
     "eslint-import-resolver-node": "0.3.6",
     "husky": "7.0.4",
     "lerna": "4.0.0",
     "lint-staged": "12.1.2",
+    "micromatch": "4.0.4",
     "pinst": "2.1.6",
     "prettier": "2.4.1",
-    "sort-package-json": "1.53.1"
+    "sort-package-json": "1.53.1",
+    "typescript": "4.5.2"
   },
   "packageManager": "yarn@3.1.0"
 }

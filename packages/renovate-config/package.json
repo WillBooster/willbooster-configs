@@ -66,6 +66,12 @@
             "@watura",
             "@kumachan-mis"
           ]
+        },
+        {
+          "matchPackagePatterns": [
+            "yarn"
+          ],
+          "ignoreUnstable": false
         }
       ],
       "schedule": [

@@ -28,18 +28,50 @@
         ":semanticCommits",
         "group:allNonMajor"
       ],
-      "schedule": [
-        "before 10am on Saturday"
-      ],
-      "timezone": "Asia/Tokyo",
+      "constraints": {
+        "node": "< 17.0.0"
+      },
+      "dependencyDashboardAutoclose": true,
       "packageRules": [
         {
           "groupName": "willbooster-config",
           "packagePatterns": [
             "^@willbooster/.*config"
           ]
+        },
+        {
+          "matchManagers": [
+            "npm"
+          ],
+          "assignees": [
+            "@exKAZUu",
+            "@rdrgn"
+          ]
+        },
+        {
+          "matchManagers": [
+            "pub"
+          ],
+          "assignees": [
+            "@watura",
+            "@rdrgn"
+          ]
+        },
+        {
+          "matchManagers": [
+            "poetry"
+          ],
+          "assignees": [
+            "@exKAZUu",
+            "@watura",
+            "@kumachan-mis"
+          ]
         }
-      ]
+      ],
+      "schedule": [
+        "before 10am on Saturday"
+      ],
+      "timezone": "Asia/Tokyo"
     }
   }
 }

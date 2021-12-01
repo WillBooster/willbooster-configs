@@ -11,7 +11,7 @@
     "lint": "eslint --color \"./{src,__tests__}/**/*.{cjs,js,jsx,mjs,ts,tsx}\"",
     "lint-fix": "yarn lint --fix",
     "prettify": "prettier --color --write \"**/{.*/,}*.{cjs,css,htm,html,js,json,json5,jsx,md,mjs,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\"",
-    "test": "eslint __tests__",
+    "test": "yarn lint",
     "typecheck": "tsc --noEmit --Pretty"
   },
   "prettier": "@willbooster/prettier-config",

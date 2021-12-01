@@ -1,6 +1,8 @@
-import child_process from 'child_process';
+/* eslint-env node */
 
-import { useImmer } from 'use-immer';
+const child_process = require('child_process');
+
+const { useImmer } = require('use-immer');
 
 child_process.exec('echo 0');
 console.log(useImmer);

@@ -6,17 +6,30 @@
   "author": "WillBooster Inc.",
   "main": ".eslintrc.json",
   "scripts": {
-    "cleanup": "yarn format",
+    "cleanup": "yarn format && yarn lint-fix",
     "format": "sort-package-json && yarn prettify",
-    "prettify": "prettier --color --write \"**/{.*/,}*.{cjs,css,htm,html,js,json,json5,jsx,md,mjs,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\""
+    "lint": "eslint --color \"./{src,__tests__}/**/*.{cjs,js,jsx,mjs,ts,tsx}\"",
+    "lint-fix": "yarn lint --fix --rule \"{ react-hooks/exhaustive-deps: 0 }\"",
+    "prettify": "prettier --color --write \"**/{.*/,}*.{cjs,css,htm,html,js,json,json5,jsx,md,mjs,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\"",
+    "test": "yarn lint"
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {
     "@willbooster/eslint-config-js": "^6.5.0"
   },
   "devDependencies": {
+    "@types/eslint": "8.2.0",
+    "@types/micromatch": "4.0.2",
+    "@types/react": "17.0.37",
     "@willbooster/prettier-config": "^6.5.0",
+    "eslint": "8.3.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "2.25.3",
+    "eslint-plugin-react": "7.27.1",
+    "eslint-plugin-react-hooks": "4.3.0",
+    "micromatch": "4.0.4",
     "prettier": "2.5.0",
+    "react": "17.0.2",
     "sort-package-json": "1.53.1"
   },
   "peerDependencies": {

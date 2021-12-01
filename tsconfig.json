@@ -4,6 +4,7 @@
     "alwaysStrict": true,
     "esModuleInterop": true,
     "importHelpers": false,
+    "jsx": "react",
     "module": "esnext",
     "moduleResolution": "node",
     "outDir": "dist",

@@ -1,7 +1,9 @@
-import child_process from 'child_process';
+/* eslint-env node */
 
-import React from 'react';
-import { useImmer } from 'use-immer';
+const child_process = require('child_process');
+
+const React = require('react');
+const { useImmer } = require('use-immer');
 
 child_process.exec('echo 0');
 console.log(useImmer);

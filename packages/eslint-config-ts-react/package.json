@@ -6,10 +6,13 @@
   "author": "WillBooster Inc.",
   "main": ".eslintrc.json",
   "scripts": {
-    "cleanup": "yarn format",
+    "cleanup": "yarn format && yarn lint-fix",
     "format": "sort-package-json && yarn prettify",
+    "lint": "eslint --color \"./{src,__tests__}/**/*.{cjs,js,jsx,mjs,ts,tsx}\"",
+    "lint-fix": "yarn lint --fix --rule \"{ react-hooks/exhaustive-deps: 0 }\"",
     "prettify": "prettier --color --write \"**/{.*/,}*.{cjs,css,htm,html,js,json,json5,jsx,md,mjs,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\"",
-    "test": "eslint __tests__"
+    "test": "yarn lint",
+    "typecheck": "tsc --noEmit --Pretty"
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {

@@ -10,10 +10,10 @@
         "reservedFirst": true
       }
     ],
+    "react/prop-types": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn"
   },
-  "react/prop-types": "off",
   "settings": {
     "import/core-modules": ["react-dom"],
     "react": {

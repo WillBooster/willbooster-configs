@@ -26,6 +26,8 @@
         ":prImmediately",
         ":rebaseStalePrs",
         ":semanticCommits",
+        "group:linters",
+        "group:test",
         "group:allNonMajor"
       ],
       "constraints": {

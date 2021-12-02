@@ -3,31 +3,16 @@
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:import/errors",
-    "plugin:import/warnings",
-    "plugin:import/typescript",
+    "plugin:import/recommended",
+    "plugin:sort-class-members/recommended",
     "prettier"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "project": "./tsconfig.json"
   },
-  "plugins": ["@typescript-eslint"],
+  "plugins": ["sort-destructure-keys"],
   "rules": {
-    "eqeqeq": "warn",
-    "no-console": "off", // allow `console.log()`
-    "import/default": "off", // to use `import XXX from YYY` instead of `import XXX = require(YYY)`
-    "import/newline-after-import": "error",
-    "import/no-duplicates": "error",
-    "import/order": [
-      "error",
-      {
-        "newlines-between": "always",
-        "alphabetize": {
-          "order": "asc"
-        }
-      }
-    ],
     "@typescript-eslint/camelcase": "off", // c.f. https://github.com/typescript-eslint/typescript-eslint/issues/2050
     "@typescript-eslint/naming-convention": [
       "warn",
@@ -75,6 +60,21 @@
       }
     ],
     "@typescript-eslint/no-explicit-any": "off", // allow `any`
-    "@typescript-eslint/no-use-before-define": "off" // abstract code should appear first
+    "@typescript-eslint/no-use-before-define": "off", // abstract code should appear first
+    "eqeqeq": "warn",
+    "no-console": "off", // allow `console.log()`
+    "import/default": "off", // to use `import XXX from YYY` instead of `import XXX = require(YYY)`
+    "import/newline-after-import": "error",
+    "import/no-duplicates": "error",
+    "import/order": [
+      "error",
+      {
+        "newlines-between": "always",
+        "alphabetize": {
+          "order": "asc"
+        }
+      }
+    ],
+    "sort-destructure-keys/sort-destructure-keys": "error"
   }
 }

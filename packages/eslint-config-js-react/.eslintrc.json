@@ -2,6 +2,14 @@
   "extends": ["plugin:react/recommended", "@willbooster/eslint-config-js"],
   "plugins": ["react", "react-hooks"],
   "rules": {
+    "react/jsx-sort-props": [
+      "error",
+      {
+        "callbacksLast": true,
+        "shorthandFirst": true,
+        "reservedFirst": true
+      }
+    ],
     "react/prop-types": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn"

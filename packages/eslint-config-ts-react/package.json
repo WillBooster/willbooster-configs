@@ -31,6 +31,8 @@
     "eslint-plugin-import": "2.25.3",
     "eslint-plugin-react": "7.27.1",
     "eslint-plugin-react-hooks": "4.3.0",
+    "eslint-plugin-sort-class-members": "1.14.0",
+    "eslint-plugin-sort-destructure-keys": "1.4.0",
     "micromatch": "4.0.4",
     "prettier": "2.5.0",
     "react": "17.0.2",
@@ -47,6 +49,8 @@
     "eslint-plugin-import": ">=2",
     "eslint-plugin-react": ">=7",
     "eslint-plugin-react-hooks": ">=4",
+    "eslint-plugin-sort-class-members": ">=1.14",
+    "eslint-plugin-sort-destructure-keys": ">=1.4",
     "typescript": ">=4"
   },
   "gitHead": "865a18e97886b4051f555430f8fc0c89bd364001"

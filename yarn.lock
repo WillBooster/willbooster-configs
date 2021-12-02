@@ -1385,6 +1385,8 @@ __metadata:
     eslint-plugin-import: 2.25.3
     eslint-plugin-react: 7.27.1
     eslint-plugin-react-hooks: 4.3.0
+    eslint-plugin-sort-class-members: 1.14.0
+    eslint-plugin-sort-destructure-keys: 1.4.0
     micromatch: 4.0.4
     prettier: 2.5.0
     react: 17.0.2
@@ -1396,6 +1398,8 @@ __metadata:
     eslint-plugin-import: ">=2"
     eslint-plugin-react: ">=7"
     eslint-plugin-react-hooks: ">=2"
+    eslint-plugin-sort-class-members: ">=1.14"
+    eslint-plugin-sort-destructure-keys: ">=1.4"
   languageName: unknown
   linkType: soft
 
@@ -1409,6 +1413,8 @@ __metadata:
     eslint: 8.3.0
     eslint-config-prettier: 8.3.0
     eslint-plugin-import: 2.25.3
+    eslint-plugin-sort-class-members: 1.14.0
+    eslint-plugin-sort-destructure-keys: 1.4.0
     micromatch: 4.0.4
     prettier: 2.5.0
     sort-package-json: 1.53.1
@@ -1417,6 +1423,8 @@ __metadata:
     eslint: ">=8"
     eslint-config-prettier: ">=8"
     eslint-plugin-import: ">=2"
+    eslint-plugin-sort-class-members: ">=1.14"
+    eslint-plugin-sort-destructure-keys: ">=1.4"
   languageName: unknown
   linkType: soft
 
@@ -1437,6 +1445,8 @@ __metadata:
     eslint-plugin-import: 2.25.3
     eslint-plugin-react: 7.27.1
     eslint-plugin-react-hooks: 4.3.0
+    eslint-plugin-sort-class-members: 1.14.0
+    eslint-plugin-sort-destructure-keys: 1.4.0
     micromatch: 4.0.4
     prettier: 2.5.0
     react: 17.0.2
@@ -1452,6 +1462,8 @@ __metadata:
     eslint-plugin-import: ">=2"
     eslint-plugin-react: ">=7"
     eslint-plugin-react-hooks: ">=4"
+    eslint-plugin-sort-class-members: ">=1.14"
+    eslint-plugin-sort-destructure-keys: ">=1.4"
     typescript: ">=4"
   languageName: unknown
   linkType: soft
@@ -1469,6 +1481,8 @@ __metadata:
     eslint: 8.3.0
     eslint-config-prettier: 8.3.0
     eslint-plugin-import: 2.25.3
+    eslint-plugin-sort-class-members: 1.14.0
+    eslint-plugin-sort-destructure-keys: 1.4.0
     micromatch: 4.0.4
     prettier: 2.5.0
     sort-package-json: 1.53.1
@@ -1481,6 +1495,8 @@ __metadata:
     eslint: ">=8"
     eslint-config-prettier: ">=8"
     eslint-plugin-import: ">=2"
+    eslint-plugin-sort-class-members: ">=1.14"
+    eslint-plugin-sort-destructure-keys: ">=1.4"
     typescript: ">=4"
   languageName: unknown
   linkType: soft
@@ -2829,6 +2845,26 @@ __metadata:
   peerDependencies:
     eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
   checksum: db1ce303b597ede0bc8873d3f575b05873b06a058162c80f76604c9096eee8f72f299d7f849a86ac2e59f269c196575e6bcfb1ef9d7cbb23f533d081bcc15ea0
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-sort-class-members@npm:1.14.0":
+  version: 1.14.0
+  resolution: "eslint-plugin-sort-class-members@npm:1.14.0"
+  peerDependencies:
+    eslint: ">=0.8.0"
+  checksum: 3f66cc52c508db633943017c81d56662b916ad735d8aba6356220f6d93c49d16cf345657007878199b0c191ec7b96447de05f4bad65f2a8d2955235709180bcb
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-sort-destructure-keys@npm:1.4.0":
+  version: 1.4.0
+  resolution: "eslint-plugin-sort-destructure-keys@npm:1.4.0"
+  dependencies:
+    natural-compare-lite: ^1.4.0
+  peerDependencies:
+    eslint: 3 - 8
+  checksum: 6ff004c1eb59f9902f5f64d8453c45ba550b8894450401c496da80eed0058cd52b9ad8a43a485f2638f5601c5d4a965a96d2f72a5f1d6d0f5255a26b4df6fe8f
   languageName: node
   linkType: hard
 
@@ -4786,6 +4822,13 @@ __metadata:
   version: 0.0.8
   resolution: "mute-stream@npm:0.0.8"
   checksum: ff48d251fc3f827e5b1206cda0ffdaec885e56057ee86a3155e1951bc940fd5f33531774b1cc8414d7668c10a8907f863f6561875ee6e8768931a62121a531a1
+  languageName: node
+  linkType: hard
+
+"natural-compare-lite@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "natural-compare-lite@npm:1.4.0"
+  checksum: 5222ac3986a2b78dd6069ac62cbb52a7bf8ffc90d972ab76dfe7b01892485d229530ed20d0c62e79a6b363a663b273db3bde195a1358ce9e5f779d4453887225
   languageName: node
   linkType: hard
 

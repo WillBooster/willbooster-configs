@@ -1,11 +1,19 @@
 {
   "extends": ["plugin:react/recommended", "@willbooster/eslint-config-ts"],
-  "plugins": ["@typescript-eslint", "react", "react-hooks"],
+  "plugins": ["react", "react-hooks"],
   "rules": {
-    "react/prop-types": "off",
+    "react/jsx-sort-props": [
+      "error",
+      {
+        "callbacksLast": true,
+        "shorthandFirst": true,
+        "reservedFirst": true
+      }
+    ],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn"
   },
+  "react/prop-types": "off",
   "settings": {
     "import/core-modules": ["react-dom"],
     "react": {

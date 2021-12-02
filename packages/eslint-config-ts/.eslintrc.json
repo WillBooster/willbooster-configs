@@ -11,7 +11,7 @@
   "parserOptions": {
     "project": "./tsconfig.json"
   },
-  "plugins": ["@typescript-eslint", "sort-class-members", "sort-destructure-keys"],
+  "plugins": ["@typescript-eslint", "sort-destructure-keys"],
   "rules": {
     "@typescript-eslint/camelcase": "off", // c.f. https://github.com/typescript-eslint/typescript-eslint/issues/2050
     "@typescript-eslint/naming-convention": [

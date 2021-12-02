@@ -1,11 +1,5 @@
 {
-  "extends": [
-    "eslint:recommended",
-    "plugin:import/errors",
-    "plugin:import/warnings",
-    "plugin:sort-class-members/recommended",
-    "prettier"
-  ],
+  "extends": ["eslint:recommended", "plugin:import/recommended", "plugin:sort-class-members/recommended", "prettier"],
   "plugins": ["sort-class-members", "sort-destructure-keys"],
   "parserOptions": {
     "ecmaVersion": 2021

@@ -25,7 +25,7 @@
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
-    "@types/eslint": "8.2.0",
+    "@types/eslint": "8.2.1",
     "@types/micromatch": "4.0.2",
     "@typescript-eslint/parser": "5.5.0",
     "@willbooster/prettier-config": "./packages/prettier-config",
@@ -41,5 +41,5 @@
     "sort-package-json": "1.53.1",
     "typescript": "4.5.2"
   },
-  "packageManager": "yarn@3.2.0-rc.6"
+  "packageManager": "yarn@3.2.0-rc.7"
 }

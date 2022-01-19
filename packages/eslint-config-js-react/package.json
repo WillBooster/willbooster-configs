@@ -1,6 +1,6 @@
 {
   "name": "@willbooster/eslint-config-js-react",
-  "version": "6.5.0",
+  "version": "6.5.1",
   "description": "A ESLint config for JavaScript projects using React",
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
@@ -15,13 +15,13 @@
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {
-    "@willbooster/eslint-config-js": "^6.5.0"
+    "@willbooster/eslint-config-js": "^6.5.1"
   },
   "devDependencies": {
     "@types/eslint": "8.2.2",
     "@types/micromatch": "4.0.2",
     "@types/react": "17.0.38",
-    "@willbooster/prettier-config": "^6.5.0",
+    "@willbooster/prettier-config": "^6.5.1",
     "eslint": "8.6.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-import": "2.25.4",

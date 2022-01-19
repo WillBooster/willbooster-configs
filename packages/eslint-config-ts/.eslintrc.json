@@ -14,6 +14,19 @@
   "plugins": ["sort-destructure-keys"],
   "rules": {
     "@typescript-eslint/camelcase": "off", // c.f. https://github.com/typescript-eslint/typescript-eslint/issues/2050
+    "@typescript-eslint/explicit-function-return-type": [
+      "error",
+      {
+        "allowExpressions": true,
+        "allowHigherOrderFunctions": true
+      }
+    ],
+    "@typescript-eslint/explicit-member-accessibility": [
+      "error",
+      {
+        "accessibility": "no-public"
+      }
+    ],
     "@typescript-eslint/naming-convention": [
       "warn",
       {
@@ -41,25 +54,18 @@
         "selector": "enumMember",
         "format": ["PascalCase"]
       },
-      {
+      { // allow any name when referring to property
         "selector": "property",
+        "format": null
+      },
+      { // allow any name in object destructuring
+        "selector": "variable",
+        "modifiers": ["destructured"],
         "format": null
       }
     ],
-    "@typescript-eslint/explicit-function-return-type": [
-      "error",
-      {
-        "allowExpressions": true,
-        "allowHigherOrderFunctions": true
-      }
-    ],
-    "@typescript-eslint/explicit-member-accessibility": [
-      "error",
-      {
-        "accessibility": "no-public"
-      }
-    ],
     "@typescript-eslint/no-explicit-any": "off", // allow `any`
+    "@typescript-eslint/no-unused-vars": ["warn", { "ignoreRestSiblings": true }], // allow unused vars in object destructuring
     "@typescript-eslint/no-use-before-define": "off", // abstract code should appear first
     "eqeqeq": "warn",
     "no-console": "off", // allow `console.log()`

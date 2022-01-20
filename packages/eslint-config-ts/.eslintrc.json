@@ -54,12 +54,20 @@
         "selector": "enumMember",
         "format": ["PascalCase"]
       },
-      { // allow any name when referring to property
+      {
+        // allow any name when referring to property
         "selector": "property",
         "format": null
       },
-      { // allow any name in object destructuring
+      {
+        // allow any name in object destructuring of variable
         "selector": "variable",
+        "modifiers": ["destructured"],
+        "format": null
+      },
+      {
+        // allow any name in object destructuring of parameter
+        "selector": "parameter",
         "modifiers": ["destructured"],
         "format": null
       }

@@ -16,7 +16,3 @@
 ## Following Guides
 
 - [TypeScript StyleGuide](https://basarat.gitbook.io/typescript/styleguide)
-
-## Deployment
-
-1. `yarn publish-all`

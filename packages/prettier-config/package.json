@@ -11,7 +11,7 @@
     "prettify": "prettier --color --write \"**/{.*/,}*.{cjs,css,htm,html,js,json,json5,jsx,md,mjs,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\""
   },
   "devDependencies": {
-    "lint-staged": "12.1.7",
+    "lint-staged": "12.2.2",
     "prettier": "2.5.1",
     "sort-package-json": "1.53.1"
   },

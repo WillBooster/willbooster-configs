@@ -1,6 +1,6 @@
 {
   "name": "@willbooster/eslint-config-js",
-  "version": "7.0.0",
+  "version": "8.0.0",
   "description": "A ESLint config for JavaScript projects",
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
@@ -17,12 +17,13 @@
   "devDependencies": {
     "@types/eslint": "8.2.2",
     "@types/micromatch": "4.0.2",
-    "@willbooster/prettier-config": "^7.0.0",
+    "@willbooster/prettier-config": "workspace:*",
     "eslint": "8.6.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-import": "2.25.4",
     "eslint-plugin-sort-class-members": "1.14.1",
     "eslint-plugin-sort-destructure-keys": "1.4.0",
+    "lint-staged": "12.1.7",
     "micromatch": "4.0.4",
     "prettier": "2.5.1",
     "sort-package-json": "1.53.1"

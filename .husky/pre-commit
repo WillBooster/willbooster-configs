@@ -1,4 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-yarn lint-staged && yarn lerna exec lint-staged --concurrency 1 --stream --since HEAD --exclude-dependents
+yarn workspaces foreach --interlaced --jobs 1 --since --verbose exec lint-staged

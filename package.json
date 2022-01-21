@@ -13,15 +13,15 @@
   ],
   "scripts": {
     "cleanup": "yarn format && yarn lint-fix",
-    "format": "sort-package-json && yarn prettify && lerna run format --no-sort",
+    "format": "sort-package-json && yarn prettify && yarn workspaces foreach --parallel --verbose run format",
     "postinstall": "husky install",
-    "lint": "lerna run lint --no-sort",
-    "lint-fix": "lerna run lint-fix --no-sort",
+    "lint": "yarn workspaces foreach --parallel --verbose run lint",
+    "lint-fix": "yarn workspaces foreach --parallel --verbose run lint-fix",
     "prettify": "prettier --color --write \"**/{.*/,}*.{cjs,css,htm,html,js,json,json5,jsx,md,mjs,scss,ts,tsx,vue,yaml,yml}\" \"!**/packages/**\" \"!**/test-fixtures/**\"",
     "publish-all": "dotenv -- yarn publish-all-core",
-    "publish-all-core": "npm whoami && npm config set access public && lerna publish",
-    "test": "lerna run test",
-    "typecheck": "lerna run typecheck --no-sort"
+    "publish-all-core": "yarn npm whoami && yarn workspaces foreach --no-private --verbose npm publish --access public --tolerate-republish",
+    "test": "yarn workspaces foreach --verbose run test",
+    "typecheck": "yarn workspaces foreach --parallel --verbose run typecheck"
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
@@ -30,10 +30,7 @@
     "@typescript-eslint/parser": "5.9.1",
     "@willbooster/prettier-config": "./packages/prettier-config",
     "dotenv-cli": "4.1.1",
-    "eslint": "8.6.0",
-    "eslint-import-resolver-node": "0.3.6",
     "husky": "7.0.4",
-    "lerna": "4.0.0",
     "lint-staged": "12.1.7",
     "micromatch": "4.0.4",
     "pinst": "2.1.6",

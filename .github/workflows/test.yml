@@ -3,39 +3,15 @@ name: Test
 on:
   pull_request:
     branches:
-      - '**'
+      - 'main'
       - '!renovate/**'
-    paths-ignore:
-      - 'docs/**'
-      - '**.md'
   push:
     branches:
       - 'main'
       - 'renovate/**'
-    paths-ignore:
-      - 'docs/**'
-      - '**.md'
 
 jobs:
   test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Setup Node.js 14
-        uses: actions/setup-node@v2
-        with:
-          node-version: 14
-      - name: Show environment information
-        run: |
-          echo "node: $(node -v)"
-          echo "yarn: $(yarn -v)"
-      - uses: actions/cache@v2
-        with:
-          path: .yarn
-          # Don't use **/yarn.lock because it scans yarn.lock in node_modules
-          # c.f. https://github.com/AllanChain/blog/issues/98
-          key: ${{ runner.os }}-yarn-${{ hashFiles('yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-      - run: yarn install
-      - run: yarn test
+    uses: WillBooster/reusable-workflows/.github/workflows/test.yml@main
+    with:
+      non_self_hosted: true

@@ -46,7 +46,7 @@
           "matchManagers": [
             "npm"
           ],
-          "assignees": [
+          "reviewers": [
             "@exKAZUu",
             "@rdrgn"
           ]
@@ -55,7 +55,8 @@
           "matchManagers": [
             "pub"
           ],
-          "assignees": [
+          "reviewers": [
+            "@exKAZUu",
             "@watura",
             "@rdrgn"
           ]
@@ -64,7 +65,7 @@
           "matchManagers": [
             "poetry"
           ],
-          "assignees": [
+          "reviewers": [
             "@exKAZUu",
             "@watura",
             "@kumachan-mis"

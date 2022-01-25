@@ -11,9 +11,12 @@ yarn add -D @willbooster/eslint-config-ts \\
     eslint-plugin-prettier \\
     eslint-plugin-react \\
     eslint-plugin-react-hooks \\
+    eslint-plugin-sort-class-members \\
+    eslint-plugin-sort-destructure-keys \\
     typescript \\
     @typescript-eslint/eslint-plugin \\
     @typescript-eslint/parser \\
+    eslint-import-resolver-typescript \\
     prettier \\
     @willbooster/prettier-config
 ```

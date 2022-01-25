@@ -9,6 +9,8 @@ yarn add -D @willbooster/eslint-config-js \\
     eslint-config-prettier \\
     eslint-plugin-import \\
     eslint-plugin-prettier \\
+    eslint-plugin-sort-class-members \\
+    eslint-plugin-sort-destructure-keys \\
     prettier \\
     @willbooster/prettier-config
 ```

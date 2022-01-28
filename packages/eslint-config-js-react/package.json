@@ -18,7 +18,7 @@
     "@willbooster/eslint-config-js": "workspace:*"
   },
   "devDependencies": {
-    "@types/eslint": "8.4.0",
+    "@types/eslint": "8.4.1",
     "@types/micromatch": "4.0.2",
     "@types/react": "17.0.38",
     "@willbooster/prettier-config": "workspace:*",
@@ -29,7 +29,7 @@
     "eslint-plugin-react-hooks": "4.3.0",
     "eslint-plugin-sort-class-members": "1.14.1",
     "eslint-plugin-sort-destructure-keys": "1.4.0",
-    "lint-staged": "12.2.2",
+    "lint-staged": "12.3.2",
     "micromatch": "4.0.4",
     "prettier": "2.5.1",
     "react": "17.0.2",

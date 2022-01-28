@@ -24,14 +24,14 @@
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
-    "@types/eslint": "8.4.0",
+    "@types/eslint": "8.4.1",
     "@types/micromatch": "4.0.2",
-    "@typescript-eslint/parser": "5.10.0",
+    "@typescript-eslint/parser": "5.10.1",
     "@willbooster/prettier-config": "workspace:*",
     "conventional-changelog-conventionalcommits": "4.6.3",
     "dotenv-cli": "4.1.1",
     "husky": "7.0.4",
-    "lint-staged": "12.2.2",
+    "lint-staged": "12.3.2",
     "micromatch": "4.0.4",
     "multi-semantic-release": "2.11.0",
     "pinst": "2.1.6",
@@ -39,5 +39,5 @@
     "sort-package-json": "1.53.1",
     "typescript": "4.5.5"
   },
-  "packageManager": "yarn@3.2.0-rc.11"
+  "packageManager": "yarn@3.2.0-rc.12"
 }

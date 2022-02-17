@@ -26,18 +26,19 @@
   "devDependencies": {
     "@types/eslint": "8.4.1",
     "@types/micromatch": "4.0.2",
-    "@typescript-eslint/parser": "5.10.1",
+    "@typescript-eslint/parser": "5.12.0",
     "@willbooster/prettier-config": "workspace:*",
     "conventional-changelog-conventionalcommits": "4.6.3",
-    "dotenv-cli": "4.1.1",
+    "dotenv-cli": "5.0.0",
+    "eslint": "8.9.0",
     "husky": "7.0.4",
-    "lint-staged": "12.3.2",
+    "lint-staged": "12.3.4",
     "micromatch": "4.0.4",
     "multi-semantic-release": "2.11.0",
     "pinst": "2.1.6",
     "prettier": "2.5.1",
-    "sort-package-json": "1.53.1",
+    "sort-package-json": "1.54.0",
     "typescript": "4.5.5"
   },
-  "packageManager": "yarn@3.2.0-rc.12"
+  "packageManager": "yarn@3.2.0-rc.15"
 }

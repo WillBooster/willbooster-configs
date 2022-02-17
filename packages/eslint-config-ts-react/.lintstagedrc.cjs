@@ -1,4 +1,3 @@
-const path = require('path');
 const micromatch = require('micromatch');
 
 module.exports = {
@@ -8,9 +7,7 @@ module.exports = {
   ],
   './**/*.{cjs,css,htm,html,js,json,json5,jsx,md,mjs,scss,ts,tsx,vue,yaml,yml}': (files) => {
     files = micromatch.not(files, './{src,__tests__}/**/*.{cjs,js,jsx,mjs,ts,tsx}');
-    const filteredFiles = files
-      .filter((file) => !file.includes('/test-fixtures/'))
-      .map((file) => path.relative('', file));
+    const filteredFiles = files.filter((file) => !file.includes('/test-fixtures/'));
     if (filteredFiles.length === 0) return [];
     const commands = [`prettier --write ${filteredFiles.join(' ')}`];
     if (filteredFiles.some((file) => file.endsWith('package.json'))) {

@@ -43,39 +43,16 @@
           ]
         },
         {
-          "matchManagers": [
-            "npm"
-          ],
-          "reviewers": [
-            "@exKAZUu",
-            "@rdrgn"
-          ]
-        },
-        {
-          "matchManagers": [
-            "pub"
-          ],
-          "reviewers": [
-            "@exKAZUu",
-            "@watura",
-            "@rdrgn"
-          ]
-        },
-        {
-          "matchManagers": [
-            "poetry"
-          ],
-          "reviewers": [
-            "@exKAZUu",
-            "@watura",
-            "@kumachan-mis"
-          ]
-        },
-        {
           "matchPackagePatterns": [
             "yarn"
           ],
           "ignoreUnstable": false
+        },
+        {
+          "packageNames": [
+            "chalk"
+          ],
+          "enabled": false
         }
       ],
       "schedule": [

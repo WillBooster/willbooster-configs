@@ -850,7 +850,7 @@ __metadata:
     "@typescript-eslint/parser": 5.12.0
     "@willbooster/prettier-config": "workspace:*"
     eslint: 8.9.0
-    eslint-config-prettier: 8.3.0
+    eslint-config-prettier: 8.4.0
     eslint-import-resolver-typescript: 2.5.0
     eslint-plugin-import: 2.25.4
     eslint-plugin-sort-class-members: 1.14.1
@@ -880,7 +880,7 @@ __metadata:
     lint-staged: 12.3.4
     micromatch: 4.0.4
     multi-semantic-release: 2.11.0
-    pinst: 2.1.6
+    pinst: 3.0.0
     prettier: 2.5.1
     sort-package-json: 1.54.0
     typescript: 4.5.5
@@ -897,7 +897,7 @@ __metadata:
     "@willbooster/eslint-config-js": "workspace:*"
     "@willbooster/prettier-config": "workspace:*"
     eslint: 8.9.0
-    eslint-config-prettier: 8.3.0
+    eslint-config-prettier: 8.4.0
     eslint-plugin-import: 2.25.4
     eslint-plugin-react: 7.28.0
     eslint-plugin-react-hooks: 4.3.0
@@ -928,7 +928,7 @@ __metadata:
     "@types/micromatch": 4.0.2
     "@willbooster/prettier-config": "workspace:*"
     eslint: 8.9.0
-    eslint-config-prettier: 8.3.0
+    eslint-config-prettier: 8.4.0
     eslint-plugin-import: 2.25.4
     eslint-plugin-sort-class-members: 1.14.1
     eslint-plugin-sort-destructure-keys: 1.4.0
@@ -959,7 +959,7 @@ __metadata:
     "@willbooster/eslint-config-ts": "workspace:*"
     "@willbooster/prettier-config": "workspace:*"
     eslint: 8.9.0
-    eslint-config-prettier: 8.3.0
+    eslint-config-prettier: 8.4.0
     eslint-import-resolver-typescript: 2.5.0
     eslint-plugin-import: 2.25.4
     eslint-plugin-react: 7.28.0
@@ -1001,7 +1001,7 @@ __metadata:
     "@willbooster/common": "workspace:*"
     "@willbooster/prettier-config": "workspace:*"
     eslint: 8.9.0
-    eslint-config-prettier: 8.3.0
+    eslint-config-prettier: 8.4.0
     eslint-import-resolver-typescript: 2.5.0
     eslint-plugin-import: 2.25.4
     eslint-plugin-sort-class-members: 1.14.1
@@ -2167,14 +2167,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:8.3.0":
-  version: 8.3.0
-  resolution: "eslint-config-prettier@npm:8.3.0"
+"eslint-config-prettier@npm:8.4.0":
+  version: 8.4.0
+  resolution: "eslint-config-prettier@npm:8.4.0"
   peerDependencies:
     eslint: ">=7.0.0"
   bin:
     eslint-config-prettier: bin/cli.js
-  checksum: df4cea3032671995bb5ab07e016169072f7fa59f44a53251664d9ca60951b66cdc872683b5c6a3729c91497c11490ca44a79654b395dd6756beb0c3903a37196
+  checksum: ee8dc343f1fed15dc0658e190a966cc23644477f2331a7f56ae2bb79dd74892e3cde8ea5c142e7a3329a8291a1de041e13ca96e54d0c85ff4a2aba13390c5f10
   languageName: node
   linkType: hard
 
@@ -4963,14 +4963,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pinst@npm:2.1.6":
-  version: 2.1.6
-  resolution: "pinst@npm:2.1.6"
-  dependencies:
-    fromentries: ^1.3.2
+"pinst@npm:3.0.0":
+  version: 3.0.0
+  resolution: "pinst@npm:3.0.0"
   bin:
     pinst: bin.js
-  checksum: 3644c352a7a956a0a299012609783456e055b2c4dab274bcbe8ea86d3347355a0552da31a7f3fb6ce91d6102f27b6dde64edd69c2cdaaeb811b87bf205655e36
+  checksum: 4ae48a6a60f79c37071233af51b4d91bfc85cfa3c12b66ccda60cdb642b4d14a4ab0cb3587afc55b1f6192cea1772a5e4822026a0d0d3528296edef00cc2d61f
   languageName: node
   linkType: hard
 
@@ -6220,7 +6218,7 @@ __metadata:
 
 "typescript@patch:typescript@4.5.5#~builtin<compat/typescript>":
   version: 4.5.5
-  resolution: "typescript@patch:typescript@npm%3A4.5.5#~builtin<compat/typescript>::version=4.5.5&hash=142761"
+  resolution: "typescript@patch:typescript@npm%3A4.5.5#~builtin<compat/typescript>::version=4.5.5&hash=bda367"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver

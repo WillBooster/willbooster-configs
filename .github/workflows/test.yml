@@ -12,5 +12,5 @@ jobs:
   test:
     uses: WillBooster/reusable-workflows/.github/workflows/test.yml@main
     secrets:
-      GH_TOKEN: ${{ secrets.GH_BOT_PAT }}
+      GH_TOKEN: ${{ secrets.PUBLIC_GH_BOT_PAT }}
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

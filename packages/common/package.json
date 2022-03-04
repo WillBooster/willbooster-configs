@@ -17,11 +17,11 @@
   "devDependencies": {
     "@types/eslint": "8.4.1",
     "@types/micromatch": "4.0.2",
-    "@typescript-eslint/eslint-plugin": "5.12.1",
-    "@typescript-eslint/parser": "5.12.1",
+    "@typescript-eslint/eslint-plugin": "5.13.0",
+    "@typescript-eslint/parser": "5.13.0",
     "@willbooster/prettier-config": "workspace:*",
     "eslint": "8.10.0",
-    "eslint-config-prettier": "8.4.0",
+    "eslint-config-prettier": "8.5.0",
     "eslint-import-resolver-typescript": "2.5.0",
     "eslint-plugin-import": "2.25.4",
     "eslint-plugin-sort-class-members": "1.14.1",
@@ -30,7 +30,7 @@
     "micromatch": "4.0.4",
     "prettier": "2.5.1",
     "sort-package-json": "1.54.0",
-    "typescript": "4.5.5"
+    "typescript": "4.6.2"
   },
   "peerDependencies": {
     "@willbooster/prettier-config": ">=6"

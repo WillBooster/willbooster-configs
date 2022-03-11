@@ -31,7 +31,7 @@
     "conventional-changelog-conventionalcommits": "4.6.3",
     "dotenv-cli": "5.0.0",
     "eslint": "8.10.0",
-    "husky": "^7.0.0",
+    "husky": "7.0.4",
     "lint-staged": "12.3.4",
     "micromatch": "4.0.4",
     "multi-semantic-release": "2.11.1",

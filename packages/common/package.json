@@ -17,8 +17,8 @@
   "devDependencies": {
     "@types/eslint": "8.4.1",
     "@types/micromatch": "4.0.2",
-    "@typescript-eslint/eslint-plugin": "5.14.0",
-    "@typescript-eslint/parser": "5.14.0",
+    "@typescript-eslint/eslint-plugin": "5.15.0",
+    "@typescript-eslint/parser": "5.15.0",
     "@willbooster/prettier-config": "workspace:*",
     "eslint": "8.11.0",
     "eslint-config-prettier": "8.5.0",

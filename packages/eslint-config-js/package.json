@@ -23,9 +23,9 @@
     "eslint-plugin-import": "2.25.4",
     "eslint-plugin-sort-class-members": "1.14.1",
     "eslint-plugin-sort-destructure-keys": "1.4.0",
-    "lint-staged": "12.3.5",
+    "lint-staged": "12.3.7",
     "micromatch": "4.0.4",
-    "prettier": "2.5.1",
+    "prettier": "2.6.0",
     "sort-package-json": "1.54.0"
   },
   "peerDependencies": {

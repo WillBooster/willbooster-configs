@@ -32,11 +32,11 @@
     "dotenv-cli": "5.0.0",
     "eslint": "8.11.0",
     "husky": "7.0.4",
-    "lint-staged": "12.3.5",
+    "lint-staged": "12.3.7",
     "micromatch": "4.0.4",
     "multi-semantic-release": "2.11.1",
     "pinst": "3.0.0",
-    "prettier": "2.5.1",
+    "prettier": "2.6.0",
     "sort-package-json": "1.54.0",
     "typescript": "4.6.2"
   },

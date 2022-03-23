@@ -33,7 +33,7 @@
     "micromatch": "4.0.4",
     "prettier": "2.6.0",
     "react": "17.0.2",
-    "sort-package-json": "1.54.0"
+    "sort-package-json": "1.55.0"
   },
   "peerDependencies": {
     "@willbooster/prettier-config": ">=6",

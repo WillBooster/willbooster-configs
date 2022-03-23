@@ -26,7 +26,7 @@
   "devDependencies": {
     "@types/eslint": "8.4.1",
     "@types/micromatch": "4.0.2",
-    "@typescript-eslint/parser": "5.15.0",
+    "@typescript-eslint/parser": "5.16.0",
     "@willbooster/prettier-config": "workspace:*",
     "conventional-changelog-conventionalcommits": "4.6.3",
     "dotenv-cli": "5.0.0",
@@ -37,7 +37,7 @@
     "multi-semantic-release": "2.11.1",
     "pinst": "3.0.0",
     "prettier": "2.6.0",
-    "sort-package-json": "1.54.0",
+    "sort-package-json": "1.55.0",
     "typescript": "4.6.2"
   },
   "packageManager": "yarn@3.2.0"

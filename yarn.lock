@@ -852,10 +852,10 @@ __metadata:
     eslint-plugin-sort-class-members: 1.14.1
     eslint-plugin-sort-destructure-keys: 1.4.0
     lint-staged: 12.3.7
-    micromatch: 4.0.4
-    prettier: 2.6.0
+    micromatch: 4.0.5
+    prettier: 2.6.1
     sort-package-json: 1.55.0
-    typescript: 4.6.2
+    typescript: 4.6.3
   peerDependencies:
     "@willbooster/prettier-config": ">=6"
   languageName: unknown
@@ -874,12 +874,12 @@ __metadata:
     eslint: 8.11.0
     husky: 7.0.4
     lint-staged: 12.3.7
-    micromatch: 4.0.4
+    micromatch: 4.0.5
     multi-semantic-release: 2.11.1
     pinst: 3.0.0
-    prettier: 2.6.0
+    prettier: 2.6.1
     sort-package-json: 1.55.0
-    typescript: 4.6.2
+    typescript: 4.6.3
   languageName: unknown
   linkType: soft
 
@@ -900,8 +900,8 @@ __metadata:
     eslint-plugin-sort-class-members: 1.14.1
     eslint-plugin-sort-destructure-keys: 1.4.0
     lint-staged: 12.3.7
-    micromatch: 4.0.4
-    prettier: 2.6.0
+    micromatch: 4.0.5
+    prettier: 2.6.1
     react: 17.0.2
     sort-package-json: 1.55.0
   peerDependencies:
@@ -929,8 +929,8 @@ __metadata:
     eslint-plugin-sort-class-members: 1.14.1
     eslint-plugin-sort-destructure-keys: 1.4.0
     lint-staged: 12.3.7
-    micromatch: 4.0.4
-    prettier: 2.6.0
+    micromatch: 4.0.5
+    prettier: 2.6.1
     sort-package-json: 1.55.0
   peerDependencies:
     "@willbooster/prettier-config": ">=6"
@@ -963,11 +963,11 @@ __metadata:
     eslint-plugin-sort-class-members: 1.14.1
     eslint-plugin-sort-destructure-keys: 1.4.0
     lint-staged: 12.3.7
-    micromatch: 4.0.4
-    prettier: 2.6.0
+    micromatch: 4.0.5
+    prettier: 2.6.1
     react: 17.0.2
     sort-package-json: 1.55.0
-    typescript: 4.6.2
+    typescript: 4.6.3
     use-immer: 0.6.0
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ">=5"
@@ -1003,10 +1003,10 @@ __metadata:
     eslint-plugin-sort-class-members: 1.14.1
     eslint-plugin-sort-destructure-keys: 1.4.0
     lint-staged: 12.3.7
-    micromatch: 4.0.4
-    prettier: 2.6.0
+    micromatch: 4.0.5
+    prettier: 2.6.1
     sort-package-json: 1.55.0
-    typescript: 4.6.2
+    typescript: 4.6.3
     use-immer: 0.6.0
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ">=5"
@@ -1027,7 +1027,7 @@ __metadata:
   resolution: "@willbooster/prettier-config@workspace:packages/prettier-config"
   dependencies:
     lint-staged: 12.3.7
-    prettier: 2.6.0
+    prettier: 2.6.1
     sort-package-json: 1.55.0
   peerDependencies:
     prettier: ">=2"
@@ -1040,7 +1040,7 @@ __metadata:
   dependencies:
     "@willbooster/prettier-config": "workspace:*"
     lint-staged: 12.3.7
-    prettier: 2.6.0
+    prettier: 2.6.1
     sort-package-json: 1.55.0
   languageName: unknown
   linkType: soft
@@ -1371,7 +1371,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"braces@npm:^3.0.1":
+"braces@npm:^3.0.1, braces@npm:^3.0.2":
   version: 3.0.2
   resolution: "braces@npm:3.0.2"
   dependencies:
@@ -4006,7 +4006,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micromatch@npm:4.0.4, micromatch@npm:^4.0.2, micromatch@npm:^4.0.4":
+"micromatch@npm:4.0.5":
+  version: 4.0.5
+  resolution: "micromatch@npm:4.0.5"
+  dependencies:
+    braces: ^3.0.2
+    picomatch: ^2.3.1
+  checksum: 02a17b671c06e8fefeeb6ef996119c1e597c942e632a21ef589154f23898c9c6a9858526246abb14f8bca6e77734aa9dcf65476fca47cedfb80d9577d52843fc
+  languageName: node
+  linkType: hard
+
+"micromatch@npm:^4.0.2, micromatch@npm:^4.0.4":
   version: 4.0.4
   resolution: "micromatch@npm:4.0.4"
   dependencies:
@@ -4936,7 +4946,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"picomatch@npm:^2.2.3":
+"picomatch@npm:^2.2.3, picomatch@npm:^2.3.1":
   version: 2.3.1
   resolution: "picomatch@npm:2.3.1"
   checksum: 050c865ce81119c4822c45d3c84f1ced46f93a0126febae20737bd05ca20589c564d6e9226977df859ed5e03dc73f02584a2b0faad36e896936238238b0446cf
@@ -4992,12 +5002,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.6.0":
-  version: 2.6.0
-  resolution: "prettier@npm:2.6.0"
+"prettier@npm:2.6.1":
+  version: 2.6.1
+  resolution: "prettier@npm:2.6.1"
   bin:
     prettier: bin-prettier.js
-  checksum: 3e527ad62279676778a8404d18174d7ca2365ada4caba6eebbcdd9907d1187afd3bc6ade5b4e5f5d4549bb9fb71e45ca8930d71500017635524f8fc05bc52e93
+  checksum: 78be1f8a3ddfad7c3d8a854b6c8941a3bb1ddfca4225c38d778e0fe1029a55368f71b3bbefff82c689015fbb4d391ec44add957f01308ad2725e01a7c1f37cb6
   languageName: node
   linkType: hard
 
@@ -6214,23 +6224,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:4.6.2":
-  version: 4.6.2
-  resolution: "typescript@npm:4.6.2"
+"typescript@npm:4.6.3":
+  version: 4.6.3
+  resolution: "typescript@npm:4.6.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 8a44ed7e6f6c4cb1ebe8cf236ecda2fb119d84dcf0fbd77e707b2dfea1bbcfc4e366493a143513ce7f57203c75da9d4e20af6fe46de89749366351046be7577c
+  checksum: 255bb26c8cb846ca689dd1c3a56587af4f69055907aa2c154796ea28ee0dea871535b1c78f85a6212c77f2657843a269c3a742d09d81495b97b914bf7920415b
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@4.6.2#~builtin<compat/typescript>":
-  version: 4.6.2
-  resolution: "typescript@patch:typescript@npm%3A4.6.2#~builtin<compat/typescript>::version=4.6.2&hash=bda367"
+"typescript@patch:typescript@4.6.3#~builtin<compat/typescript>":
+  version: 4.6.3
+  resolution: "typescript@patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=bda367"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 40b493a71747fb89fa70df104e2c4a5e284b43750af5bea024090a5261cefa387f7a9372411b13030f7bf5555cee4275443d08805642ae5c74ef76740854a4c7
+  checksum: 6bf45caf847062420592e711bc9c28bf5f9a9a7fa8245343b81493e4ededae33f1774009d1234d911422d1646a2c839f44e1a23ecb111b40a60ac2ea4c1482a8
   languageName: node
   linkType: hard
 

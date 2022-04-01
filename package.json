@@ -26,7 +26,7 @@
   "devDependencies": {
     "@types/eslint": "8.4.1",
     "@types/micromatch": "4.0.2",
-    "@typescript-eslint/parser": "5.16.0",
+    "@typescript-eslint/parser": "5.17.0",
     "@willbooster/prettier-config": "workspace:*",
     "conventional-changelog-conventionalcommits": "4.6.3",
     "dotenv-cli": "5.1.0",
@@ -34,7 +34,7 @@
     "husky": "7.0.4",
     "lint-staged": "12.3.7",
     "micromatch": "4.0.5",
-    "multi-semantic-release": "2.11.2",
+    "multi-semantic-release": "2.11.3",
     "pinst": "3.0.0",
     "prettier": "2.6.1",
     "sort-package-json": "1.55.0",

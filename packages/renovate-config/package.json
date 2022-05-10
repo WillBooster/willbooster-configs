@@ -32,7 +32,7 @@
         "group:allNonMajor"
       ],
       "constraints": {
-        "node": "< 17.0.0"
+        "node": "< 19.0.0"
       },
       "dependencyDashboardAutoclose": true,
       "packageRules": [

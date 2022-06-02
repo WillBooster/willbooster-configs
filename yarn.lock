@@ -869,7 +869,7 @@ __metadata:
     "@types/micromatch": "npm:4.0.2"
     "@typescript-eslint/parser": "npm:5.23.0"
     "@willbooster/prettier-config": "workspace:*"
-    conventional-changelog-conventionalcommits: "npm:4.6.3"
+    conventional-changelog-conventionalcommits: "npm:5.0.0"
     dotenv-cli: "npm:5.1.0"
     eslint: "npm:8.15.0"
     husky: "npm:7.0.4"
@@ -1705,14 +1705,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-changelog-conventionalcommits@npm:4.6.3":
-  version: 4.6.3
-  resolution: "conventional-changelog-conventionalcommits@npm:4.6.3"
+"conventional-changelog-conventionalcommits@npm:5.0.0":
+  version: 5.0.0
+  resolution: "conventional-changelog-conventionalcommits@npm:5.0.0"
   dependencies:
     compare-func: "npm:^2.0.0"
     lodash: "npm:^4.17.15"
     q: "npm:^1.5.1"
-  checksum: 7b8e8a21ebb56f9aaa510e12917b7c609202072c3e71089e0a09630c37c2e8146cdb04364809839b0e3eb55f807fe84d03b2079500b37f6186d505848be5c562
+  checksum: 9/cd39e90a9637925b99c425197436f6cec1257f3ae82b437edeb93390d4cea90702cff31c06ab4d9dde71ea243cf64f7665eafa019bbfd7735ce2e4d30b9362bf
   languageName: node
   linkType: hard
 

@@ -17,8 +17,10 @@
   "include": [
     "src/**/*",
     "__tests__/**/*",
+    "scripts/**/*",
     "packages/*/src/**/*",
     "packages/*/__tests__/**/*",
+    "packages/*/scripts/**/*",
     "./node_modules/@types",
     "./@types"
   ]

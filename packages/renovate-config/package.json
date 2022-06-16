@@ -13,7 +13,7 @@
   "devDependencies": {
     "@willbooster/prettier-config": "workspace:*",
     "lint-staged": "13.0.1",
-    "prettier": "2.7.0",
+    "prettier": "2.7.1",
     "sort-package-json": "1.57.0"
   },
   "gitHead": "865a18e97886b4051f555430f8fc0c89bd364001",

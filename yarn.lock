@@ -853,7 +853,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: "npm:1.4.0"
     lint-staged: "npm:13.0.1"
     micromatch: "npm:4.0.5"
-    prettier: "npm:2.7.0"
+    prettier: "npm:2.7.1"
     sort-package-json: "npm:1.57.0"
     typescript: "npm:4.7.3"
   peerDependencies:
@@ -877,7 +877,7 @@ __metadata:
     micromatch: "npm:4.0.5"
     multi-semantic-release: "npm:2.12.0"
     pinst: "npm:3.0.0"
-    prettier: "npm:2.7.0"
+    prettier: "npm:2.7.1"
     sort-package-json: "npm:1.57.0"
     typescript: "npm:4.7.3"
   languageName: unknown
@@ -901,7 +901,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: "npm:1.4.0"
     lint-staged: "npm:13.0.1"
     micromatch: "npm:4.0.5"
-    prettier: "npm:2.7.0"
+    prettier: "npm:2.7.1"
     react: "npm:18.1.0"
     sort-package-json: "npm:1.57.0"
   peerDependencies:
@@ -930,7 +930,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: "npm:1.4.0"
     lint-staged: "npm:13.0.1"
     micromatch: "npm:4.0.5"
-    prettier: "npm:2.7.0"
+    prettier: "npm:2.7.1"
     sort-package-json: "npm:1.57.0"
   peerDependencies:
     "@willbooster/prettier-config": ">=6"
@@ -964,7 +964,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: "npm:1.4.0"
     lint-staged: "npm:13.0.1"
     micromatch: "npm:4.0.5"
-    prettier: "npm:2.7.0"
+    prettier: "npm:2.7.1"
     react: "npm:18.1.0"
     sort-package-json: "npm:1.57.0"
     typescript: "npm:4.7.3"
@@ -1004,7 +1004,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: "npm:1.4.0"
     lint-staged: "npm:13.0.1"
     micromatch: "npm:4.0.5"
-    prettier: "npm:2.7.0"
+    prettier: "npm:2.7.1"
     sort-package-json: "npm:1.57.0"
     typescript: "npm:4.7.3"
     use-immer: "npm:0.7.0"
@@ -1027,7 +1027,7 @@ __metadata:
   resolution: "@willbooster/prettier-config@workspace:packages/prettier-config"
   dependencies:
     lint-staged: "npm:13.0.1"
-    prettier: "npm:2.7.0"
+    prettier: "npm:2.7.1"
     sort-package-json: "npm:1.57.0"
   peerDependencies:
     prettier: ">=2"
@@ -1040,7 +1040,7 @@ __metadata:
   dependencies:
     "@willbooster/prettier-config": "workspace:*"
     lint-staged: "npm:13.0.1"
-    prettier: "npm:2.7.0"
+    prettier: "npm:2.7.1"
     sort-package-json: "npm:1.57.0"
   languageName: unknown
   linkType: soft
@@ -5164,12 +5164,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.7.0":
-  version: 2.7.0
-  resolution: "prettier@npm:2.7.0"
+"prettier@npm:2.7.1":
+  version: 2.7.1
+  resolution: "prettier@npm:2.7.1"
   bin:
     prettier: bin-prettier.js
-  checksum: a325056460177731710a0e954eff4b57819c883f3bee34150765495d04b6b3ada8c76cac31c71862880141c165727fcd51ae76755246e3b6e64cbc2600bdee60
+  checksum: d2cd7adc83b4f3eb86ab665fa76c58fb3c60c879b37e6d858f71a9d97d2091d4c8a7fe92ad6a1dfa211832025e3660635df9c5e27b3ef79c99d431923bdf933b
   languageName: node
   linkType: hard
 

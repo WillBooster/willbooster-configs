@@ -19,14 +19,14 @@
     "@willbooster/eslint-config-ts": "workspace:*"
   },
   "devDependencies": {
-    "@types/eslint": "8.4.2",
+    "@types/eslint": "8.4.3",
     "@types/micromatch": "4.0.2",
-    "@types/node": "16.11.33",
+    "@types/node": "16.11.41",
     "@types/react": "18.0.14",
     "@typescript-eslint/eslint-plugin": "5.28.0",
     "@typescript-eslint/parser": "5.28.0",
     "@willbooster/prettier-config": "workspace:*",
-    "eslint": "8.17.0",
+    "eslint": "8.18.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-import-resolver-typescript": "2.7.1",
     "eslint-plugin-import": "2.26.0",
@@ -37,9 +37,9 @@
     "lint-staged": "13.0.2",
     "micromatch": "4.0.5",
     "prettier": "2.7.1",
-    "react": "18.1.0",
+    "react": "18.2.0",
     "sort-package-json": "1.57.0",
-    "typescript": "4.7.3",
+    "typescript": "4.7.4",
     "use-immer": "0.7.0"
   },
   "peerDependencies": {

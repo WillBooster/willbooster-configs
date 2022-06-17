@@ -694,14 +694,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:17.0.45":
-  version: 17.0.45
-  resolution: "@types/react@npm:17.0.45"
+"@types/react@npm:18.0.14":
+  version: 18.0.14
+  resolution: "@types/react@npm:18.0.14"
   dependencies:
     "@types/prop-types": "npm:*"
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 2f547e7bf7377747c72e77f7c444a309ade1cd0b1a9ec6404e5677d18e4765163881c70c673db1c08abc29cb98c8ba81b655e74980726258056badfa72ff1372
+  checksum: cdd28c5c509bb4040c4a0ffc9ee9428b5ca94964172bd3f7cfe9e08ffe72179d166c4457e7afc472cfad6c8f5e17729a518cdf76cb257f1728a03be4ba8186a2
   languageName: node
   linkType: hard
 
@@ -889,7 +889,7 @@ __metadata:
   dependencies:
     "@types/eslint": "npm:8.4.2"
     "@types/micromatch": "npm:4.0.2"
-    "@types/react": "npm:17.0.45"
+    "@types/react": "npm:18.0.14"
     "@willbooster/eslint-config-js": "workspace:*"
     "@willbooster/prettier-config": "workspace:*"
     eslint: "npm:8.17.0"
@@ -949,7 +949,7 @@ __metadata:
     "@types/eslint": "npm:8.4.2"
     "@types/micromatch": "npm:4.0.2"
     "@types/node": "npm:16.11.33"
-    "@types/react": "npm:17.0.45"
+    "@types/react": "npm:18.0.14"
     "@typescript-eslint/eslint-plugin": "npm:5.28.0"
     "@typescript-eslint/parser": "npm:5.28.0"
     "@willbooster/eslint-config-ts": "workspace:*"

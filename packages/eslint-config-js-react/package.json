@@ -18,7 +18,7 @@
     "@willbooster/eslint-config-js": "workspace:*"
   },
   "devDependencies": {
-    "@types/eslint": "8.4.3",
+    "@types/eslint": "8.4.5",
     "@types/micromatch": "4.0.2",
     "@types/react": "18.0.14",
     "@willbooster/prettier-config": "workspace:*",

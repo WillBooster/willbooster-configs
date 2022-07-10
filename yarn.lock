@@ -397,21 +397,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/openapi-types@npm:^12.6.1":
-  version: 12.6.1
-  resolution: "@octokit/openapi-types@npm:12.6.1"
-  checksum: 152ec638940dd0886be237ea8b157ce087dd879244b0639cca8a6f050230d7842d064004cfb23905d4616bde101dd252685fd06064aca6228a1b6869fba2606c
+"@octokit/openapi-types@npm:^12.7.0":
+  version: 12.8.0
+  resolution: "@octokit/openapi-types@npm:12.8.0"
+  checksum: 74881d6b0d5d0e07bcf685c9f8bec386776209db4d4dc66b6393f4684efef673cb50ff8dc5a6df058cdf85e56a3a33e285720fc4d3181a2ea4c41c36350832bd
   languageName: node
   linkType: hard
 
 "@octokit/plugin-paginate-rest@npm:^2.16.8":
-  version: 2.21.1
-  resolution: "@octokit/plugin-paginate-rest@npm:2.21.1"
+  version: 2.21.2
+  resolution: "@octokit/plugin-paginate-rest@npm:2.21.2"
   dependencies:
-    "@octokit/types": "npm:^6.38.2"
+    "@octokit/types": "npm:^6.39.0"
   peerDependencies:
-    "@octokit/core": ">=2"
-  checksum: b3f81d3740fe3a85c3476c84f18d572877c2dbb56703d25d65fb84e952015afb16354310e239ff2d219919f16578ba82ac24c4c094aeb10334c0cbdcc19b2c85
+    "@octokit/core": ">=4"
+  checksum: 8820fc1f7cacc75d74d0838b09961e99bc38059d2bd60cb5d296c079f5239953bfd14a6b2a17e905e9db0ca14056edc797bb6a9c1e49b7e355247065f57faecd
   languageName: node
   linkType: hard
 
@@ -425,14 +425,14 @@ __metadata:
   linkType: hard
 
 "@octokit/plugin-rest-endpoint-methods@npm:^5.12.0":
-  version: 5.16.1
-  resolution: "@octokit/plugin-rest-endpoint-methods@npm:5.16.1"
+  version: 5.16.2
+  resolution: "@octokit/plugin-rest-endpoint-methods@npm:5.16.2"
   dependencies:
-    "@octokit/types": "npm:^6.38.2"
+    "@octokit/types": "npm:^6.39.0"
     deprecation: "npm:^2.3.1"
   peerDependencies:
     "@octokit/core": ">=3"
-  checksum: 6f1b50cfa9fa4e2cf80f8985c79cec928d0df7d67c7fd24a13f92728bacad70aec58378bd03694242082f3b007538f9fe21359643a6a35a59c8369d46562c5bf
+  checksum: d0dd41cf0d63978fe78cf20c838e17c08dc6e17f0135f84824a14906c98ba040f275c0fc55486673a96c29465d8b8d08b6e7cb6c370fb419f24848e6605a09b3
   languageName: node
   linkType: hard
 
@@ -473,18 +473,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/types@npm:^6.0.3, @octokit/types@npm:^6.16.1, @octokit/types@npm:^6.38.2":
-  version: 6.38.2
-  resolution: "@octokit/types@npm:6.38.2"
+"@octokit/types@npm:^6.0.3, @octokit/types@npm:^6.16.1, @octokit/types@npm:^6.39.0":
+  version: 6.39.0
+  resolution: "@octokit/types@npm:6.39.0"
   dependencies:
-    "@octokit/openapi-types": "npm:^12.6.1"
-  checksum: 17acc220d74984c810db669a6e06287a746b0fab3e158fbd4a1c6b0b1f5c925e5769a587077fa96a26260c84681a6e378a5ca879936c0c43330bc1a11af997e2
+    "@octokit/openapi-types": "npm:^12.7.0"
+  checksum: 93bebae4767eb67a216ebfbf34f4487941502de8d0e7ab4cb512097058965cb3a61b8d7e9131b56a478e55a5578a46e8e6cf1042c6e4ede3756bc14dac0d1a45
   languageName: node
   linkType: hard
 
 "@pkgr/utils@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "@pkgr/utils@npm:2.2.0"
+  version: 2.3.0
+  resolution: "@pkgr/utils@npm:2.3.0"
   dependencies:
     cross-spawn: "npm:^7.0.3"
     is-glob: "npm:^4.0.3"
@@ -492,7 +492,7 @@ __metadata:
     picocolors: "npm:^1.0.0"
     tiny-glob: "npm:^0.2.9"
     tslib: "npm:^2.4.0"
-  checksum: 6545f25df12b1b46050fc6220ff9bf604a49cf00b3f300da316ec293b3dd66f43687d26aa3f4bf726df425b22667b7ebba2c28999c8c40128003b6c572e732ff
+  checksum: e9c078db485d0ed1aa9ed55b8075ac1d60bdfed05669b2073ef3f88d8acd9255c435abed8febaf89afe0667363ef61ff2014be0fdebcb2f7492d01b38e375fc6
   languageName: node
   linkType: hard
 
@@ -675,9 +675,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 18.0.1
-  resolution: "@types/node@npm:18.0.1"
-  checksum: c937f8fc6826f6fae7117b4b02b93caa06338e20325a469bd525e5c393592f4d0607f33ec33820c6d655eb00c1d0abffff74d8913b37a3fc72f5d6cc342df4d8
+  version: 18.0.3
+  resolution: "@types/node@npm:18.0.3"
+  checksum: 2b50e8bd0208dc099424eb1192415b76a6530b24bf7d28344f4be8f59ad1c45bd8788db15ef6e67873bd9e499f2ff235c698f33c5a6d1465012e620580085064
   languageName: node
   linkType: hard
 
@@ -2900,11 +2900,11 @@ __metadata:
   linkType: hard
 
 "globals@npm:^13.15.0":
-  version: 13.15.0
-  resolution: "globals@npm:13.15.0"
+  version: 13.16.0
+  resolution: "globals@npm:13.16.0"
   dependencies:
     type-fest: "npm:^0.20.2"
-  checksum: c8fcaa0c6ed206c0b0588d3009a86378b9030de573051293870ed6fb17b5db4520361d252be012a7ccf604f448f41028b3ee98bcae7d0717722004b133c9ac53
+  checksum: 96fe3eff80028b648096b860712e19a09427ad48acb55a6c1c62c83ac8500b6633e57c2ec99fc17b99335a6e59551e74748ed94a34232cc5bfa408fc308bd1fe
   languageName: node
   linkType: hard
 
@@ -3728,12 +3728,12 @@ __metadata:
   linkType: hard
 
 "jsx-ast-utils@npm:^2.4.1 || ^3.0.0":
-  version: 3.3.1
-  resolution: "jsx-ast-utils@npm:3.3.1"
+  version: 3.3.2
+  resolution: "jsx-ast-utils@npm:3.3.2"
   dependencies:
     array-includes: "npm:^3.1.5"
     object.assign: "npm:^4.1.2"
-  checksum: 71319b2a709d025aef3983fdcbd7049ee6b7a52688cbed3a6e45120ab1432c2c1c8476b98eb7a772837cf3ac2e1bd7eeb4220f9c128a2a22619f2764d5cb3921
+  checksum: 300abbda84fe8b0342360c41293606900c62a78a03acc466830a4dc108fa41a2d9f4481fc283aa5f5ec9e9e7099d7e5fa663036a02ee736701fbf9b1bf34b37d
   languageName: node
   linkType: hard
 
@@ -6477,11 +6477,11 @@ __metadata:
   linkType: hard
 
 "uglify-js@npm:^3.1.4":
-  version: 3.16.1
-  resolution: "uglify-js@npm:3.16.1"
+  version: 3.16.2
+  resolution: "uglify-js@npm:3.16.2"
   bin:
     uglifyjs: bin/uglifyjs
-  checksum: fedc0742e08386717fe8e67c267016d56c7a66476993ee8877952cf70b91a8993aef842cbdb87636e8d58abf573d21d2c7c386a83216c1c6ca07e636cccb55bc
+  checksum: bb194c0881f6de184c45ca8ece4379d8b670fcfdba57633c2f8a80cb58582bc65ecf525006e798a0792e1b24806acc64bcb7fb67efc2b0d4d79bedcfd139abe3
   languageName: node
   linkType: hard
 

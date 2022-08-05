@@ -26,11 +26,11 @@
   "devDependencies": {
     "@types/eslint": "8.4.5",
     "@types/micromatch": "4.0.2",
-    "@typescript-eslint/parser": "5.31.0",
+    "@typescript-eslint/parser": "5.32.0",
     "@willbooster/prettier-config": "workspace:*",
     "conventional-changelog-conventionalcommits": "5.0.0",
     "dotenv-cli": "5.1.0",
-    "eslint": "8.20.0",
+    "eslint": "8.21.0",
     "husky": "8.0.1",
     "lint-staged": "13.0.3",
     "micromatch": "4.0.5",

@@ -17,7 +17,7 @@
   "devDependencies": {
     "@types/eslint": "8.4.6",
     "@types/micromatch": "4.0.2",
-    "@willbooster/prettier-config": "9.0.0",
+    "@willbooster/prettier-config": "9.0.1",
     "eslint": "8.22.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-import": "2.26.0",

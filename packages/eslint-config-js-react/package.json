@@ -1,6 +1,6 @@
 {
   "name": "@willbooster/eslint-config-js-react",
-  "version": "8.0.0",
+  "version": "0.0.0-semantically-released",
   "description": "A ESLint config for JavaScript projects using React",
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",

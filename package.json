@@ -29,7 +29,7 @@
     "@typescript-eslint/parser": "5.33.1",
     "@willbooster/prettier-config": "workspace:*",
     "conventional-changelog-conventionalcommits": "5.0.0",
-    "dotenv-cli": "5.1.0",
+    "dotenv-cli": "6.0.0",
     "eslint": "8.22.0",
     "husky": "8.0.1",
     "lint-staged": "13.0.3",

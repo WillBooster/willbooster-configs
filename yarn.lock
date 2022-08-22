@@ -926,13 +926,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@willbooster/common@workspace:*, @willbooster/common@workspace:packages/common":
+"@willbooster/common@1.0.0, @willbooster/common@workspace:packages/common":
   version: 0.0.0-use.local
   resolution: "@willbooster/common@workspace:packages/common"
   dependencies:
     "@types/eslint": 8.4.6
     "@types/micromatch": 4.0.2
-    "@willbooster/prettier-config": "workspace:*"
+    "@willbooster/prettier-config": 9.0.0
     lint-staged: 13.0.3
     micromatch: 4.0.5
     prettier: 2.7.1
@@ -951,7 +951,7 @@ __metadata:
     "@types/eslint": 8.4.6
     "@types/micromatch": 4.0.2
     "@typescript-eslint/parser": 5.33.1
-    "@willbooster/prettier-config": "workspace:*"
+    "@willbooster/prettier-config": 9.0.0
     conventional-changelog-conventionalcommits: 5.0.0
     dotenv-cli: 6.0.0
     eslint: 8.22.0
@@ -972,8 +972,8 @@ __metadata:
     "@types/eslint": 8.4.6
     "@types/micromatch": 4.0.2
     "@types/react": 18.0.17
-    "@willbooster/eslint-config-js": "workspace:*"
-    "@willbooster/prettier-config": "workspace:*"
+    "@willbooster/eslint-config-js": 9.0.0
+    "@willbooster/prettier-config": 9.0.0
     eslint: 8.22.0
     eslint-config-prettier: 8.5.0
     eslint-plugin-import: 2.26.0
@@ -998,13 +998,27 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/eslint-config-js@workspace:*, @willbooster/eslint-config-js@workspace:packages/eslint-config-js":
+"@willbooster/eslint-config-js@npm:9.0.0":
+  version: 9.0.0
+  resolution: "@willbooster/eslint-config-js@npm:9.0.0"
+  peerDependencies:
+    "@willbooster/prettier-config": 9.0.0
+    eslint: ">=8"
+    eslint-config-prettier: ">=8"
+    eslint-plugin-import: ">=2"
+    eslint-plugin-sort-class-members: ">=1.14"
+    eslint-plugin-sort-destructure-keys: ">=1.4"
+  checksum: cdf303d18b347255c44f9d3d89dfe121561784d20b2d2e2a2ad639a2bf1db95c9715699c9a604aa22cfb85a6d8f61822861cef0a486767c7df63d21bd06695fb
+  languageName: node
+  linkType: hard
+
+"@willbooster/eslint-config-js@workspace:packages/eslint-config-js":
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-js@workspace:packages/eslint-config-js"
   dependencies:
     "@types/eslint": 8.4.6
     "@types/micromatch": 4.0.2
-    "@willbooster/prettier-config": "workspace:*"
+    "@willbooster/prettier-config": 9.0.0
     eslint: 8.22.0
     eslint-config-prettier: 8.5.0
     eslint-plugin-import: 2.26.0
@@ -1034,8 +1048,8 @@ __metadata:
     "@types/react": 18.0.17
     "@typescript-eslint/eslint-plugin": 5.33.1
     "@typescript-eslint/parser": 5.33.1
-    "@willbooster/eslint-config-ts": "workspace:*"
-    "@willbooster/prettier-config": "workspace:*"
+    "@willbooster/eslint-config-ts": 9.0.0
+    "@willbooster/prettier-config": 9.0.0
     eslint: 8.22.0
     eslint-config-prettier: 8.5.0
     eslint-import-resolver-typescript: 3.4.2
@@ -1067,7 +1081,25 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/eslint-config-ts@workspace:*, @willbooster/eslint-config-ts@workspace:packages/eslint-config-ts":
+"@willbooster/eslint-config-ts@npm:9.0.0":
+  version: 9.0.0
+  resolution: "@willbooster/eslint-config-ts@npm:9.0.0"
+  peerDependencies:
+    "@typescript-eslint/eslint-plugin": ">=5"
+    "@typescript-eslint/parser": ">=5"
+    "@willbooster/prettier-config": 9.0.0
+    eslint: ">=8"
+    eslint-config-prettier: ">=8"
+    eslint-import-resolver-typescript: ">=2"
+    eslint-plugin-import: ">=2"
+    eslint-plugin-sort-class-members: ">=1.14"
+    eslint-plugin-sort-destructure-keys: ">=1.4"
+    typescript: ">=4"
+  checksum: 8ae95cfe2606323ce8ed2af6a83a3a885dc0e31fe13a5da3cd0c537652eab9a3809236456d7e3e3b3cad32ec8f99e74302efc850424611ca7de59c9c6d493e0e
+  languageName: node
+  linkType: hard
+
+"@willbooster/eslint-config-ts@workspace:packages/eslint-config-ts":
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-ts@workspace:packages/eslint-config-ts"
   dependencies:
@@ -1076,8 +1108,8 @@ __metadata:
     "@types/node": 16.11.51
     "@typescript-eslint/eslint-plugin": 5.33.1
     "@typescript-eslint/parser": 5.33.1
-    "@willbooster/common": "workspace:*"
-    "@willbooster/prettier-config": "workspace:*"
+    "@willbooster/common": 1.0.0
+    "@willbooster/prettier-config": 9.0.0
     eslint: 8.22.0
     eslint-config-prettier: 8.5.0
     eslint-import-resolver-typescript: 3.4.2
@@ -1104,7 +1136,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/prettier-config@workspace:*, @willbooster/prettier-config@workspace:packages/prettier-config":
+"@willbooster/prettier-config@npm:9.0.0":
+  version: 9.0.0
+  resolution: "@willbooster/prettier-config@npm:9.0.0"
+  peerDependencies:
+    prettier: ">=2"
+  checksum: 8c16680651f23a895933734c4267109c69890551c6f3d0fe0e7703f9f479684d495ade41ea599f872679467c6f2903e0c10b11796e9a5d75360c96bed03b197d
+  languageName: node
+  linkType: hard
+
+"@willbooster/prettier-config@workspace:packages/prettier-config":
   version: 0.0.0-use.local
   resolution: "@willbooster/prettier-config@workspace:packages/prettier-config"
   dependencies:
@@ -1120,7 +1161,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/renovate-config@workspace:packages/renovate-config"
   dependencies:
-    "@willbooster/prettier-config": "workspace:*"
+    "@willbooster/prettier-config": 9.0.0
     lint-staged: 13.0.3
     prettier: 2.7.1
     sort-package-json: 1.57.0

@@ -28,7 +28,7 @@
     "@types/eslint": "8.4.6",
     "@types/micromatch": "4.0.2",
     "@typescript-eslint/parser": "5.33.1",
-    "@willbooster/prettier-config": "workspace:*",
+    "@willbooster/prettier-config": "9.0.0",
     "conventional-changelog-conventionalcommits": "5.0.0",
     "dotenv-cli": "6.0.0",
     "eslint": "8.22.0",

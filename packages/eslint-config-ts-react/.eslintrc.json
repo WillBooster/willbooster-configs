@@ -1,5 +1,10 @@
 {
-  "extends": ["plugin:react/recommended", "plugin:react-hooks/recommended", "@willbooster/eslint-config-ts"],
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:react-hooks/recommended",
+    "@willbooster/eslint-config-ts"
+  ],
   "rules": {
     "react/jsx-sort-props": [
       "error",

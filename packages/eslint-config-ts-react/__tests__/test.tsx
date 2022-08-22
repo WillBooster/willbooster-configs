@@ -1,6 +1,5 @@
 import child_process from 'child_process';
 
-import React from 'react';
 import { useImmer } from 'use-immer';
 
 import { sampleValue } from '../../common/src';

@@ -926,23 +926,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@willbooster/common@1.0.0, @willbooster/common@workspace:packages/common":
-  version: 0.0.0-use.local
-  resolution: "@willbooster/common@workspace:packages/common"
-  dependencies:
-    "@types/eslint": 8.4.6
-    "@types/micromatch": 4.0.2
-    "@willbooster/prettier-config": 9.0.0
-    lint-staged: 13.0.3
-    micromatch: 4.0.5
-    prettier: 2.7.1
-    sort-package-json: 1.57.0
-    typescript: 4.7.4
-  peerDependencies:
-    "@willbooster/prettier-config": ">=6"
-  languageName: unknown
-  linkType: soft
-
 "@willbooster/configs@workspace:.":
   version: 0.0.0-use.local
   resolution: "@willbooster/configs@workspace:."
@@ -1108,7 +1091,6 @@ __metadata:
     "@types/node": 16.11.51
     "@typescript-eslint/eslint-plugin": 5.33.1
     "@typescript-eslint/parser": 5.33.1
-    "@willbooster/common": 1.0.0
     "@willbooster/prettier-config": 9.0.0
     eslint: 8.22.0
     eslint-config-prettier: 8.5.0
@@ -1165,6 +1147,23 @@ __metadata:
     lint-staged: 13.0.3
     prettier: 2.7.1
     sort-package-json: 1.57.0
+  languageName: unknown
+  linkType: soft
+
+"@willbooster/shared@workspace:packages/shared":
+  version: 0.0.0-use.local
+  resolution: "@willbooster/shared@workspace:packages/shared"
+  dependencies:
+    "@types/eslint": 8.4.6
+    "@types/micromatch": 4.0.2
+    "@willbooster/prettier-config": 9.0.0
+    lint-staged: 13.0.3
+    micromatch: 4.0.5
+    prettier: 2.7.1
+    sort-package-json: 1.57.0
+    typescript: 4.7.4
+  peerDependencies:
+    "@willbooster/prettier-config": ">=6"
   languageName: unknown
   linkType: soft
 

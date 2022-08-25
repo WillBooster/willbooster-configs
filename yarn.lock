@@ -1000,6 +1000,7 @@ __metadata:
   dependencies:
     "@types/babel__core": "npm:7.1.19"
     "@willbooster/prettier-config": "npm:9.0.1"
+    core-js: "npm:3.25.0"
     lint-staged: "npm:13.0.3"
     prettier: "npm:2.7.1"
     sort-package-json: "npm:1.57.0"
@@ -1984,6 +1985,13 @@ __metadata:
   bin:
     conventional-commits-parser: cli.js
   checksum: 8540ba2f65dc57beb2df2519d73c57f77158ac69b54cd079c00eebafd26deb10abf8de8075811f0e80c262aada7bdabb5ecda0c206d950cff3c4fbf5e3c4342d
+  languageName: node
+  linkType: hard
+
+"core-js@npm:3.25.0":
+  version: 3.25.0
+  resolution: "core-js@npm:3.25.0"
+  checksum: 44d4468540775765c47cae082405834e18c81f27a3ac35ce471103514c628896168de2541673f8f7885449d2b260615d4ea03b19951adfd767c7d5c317a6bfbc
   languageName: node
   linkType: hard
 

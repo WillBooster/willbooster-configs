@@ -1,0 +1,23 @@
+{
+  "name": "@willbooster/babel-config",
+  "version": "0.0.0-semantically-released",
+  "description": "A set of babel configs for WillBooster projects",
+  "license": "Apache-2.0",
+  "author": "WillBooster Inc.",
+  "files": [
+    "babel.*.js"
+  ],
+  "scripts": {
+    "cleanup": "yarn format",
+    "format": "sort-package-json && yarn prettify",
+    "prettify": "prettier --color --write \"**/{.*/,}*.{cjs,css,htm,html,js,json,json5,jsx,md,mjs,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\""
+  },
+  "prettier": "@willbooster/prettier-config",
+  "devDependencies": {
+    "@types/babel__core": "7.1.19",
+    "@willbooster/prettier-config": "9.0.1",
+    "lint-staged": "13.0.3",
+    "prettier": "2.7.1",
+    "sort-package-json": "1.57.0"
+  }
+}

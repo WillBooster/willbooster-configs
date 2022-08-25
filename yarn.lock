@@ -994,9 +994,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@willbooster/babel-config@workspace:packages/babel-config":
+"@willbooster/babel-configs@workspace:packages/babel-configs":
   version: 0.0.0-use.local
-  resolution: "@willbooster/babel-config@workspace:packages/babel-config"
+  resolution: "@willbooster/babel-configs@workspace:packages/babel-configs"
   dependencies:
     "@types/babel__core": "npm:7.1.19"
     "@willbooster/prettier-config": "npm:^9.0.1"

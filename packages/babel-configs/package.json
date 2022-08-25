@@ -1,5 +1,5 @@
 {
-  "name": "@willbooster/babel-config",
+  "name": "@willbooster/babel-configs",
   "version": "0.0.0-semantically-released",
   "description": "A set of babel configs for WillBooster projects",
   "license": "Apache-2.0",

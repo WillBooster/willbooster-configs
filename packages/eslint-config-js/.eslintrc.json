@@ -9,6 +9,7 @@
     "eqeqeq": "warn",
     "no-console": "off", // allow `console.log()`
     "no-unused-vars": ["warn", { "ignoreRestSiblings": true }], // allow unused vars in object destructuring
+    "object-shorthand": "error",
     "import/newline-after-import": "error",
     "import/no-duplicates": "error",
     "import/order": [

@@ -6,6 +6,7 @@
     "plugin:import/recommended",
     "plugin:import/typescript",
     "plugin:sort-class-members/recommended",
+    "plugin:unicorn/recommended",
     "prettier"
   ],
   "parser": "@typescript-eslint/parser",
@@ -91,6 +92,20 @@
         }
       }
     ],
-    "sort-destructure-keys/sort-destructure-keys": "error"
+    "sort-destructure-keys/sort-destructure-keys": "error",
+    "unicorn/filename-case": [
+      "error",
+      {
+        "cases": {
+          "camelCase": true,
+          "pascalCase": true
+        }
+      }
+    ],
+    "unicorn/no-abusive-eslint-disable": "off",
+    "unicorn/no-array-reduce": "warn",
+    "unicorn/no-null": "warn",
+    "unicorn/no-process-exit": "off",
+    "unicorn/prefer-top-level-await": "warn"
   }
 }

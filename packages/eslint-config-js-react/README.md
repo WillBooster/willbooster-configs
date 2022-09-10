@@ -10,10 +10,11 @@ yarn add -D @willbooster/eslint-config-js \
     eslint-config-prettier \
     eslint-plugin-import \
     eslint-plugin-prettier \
-    eslint-plugin-sort-class-members \
-    eslint-plugin-sort-destructure-keys \
     eslint-plugin-react \
     eslint-plugin-react-hooks \
+    eslint-plugin-sort-class-members \
+    eslint-plugin-sort-destructure-keys \
+    eslint-plugin-unicorn \
     prettier \
     @willbooster/prettier-config
 ```

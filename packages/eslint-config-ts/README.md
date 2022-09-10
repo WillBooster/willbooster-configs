@@ -11,6 +11,7 @@ yarn add -D @willbooster/eslint-config-ts \
     eslint-plugin-prettier \
     eslint-plugin-sort-class-members \
     eslint-plugin-sort-destructure-keys \
+    eslint-plugin-unicorn \
     typescript \
     @typescript-eslint/eslint-plugin \
     @typescript-eslint/parser \

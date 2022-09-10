@@ -13,6 +13,7 @@ yarn add -D @willbooster/eslint-config-ts \
     eslint-plugin-react-hooks \
     eslint-plugin-sort-class-members \
     eslint-plugin-sort-destructure-keys \
+    eslint-plugin-unicorn \
     typescript \
     @typescript-eslint/eslint-plugin \
     @typescript-eslint/parser \

@@ -11,7 +11,7 @@ yarn add -D @willbooster/babel-configs \
     @babel/plugin-proposal-numeric-separator \
     @babel/preset-env \
     @babel/preset-typescript \
-    core-js
+    babel-plugin-transform-remove-console
 ```
 
 ## How to add dependencies for babel.corejs.config.js
@@ -23,6 +23,7 @@ yarn add -D @willbooster/babel-configs \
     @babel/plugin-proposal-numeric-separator \
     @babel/preset-env \
     @babel/preset-typescript \
+    babel-plugin-transform-remove-console \
     core-js
 ```
 
@@ -35,7 +36,8 @@ yarn add -D @willbooster/babel-configs \
     @babel/plugin-proposal-numeric-separator \
     @babel/preset-env \
     @babel/preset-react \
-    @babel/preset-typescript
+    @babel/preset-typescript \
+    babel-plugin-transform-remove-console
 ```
 
 ## How to add dependencies for babel.corejs.react.config.js
@@ -48,5 +50,6 @@ yarn add -D @willbooster/babel-configs \
     @babel/preset-env \
     @babel/preset-react \
     @babel/preset-typescript \
+    babel-plugin-transform-remove-console \
     core-js
 ```

@@ -41,6 +41,7 @@
     "unicorn/no-array-reduce": "warn",
     "unicorn/no-null": "warn",
     "unicorn/no-process-exit": "off",
-    "unicorn/prefer-top-level-await": "warn"
+    "unicorn/prefer-top-level-await": "warn",
+    "unicorn/prevent-abbreviations": "off"
   }
 }

@@ -5,6 +5,9 @@
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
   "main": ".eslintrc.json",
+  "files": [
+    ".eslintrc.json"
+  ],
   "scripts": {
     "cleanup": "yarn format && yarn lint-fix",
     "format": "sort-package-json && yarn prettify",

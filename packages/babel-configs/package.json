@@ -5,7 +5,7 @@
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
   "files": [
-    "babel.*.js"
+    "babel.*.cjs"
   ],
   "scripts": {
     "cleanup": "yarn format",

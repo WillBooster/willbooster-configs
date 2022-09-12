@@ -5,6 +5,9 @@
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
   "main": ".prettierrc.json",
+  "files": [
+    ".prettierrc.json"
+  ],
   "scripts": {
     "cleanup": "yarn format",
     "format": "sort-package-json && yarn prettify",

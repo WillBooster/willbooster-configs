@@ -2,7 +2,7 @@
 
 A set of babel config files for my repositories.
 
-## How to add dependencies for babel.config.js
+## How to add dependencies for babel.config.cjs
 
 ```sh
 yarn add -D @willbooster/babel-configs \
@@ -14,7 +14,7 @@ yarn add -D @willbooster/babel-configs \
     babel-plugin-transform-remove-console
 ```
 
-## How to add dependencies for babel.corejs.config.js
+## How to add dependencies for babel.corejs.config.cjs
 
 ```sh
 yarn add -D @willbooster/babel-configs \
@@ -27,7 +27,7 @@ yarn add -D @willbooster/babel-configs \
     core-js
 ```
 
-## How to add dependencies for babel.react.config.js
+## How to add dependencies for babel.react.config.cjs
 
 ```sh
 yarn add -D @willbooster/babel-configs \
@@ -40,7 +40,7 @@ yarn add -D @willbooster/babel-configs \
     babel-plugin-transform-remove-console
 ```
 
-## How to add dependencies for babel.corejs.react.config.js
+## How to add dependencies for babel.corejs.react.config.cjs
 
 ```sh
 yarn add -D @willbooster/babel-configs \

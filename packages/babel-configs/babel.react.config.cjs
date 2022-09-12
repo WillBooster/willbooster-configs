@@ -1,4 +1,4 @@
-const config = require('./babel.config.js');
+const config = require('./babel.config.cjs');
 config.presets.push('@babel/preset-react');
 
 /** @type {import('@babel/core').PluginItem} */

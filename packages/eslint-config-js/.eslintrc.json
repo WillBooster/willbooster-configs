@@ -41,6 +41,12 @@
     "unicorn/no-array-reduce": "warn",
     "unicorn/no-null": "warn",
     "unicorn/no-process-exit": "off",
+    "unicorn/no-useless-undefined": [
+      "error",
+      {
+        "checkArguments": false
+      }
+    ],
     "unicorn/prefer-top-level-await": "warn",
     "unicorn/prevent-abbreviations": "off"
   }

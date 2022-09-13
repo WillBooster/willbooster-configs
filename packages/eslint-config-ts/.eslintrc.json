@@ -103,6 +103,7 @@
       }
     ],
     "unicorn/no-abusive-eslint-disable": "off",
+    "unicorn/no-array-callback-reference": "off",
     "unicorn/no-array-reduce": "warn",
     "unicorn/no-null": "warn",
     "unicorn/no-process-exit": "off",

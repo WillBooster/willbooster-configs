@@ -21,7 +21,7 @@
     "@types/eslint": "8.4.6",
     "@types/micromatch": "4.0.2",
     "@willbooster/prettier-config": "^9.0.1",
-    "eslint": "8.23.1",
+    "eslint": "8.24.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-sort-class-members": "1.15.2",

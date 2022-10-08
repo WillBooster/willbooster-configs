@@ -9,12 +9,14 @@
 
 ## Packages
 
+- [@willbooster/babel-configs](packages/babel-configs)
 - [@willbooster/eslint-config-js](packages/eslint-config-js)
 - [@willbooster/eslint-config-js-react](packages/eslint-config-js-react)
 - [@willbooster/eslint-config-ts](packages/eslint-config-ts)
 - [@willbooster/eslint-config-ts-react](packages/eslint-config-ts-react)
 - [@willbooster/prettier-config](packages/prettier-config)
 - [@willbooster/renovate-config](packages/renovate-config)
+- [@willbooster/rollup-configs](packages/rollup-configs)
 
 ## Following Guides
 

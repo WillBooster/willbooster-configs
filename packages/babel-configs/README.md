@@ -1,4 +1,4 @@
-# babel-config
+# babel-configs
 
 A set of babel config files for my repositories.
 

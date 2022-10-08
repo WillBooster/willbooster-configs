@@ -1,4 +1,10 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-yarn
+changed_files="$(git diff-tree -r --name-only --no-commit-id ORIG_HEAD HEAD)"
+
+run_if_changed() {
+  echo "$changed_files" | grep -E --quiet "$1" && eval "$2"
+}
+
+run_if_changed "package\.json" "yarn"

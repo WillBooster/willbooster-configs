@@ -14,7 +14,7 @@ yarn add -D @willbooster/rollup-configs \
     rollup-plugin-terser
 ```
 
-## How to add dependencies for rollup.react.library.no-bundle.config.mjs
+## How to add dependencies for rollup.library.no-bundle.config.mjs
 
 ```sh
 yarn add -D @willbooster/rollup-configs \

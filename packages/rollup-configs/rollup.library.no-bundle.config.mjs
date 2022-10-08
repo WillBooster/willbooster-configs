@@ -8,7 +8,7 @@ import analyze from 'rollup-plugin-analyzer';
 import { getNamespace } from './utils.mjs';
 
 export function getRollupConfig(input, packageJsonPath) {
-  const extensions = ['.mjs', '.js', '.jsx', '.json', '.ts', '.tsx'];
+  const extensions = ['.cjs', '.mjs', '.js', '.jsx', '.json', '.ts', '.tsx'];
   const namespace = packageJsonPath ? getNamespace(packageJsonPath) : undefined;
   const plugins = [
     json(),

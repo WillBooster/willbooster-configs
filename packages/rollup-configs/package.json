@@ -15,7 +15,7 @@
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
     "@willbooster/prettier-config": "^9.0.1",
-    "core-js": "3.25.3",
+    "core-js": "3.25.5",
     "lint-staged": "13.0.3",
     "prettier": "2.7.1",
     "sort-package-json": "2.0.0"

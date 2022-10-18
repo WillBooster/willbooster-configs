@@ -21,7 +21,6 @@
     "@rollup/plugin-json": "5.0.0",
     "@rollup/plugin-node-resolve": "15.0.0",
     "@willbooster/prettier-config": "^9.0.1",
-    "@willbooster/rollup-configs": "2.0.0",
     "core-js": "3.25.5",
     "lint-staged": "13.0.3",
     "prettier": "2.7.1",

@@ -1,14 +1,15 @@
-import path from 'node:path';
-import externals from 'rollup-plugin-node-externals';
-import resolve from '@rollup/plugin-node-resolve';
-import commonjs from '@rollup/plugin-commonjs';
-import { babel } from '@rollup/plugin-babel';
-import json from '@rollup/plugin-json';
-import { terser } from 'rollup-plugin-terser';
 import fs from 'node:fs';
+import path from 'node:path';
+
+import { babel } from '@rollup/plugin-babel';
+import commonjs from '@rollup/plugin-commonjs';
+import json from '@rollup/plugin-json';
+import resolve from '@rollup/plugin-node-resolve';
+import { externals } from 'rollup-plugin-node-externals';
+import { terser } from 'rollup-plugin-terser';
 
 export function getRollupConfig(input, packageJsonPath, firebaseJsonPath) {
-  const extensions = ['.cjs', '.mjs', '.js', '.json', '.ts'];
+  const extensions = ['.cjs', '.mjs', '.js', '.json', '.cts', '.mts', '.ts'];
   const plugins = [
     json(),
     externals({ deps: true, devDeps: false }),

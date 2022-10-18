@@ -6,23 +6,23 @@ A set of rollup config files for my repositories.
 
 ```sh
 yarn add -D @willbooster/rollup-configs \
-    rollup-plugin-node-externals \
-    @rollup/plugin-node-resolve \
-    @rollup/plugin-commonjs \
     @rollup/plugin-babel \
+    @rollup/plugin-commonjs \
     @rollup/plugin-json \
+    @rollup/plugin-node-resolve \
+    rollup-plugin-node-externals \
     rollup-plugin-terser
 ```
 
-## How to add dependencies for rollup.library.no-bundle.config.mjs
+## How to add dependencies for rollup.library.noBundle.config.mjs
 
 ```sh
 yarn add -D @willbooster/rollup-configs \
-    rollup-plugin-node-externals \
-    @rollup/plugin-node-resolve \
     @rollup/plugin-commonjs \
-    @rollup/plugin-babel \
     @rollup/plugin-json \
+    @rollup/plugin-node-resolve \
+    rollup-plugin-analyzer \
+    rollup-plugin-node-externals \
     rollup-plugin-terser \
-    rollup-plugin-analyzer
+    rollup-plugin-ts
 ```

@@ -1412,13 +1412,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/rollup-configs@npm:2.0.0":
-  version: 2.0.0
-  resolution: "@willbooster/rollup-configs@npm:2.0.0"
-  checksum: 17bce4f4a61554cb7066aae71065d8056b1002de60fd497518c34a553aea0731ed2295a21d688b24e1ed9bd67c875f855b23f877aafccd7cabddb5a15fae762f
-  languageName: node
-  linkType: hard
-
 "@willbooster/rollup-configs@workspace:packages/rollup-configs":
   version: 0.0.0-use.local
   resolution: "@willbooster/rollup-configs@workspace:packages/rollup-configs"
@@ -1428,7 +1421,6 @@ __metadata:
     "@rollup/plugin-json": "npm:5.0.0"
     "@rollup/plugin-node-resolve": "npm:15.0.0"
     "@willbooster/prettier-config": "npm:^9.0.1"
-    "@willbooster/rollup-configs": "npm:2.0.0"
     core-js: "npm:3.25.5"
     lint-staged: "npm:13.0.3"
     prettier: "npm:2.7.1"

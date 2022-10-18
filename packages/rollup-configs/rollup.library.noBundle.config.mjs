@@ -8,13 +8,13 @@ import { externals } from 'rollup-plugin-node-externals';
 import { terser } from 'rollup-plugin-terser';
 import ts from 'rollup-plugin-ts';
 
-import { getNamespace, readPackageJson } from './utils.mjs';
+import { getNamespaceAndName, readPackageJson } from './utils.mjs';
 
 export function getRollupConfig(input, packageJsonPath, options) {
   const { sourcemap } = { sourcemap: true, ...options };
   const packageJson = readPackageJson(packageJsonPath);
   const extensions = ['.cjs', '.mjs', '.js', '.jsx', '.json', '.cts', '.mts', '.ts', '.tsx'];
-  const namespace = packageJson && getNamespace(packageJson);
+  const [namespace, name] = (packageJson && getNamespaceAndName(packageJson)) || [];
   const plugins = [
     json(),
     externals({
@@ -42,11 +42,20 @@ export function getRollupConfig(input, packageJsonPath, options) {
   return fileAndFormatList.map(([file, format]) => ({
     input,
     output: {
-      dir: path.dirname(file),
+      dir: fixOutputDir(path.dirname(file), name),
       format,
       preserveModules: true,
       sourcemap,
     },
     plugins,
   }));
+}
+
+function fixOutputDir(dirPath, packageName) {
+  if (!packageName) return dirPath;
+
+  const index = dirPath.indexOf(packageName);
+  if (index < 0) return dirPath;
+
+  return dirPath.slice(0, index);
 }

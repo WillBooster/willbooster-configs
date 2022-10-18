@@ -10,8 +10,8 @@ export function readPackageJson(packageJsonPath) {
   }
 }
 
-export function getNamespace(packageJson) {
-  const match = /@([^/]+)\//.exec(packageJson.name ?? '');
-  const [, namespace] = match ?? [];
-  return namespace;
+export function getNamespaceAndName(packageJson) {
+  const match = /@([^/]+)\/(.+)/.exec(packageJson.name || '');
+  const [, namespace, name] = match || [];
+  return [namespace, name];
 }

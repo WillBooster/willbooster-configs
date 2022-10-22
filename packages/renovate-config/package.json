@@ -34,9 +34,6 @@
         "group:test",
         "group:allNonMajor"
       ],
-      "constraints": {
-        "node": "< 19.0.0"
-      },
       "dependencyDashboardAutoclose": true,
       "packageRules": [
         {
@@ -56,6 +53,15 @@
             "chalk"
           ],
           "enabled": false
+        },
+        {
+          "matchDatasources": [
+            "docker"
+          ],
+          "matchPackageNames": [
+            "node"
+          ],
+          "allowedVersions": "^16 || ^18 || ^20"
         }
       ],
       "schedule": [

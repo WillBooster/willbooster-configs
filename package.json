@@ -28,9 +28,9 @@
   },
   "devDependencies": {
     "@qiwi/multi-semantic-release": "6.5.1",
-    "@types/eslint": "8.4.7",
+    "@types/eslint": "8.4.8",
     "@types/micromatch": "4.0.2",
-    "@typescript-eslint/parser": "5.40.1",
+    "@typescript-eslint/parser": "5.41.0",
     "@willbooster/prettier-config": "^9.0.1",
     "conventional-changelog-conventionalcommits": "5.0.0",
     "dotenv-cli": "6.0.0",

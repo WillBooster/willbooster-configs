@@ -24,6 +24,9 @@
   },
   "settings": {
     "import/core-modules": ["react-dom"],
+    "import/resolver": {
+      "typescript": true
+    },
     "react": {
       "version": "detect"
     }

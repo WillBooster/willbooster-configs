@@ -115,5 +115,10 @@
     ],
     "unicorn/prefer-top-level-await": "warn",
     "unicorn/prevent-abbreviations": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": true
+    }
   }
 }

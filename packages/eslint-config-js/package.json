@@ -21,7 +21,7 @@
     "@types/eslint": "8.4.10",
     "@types/micromatch": "4.0.2",
     "@willbooster/prettier-config": "^9.0.1",
-    "eslint": "8.26.0",
+    "eslint": "8.27.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-sort-class-members": "1.15.2",
@@ -30,7 +30,7 @@
     "lint-staged": "13.0.3",
     "micromatch": "4.0.5",
     "prettier": "2.7.1",
-    "sort-package-json": "2.0.0"
+    "sort-package-json": "2.1.0"
   },
   "peerDependencies": {
     "@willbooster/prettier-config": ">=6",

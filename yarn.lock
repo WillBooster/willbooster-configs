@@ -3496,11 +3496,11 @@ __metadata:
   linkType: hard
 
 "globals@npm:^13.15.0":
-  version: 13.17.0
-  resolution: "globals@npm:13.17.0"
+  version: 13.18.0
+  resolution: "globals@npm:13.18.0"
   dependencies:
     type-fest: "npm:^0.20.2"
-  checksum: 663e415f2ea22909f3336e1575a585c1b0976de186bb46e3a3dcd526a0390d836d27351c10be370396581b198351f5e108b77a3c906424391dcbd836825825e3
+  checksum: 6f892694a2be6ac05dfb6ae4b6955ec5ad4fe6d02c5de7481a4e7ea8519b43702775cb9022348a8c859c35bff81bdf768c76570cfd9b98c0d3759a1cc4b979f3
   languageName: node
   linkType: hard
 
@@ -6247,9 +6247,9 @@ __metadata:
   linkType: hard
 
 "regenerator-runtime@npm:^0.13.10":
-  version: 0.13.10
-  resolution: "regenerator-runtime@npm:0.13.10"
-  checksum: ac83ab4691a061519703e622ee817a0a517a80235d0c76a49ef32848c0d0946d97797d244806490f8f94e05a4b180a295869299b2e44c6f1c625b835703666a6
+  version: 0.13.11
+  resolution: "regenerator-runtime@npm:0.13.11"
+  checksum: 0485db63ce47760e28329590cb9f8b208365d076dbf2edaa32e551a7c0451fc6f7557b225268422c960ffa4fbc6ff86d63d6a747aacbf6b10ed6a747b432e3c8
   languageName: node
   linkType: hard
 

@@ -10,6 +10,7 @@ yarn add -D @willbooster/rollup-configs \
     @rollup/plugin-commonjs \
     @rollup/plugin-json \
     @rollup/plugin-node-resolve \
+    @rollup/plugin-replace \
     rollup-plugin-node-externals \
     rollup-plugin-terser
 ```
@@ -21,6 +22,7 @@ yarn add -D @willbooster/rollup-configs \
     @rollup/plugin-commonjs \
     @rollup/plugin-json \
     @rollup/plugin-node-resolve \
+    @rollup/plugin-replace \
     rollup-plugin-analyzer \
     rollup-plugin-node-externals \
     rollup-plugin-terser \

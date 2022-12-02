@@ -2,15 +2,21 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 import { babel } from '@rollup/plugin-babel';
+import replace from '@rollup/plugin-replace';
 import commonjs from '@rollup/plugin-commonjs';
 import json from '@rollup/plugin-json';
 import resolve from '@rollup/plugin-node-resolve';
 import { externals } from 'rollup-plugin-node-externals';
 import { terser } from 'rollup-plugin-terser';
 
-export function getRollupConfig(input, packageJsonPath, firebaseJsonPath) {
+export function getRollupConfig(input, packageJsonPath, firebaseJsonPath, embeddedVariables) {
   const extensions = ['.cjs', '.mjs', '.js', '.json', '.cts', '.mts', '.ts'];
   const plugins = [
+    replace({
+      delimiters: ['', ''],
+      preventAssignment: true,
+      values: embeddedVariables || {},
+    }),
     json(),
     externals({ deps: true, devDeps: false }),
     resolve({ extensions }),

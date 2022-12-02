@@ -1,6 +1,7 @@
 import path from 'node:path';
 
 import commonjs from '@rollup/plugin-commonjs';
+import replace from '@rollup/plugin-replace';
 import json from '@rollup/plugin-json';
 import resolve from '@rollup/plugin-node-resolve';
 import analyze from 'rollup-plugin-analyzer';
@@ -10,12 +11,17 @@ import ts from 'rollup-plugin-ts';
 
 import { getNamespaceAndName, readPackageJson } from './utils.mjs';
 
-export function getRollupConfig(input, packageJsonPath, options) {
+export function getRollupConfig(input, packageJsonPath, options, embeddedVariables) {
   const { sourcemap } = { sourcemap: true, ...options };
   const packageJson = readPackageJson(packageJsonPath);
   const extensions = ['.cjs', '.mjs', '.js', '.jsx', '.json', '.cts', '.mts', '.ts', '.tsx'];
   const [namespace, name] = (packageJson && getNamespaceAndName(packageJson)) || [];
   const plugins = [
+    replace({
+      delimiters: ['', ''],
+      preventAssignment: true,
+      values: embeddedVariables || {},
+    }),
     json(),
     externals({
       deps: true,

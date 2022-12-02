@@ -1,9 +1,9 @@
 import path from 'node:path';
 
 import commonjs from '@rollup/plugin-commonjs';
-import replace from '@rollup/plugin-replace';
 import json from '@rollup/plugin-json';
 import resolve from '@rollup/plugin-node-resolve';
+import replace from '@rollup/plugin-replace';
 import analyze from 'rollup-plugin-analyzer';
 import { externals } from 'rollup-plugin-node-externals';
 import { terser } from 'rollup-plugin-terser';

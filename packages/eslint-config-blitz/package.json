@@ -4,9 +4,9 @@
   "description": "A ESLint config for Blitz.js projects",
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
-  "main": ".eslintrc.json",
+  "main": ".eslintrc.js",
   "files": [
-    ".eslintrc.json"
+    ".eslintrc.js"
   ],
   "scripts": {
     "cleanup": "yarn format && yarn lint-fix",
@@ -47,10 +47,12 @@
     "use-immer": "0.8.1"
   },
   "peerDependencies": {
+    "@blitzjs/next": ">=2",
     "@typescript-eslint/eslint-plugin": ">=5",
     "@typescript-eslint/parser": ">=5",
     "@willbooster/prettier-config": ">=6",
     "eslint": ">=8",
+    "eslint-config-next": ">=13",
     "eslint-config-prettier": ">=8",
     "eslint-import-resolver-typescript": ">=2",
     "eslint-plugin-import": ">=2",

@@ -1264,10 +1264,12 @@ __metadata:
     typescript: "npm:4.9.3"
     use-immer: "npm:0.8.1"
   peerDependencies:
+    "@blitzjs/next": ">=2"
     "@typescript-eslint/eslint-plugin": ">=5"
     "@typescript-eslint/parser": ">=5"
     "@willbooster/prettier-config": ">=6"
     eslint: ">=8"
+    eslint-config-next: ">=13"
     eslint-config-prettier: ">=8"
     eslint-import-resolver-typescript: ">=2"
     eslint-plugin-import: ">=2"

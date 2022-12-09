@@ -1,7 +1,7 @@
 {
-  "name": "@willbooster/eslint-config-blitz",
+  "name": "@willbooster/eslint-config-blitz-next",
   "version": "0.0.0-semantically-released",
-  "description": "A ESLint config for Blitz.js projects",
+  "description": "A ESLint config for Blitz.js projects using Next.js",
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
   "main": ".eslintrc.js",

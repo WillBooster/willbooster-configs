@@ -3104,9 +3104,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/eslint-config-blitz@workspace:packages/eslint-config-blitz":
+"@willbooster/eslint-config-blitz-next@workspace:packages/eslint-config-blitz-next":
   version: 0.0.0-use.local
-  resolution: "@willbooster/eslint-config-blitz@workspace:packages/eslint-config-blitz"
+  resolution: "@willbooster/eslint-config-blitz-next@workspace:packages/eslint-config-blitz-next"
   dependencies:
     "@blitzjs/next": "npm:2.0.0-beta.19"
     "@types/eslint": "npm:8.4.10"

@@ -1,10 +1,11 @@
-# eslint-config-ts-react
+# eslint-config-blitz-next
 
-A ESLint config for TypeScript projects using React.
+A ESLint config for Blitz.js projects using Next.js.
 You need to do the following command to install peer dependencies.
 
 ```sh
-yarn add -D @willbooster/eslint-config-ts-react \
+yarn add -D @willbooster/eslint-config-blitz-next-next \
+    @willbooster/eslint-config-ts-react \
     @willbooster/eslint-config-ts \
     eslint \
     eslint-config-prettier \
@@ -20,5 +21,7 @@ yarn add -D @willbooster/eslint-config-ts-react \
     @typescript-eslint/parser \
     eslint-import-resolver-typescript \
     prettier \
-    @willbooster/prettier-config
+    @willbooster/prettier-config \
+    @blitzjs/next \
+    eslint-config-next
 ```

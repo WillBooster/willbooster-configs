@@ -10,9 +10,7 @@
   "scripts": {
     "cleanup": "yarn format",
     "format": "sort-package-json && yarn prettify",
-    "lint": "eslint --color \"./*.{cjs,js,jsx,mjs,ts,tsx}\"",
-    "lint-fix": "yarn lint --fix",
-    "prettify": "prettier --color --write \"**/{.*/,}*.{cjs,css,htm,html,js,json,json5,jsx,md,mjs,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\""
+    "prettify": "prettier --cache --color --write \"**/{.*/,}*.{cjs,css,cts,htm,html,js,json,json5,jsx,md,mjs,mts,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\""
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
@@ -22,7 +20,6 @@
     "@rollup/plugin-node-resolve": "15.0.1",
     "@rollup/plugin-replace": "5.0.2",
     "@willbooster/prettier-config": "^9.0.1",
-    "eslint": "8.30.0",
     "lint-staged": "13.1.0",
     "prettier": "2.8.1",
     "rollup-plugin-analyzer": "4.0.0",

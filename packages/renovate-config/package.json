@@ -31,6 +31,7 @@
         ":rebaseStalePrs",
         ":semanticCommits",
         "group:linters",
+        "group:nodeJs",
         "group:test",
         "group:allNonMajor"
       ],
@@ -38,8 +39,15 @@
       "packageRules": [
         {
           "groupName": "willbooster-config",
-          "packagePatterns": [
+          "matchPackagePatterns": [
             "^@willbooster/.*config"
+          ]
+        },
+        {
+          "groupName": "python envrionment",
+          "matchPackageNames": [
+            "python",
+            "poetry"
           ]
         },
         {

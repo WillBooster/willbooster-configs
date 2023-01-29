@@ -11,7 +11,7 @@
   "scripts": {
     "cleanup": "yarn format && yarn lint-fix",
     "format": "sort-package-json && yarn prettify",
-    "lint": "eslint --color \"./{__tests__,scripts,src}/**/*.{cjs,cts,js,jsx,mjs,mts,ts,tsx}\"",
+    "lint": "eslint --color \"./{scripts,src,tests}/**/*.{cjs,cts,js,jsx,mjs,mts,ts,tsx}\"",
     "lint-fix": "yarn lint --fix",
     "prettify": "prettier --cache --color --write \"**/{.*/,}*.{cjs,css,cts,htm,html,js,json,json5,jsx,md,mjs,mts,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\"",
     "test": "yarn lint"
@@ -21,16 +21,16 @@
     "@types/eslint": "8.4.10",
     "@types/micromatch": "4.0.2",
     "@willbooster/prettier-config": "^9.0.1",
-    "eslint": "8.31.0",
+    "eslint": "8.32.0",
     "eslint-config-prettier": "8.6.0",
-    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-import": "2.27.5",
     "eslint-plugin-sort-class-members": "1.16.0",
     "eslint-plugin-sort-destructure-keys": "1.4.0",
     "eslint-plugin-unicorn": "45.0.2",
     "lint-staged": "13.1.0",
     "micromatch": "4.0.5",
-    "prettier": "2.8.1",
-    "sort-package-json": "2.1.0"
+    "prettier": "2.8.3",
+    "sort-package-json": "2.2.0"
   },
   "peerDependencies": {
     "@willbooster/prettier-config": ">=6",

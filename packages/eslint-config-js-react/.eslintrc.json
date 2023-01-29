@@ -5,6 +5,12 @@
     "plugin:react-hooks/recommended",
     "@willbooster/eslint-config-js"
   ],
+  "plugins": ["sort-destructure-keys"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
   "rules": {
     "react/jsx-sort-props": [
       "error",

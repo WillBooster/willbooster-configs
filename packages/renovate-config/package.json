@@ -15,7 +15,7 @@
     "@willbooster/prettier-config": "^9.0.1",
     "lint-staged": "13.1.0",
     "prettier": "2.8.3",
-    "sort-package-json": "2.4.0"
+    "sort-package-json": "2.4.1"
   },
   "publishConfig": {
     "access": "public"

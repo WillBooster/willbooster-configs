@@ -1554,7 +1554,7 @@ __metadata:
     "@willbooster/prettier-config": "npm:^9.0.1"
     core-js: "npm:3.27.2"
     lint-staged: "npm:13.1.1"
-    prettier: "npm:2.8.3"
+    prettier: "npm:2.8.4"
     sort-package-json: "npm:2.4.1"
   languageName: unknown
   linkType: soft
@@ -1575,7 +1575,7 @@ __metadata:
     lint-staged: "npm:13.1.1"
     micromatch: "npm:4.0.5"
     pinst: "npm:3.0.0"
-    prettier: "npm:2.8.3"
+    prettier: "npm:2.8.4"
     sort-package-json: "npm:2.4.1"
     typescript: "npm:4.9.5"
   languageName: unknown
@@ -1606,7 +1606,7 @@ __metadata:
     eslint-plugin-unicorn: "npm:45.0.2"
     lint-staged: "npm:13.1.1"
     micromatch: "npm:4.0.5"
-    prettier: "npm:2.8.3"
+    prettier: "npm:2.8.4"
     react: "npm:18.2.0"
     sort-package-json: "npm:2.4.1"
     typescript: "npm:4.9.5"
@@ -1648,7 +1648,7 @@ __metadata:
     eslint-plugin-unicorn: "npm:45.0.2"
     lint-staged: "npm:13.1.1"
     micromatch: "npm:4.0.5"
-    prettier: "npm:2.8.3"
+    prettier: "npm:2.8.4"
     react: "npm:18.2.0"
     sort-package-json: "npm:2.4.1"
   peerDependencies:
@@ -1692,7 +1692,7 @@ __metadata:
     eslint-plugin-unicorn: "npm:45.0.2"
     lint-staged: "npm:13.1.1"
     micromatch: "npm:4.0.5"
-    prettier: "npm:2.8.3"
+    prettier: "npm:2.8.4"
     sort-package-json: "npm:2.4.1"
   peerDependencies:
     "@willbooster/prettier-config": ">=6"
@@ -1727,7 +1727,7 @@ __metadata:
     eslint-plugin-unicorn: "npm:45.0.2"
     lint-staged: "npm:13.1.1"
     micromatch: "npm:4.0.5"
-    prettier: "npm:2.8.3"
+    prettier: "npm:2.8.4"
     react: "npm:18.2.0"
     sort-package-json: "npm:2.4.1"
     typescript: "npm:4.9.5"
@@ -1785,7 +1785,7 @@ __metadata:
     eslint-plugin-unicorn: "npm:45.0.2"
     lint-staged: "npm:13.1.1"
     micromatch: "npm:4.0.5"
-    prettier: "npm:2.8.3"
+    prettier: "npm:2.8.4"
     sort-package-json: "npm:2.4.1"
     typescript: "npm:4.9.5"
     use-immer: "npm:0.8.1"
@@ -1817,7 +1817,7 @@ __metadata:
   resolution: "@willbooster/prettier-config@workspace:packages/prettier-config"
   dependencies:
     lint-staged: "npm:13.1.1"
-    prettier: "npm:2.8.3"
+    prettier: "npm:2.8.4"
     sort-package-json: "npm:2.4.1"
   peerDependencies:
     prettier: ">=2"
@@ -1830,7 +1830,7 @@ __metadata:
   dependencies:
     "@willbooster/prettier-config": "npm:^9.0.1"
     lint-staged: "npm:13.1.1"
-    prettier: "npm:2.8.3"
+    prettier: "npm:2.8.4"
     sort-package-json: "npm:2.4.1"
   languageName: unknown
   linkType: soft
@@ -1846,7 +1846,7 @@ __metadata:
     "@rollup/plugin-replace": "npm:5.0.2"
     "@willbooster/prettier-config": "npm:^9.0.1"
     lint-staged: "npm:13.1.1"
-    prettier: "npm:2.8.3"
+    prettier: "npm:2.8.4"
     rollup-plugin-analyzer: "npm:4.0.0"
     rollup-plugin-node-externals: "npm:5.1.2"
     rollup-plugin-terser: "npm:7.0.2"
@@ -1873,7 +1873,7 @@ __metadata:
     eslint-plugin-unicorn: "npm:45.0.2"
     lint-staged: "npm:13.1.1"
     micromatch: "npm:4.0.5"
-    prettier: "npm:2.8.3"
+    prettier: "npm:2.8.4"
     sort-package-json: "npm:2.4.1"
     typescript: "npm:4.9.5"
   peerDependencies:
@@ -6722,12 +6722,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.8.3":
-  version: 2.8.3
-  resolution: "prettier@npm:2.8.3"
+"prettier@npm:2.8.4":
+  version: 2.8.4
+  resolution: "prettier@npm:2.8.4"
   bin:
     prettier: bin-prettier.js
-  checksum: 9daf1c05e07337a96fec26b5518ce787e4f98bfd1a5eb72af988cf123ea7ed56584f10c0cc4fc3073bf9504d157a8604d93a8e17752c483ae114614a0c557b36
+  checksum: e8a99b3a385d8d09881a64b759b9cd88e44ab7ba09832d55608fd7203efdc78f0d94773532f3bb3bbb3f579096f7011883df06a26eb61792e786ea4f5fc984f0
   languageName: node
   linkType: hard
 

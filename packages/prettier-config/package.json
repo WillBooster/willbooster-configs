@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "lint-staged": "13.1.1",
-    "prettier": "2.8.3",
+    "prettier": "2.8.4",
     "sort-package-json": "2.4.1"
   },
   "peerDependencies": {

@@ -24,8 +24,8 @@
   "devDependencies": {
     "@types/eslint": "8.21.0",
     "@types/micromatch": "4.0.2",
-    "@types/node": "18.11.18",
-    "@types/react": "18.0.27",
+    "@types/node": "18.13.0",
+    "@types/react": "18.0.28",
     "@typescript-eslint/eslint-plugin": "5.51.0",
     "@typescript-eslint/parser": "5.51.0",
     "@willbooster/prettier-config": "^9.0.1",

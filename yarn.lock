@@ -77,11 +77,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blitzjs/next@npm:2.0.0-beta.22":
-  version: 2.0.0-beta.22
-  resolution: "@blitzjs/next@npm:2.0.0-beta.22"
+"@blitzjs/next@npm:2.0.0-beta.23":
+  version: 2.0.0-beta.23
+  resolution: "@blitzjs/next@npm:2.0.0-beta.23"
   dependencies:
-    "@blitzjs/rpc": "npm:2.0.0-beta.22"
+    "@blitzjs/rpc": "npm:2.0.0-beta.23"
     "@tanstack/react-query": "npm:4.0.10"
     "@types/hoist-non-react-statics": "npm:3.3.1"
     debug: "npm:4.3.3"
@@ -90,16 +90,16 @@ __metadata:
     superjson: "npm:1.11.0"
     supports-color: "npm:8.1.1"
   peerDependencies:
-    blitz: 2.0.0-beta.22
+    blitz: 2.0.0-beta.23
     next: "*"
     react: "*"
-  checksum: d11f2ab139fc67d3e68f466751efcb1f899ad5839bb24e7d72e56ce9320afc73389a2c925790e43d82bc3ef8d0b80343f49640acb1286f5eec14526ccf538cbf
+  checksum: 48b0e9787c5a76e9612547b4b0ac76020391674ce97eaac5f94051666f45e971c3b27da89831516905ac64356690fd3dc4fee65b294df2f14511cfe1f5fd5500
   languageName: node
   linkType: hard
 
-"@blitzjs/rpc@npm:2.0.0-beta.22":
-  version: 2.0.0-beta.22
-  resolution: "@blitzjs/rpc@npm:2.0.0-beta.22"
+"@blitzjs/rpc@npm:2.0.0-beta.23":
+  version: 2.0.0-beta.23
+  resolution: "@blitzjs/rpc@npm:2.0.0-beta.23"
   dependencies:
     "@swc/core": "npm:1.3.7"
     "@tanstack/react-query": "npm:4.0.10"
@@ -110,10 +110,10 @@ __metadata:
     superjson: "npm:1.11.0"
     supports-color: "npm:8.1.1"
   peerDependencies:
-    blitz: 2.0.0-beta.22
+    blitz: 2.0.0-beta.23
     next: "*"
     react: "*"
-  checksum: f31c78b24b5e6ef853d573542c2827f9160a0975fbaf4a391a6f2f82f072df13ee4cfb87d0f45d434968b490a9754b8e1d6b68054d59982b53b22e73530c817a
+  checksum: 56667cccbc50321372d7534a2ec567f8345570f78726748ba77eeb93a106ea7ad721d6c745332d823b92d084f84b87aacc8364ce0e2cfba1f5e5f15f26edd2d8
   languageName: node
   linkType: hard
 
@@ -1247,10 +1247,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.11.18":
-  version: 18.11.18
-  resolution: "@types/node@npm:18.11.18"
-  checksum: bd39552701928d4a1613bc46adf8b65f8212064c2b5475a67161b6c4cef21ddb0a5c2ba062673213f8f5301ef6e171241a9e274a9b59c9fc1f5e2b69764740eb
+"@types/node@npm:18.13.0":
+  version: 18.13.0
+  resolution: "@types/node@npm:18.13.0"
+  checksum: 591b7b9a97dbeaa155c3fe1a00e22fc13241781bda02f4e96935811723e7719fe18ed003301551cfa3273488cc7cf2f99146b752abc9b60aaab57bcbc67da830
   languageName: node
   linkType: hard
 
@@ -1296,7 +1296,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.0.27":
+"@types/react@npm:*":
   version: 18.0.27
   resolution: "@types/react@npm:18.0.27"
   dependencies:
@@ -1304,6 +1304,17 @@ __metadata:
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
   checksum: 75c0b64773dc36bd094b3cc7fff5fb4cc385f60d7696bec2e0243806de69f2a2e35bec25d31f51bbbd6681639d8682a2d6eb94379759c70afc2f3ef5f87927b5
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:18.0.28":
+  version: 18.0.28
+  resolution: "@types/react@npm:18.0.28"
+  dependencies:
+    "@types/prop-types": "npm:*"
+    "@types/scheduler": "npm:*"
+    csstype: "npm:^3.0.2"
+  checksum: 5a43d1f81da064da91d0be3a676fbd2380d3bdff7491e0dae49e9ccdecf8fdf07e1bf7054d5fdd79266bf90a813384bd6898c678aca44e041a9e19df5fa690b3
   languageName: node
   linkType: hard
 
@@ -1585,11 +1596,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-blitz-next@workspace:packages/eslint-config-blitz-next"
   dependencies:
-    "@blitzjs/next": "npm:2.0.0-beta.22"
+    "@blitzjs/next": "npm:2.0.0-beta.23"
     "@types/eslint": "npm:8.21.0"
     "@types/micromatch": "npm:4.0.2"
-    "@types/node": "npm:18.11.18"
-    "@types/react": "npm:18.0.27"
+    "@types/node": "npm:18.13.0"
+    "@types/react": "npm:18.0.28"
     "@typescript-eslint/eslint-plugin": "npm:5.51.0"
     "@typescript-eslint/parser": "npm:5.51.0"
     "@willbooster/eslint-config-ts": "npm:^10.0.2"
@@ -1635,7 +1646,7 @@ __metadata:
   dependencies:
     "@types/eslint": "npm:8.21.0"
     "@types/micromatch": "npm:4.0.2"
-    "@types/react": "npm:18.0.27"
+    "@types/react": "npm:18.0.28"
     "@willbooster/eslint-config-js": "npm:^10.0.3"
     "@willbooster/prettier-config": "npm:^9.0.1"
     eslint: "npm:8.34.0"
@@ -1710,8 +1721,8 @@ __metadata:
   dependencies:
     "@types/eslint": "npm:8.21.0"
     "@types/micromatch": "npm:4.0.2"
-    "@types/node": "npm:18.11.18"
-    "@types/react": "npm:18.0.27"
+    "@types/node": "npm:18.13.0"
+    "@types/react": "npm:18.0.28"
     "@typescript-eslint/eslint-plugin": "npm:5.51.0"
     "@typescript-eslint/parser": "npm:5.51.0"
     "@willbooster/eslint-config-ts": "npm:^10.0.2"
@@ -1772,7 +1783,7 @@ __metadata:
   dependencies:
     "@types/eslint": "npm:8.21.0"
     "@types/micromatch": "npm:4.0.2"
-    "@types/node": "npm:18.11.18"
+    "@types/node": "npm:18.13.0"
     "@typescript-eslint/eslint-plugin": "npm:5.51.0"
     "@typescript-eslint/parser": "npm:5.51.0"
     "@willbooster/prettier-config": "npm:^9.0.1"

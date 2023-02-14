@@ -27,7 +27,7 @@
     "eslint-plugin-sort-class-members": "1.16.0",
     "eslint-plugin-sort-destructure-keys": "1.4.0",
     "eslint-plugin-unicorn": "45.0.2",
-    "lint-staged": "13.1.1",
+    "lint-staged": "13.1.2",
     "micromatch": "4.0.5",
     "prettier": "2.8.4",
     "sort-package-json": "2.4.1"

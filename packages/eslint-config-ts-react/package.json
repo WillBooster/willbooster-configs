@@ -36,7 +36,7 @@
     "eslint-plugin-react": "7.32.2",
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-sort-class-members": "1.16.0",
-    "eslint-plugin-sort-destructure-keys": "1.4.0",
+    "eslint-plugin-sort-destructure-keys": "1.5.0",
     "eslint-plugin-unicorn": "45.0.2",
     "lint-staged": "13.1.2",
     "micromatch": "4.0.5",

@@ -4,7 +4,13 @@ module.exports = {
   overrides: [
     {
       // A default export is required in seed, mutation, query, and page files.
-      files: ['db/**/*.ts', 'src/**/mutations/*.ts', 'src/**/queries/*.ts', 'src/pages/**/*.tsx', 'src/pages/api/**/*.ts'],
+      files: [
+        'db/**/*.ts',
+        'src/**/mutations/*.ts',
+        'src/**/queries/*.ts',
+        'src/pages/**/*.tsx',
+        'src/pages/api/**/*.ts',
+      ],
       rules: { 'import/no-default-export': 'off' },
     },
     {

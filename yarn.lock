@@ -1183,13 +1183,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:8.21.0":
-  version: 8.21.0
-  resolution: "@types/eslint@npm:8.21.0"
+"@types/eslint@npm:8.21.1":
+  version: 8.21.1
+  resolution: "@types/eslint@npm:8.21.1"
   dependencies:
     "@types/estree": "npm:*"
     "@types/json-schema": "npm:*"
-  checksum: ddb802f77b1a850666704019704588c0e3e1a5971865dc56a87b2722f3d5aa7290ccfff39ba59d7a13ee7c1c93150470029343e51b198a22d1596237fb9e5b95
+  checksum: fc622414a543e4553012144feaeeacec2ec17b21c544c764be36a22088ac4608d505e48030ecc3c168e37d00b07c7de8fdfeeaf0284c30056fb1c80da71c1b1f
   languageName: node
   linkType: hard
 
@@ -1240,10 +1240,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:18.13.0":
+"@types/node@npm:*":
   version: 18.13.0
   resolution: "@types/node@npm:18.13.0"
   checksum: 591b7b9a97dbeaa155c3fe1a00e22fc13241781bda02f4e96935811723e7719fe18ed003301551cfa3273488cc7cf2f99146b752abc9b60aaab57bcbc67da830
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:18.14.0":
+  version: 18.14.0
+  resolution: "@types/node@npm:18.14.0"
+  checksum: d17dff07c712379d67af7750f1586b4840ade31ab814d04987aa25850f1d4ef29b63b9ed03a7a9dccee8c86106ca75ae3b6f8cdd17be3ef3f693e700b1ea437b
   languageName: node
   linkType: hard
 
@@ -1545,7 +1552,7 @@ __metadata:
   dependencies:
     "@types/babel__core": "npm:7.20.0"
     "@willbooster/prettier-config": "npm:^9.0.1"
-    core-js: "npm:3.27.2"
+    core-js: "npm:3.28.0"
     lint-staged: "npm:13.1.2"
     prettier: "npm:2.8.4"
     sort-package-json: "npm:2.4.1"
@@ -1557,7 +1564,7 @@ __metadata:
   resolution: "@willbooster/configs@workspace:."
   dependencies:
     "@qiwi/multi-semantic-release": "npm:6.5.1"
-    "@types/eslint": "npm:8.21.0"
+    "@types/eslint": "npm:8.21.1"
     "@types/micromatch": "npm:4.0.2"
     "@typescript-eslint/parser": "npm:5.52.0"
     "@willbooster/prettier-config": "npm:^9.0.1"
@@ -1579,9 +1586,9 @@ __metadata:
   resolution: "@willbooster/eslint-config-blitz-next@workspace:packages/eslint-config-blitz-next"
   dependencies:
     "@blitzjs/next": "npm:2.0.0-beta.23"
-    "@types/eslint": "npm:8.21.0"
+    "@types/eslint": "npm:8.21.1"
     "@types/micromatch": "npm:4.0.2"
-    "@types/node": "npm:18.13.0"
+    "@types/node": "npm:18.14.0"
     "@types/react": "npm:18.0.28"
     "@typescript-eslint/eslint-plugin": "npm:5.52.0"
     "@typescript-eslint/parser": "npm:5.52.0"
@@ -1626,7 +1633,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-js-react@workspace:packages/eslint-config-js-react"
   dependencies:
-    "@types/eslint": "npm:8.21.0"
+    "@types/eslint": "npm:8.21.1"
     "@types/micromatch": "npm:4.0.2"
     "@types/react": "npm:18.0.28"
     "@willbooster/eslint-config-js": "npm:^10.0.3"
@@ -1674,7 +1681,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-js@workspace:packages/eslint-config-js"
   dependencies:
-    "@types/eslint": "npm:8.21.0"
+    "@types/eslint": "npm:8.21.1"
     "@types/micromatch": "npm:4.0.2"
     "@willbooster/prettier-config": "npm:^9.0.1"
     eslint: "npm:8.34.0"
@@ -1723,9 +1730,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-ts-react@workspace:packages/eslint-config-ts-react"
   dependencies:
-    "@types/eslint": "npm:8.21.0"
+    "@types/eslint": "npm:8.21.1"
     "@types/micromatch": "npm:4.0.2"
-    "@types/node": "npm:18.13.0"
+    "@types/node": "npm:18.14.0"
     "@types/react": "npm:18.0.28"
     "@typescript-eslint/eslint-plugin": "npm:5.52.0"
     "@typescript-eslint/parser": "npm:5.52.0"
@@ -1785,9 +1792,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-ts@workspace:packages/eslint-config-ts"
   dependencies:
-    "@types/eslint": "npm:8.21.0"
+    "@types/eslint": "npm:8.21.1"
     "@types/micromatch": "npm:4.0.2"
-    "@types/node": "npm:18.13.0"
+    "@types/node": "npm:18.14.0"
     "@typescript-eslint/eslint-plugin": "npm:5.52.0"
     "@typescript-eslint/parser": "npm:5.52.0"
     "@willbooster/prettier-config": "npm:^9.0.1"
@@ -1874,7 +1881,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/shared@workspace:packages/shared"
   dependencies:
-    "@types/eslint": "npm:8.21.0"
+    "@types/eslint": "npm:8.21.1"
     "@types/micromatch": "npm:4.0.2"
     "@typescript-eslint/eslint-plugin": "npm:5.52.0"
     "@typescript-eslint/parser": "npm:5.52.0"
@@ -2823,10 +2830,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:3.27.2":
-  version: 3.27.2
-  resolution: "core-js@npm:3.27.2"
-  checksum: a65178818013cb4f90d96b8ff899fea5cd5bb884f993888ad5da34b89ff199bd6732bca6acc1a0ef21d36f2955e0389bd58a2141ce5234900d42d5c636b1cd92
+"core-js@npm:3.28.0":
+  version: 3.28.0
+  resolution: "core-js@npm:3.28.0"
+  checksum: abf716bd6ad1278e3423e7daee3d268e050489e3115fd7f13095d160a1556c248c51fcc57ca6bd282986f877f4674840f7bbffcca7d11c564c644212ede1b14e
   languageName: node
   linkType: hard
 

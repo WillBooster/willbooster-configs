@@ -19,9 +19,9 @@
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
-    "@types/eslint": "8.21.0",
+    "@types/eslint": "8.21.1",
     "@types/micromatch": "4.0.2",
-    "@types/node": "18.13.0",
+    "@types/node": "18.14.0",
     "@typescript-eslint/eslint-plugin": "5.52.0",
     "@typescript-eslint/parser": "5.52.0",
     "@willbooster/prettier-config": "^9.0.1",

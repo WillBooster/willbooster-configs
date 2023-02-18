@@ -19,7 +19,7 @@
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {
-    "@willbooster/eslint-config-ts": "^10.0.2"
+    "@willbooster/eslint-config-ts": "^10.0.8"
   },
   "devDependencies": {
     "@types/eslint": "8.21.0",

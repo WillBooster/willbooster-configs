@@ -5,7 +5,6 @@ You need to do the following command to install peer dependencies.
 
 ```sh
 yarn add -D @willbooster/eslint-config-ts-react \
-    @willbooster/eslint-config-ts \
     eslint \
     eslint-config-prettier \
     eslint-plugin-import \

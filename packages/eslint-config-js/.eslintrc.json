@@ -16,6 +16,7 @@
     "no-console": "off", // allow `console.log()`
     "no-unused-vars": ["warn", { "ignoreRestSiblings": true }], // allow unused vars in object destructuring
     "object-shorthand": "error",
+    "one-var": ["error", "never"], // We prefer one variable declaration per line
     "import/newline-after-import": "error",
     "import/no-duplicates": "error",
     "import/order": [

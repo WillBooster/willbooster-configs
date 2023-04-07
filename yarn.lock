@@ -1578,7 +1578,7 @@ __metadata:
     "@types/babel__core": "npm:7.20.0"
     "@willbooster/prettier-config": "npm:^9.0.1"
     core-js: "npm:3.29.1"
-    lint-staged: "npm:13.2.0"
+    lint-staged: "npm:13.2.1"
     prettier: "npm:2.8.7"
     sort-package-json: "npm:2.4.1"
   languageName: unknown
@@ -1597,7 +1597,7 @@ __metadata:
     dotenv-cli: "npm:7.1.0"
     eslint: "npm:8.37.0"
     husky: "npm:8.0.3"
-    lint-staged: "npm:13.2.0"
+    lint-staged: "npm:13.2.1"
     micromatch: "npm:4.0.5"
     pinst: "npm:3.0.0"
     prettier: "npm:2.8.7"
@@ -1629,7 +1629,7 @@ __metadata:
     eslint-plugin-sort-class-members: "npm:1.17.0"
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:46.0.0"
-    lint-staged: "npm:13.2.0"
+    lint-staged: "npm:13.2.1"
     micromatch: "npm:4.0.5"
     prettier: "npm:2.8.7"
     react: "npm:18.2.0"
@@ -1671,7 +1671,7 @@ __metadata:
     eslint-plugin-sort-class-members: "npm:1.17.0"
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:46.0.0"
-    lint-staged: "npm:13.2.0"
+    lint-staged: "npm:13.2.1"
     micromatch: "npm:4.0.5"
     prettier: "npm:2.8.7"
     react: "npm:18.2.0"
@@ -1715,7 +1715,7 @@ __metadata:
     eslint-plugin-sort-class-members: "npm:1.17.0"
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:46.0.0"
-    lint-staged: "npm:13.2.0"
+    lint-staged: "npm:13.2.1"
     micromatch: "npm:4.0.5"
     prettier: "npm:2.8.7"
     sort-package-json: "npm:2.4.1"
@@ -1772,7 +1772,7 @@ __metadata:
     eslint-plugin-sort-class-members: "npm:1.17.0"
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:46.0.0"
-    lint-staged: "npm:13.2.0"
+    lint-staged: "npm:13.2.1"
     micromatch: "npm:4.0.5"
     prettier: "npm:2.8.7"
     react: "npm:18.2.0"
@@ -1830,7 +1830,7 @@ __metadata:
     eslint-plugin-sort-class-members: "npm:1.17.0"
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:46.0.0"
-    lint-staged: "npm:13.2.0"
+    lint-staged: "npm:13.2.1"
     micromatch: "npm:4.0.5"
     prettier: "npm:2.8.7"
     sort-package-json: "npm:2.4.1"
@@ -1863,7 +1863,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/prettier-config@workspace:packages/prettier-config"
   dependencies:
-    lint-staged: "npm:13.2.0"
+    lint-staged: "npm:13.2.1"
     prettier: "npm:2.8.7"
     sort-package-json: "npm:2.4.1"
   peerDependencies:
@@ -1876,7 +1876,7 @@ __metadata:
   resolution: "@willbooster/renovate-config@workspace:packages/renovate-config"
   dependencies:
     "@willbooster/prettier-config": "npm:^9.0.1"
-    lint-staged: "npm:13.2.0"
+    lint-staged: "npm:13.2.1"
     prettier: "npm:2.8.7"
     sort-package-json: "npm:2.4.1"
   languageName: unknown
@@ -1892,7 +1892,7 @@ __metadata:
     "@rollup/plugin-node-resolve": "npm:15.0.1"
     "@rollup/plugin-replace": "npm:5.0.2"
     "@willbooster/prettier-config": "npm:^9.0.1"
-    lint-staged: "npm:13.2.0"
+    lint-staged: "npm:13.2.1"
     prettier: "npm:2.8.7"
     rollup-plugin-analyzer: "npm:4.0.0"
     rollup-plugin-node-externals: "npm:5.1.2"
@@ -1918,7 +1918,7 @@ __metadata:
     eslint-plugin-sort-class-members: "npm:1.17.0"
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:46.0.0"
-    lint-staged: "npm:13.2.0"
+    lint-staged: "npm:13.2.1"
     micromatch: "npm:4.0.5"
     prettier: "npm:2.8.7"
     sort-package-json: "npm:2.4.1"
@@ -5445,9 +5445,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:13.2.0":
-  version: 13.2.0
-  resolution: "lint-staged@npm:13.2.0"
+"lint-staged@npm:13.2.1":
+  version: 13.2.1
+  resolution: "lint-staged@npm:13.2.1"
   dependencies:
     chalk: "npm:5.2.0"
     cli-truncate: "npm:^3.1.0"
@@ -5464,7 +5464,7 @@ __metadata:
     yaml: "npm:^2.2.1"
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 404babeea99de6d2e0141d1807d92c9853b3619476ad151e91584d91b398b0e95237be504eea892ea7d04f74555a7e8054dc7cbf1c6b8872f8d550dc43b4624b
+  checksum: 973a3ef29dbe145a2b3c1a2c3b94d689e610d954a5d5c57c41d539f7dabe4634b4b15a3f1fae2a7a87608f3bea097b67fe2bc40d55c8bae25b03bfca35ade3c5
   languageName: node
   linkType: hard
 

@@ -32,7 +32,7 @@
     "@qiwi/multi-semantic-release": "6.5.1",
     "@types/eslint": "8.37.0",
     "@types/micromatch": "4.0.2",
-    "@typescript-eslint/parser": "5.57.1",
+    "@typescript-eslint/parser": "5.58.0",
     "@willbooster/prettier-config": "^9.0.1",
     "conventional-changelog-conventionalcommits": "5.0.0",
     "dotenv-cli": "7.2.1",

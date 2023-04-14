@@ -22,11 +22,11 @@
     "@willbooster/eslint-config-ts-react": "^10.1.0"
   },
   "devDependencies": {
-    "@blitzjs/next": "2.0.0-beta.25",
+    "@blitzjs/next": "2.0.0-beta.26",
     "@types/eslint": "8.37.0",
     "@types/micromatch": "4.0.2",
     "@types/node": "18.15.11",
-    "@types/react": "18.0.33",
+    "@types/react": "18.0.35",
     "@typescript-eslint/eslint-plugin": "5.58.0",
     "@typescript-eslint/parser": "5.58.0",
     "@willbooster/prettier-config": "^9.0.1",

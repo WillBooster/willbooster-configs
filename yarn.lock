@@ -166,10 +166,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:8.38.0":
-  version: 8.38.0
-  resolution: "@eslint/js@npm:8.38.0"
-  checksum: 9b03caa314853d1c3f9b66cc214adf4dcd1fa4799b6889cd936020008138f1e2a8f23b1674b9a5aa283b6ffbb8b9f9530c84237f559f75097050f14209bba16c
+"@eslint/js@npm:8.39.0":
+  version: 8.39.0
+  resolution: "@eslint/js@npm:8.39.0"
+  checksum: 731360c47e3b2312b73e1f582c6105a585bb82a7ae1cd00d36d31d20a8616108aa4b8c286cf73f8fd05b24d49fd141aa40457ab54c1145b70a62346df78081cd
   languageName: node
   linkType: hard
 
@@ -304,12 +304,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:13.3.0":
-  version: 13.3.0
-  resolution: "@next/eslint-plugin-next@npm:13.3.0"
+"@next/eslint-plugin-next@npm:13.3.1":
+  version: 13.3.1
+  resolution: "@next/eslint-plugin-next@npm:13.3.1"
   dependencies:
     glob: "npm:7.1.7"
-  checksum: 2734c6f3f533f5747fbc4de091f898eac5ed03a54a0cd36b49ae84b4d74b694d690e365a6f2e4b87e33b9657b83e5918d91f90d486135630d5724db98c680a77
+  checksum: 15b3585bfd72ef54d1d1cb714bb51bb76a63c4564d6de70e50df0ce0ddddf486c1b8d0581494181b2b8ad37a8934c8dd11fa4474153e6843c72b9e18cdfbde3d
   languageName: node
   linkType: hard
 
@@ -1267,10 +1267,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:18.15.11":
+"@types/node@npm:*":
   version: 18.15.11
   resolution: "@types/node@npm:18.15.11"
   checksum: 2ad6c7aeb0841a821d5f0556ccbc9c0cec597cb31b5fe58b085740983f6b01a21a3c62c37ca642dd92b5de8935d6084896634af19f1f022e8d173049ad258a60
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:18.15.13":
+  version: 18.15.13
+  resolution: "@types/node@npm:18.15.13"
+  checksum: 2f3b73aa4d643fa96c4f83ac1e9077af04257fdd350db76d9b14f7349135ba284a0bf1cfc66aaff29a3d8c103b77d734064e7040ba3e8409eef3177d0ed164fd
   languageName: node
   linkType: hard
 
@@ -1316,7 +1323,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.0.35":
+"@types/react@npm:*":
   version: 18.0.35
   resolution: "@types/react@npm:18.0.35"
   dependencies:
@@ -1324,6 +1331,17 @@ __metadata:
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
   checksum: 894a5b9060e734b43c78307564bc433eff2ccbb9cd20180a0813eb8aaafa31f74312b3e207f682b8dfb8399b05b0b9fe348d32348a0adc2aa5ddce4bc47e9f8c
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:18.0.38":
+  version: 18.0.38
+  resolution: "@types/react@npm:18.0.38"
+  dependencies:
+    "@types/prop-types": "npm:*"
+    "@types/scheduler": "npm:*"
+    csstype: "npm:^3.0.2"
+  checksum: f0b5999085c1b4b081d7203ffcffa6ec4fe11214279e2477457e304d358da8dee78357518b3beefe81e29f2d3d6203cf2633c6d687ac727221126bc9a6188fbc
   languageName: node
   linkType: hard
 
@@ -1576,7 +1594,7 @@ __metadata:
     "@willbooster/prettier-config": "npm:^9.0.1"
     conventional-changelog-conventionalcommits: "npm:5.0.0"
     dotenv-cli: "npm:7.2.1"
-    eslint: "npm:8.38.0"
+    eslint: "npm:8.39.0"
     husky: "npm:8.0.3"
     lint-staged: "npm:13.2.1"
     micromatch: "npm:4.0.5"
@@ -1594,14 +1612,14 @@ __metadata:
     "@blitzjs/next": "npm:2.0.0-beta.26"
     "@types/eslint": "npm:8.37.0"
     "@types/micromatch": "npm:4.0.2"
-    "@types/node": "npm:18.15.11"
-    "@types/react": "npm:18.0.35"
+    "@types/node": "npm:18.15.13"
+    "@types/react": "npm:18.0.38"
     "@typescript-eslint/eslint-plugin": "npm:5.59.0"
     "@typescript-eslint/parser": "npm:5.59.0"
     "@willbooster/eslint-config-ts-react": "npm:^10.1.0"
     "@willbooster/prettier-config": "npm:^9.0.1"
-    eslint: "npm:8.38.0"
-    eslint-config-next: "npm:13.3.0"
+    eslint: "npm:8.39.0"
+    eslint-config-next: "npm:13.3.1"
     eslint-config-prettier: "npm:8.8.0"
     eslint-import-resolver-typescript: "npm:3.5.5"
     eslint-plugin-import: "npm:2.27.5"
@@ -1641,10 +1659,10 @@ __metadata:
   dependencies:
     "@types/eslint": "npm:8.37.0"
     "@types/micromatch": "npm:4.0.2"
-    "@types/react": "npm:18.0.35"
+    "@types/react": "npm:18.0.38"
     "@willbooster/eslint-config-js": "npm:^10.0.3"
     "@willbooster/prettier-config": "npm:^9.0.1"
-    eslint: "npm:8.38.0"
+    eslint: "npm:8.39.0"
     eslint-config-prettier: "npm:8.8.0"
     eslint-plugin-import: "npm:2.27.5"
     eslint-plugin-react: "npm:7.32.2"
@@ -1690,7 +1708,7 @@ __metadata:
     "@types/eslint": "npm:8.37.0"
     "@types/micromatch": "npm:4.0.2"
     "@willbooster/prettier-config": "npm:^9.0.1"
-    eslint: "npm:8.38.0"
+    eslint: "npm:8.39.0"
     eslint-config-prettier: "npm:8.8.0"
     eslint-plugin-import: "npm:2.27.5"
     eslint-plugin-sort-class-members: "npm:1.17.1"
@@ -1738,13 +1756,13 @@ __metadata:
   dependencies:
     "@types/eslint": "npm:8.37.0"
     "@types/micromatch": "npm:4.0.2"
-    "@types/node": "npm:18.15.11"
-    "@types/react": "npm:18.0.35"
+    "@types/node": "npm:18.15.13"
+    "@types/react": "npm:18.0.38"
     "@typescript-eslint/eslint-plugin": "npm:5.59.0"
     "@typescript-eslint/parser": "npm:5.59.0"
     "@willbooster/eslint-config-ts": "npm:^10.0.8"
     "@willbooster/prettier-config": "npm:^9.0.1"
-    eslint: "npm:8.38.0"
+    eslint: "npm:8.39.0"
     eslint-config-prettier: "npm:8.8.0"
     eslint-import-resolver-typescript: "npm:3.5.5"
     eslint-plugin-import: "npm:2.27.5"
@@ -1800,11 +1818,11 @@ __metadata:
   dependencies:
     "@types/eslint": "npm:8.37.0"
     "@types/micromatch": "npm:4.0.2"
-    "@types/node": "npm:18.15.11"
+    "@types/node": "npm:18.15.13"
     "@typescript-eslint/eslint-plugin": "npm:5.59.0"
     "@typescript-eslint/parser": "npm:5.59.0"
     "@willbooster/prettier-config": "npm:^9.0.1"
-    eslint: "npm:8.38.0"
+    eslint: "npm:8.39.0"
     eslint-config-prettier: "npm:8.8.0"
     eslint-import-resolver-typescript: "npm:3.5.5"
     eslint-plugin-import: "npm:2.27.5"
@@ -1892,7 +1910,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": "npm:5.59.0"
     "@typescript-eslint/parser": "npm:5.59.0"
     "@willbooster/prettier-config": "npm:^9.0.1"
-    eslint: "npm:8.38.0"
+    eslint: "npm:8.39.0"
     eslint-config-prettier: "npm:8.8.0"
     eslint-import-resolver-typescript: "npm:3.5.5"
     eslint-plugin-import: "npm:2.27.5"
@@ -3399,11 +3417,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-next@npm:13.3.0":
-  version: 13.3.0
-  resolution: "eslint-config-next@npm:13.3.0"
+"eslint-config-next@npm:13.3.1":
+  version: 13.3.1
+  resolution: "eslint-config-next@npm:13.3.1"
   dependencies:
-    "@next/eslint-plugin-next": "npm:13.3.0"
+    "@next/eslint-plugin-next": "npm:13.3.1"
     "@rushstack/eslint-patch": "npm:^1.1.3"
     "@typescript-eslint/parser": "npm:^5.42.0"
     eslint-import-resolver-node: "npm:^0.3.6"
@@ -3418,7 +3436,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 6e21ed9af61141aa916cf0100a493b2d4c9c115ac0203d5cbbf5d32a24300f95e1531d00e0181c256eb8873bc7586de0971d2bcac4972d0a2e26ff6697690fbe
+  checksum: 57e24dcf39205ca7081794c5e257d550a1d07f5e8c3a71b1eb5ef2ed9d52e617b29ff8635bf3a3bc46deec191bdd56fa12653407392b8760eb9a9c94ca083cb0
   languageName: node
   linkType: hard
 
@@ -3616,7 +3634,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-scope@npm:^7.1.1":
+"eslint-scope@npm:^7.2.0":
   version: 7.2.0
   resolution: "eslint-scope@npm:7.2.0"
   dependencies:
@@ -3633,14 +3651,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:8.38.0":
-  version: 8.38.0
-  resolution: "eslint@npm:8.38.0"
+"eslint@npm:8.39.0":
+  version: 8.39.0
+  resolution: "eslint@npm:8.39.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.2.0"
     "@eslint-community/regexpp": "npm:^4.4.0"
     "@eslint/eslintrc": "npm:^2.0.2"
-    "@eslint/js": "npm:8.38.0"
+    "@eslint/js": "npm:8.39.0"
     "@humanwhocodes/config-array": "npm:^0.11.8"
     "@humanwhocodes/module-importer": "npm:^1.0.1"
     "@nodelib/fs.walk": "npm:^1.2.8"
@@ -3650,7 +3668,7 @@ __metadata:
     debug: "npm:^4.3.2"
     doctrine: "npm:^3.0.0"
     escape-string-regexp: "npm:^4.0.0"
-    eslint-scope: "npm:^7.1.1"
+    eslint-scope: "npm:^7.2.0"
     eslint-visitor-keys: "npm:^3.4.0"
     espree: "npm:^9.5.1"
     esquery: "npm:^1.4.2"
@@ -3679,7 +3697,7 @@ __metadata:
     text-table: "npm:^0.2.0"
   bin:
     eslint: bin/eslint.js
-  checksum: 277f46f6f8bed527214fb720ac8dd840484add1eea235b5ee432944316793d51e566e712a676cd9ebed22b743d35cbf9b920a0946bb9e3b302dc8556d4cb2009
+  checksum: 742b8d2c8771b6b2875556eeb673db1c320edf03f2b424b399cf77b77677cf067f285405565bc71f5ddfbdb32c08bf278c1cad31009ebde20a2755a6c29796fe
   languageName: node
   linkType: hard
 

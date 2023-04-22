@@ -23,9 +23,9 @@
   "devDependencies": {
     "@types/eslint": "8.37.0",
     "@types/micromatch": "4.0.2",
-    "@types/react": "18.0.35",
+    "@types/react": "18.0.38",
     "@willbooster/prettier-config": "^9.0.1",
-    "eslint": "8.38.0",
+    "eslint": "8.39.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-react": "7.32.2",

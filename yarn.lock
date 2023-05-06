@@ -1274,10 +1274,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.16.4":
-  version: 18.16.4
-  resolution: "@types/node@npm:18.16.4"
-  checksum: a7a5662d6589016ff13c41bdab7dd1eab57284e51788c9f75a6f472f5e12085d221bfb11fd9abd18323619a102a26c9e27194105caff72bbbed842631adecb1e
+"@types/node@npm:18.16.5":
+  version: 18.16.5
+  resolution: "@types/node@npm:18.16.5"
+  checksum: 0c4ad24cc35669dd6ad8c4e7fcb12362235e8be3a8daf1c095ebe0ab4a2cf35f6b2c041808d3c5743eeddb8756b3aac03427868754c4ed90122c3e646af46fc7
   languageName: node
   linkType: hard
 
@@ -1334,14 +1334,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.2.5":
-  version: 18.2.5
-  resolution: "@types/react@npm:18.2.5"
+"@types/react@npm:18.2.6":
+  version: 18.2.6
+  resolution: "@types/react@npm:18.2.6"
   dependencies:
     "@types/prop-types": "npm:*"
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: e187dfc6f325b8e9bd629e84d09047d4e428227b68c860a1d420856577684b07193e651198281776119e614894936e8d74e765bc01d11962d204708da85a9735
+  checksum: 7b71e98c9ca9e5a7db8573ba96bf018e42f87591832cee85e3606334aa6203af8df1e562d349dc6fd5984621d6dfe8d1b2a2521c933803cc12755d31373c8e5a
   languageName: node
   linkType: hard
 
@@ -1576,7 +1576,7 @@ __metadata:
   dependencies:
     "@types/babel__core": "npm:7.20.0"
     "@willbooster/prettier-config": "npm:^9.0.1"
-    core-js: "npm:3.30.1"
+    core-js: "npm:3.30.2"
     lint-staged: "npm:13.2.2"
     prettier: "npm:2.8.8"
     sort-package-json: "npm:2.4.1"
@@ -1612,8 +1612,8 @@ __metadata:
     "@blitzjs/next": "npm:2.0.0-beta.27"
     "@types/eslint": "npm:8.37.0"
     "@types/micromatch": "npm:4.0.2"
-    "@types/node": "npm:18.16.4"
-    "@types/react": "npm:18.2.5"
+    "@types/node": "npm:18.16.5"
+    "@types/react": "npm:18.2.6"
     "@typescript-eslint/eslint-plugin": "npm:5.59.2"
     "@typescript-eslint/parser": "npm:5.59.2"
     "@willbooster/eslint-config-ts-react": "npm:^10.1.0"
@@ -1659,7 +1659,7 @@ __metadata:
   dependencies:
     "@types/eslint": "npm:8.37.0"
     "@types/micromatch": "npm:4.0.2"
-    "@types/react": "npm:18.2.5"
+    "@types/react": "npm:18.2.6"
     "@willbooster/eslint-config-js": "npm:^10.0.3"
     "@willbooster/prettier-config": "npm:^9.0.1"
     eslint: "npm:8.40.0"
@@ -1756,8 +1756,8 @@ __metadata:
   dependencies:
     "@types/eslint": "npm:8.37.0"
     "@types/micromatch": "npm:4.0.2"
-    "@types/node": "npm:18.16.4"
-    "@types/react": "npm:18.2.5"
+    "@types/node": "npm:18.16.5"
+    "@types/react": "npm:18.2.6"
     "@typescript-eslint/eslint-plugin": "npm:5.59.2"
     "@typescript-eslint/parser": "npm:5.59.2"
     "@willbooster/eslint-config-ts": "npm:^10.0.8"
@@ -1818,7 +1818,7 @@ __metadata:
   dependencies:
     "@types/eslint": "npm:8.37.0"
     "@types/micromatch": "npm:4.0.2"
-    "@types/node": "npm:18.16.4"
+    "@types/node": "npm:18.16.5"
     "@typescript-eslint/eslint-plugin": "npm:5.59.2"
     "@typescript-eslint/parser": "npm:5.59.2"
     "@willbooster/prettier-config": "npm:^9.0.1"
@@ -2864,10 +2864,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:3.30.1":
-  version: 3.30.1
-  resolution: "core-js@npm:3.30.1"
-  checksum: 8e00648b9a5d2c13c8850db3c444783886bad0f4cbd29a2b8237c0394bd7728708ebad00bc71aca62ef1ba5e2d5c3ef0b5d52b999d4593d5ad5c4ffa80816354
+"core-js@npm:3.30.2":
+  version: 3.30.2
+  resolution: "core-js@npm:3.30.2"
+  checksum: 6810fb533ee1591eb54496a8bd015b6f500ee9878a5ca54304e0f51bafa28bd9af38394cb94d5bb864d84144440d5d67c23ed7432f43142edd1b2e4bfa964e89
   languageName: node
   linkType: hard
 

@@ -304,12 +304,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:13.4.1":
-  version: 13.4.1
-  resolution: "@next/eslint-plugin-next@npm:13.4.1"
+"@next/eslint-plugin-next@npm:13.4.2":
+  version: 13.4.2
+  resolution: "@next/eslint-plugin-next@npm:13.4.2"
   dependencies:
     glob: "npm:7.1.7"
-  checksum: 710cc86473ac1167d4edd71b0e9685d8ab0287006e388208f3c7e5b5ef89fdcd1fc095235680a5e215e2c2402e67424f4c3f21f9128d72c3e407a9457bb4733b
+  checksum: bdc5967b21672d0c5be42be67007db90a724daca888fc95d66afde1e8ffb3b5e368a7193363414e8ad2dc7196e6fe743696db6160c76df6f2854aaa28146d1f1
   languageName: node
   linkType: hard
 
@@ -1274,10 +1274,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.16.5":
-  version: 18.16.5
-  resolution: "@types/node@npm:18.16.5"
-  checksum: 0c4ad24cc35669dd6ad8c4e7fcb12362235e8be3a8daf1c095ebe0ab4a2cf35f6b2c041808d3c5743eeddb8756b3aac03427868754c4ed90122c3e646af46fc7
+"@types/node@npm:18.16.8":
+  version: 18.16.8
+  resolution: "@types/node@npm:18.16.8"
+  checksum: d53d0a89c2574f08f6ee2fb075404e3fb0a4d94c920dfc7bf45a98c54f5ee5806496782fe70ff3a9eccf8560ac108c2d974fa0bfab2b08dac0042f7463ae3ac4
   languageName: node
   linkType: hard
 
@@ -1601,14 +1601,14 @@ __metadata:
     "@blitzjs/next": "npm:2.0.0-beta.27"
     "@types/eslint": "npm:8.37.0"
     "@types/micromatch": "npm:4.0.2"
-    "@types/node": "npm:18.16.5"
+    "@types/node": "npm:18.16.8"
     "@types/react": "npm:18.2.6"
     "@typescript-eslint/eslint-plugin": "npm:5.59.5"
     "@typescript-eslint/parser": "npm:5.59.5"
     "@willbooster/eslint-config-ts-react": "npm:^10.1.0"
     "@willbooster/prettier-config": "npm:^9.0.1"
     eslint: "npm:8.40.0"
-    eslint-config-next: "npm:13.4.1"
+    eslint-config-next: "npm:13.4.2"
     eslint-config-prettier: "npm:8.8.0"
     eslint-import-resolver-typescript: "npm:3.5.5"
     eslint-plugin-import: "npm:2.27.5"
@@ -1745,7 +1745,7 @@ __metadata:
   dependencies:
     "@types/eslint": "npm:8.37.0"
     "@types/micromatch": "npm:4.0.2"
-    "@types/node": "npm:18.16.5"
+    "@types/node": "npm:18.16.8"
     "@types/react": "npm:18.2.6"
     "@typescript-eslint/eslint-plugin": "npm:5.59.5"
     "@typescript-eslint/parser": "npm:5.59.5"
@@ -1807,7 +1807,7 @@ __metadata:
   dependencies:
     "@types/eslint": "npm:8.37.0"
     "@types/micromatch": "npm:4.0.2"
-    "@types/node": "npm:18.16.5"
+    "@types/node": "npm:18.16.8"
     "@typescript-eslint/eslint-plugin": "npm:5.59.5"
     "@typescript-eslint/parser": "npm:5.59.5"
     "@willbooster/prettier-config": "npm:^9.0.1"
@@ -1883,7 +1883,7 @@ __metadata:
     lint-staged: "npm:13.2.2"
     prettier: "npm:2.8.8"
     rollup-plugin-analyzer: "npm:4.0.0"
-    rollup-plugin-node-externals: "npm:5.1.2"
+    rollup-plugin-node-externals: "npm:5.1.3"
     rollup-plugin-terser: "npm:7.0.2"
     rollup-plugin-ts: "npm:3.2.0"
     sort-package-json: "npm:2.4.1"
@@ -3454,11 +3454,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-next@npm:13.4.1":
-  version: 13.4.1
-  resolution: "eslint-config-next@npm:13.4.1"
+"eslint-config-next@npm:13.4.2":
+  version: 13.4.2
+  resolution: "eslint-config-next@npm:13.4.2"
   dependencies:
-    "@next/eslint-plugin-next": "npm:13.4.1"
+    "@next/eslint-plugin-next": "npm:13.4.2"
     "@rushstack/eslint-patch": "npm:^1.1.3"
     "@typescript-eslint/parser": "npm:^5.42.0"
     eslint-import-resolver-node: "npm:^0.3.6"
@@ -3473,7 +3473,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: d877de2b0113a659e6d51e3f0ccfb12f195a5ea9166c760cb183fd6c60b95e677b52a6aa83e409cea8409b003193834d4dc265fcb504c854717a143609d6650d
+  checksum: 11bbed5900def86407636c91d51e28efc2f243fc73ece6ef2c87318e40878348715a440a7216b16d2ff3d23d5da32fb0dd78ba5cb6a5535fdd042d3a426d02a1
   languageName: node
   linkType: hard
 
@@ -7348,12 +7348,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup-plugin-node-externals@npm:5.1.2":
-  version: 5.1.2
-  resolution: "rollup-plugin-node-externals@npm:5.1.2"
+"rollup-plugin-node-externals@npm:5.1.3":
+  version: 5.1.3
+  resolution: "rollup-plugin-node-externals@npm:5.1.3"
   peerDependencies:
     rollup: ^2.60.0 || ^3.0.0
-  checksum: d6253a4b3233f84c3bc4ed172aa3c5b4ccb27cd7230deddc344a97617267c5a94a1dac9ec43e144153ffcb2af3df49b24c79ab6a306b007034847bd2832127c8
+  checksum: c2b93111a2c7b7a7cc50702c7a6fe40c8061a06e35f21bf96cd0d3106018573371142073ab3a0819eac972d2968d6a07378bdce3f3899ede73b881425039025b
   languageName: node
   linkType: hard
 

@@ -14,7 +14,7 @@
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
-    "@types/babel__core": "7.20.0",
+    "@types/babel__core": "7.20.1",
     "@willbooster/prettier-config": "^9.0.1",
     "core-js": "3.30.2",
     "lint-staged": "13.2.2",

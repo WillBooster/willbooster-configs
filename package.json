@@ -34,7 +34,7 @@
     "@types/micromatch": "4.0.2",
     "@typescript-eslint/parser": "5.59.9",
     "@willbooster/prettier-config": "^9.0.1",
-    "conventional-changelog-conventionalcommits": "5.0.0",
+    "conventional-changelog-conventionalcommits": "6.0.0",
     "dotenv-cli": "7.2.1",
     "eslint": "8.42.0",
     "husky": "8.0.3",

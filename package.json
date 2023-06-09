@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@qiwi/multi-semantic-release": "6.7.0",
-    "@types/eslint": "8.40.0",
+    "@types/eslint": "8.40.1",
     "@types/micromatch": "4.0.2",
     "@typescript-eslint/parser": "5.59.9",
     "@willbooster/prettier-config": "^9.0.1",

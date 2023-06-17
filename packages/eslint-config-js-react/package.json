@@ -25,7 +25,7 @@
     "@types/micromatch": "4.0.2",
     "@types/react": "18.2.9",
     "@willbooster/prettier-config": "^9.0.1",
-    "eslint": "8.42.0",
+    "eslint": "8.43.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-react": "7.32.2",

@@ -19,7 +19,7 @@
     "core-js": "3.31.0",
     "lint-staged": "13.2.3",
     "prettier": "2.8.8",
-    "sort-package-json": "2.4.1"
+    "sort-package-json": "2.5.0"
   },
   "publishConfig": {
     "access": "public"

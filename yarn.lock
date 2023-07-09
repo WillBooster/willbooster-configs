@@ -84,11 +84,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blitzjs/next@npm:2.0.0-beta.29":
-  version: 2.0.0-beta.29
-  resolution: "@blitzjs/next@npm:2.0.0-beta.29"
+"@blitzjs/next@npm:2.0.0-beta.30":
+  version: 2.0.0-beta.30
+  resolution: "@blitzjs/next@npm:2.0.0-beta.30"
   dependencies:
-    "@blitzjs/rpc": "npm:2.0.0-beta.29"
+    "@blitzjs/rpc": "npm:2.0.0-beta.30"
     "@types/hoist-non-react-statics": "npm:3.3.1"
     debug: "npm:4.3.3"
     fs-extra: "npm:10.0.1"
@@ -96,17 +96,17 @@ __metadata:
     superjson: "npm:1.11.0"
     supports-color: "npm:8.1.1"
   peerDependencies:
-    blitz: 2.0.0-beta.29
+    blitz: 2.0.0-beta.30
     next: "*"
     react: "*"
     tslog: "*"
-  checksum: c4dba25c80b78ae3f9bac7b583e88eff102855d7ce58c4719c7b5971e199b4172f7934de9606b7c51659c3cab6c16abf187ef5d4a25e340ec001b0b4703559bb
+  checksum: a9259a822c20db2ffe3d3d40a32555b71feed6d7f9356f0b0e13c15c3e95911f1b32e15a6d67c1091c8a96da508a416593f84d420e70661d5cd55171bc875679
   languageName: node
   linkType: hard
 
-"@blitzjs/rpc@npm:2.0.0-beta.29":
-  version: 2.0.0-beta.29
-  resolution: "@blitzjs/rpc@npm:2.0.0-beta.29"
+"@blitzjs/rpc@npm:2.0.0-beta.30":
+  version: 2.0.0-beta.30
+  resolution: "@blitzjs/rpc@npm:2.0.0-beta.30"
   dependencies:
     "@swc/core": "npm:1.3.7"
     "@tanstack/react-query": "npm:4.24.4"
@@ -118,10 +118,10 @@ __metadata:
     supports-color: "npm:8.1.1"
   peerDependencies:
     "@tanstack/query-core": 4.24.4
-    blitz: 2.0.0-beta.29
+    blitz: 2.0.0-beta.30
     next: "*"
     react: "*"
-  checksum: 2ee02325689190f40cb2cb337d0f5503a9208e61c007f8978cb62e0cb8bfb8789f69f8f4c3908bb027fd04c3c75d9a25d592abb4bbda7da7f9df96a377ed68a9
+  checksum: adb9cb715e7d93d3eb2c4a61444132df066dba258934d976c4aadc191287c6e2077c5c87f6fd11d2c531e8a135bd39c8347f163cb1f087759c641190085262ce
   languageName: node
   linkType: hard
 
@@ -293,12 +293,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:13.4.7":
-  version: 13.4.7
-  resolution: "@next/eslint-plugin-next@npm:13.4.7"
+"@next/eslint-plugin-next@npm:13.4.9":
+  version: 13.4.9
+  resolution: "@next/eslint-plugin-next@npm:13.4.9"
   dependencies:
     glob: "npm:7.1.7"
-  checksum: c30e46b29dbadae9ecfb27a7750c0229705d82c94e490e3014a91fabe02a41f85f715f8f120af6fc6ed066fe7f8dfa6f2a73bb929447d44666a88b7104d85c40
+  checksum: 10e383aef89e80009ec728bb9319e8870f2efc7d9bd2cff46e1c430660172fa73c2a7eace60d06de06297a9140185eb5650121d7a40cd6ee996a5d46ba61d9a0
   languageName: node
   linkType: hard
 
@@ -1212,13 +1212,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:8.40.2":
-  version: 8.40.2
-  resolution: "@types/eslint@npm:8.40.2"
+"@types/eslint@npm:8.44.0":
+  version: 8.44.0
+  resolution: "@types/eslint@npm:8.44.0"
   dependencies:
     "@types/estree": "npm:*"
     "@types/json-schema": "npm:*"
-  checksum: 5797dce7805f601ee34b2f63d6a80dba21302e2fe2614c7990eca7a22472f9e0c386d56d82fe79a7cdede57c8dcc1e0f9b1e5dc384adf736833b901ffcc29628
+  checksum: feac2a3aafe96844993aa0a3343e9265a13e4dbe2981a215b0103926253ce23adbee4563cef91ef0444f2463658bc10ce69fb6941f4297b4f9a021c77fdf1ec7
   languageName: node
   linkType: hard
 
@@ -1276,10 +1276,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.16.18":
-  version: 18.16.18
-  resolution: "@types/node@npm:18.16.18"
-  checksum: 1ad22342d1aaad446625e7eb2ca6137d0036fbc451fcb367c005ed4d6a102190bbba3d104652b2f9a73d0e520752b98fb89f22f5ef8fe09e8487bcb6fd75223f
+"@types/node@npm:18.16.19":
+  version: 18.16.19
+  resolution: "@types/node@npm:18.16.19"
+  checksum: 322aaf3c04dcbbae619c7e8d40ed70e4ae41894e88776267d87bf3719a71b9a21ecde903d9f67cec3a663cf608d2822056ab739b48dada75433db38fadac2514
   languageName: node
   linkType: hard
 
@@ -1491,7 +1491,7 @@ __metadata:
   dependencies:
     "@types/babel__core": "npm:7.20.1"
     "@willbooster/prettier-config": "npm:^9.0.1"
-    core-js: "npm:3.31.0"
+    core-js: "npm:3.31.1"
     lint-staged: "npm:13.2.3"
     prettier: "npm:3.0.0"
     sort-package-json: "npm:2.5.1"
@@ -1503,7 +1503,7 @@ __metadata:
   resolution: "@willbooster/configs@workspace:."
   dependencies:
     "@qiwi/multi-semantic-release": "npm:6.7.0"
-    "@types/eslint": "npm:8.40.2"
+    "@types/eslint": "npm:8.44.0"
     "@types/micromatch": "npm:4.0.2"
     "@typescript-eslint/parser": "npm:5.61.0"
     "@willbooster/prettier-config": "npm:^9.0.1"
@@ -1524,17 +1524,17 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-blitz-next@workspace:packages/eslint-config-blitz-next"
   dependencies:
-    "@blitzjs/next": "npm:2.0.0-beta.29"
-    "@types/eslint": "npm:8.40.2"
+    "@blitzjs/next": "npm:2.0.0-beta.30"
+    "@types/eslint": "npm:8.44.0"
     "@types/micromatch": "npm:4.0.2"
-    "@types/node": "npm:18.16.18"
+    "@types/node": "npm:18.16.19"
     "@types/react": "npm:18.2.14"
     "@typescript-eslint/eslint-plugin": "npm:5.61.0"
     "@typescript-eslint/parser": "npm:5.61.0"
     "@willbooster/eslint-config-ts-react": "npm:^10.1.0"
     "@willbooster/prettier-config": "npm:^9.0.1"
     eslint: "npm:8.44.0"
-    eslint-config-next: "npm:13.4.7"
+    eslint-config-next: "npm:13.4.9"
     eslint-config-prettier: "npm:8.8.0"
     eslint-import-resolver-typescript: "npm:3.5.5"
     eslint-plugin-import: "npm:2.27.5"
@@ -1572,7 +1572,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-js-react@workspace:packages/eslint-config-js-react"
   dependencies:
-    "@types/eslint": "npm:8.40.2"
+    "@types/eslint": "npm:8.44.0"
     "@types/micromatch": "npm:4.0.2"
     "@types/react": "npm:18.2.14"
     "@willbooster/eslint-config-js": "npm:^10.0.3"
@@ -1620,7 +1620,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-js@workspace:packages/eslint-config-js"
   dependencies:
-    "@types/eslint": "npm:8.40.2"
+    "@types/eslint": "npm:8.44.0"
     "@types/micromatch": "npm:4.0.2"
     "@willbooster/prettier-config": "npm:^9.0.1"
     eslint: "npm:8.44.0"
@@ -1669,9 +1669,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-ts-react@workspace:packages/eslint-config-ts-react"
   dependencies:
-    "@types/eslint": "npm:8.40.2"
+    "@types/eslint": "npm:8.44.0"
     "@types/micromatch": "npm:4.0.2"
-    "@types/node": "npm:18.16.18"
+    "@types/node": "npm:18.16.19"
     "@types/react": "npm:18.2.14"
     "@typescript-eslint/eslint-plugin": "npm:5.61.0"
     "@typescript-eslint/parser": "npm:5.61.0"
@@ -1731,9 +1731,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-ts@workspace:packages/eslint-config-ts"
   dependencies:
-    "@types/eslint": "npm:8.40.2"
+    "@types/eslint": "npm:8.44.0"
     "@types/micromatch": "npm:4.0.2"
-    "@types/node": "npm:18.16.18"
+    "@types/node": "npm:18.16.19"
     "@typescript-eslint/eslint-plugin": "npm:5.61.0"
     "@typescript-eslint/parser": "npm:5.61.0"
     "@willbooster/prettier-config": "npm:^9.0.1"
@@ -1820,7 +1820,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/shared@workspace:packages/shared"
   dependencies:
-    "@types/eslint": "npm:8.40.2"
+    "@types/eslint": "npm:8.44.0"
     "@types/micromatch": "npm:4.0.2"
     "@typescript-eslint/eslint-plugin": "npm:5.61.0"
     "@typescript-eslint/parser": "npm:5.61.0"
@@ -2829,10 +2829,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:3.31.0":
-  version: 3.31.0
-  resolution: "core-js@npm:3.31.0"
-  checksum: 6216c7ada80b2468b1297d844fa99a99da97d6156cb05270b3627d8c463fb8c17baeff74ef204ef1c905712930fe82740ba2a74e2f957e4909fd241416fe5735
+"core-js@npm:3.31.1":
+  version: 3.31.1
+  resolution: "core-js@npm:3.31.1"
+  checksum: 17b44ddc675d7e924ecf0da21dcae3dc9e26758048e3275ba05fcd1a8805d45e6bacee1335b781e9d59d0c38302d5cbfc49073ef33232387459f432852fb6cd9
   languageName: node
   linkType: hard
 
@@ -3381,11 +3381,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-next@npm:13.4.7":
-  version: 13.4.7
-  resolution: "eslint-config-next@npm:13.4.7"
+"eslint-config-next@npm:13.4.9":
+  version: 13.4.9
+  resolution: "eslint-config-next@npm:13.4.9"
   dependencies:
-    "@next/eslint-plugin-next": "npm:13.4.7"
+    "@next/eslint-plugin-next": "npm:13.4.9"
     "@rushstack/eslint-patch": "npm:^1.1.3"
     "@typescript-eslint/parser": "npm:^5.42.0"
     eslint-import-resolver-node: "npm:^0.3.6"
@@ -3393,14 +3393,14 @@ __metadata:
     eslint-plugin-import: "npm:^2.26.0"
     eslint-plugin-jsx-a11y: "npm:^6.5.1"
     eslint-plugin-react: "npm:^7.31.7"
-    eslint-plugin-react-hooks: "npm:^4.5.0"
+    eslint-plugin-react-hooks: "npm:5.0.0-canary-7118f5dd7-20230705"
   peerDependencies:
     eslint: ^7.23.0 || ^8.0.0
     typescript: ">=3.3.1"
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 564121ead4fde2acc9eb7e6dafae2f515d54c17b611ed4b1b9e0fbcb54b24a7e0abeaa2dd20b9e9a5f40a6a098bb0880dd674b8336d409a3ac950b56649657cb
+  checksum: 4b1f551382695cd6fea3e224423398861f60311210e70e06d4b2c5b650ffe169a5ed140c7a6c128af7d6232eea797d3c48363bb762cc341a785ac044448dc630
   languageName: node
   linkType: hard
 
@@ -3508,12 +3508,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-hooks@npm:4.6.0, eslint-plugin-react-hooks@npm:^4.5.0":
+"eslint-plugin-react-hooks@npm:4.6.0":
   version: 4.6.0
   resolution: "eslint-plugin-react-hooks@npm:4.6.0"
   peerDependencies:
     eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
   checksum: 58c7e10ea5792c33346fcf5cb4024e14837035ce412ff99c2dcb7c4f903dc9b17939078f80bfef826301ce326582c396c00e8e0ac9d10ac2cde2b42d33763c65
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-react-hooks@npm:5.0.0-canary-7118f5dd7-20230705":
+  version: 5.0.0-canary-7118f5dd7-20230705
+  resolution: "eslint-plugin-react-hooks@npm:5.0.0-canary-7118f5dd7-20230705"
+  peerDependencies:
+    eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
+  checksum: 554c4e426bfeb126155510dcba8345391426af147ee629f1c56c9ef6af08340d11008213e4e15b0138830af2c4439d7158da2091987f7efb01aeab662c44b274
   languageName: node
   linkType: hard
 

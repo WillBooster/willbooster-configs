@@ -42,7 +42,7 @@
     "micromatch": "4.0.5",
     "prettier": "3.0.0",
     "react": "18.2.0",
-    "sort-package-json": "2.5.0",
+    "sort-package-json": "2.5.1",
     "typescript": "5.1.6",
     "use-immer": "0.9.0"
   },

@@ -30,7 +30,7 @@
     "lint-staged": "13.2.3",
     "micromatch": "4.0.5",
     "prettier": "3.0.0",
-    "sort-package-json": "2.5.0"
+    "sort-package-json": "2.5.1"
   },
   "peerDependencies": {
     "@willbooster/prettier-config": ">=6",

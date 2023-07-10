@@ -1542,6 +1542,7 @@ __metadata:
     "@types/react": "npm:18.2.14"
     "@typescript-eslint/eslint-plugin": "npm:5.61.0"
     "@typescript-eslint/parser": "npm:5.61.0"
+    "@willbooster/eslint-config-ts": "npm:^10.0.8"
     "@willbooster/prettier-config": "npm:^9.0.1"
     eslint: "npm:8.44.0"
     eslint-config-next: "npm:13.4.9"

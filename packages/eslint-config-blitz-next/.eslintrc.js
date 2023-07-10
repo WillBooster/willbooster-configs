@@ -1,6 +1,23 @@
 module.exports = {
-  extends: [require.resolve('@blitzjs/next/eslint'), '@willbooster/eslint-config-ts-react'],
-  rules: { 'import/no-default-export': 'error' },
+  extends: [require.resolve('@blitzjs/next/eslint'), '@willbooster/eslint-config-ts'],
+  rules: {
+    'import/no-default-export': 'error',
+    'react/jsx-sort-props': [
+      'error',
+      {
+        callbacksLast: true,
+        shorthandFirst: true,
+        reservedFirst: true,
+      },
+    ],
+    'react/no-unknown-property': [
+      'error',
+      {
+        ignore: ['global', 'jsx'],
+      },
+    ],
+    'react/prop-types': 'off',
+  },
   overrides: [
     {
       // A default export is required in seed, mutation, query, and page files.

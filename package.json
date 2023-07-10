@@ -25,9 +25,6 @@
     "typecheck": "yarn workspaces foreach --parallel --verbose run typecheck"
   },
   "prettier": "@willbooster/prettier-config",
-  "resolutions": {
-    "eslint-config-next/eslint-plugin-react-hooks": "4.6.0"
-  },
   "devDependencies": {
     "@qiwi/multi-semantic-release": "6.7.0",
     "@types/eslint": "8.44.0",
@@ -45,8 +42,5 @@
     "sort-package-json": "2.5.1",
     "typescript": "5.1.6"
   },
-  "packageManager": "yarn@4.0.0-rc.48",
-  "overrides": {
-    "eslint-plugin-react-hooks": "4.6.0"
-  }
+  "packageManager": "yarn@4.0.0-rc.48"
 }

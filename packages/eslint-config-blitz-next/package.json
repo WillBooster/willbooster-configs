@@ -18,20 +18,23 @@
     "typecheck": "tsc --noEmit --Pretty"
   },
   "prettier": "@willbooster/prettier-config",
+  "resolutions": {
+    "eslint-config-next/eslint-plugin-react-hooks": "4.6.0"
+  },
   "dependencies": {
     "@willbooster/eslint-config-ts-react": "^10.1.0"
   },
   "devDependencies": {
-    "@blitzjs/next": "2.0.0-beta.29",
-    "@types/eslint": "8.40.2",
+    "@blitzjs/next": "2.0.0-beta.30",
+    "@types/eslint": "8.44.0",
     "@types/micromatch": "4.0.2",
-    "@types/node": "18.16.18",
+    "@types/node": "18.16.19",
     "@types/react": "18.2.14",
     "@typescript-eslint/eslint-plugin": "5.61.0",
     "@typescript-eslint/parser": "5.61.0",
     "@willbooster/prettier-config": "^9.0.1",
     "eslint": "8.44.0",
-    "eslint-config-next": "13.4.7",
+    "eslint-config-next": "13.4.9",
     "eslint-config-prettier": "8.8.0",
     "eslint-import-resolver-typescript": "3.5.5",
     "eslint-plugin-import": "2.27.5",
@@ -66,5 +69,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "overrides": {
+    "eslint-plugin-react-hooks": "4.6.0"
   }
 }

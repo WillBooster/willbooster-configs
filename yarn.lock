@@ -1549,6 +1549,8 @@ __metadata:
     eslint-config-prettier: "npm:8.8.0"
     eslint-import-resolver-typescript: "npm:3.5.5"
     eslint-plugin-import: "npm:2.27.5"
+    eslint-plugin-react: "npm:7.32.2"
+    eslint-plugin-react-hooks: "npm:4.6.0"
     eslint-plugin-sort-class-members: "npm:1.18.0"
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:47.0.0"

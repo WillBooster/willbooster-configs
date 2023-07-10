@@ -18,6 +18,9 @@
     "typecheck": "tsc --noEmit --Pretty"
   },
   "prettier": "@willbooster/prettier-config",
+  "resolutions": {
+    "eslint-config-next/eslint-plugin-react-hooks": "4.6.0"
+  },
   "dependencies": {
     "@willbooster/eslint-config-ts-react": "^10.1.0"
   },
@@ -66,5 +69,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "overrides": {
+    "eslint-plugin-react-hooks": "4.6.0"
   }
 }

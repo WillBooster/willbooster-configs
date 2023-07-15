@@ -1849,17 +1849,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/renovate-config@workspace:packages/renovate-config":
-  version: 0.0.0-use.local
-  resolution: "@willbooster/renovate-config@workspace:packages/renovate-config"
-  dependencies:
-    "@willbooster/prettier-config": "npm:^9.0.1"
-    lint-staged: "npm:13.2.3"
-    prettier: "npm:3.0.0"
-    sort-package-json: "npm:2.5.1"
-  languageName: unknown
-  linkType: soft
-
 "@willbooster/rollup-configs@workspace:packages/rollup-configs":
   version: 0.0.0-use.local
   resolution: "@willbooster/rollup-configs@workspace:packages/rollup-configs"

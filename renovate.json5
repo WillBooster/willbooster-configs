@@ -20,6 +20,11 @@
       groupName: 'willbooster-config',
       matchPackagePatterns: ['^@willbooster/.*config'],
     },
+    // To separate python update from other updates
+    {
+      groupName: 'python',
+      matchPackageNames: ['python'],
+    },
     {
       matchPackagePatterns: ['yarn'],
       ignoreUnstable: false,

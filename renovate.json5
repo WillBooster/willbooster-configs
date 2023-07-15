@@ -1,0 +1,35 @@
+{
+  $schema: 'https://docs.renovatebot.com/renovate-schema.json',
+  description: 'Default preset for use with WillBooster and WillBoosterLab repos',
+  extends: [
+    'config:base',
+    ':automergeMinor',
+    ':automergePr',
+    ':maintainLockFilesWeekly',
+    ':prImmediately',
+    ':rebaseStalePrs',
+    ':semanticCommits',
+    'group:linters',
+    'group:nodeJs',
+    'group:test',
+    'group:allNonMajor',
+  ],
+  dependencyDashboardAutoclose: true,
+  packageRules: [
+    {
+      groupName: 'willbooster-config',
+      matchPackagePatterns: ['^@willbooster/.*config'],
+    },
+    {
+      matchPackagePatterns: ['yarn'],
+      ignoreUnstable: false,
+    },
+    {
+      matchDatasources: ['docker'],
+      matchPackageNames: ['node'],
+      allowedVersions: '^16 || ^18 || ^20',
+    },
+  ],
+  schedule: ['before 6am on Saturday'],
+  timezone: 'Asia/Tokyo',
+}

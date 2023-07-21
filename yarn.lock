@@ -84,11 +84,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blitzjs/next@npm:2.0.0-beta.30":
-  version: 2.0.0-beta.30
-  resolution: "@blitzjs/next@npm:2.0.0-beta.30"
+"@blitzjs/next@npm:2.0.0-beta.31":
+  version: 2.0.0-beta.31
+  resolution: "@blitzjs/next@npm:2.0.0-beta.31"
   dependencies:
-    "@blitzjs/rpc": "npm:2.0.0-beta.30"
+    "@blitzjs/rpc": "npm:2.0.0-beta.31"
     "@types/hoist-non-react-statics": "npm:3.3.1"
     debug: "npm:4.3.3"
     fs-extra: "npm:10.0.1"
@@ -96,17 +96,17 @@ __metadata:
     superjson: "npm:1.11.0"
     supports-color: "npm:8.1.1"
   peerDependencies:
-    blitz: 2.0.0-beta.30
+    blitz: 2.0.0-beta.31
     next: "*"
     react: "*"
     tslog: "*"
-  checksum: a9259a822c20db2ffe3d3d40a32555b71feed6d7f9356f0b0e13c15c3e95911f1b32e15a6d67c1091c8a96da508a416593f84d420e70661d5cd55171bc875679
+  checksum: cd8b1804d1522539a5dc42583f399e90f90b563ecfbdd940f342ed9874df3088d2f428383663e43961e6eeb8f5c1f0204df76e8ea1f6efe7a075ee105b7f7b13
   languageName: node
   linkType: hard
 
-"@blitzjs/rpc@npm:2.0.0-beta.30":
-  version: 2.0.0-beta.30
-  resolution: "@blitzjs/rpc@npm:2.0.0-beta.30"
+"@blitzjs/rpc@npm:2.0.0-beta.31":
+  version: 2.0.0-beta.31
+  resolution: "@blitzjs/rpc@npm:2.0.0-beta.31"
   dependencies:
     "@swc/core": "npm:1.3.7"
     "@tanstack/react-query": "npm:4.24.4"
@@ -118,10 +118,10 @@ __metadata:
     supports-color: "npm:8.1.1"
   peerDependencies:
     "@tanstack/query-core": 4.24.4
-    blitz: 2.0.0-beta.30
+    blitz: 2.0.0-beta.31
     next: "*"
     react: "*"
-  checksum: adb9cb715e7d93d3eb2c4a61444132df066dba258934d976c4aadc191287c6e2077c5c87f6fd11d2c531e8a135bd39c8347f163cb1f087759c641190085262ce
+  checksum: 1b84e7e8ebe2efcea33312b10ea4801cdb9f1196e52dec33d8c2d073fd53a2bee7a0d003f333cf39de1d150f8c4e48481660f218174e5006ad740e4f3abcbb9f
   languageName: node
   linkType: hard
 
@@ -286,12 +286,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:13.4.10":
-  version: 13.4.10
-  resolution: "@next/eslint-plugin-next@npm:13.4.10"
+"@next/eslint-plugin-next@npm:13.4.11":
+  version: 13.4.11
+  resolution: "@next/eslint-plugin-next@npm:13.4.11"
   dependencies:
     glob: "npm:7.1.7"
-  checksum: 90e06a7a221c21c555852a71845fd851cc0ffeb196ed5a83327d605d11e9bdf340b4ca40b112c73fc9eae8a0a9b1f01c8e233b2b0c87b74c4216ea62dad4bed5
+  checksum: 1073e0ceec30128744e64c2470ebebdc9398f1cc67d3f5dbb6162c018b2ff92871fdf5359ecfcb751d4c65a8ab580bf7d6ee3cead575b8557481309763eaff26
   languageName: node
   linkType: hard
 
@@ -724,9 +724,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-commonjs@npm:25.0.2":
-  version: 25.0.2
-  resolution: "@rollup/plugin-commonjs@npm:25.0.2"
+"@rollup/plugin-commonjs@npm:25.0.3":
+  version: 25.0.3
+  resolution: "@rollup/plugin-commonjs@npm:25.0.3"
   dependencies:
     "@rollup/pluginutils": "npm:^5.0.1"
     commondir: "npm:^1.0.1"
@@ -739,7 +739,7 @@ __metadata:
   peerDependenciesMeta:
     rollup:
       optional: true
-  checksum: 2c4cfb41eaaab46dee67ff9025ebb9061de531f3c3e2233ab8864ba76b38a8cd6d93ac8ffe5b05e5a0d5580421735c29974c5edfb6898ca9e97cbd5b5ba2e5ee
+  checksum: a5e5bdb0363d02a5501d7ac94e4cc245d836a1f6da84e733de932a74e6fe08f3ab1949e422b18b1235dfec7c9e9e975c49dd8d083f544add428e6fa3bff6d0a4
   languageName: node
   linkType: hard
 
@@ -1570,7 +1570,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-blitz-next@workspace:packages/eslint-config-blitz-next"
   dependencies:
-    "@blitzjs/next": "npm:2.0.0-beta.30"
+    "@blitzjs/next": "npm:2.0.0-beta.31"
     "@types/eslint": "npm:8.44.0"
     "@types/micromatch": "npm:4.0.2"
     "@types/node": "npm:18.16.19"
@@ -1580,7 +1580,7 @@ __metadata:
     "@willbooster/eslint-config-ts": "npm:^10.0.8"
     "@willbooster/prettier-config": "npm:^9.0.1"
     eslint: "npm:8.45.0"
-    eslint-config-next: "npm:13.4.10"
+    eslint-config-next: "npm:13.4.11"
     eslint-config-prettier: "npm:8.8.0"
     eslint-import-resolver-typescript: "npm:3.5.5"
     eslint-plugin-import: "npm:2.27.5"
@@ -1812,7 +1812,7 @@ __metadata:
   resolution: "@willbooster/rollup-configs@workspace:packages/rollup-configs"
   dependencies:
     "@rollup/plugin-babel": "npm:6.0.3"
-    "@rollup/plugin-commonjs": "npm:25.0.2"
+    "@rollup/plugin-commonjs": "npm:25.0.3"
     "@rollup/plugin-json": "npm:6.0.0"
     "@rollup/plugin-node-resolve": "npm:15.1.0"
     "@rollup/plugin-replace": "npm:5.0.2"
@@ -3405,11 +3405,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-next@npm:13.4.10":
-  version: 13.4.10
-  resolution: "eslint-config-next@npm:13.4.10"
+"eslint-config-next@npm:13.4.11":
+  version: 13.4.11
+  resolution: "eslint-config-next@npm:13.4.11"
   dependencies:
-    "@next/eslint-plugin-next": "npm:13.4.10"
+    "@next/eslint-plugin-next": "npm:13.4.11"
     "@rushstack/eslint-patch": "npm:^1.1.3"
     "@typescript-eslint/parser": "npm:^5.42.0"
     eslint-import-resolver-node: "npm:^0.3.6"
@@ -3424,7 +3424,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: ee583807df89bae26cab9aa9b786e80494c0ec083924c9e26c4f1c87f0e3661a5103e14e90c691e507862f02a706c8871245ef3a3bc462c1e2296e47bb7fee44
+  checksum: 73530c791f0fb9780a21b639c2a31fb68658d489b5925f69fdd42fa44b1988d1d62d2008155777876f7c57528980e8194fded3ca15dea348bd02d4c529e8bbd5
   languageName: node
   linkType: hard
 

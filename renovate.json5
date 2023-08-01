@@ -3,8 +3,11 @@
   description: 'Default preset for use with WillBooster and WillBoosterLab repos',
   extends: [
     'config:base',
+    ':automergeLinters',
     ':automergeMinor',
     ':automergePr',
+    ':automergeTesters',
+    ':automergeTypes',
     ':maintainLockFilesWeekly',
     ':prImmediately',
     ':rebaseStalePrs',

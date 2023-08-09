@@ -1592,7 +1592,7 @@ __metadata:
     eslint: "npm:8.46.0"
     eslint-config-next: "npm:13.4.12"
     eslint-config-prettier: "npm:9.0.0"
-    eslint-import-resolver-typescript: "npm:3.5.5"
+    eslint-import-resolver-typescript: "npm:3.6.0"
     eslint-plugin-import: "npm:2.28.0"
     eslint-plugin-react: "npm:7.33.1"
     eslint-plugin-react-hooks: "npm:4.6.0"
@@ -1711,7 +1711,7 @@ __metadata:
     "@willbooster/prettier-config": "npm:^9.0.1"
     eslint: "npm:8.46.0"
     eslint-config-prettier: "npm:9.0.0"
-    eslint-import-resolver-typescript: "npm:3.5.5"
+    eslint-import-resolver-typescript: "npm:3.6.0"
     eslint-plugin-import: "npm:2.28.0"
     eslint-plugin-react: "npm:7.33.1"
     eslint-plugin-react-hooks: "npm:4.6.0"
@@ -1771,7 +1771,7 @@ __metadata:
     "@willbooster/prettier-config": "npm:^9.0.1"
     eslint: "npm:8.46.0"
     eslint-config-prettier: "npm:9.0.0"
-    eslint-import-resolver-typescript: "npm:3.5.5"
+    eslint-import-resolver-typescript: "npm:3.6.0"
     eslint-plugin-import: "npm:2.28.0"
     eslint-plugin-sort-class-members: "npm:1.18.0"
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
@@ -1848,7 +1848,7 @@ __metadata:
     "@willbooster/prettier-config": "npm:^9.0.1"
     eslint: "npm:8.46.0"
     eslint-config-prettier: "npm:9.0.0"
-    eslint-import-resolver-typescript: "npm:3.5.5"
+    eslint-import-resolver-typescript: "npm:3.6.0"
     eslint-plugin-import: "npm:2.28.0"
     eslint-plugin-sort-class-members: "npm:1.18.0"
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
@@ -3464,7 +3464,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-typescript@npm:3.5.5, eslint-import-resolver-typescript@npm:^3.5.2":
+"eslint-import-resolver-typescript@npm:3.6.0":
+  version: 3.6.0
+  resolution: "eslint-import-resolver-typescript@npm:3.6.0"
+  dependencies:
+    debug: "npm:^4.3.4"
+    enhanced-resolve: "npm:^5.12.0"
+    eslint-module-utils: "npm:^2.7.4"
+    fast-glob: "npm:^3.3.1"
+    get-tsconfig: "npm:^4.5.0"
+    is-core-module: "npm:^2.11.0"
+    is-glob: "npm:^4.0.3"
+  peerDependencies:
+    eslint: "*"
+    eslint-plugin-import: "*"
+  checksum: 4f3b7e629e37c52804da0e4fe3eda5fdd727fd1d945fad5662bcd64a87fafa08b986efe07fb2116c81f2259ba29d6d06b99edafd7d3499cfb78ff71b6e8ca4c1
+  languageName: node
+  linkType: hard
+
+"eslint-import-resolver-typescript@npm:^3.5.2":
   version: 3.5.5
   resolution: "eslint-import-resolver-typescript@npm:3.5.5"
   dependencies:
@@ -3823,7 +3841,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.2.12, fast-glob@npm:^3.2.9, fast-glob@npm:^3.3.0":
+"fast-glob@npm:^3.2.12, fast-glob@npm:^3.2.9, fast-glob@npm:^3.3.0, fast-glob@npm:^3.3.1":
   version: 3.3.1
   resolution: "fast-glob@npm:3.3.1"
   dependencies:

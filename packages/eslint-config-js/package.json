@@ -18,10 +18,10 @@
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
-    "@types/eslint": "8.44.1",
+    "@types/eslint": "8.44.2",
     "@types/micromatch": "4.0.2",
     "@willbooster/prettier-config": "^9.0.1",
-    "eslint": "8.46.0",
+    "eslint": "8.47.0",
     "eslint-config-prettier": "9.0.0",
     "eslint-plugin-import": "2.28.0",
     "eslint-plugin-sort-class-members": "1.18.0",

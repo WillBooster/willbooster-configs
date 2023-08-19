@@ -85,11 +85,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blitzjs/next@npm:2.0.0-beta.31":
-  version: 2.0.0-beta.31
-  resolution: "@blitzjs/next@npm:2.0.0-beta.31"
+"@blitzjs/next@npm:2.0.0-beta.32":
+  version: 2.0.0-beta.32
+  resolution: "@blitzjs/next@npm:2.0.0-beta.32"
   dependencies:
-    "@blitzjs/rpc": "npm:2.0.0-beta.31"
+    "@blitzjs/rpc": "npm:2.0.0-beta.32"
     "@types/hoist-non-react-statics": "npm:3.3.1"
     debug: "npm:4.3.3"
     fs-extra: "npm:10.0.1"
@@ -97,17 +97,17 @@ __metadata:
     superjson: "npm:1.11.0"
     supports-color: "npm:8.1.1"
   peerDependencies:
-    blitz: 2.0.0-beta.31
+    blitz: 2.0.0-beta.32
     next: "*"
     react: "*"
     tslog: "*"
-  checksum: cd8b1804d1522539a5dc42583f399e90f90b563ecfbdd940f342ed9874df3088d2f428383663e43961e6eeb8f5c1f0204df76e8ea1f6efe7a075ee105b7f7b13
+  checksum: 8169189a6201073e40190ac36af0939c7d313ee9fca5670e6511bc07d98e8d4b4805a6f5e239c99a7eed6cdccc83891b7a83cc920c6b10f55020c84b7edb548c
   languageName: node
   linkType: hard
 
-"@blitzjs/rpc@npm:2.0.0-beta.31":
-  version: 2.0.0-beta.31
-  resolution: "@blitzjs/rpc@npm:2.0.0-beta.31"
+"@blitzjs/rpc@npm:2.0.0-beta.32":
+  version: 2.0.0-beta.32
+  resolution: "@blitzjs/rpc@npm:2.0.0-beta.32"
   dependencies:
     "@swc/core": "npm:1.3.7"
     "@tanstack/react-query": "npm:4.24.4"
@@ -119,10 +119,10 @@ __metadata:
     supports-color: "npm:8.1.1"
   peerDependencies:
     "@tanstack/query-core": 4.24.4
-    blitz: 2.0.0-beta.31
+    blitz: 2.0.0-beta.32
     next: "*"
     react: "*"
-  checksum: 1b84e7e8ebe2efcea33312b10ea4801cdb9f1196e52dec33d8c2d073fd53a2bee7a0d003f333cf39de1d150f8c4e48481660f218174e5006ad740e4f3abcbb9f
+  checksum: 8ce0e25abc231e7c38408f33f938c1eae506a37496c5af86e492e34d66691816d52b9051e999010f0d929b48f09b060cacbde6aa40d1d0597bbf49e0d5df8c48
   languageName: node
   linkType: hard
 
@@ -280,12 +280,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:13.4.13":
-  version: 13.4.13
-  resolution: "@next/eslint-plugin-next@npm:13.4.13"
+"@next/eslint-plugin-next@npm:13.4.19":
+  version: 13.4.19
+  resolution: "@next/eslint-plugin-next@npm:13.4.19"
   dependencies:
     glob: "npm:7.1.7"
-  checksum: 1a4a7dc3140229d36a8ee88ffdc7034ef5661aa309df2ad25bfccae8dfc8306f889fd58897aaf740846a3e00855a4a0aa9d6820780f33db7be15c2641c5b00b7
+  checksum: 2a9c9cf16d47de7089ffbd80b71d4bb015ed01f7288b8e97cb866830a7624c578c9af23da0889c06be678afb4959066e2d1ae497d296763648ac22783dc03396
   languageName: node
   linkType: hard
 
@@ -738,9 +738,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-node-resolve@npm:15.1.0":
-  version: 15.1.0
-  resolution: "@rollup/plugin-node-resolve@npm:15.1.0"
+"@rollup/plugin-node-resolve@npm:15.2.0":
+  version: 15.2.0
+  resolution: "@rollup/plugin-node-resolve@npm:15.2.0"
   dependencies:
     "@rollup/pluginutils": "npm:^5.0.1"
     "@types/resolve": "npm:1.20.2"
@@ -753,7 +753,7 @@ __metadata:
   peerDependenciesMeta:
     rollup:
       optional: true
-  checksum: c26f1ee8cb0df284c021cb2fcecd8181249caa67cf4bafb528eb580f9b1f254ec8ba81cb3ddd34ee3eef376e97fb04c1ed49a3271e67c4f71284bbc89179aca0
+  checksum: 616328595762b529fe676496b1bf2ba6b89dec54dfc70f0959c54145dd6474191301cade7444f79b5057df4573bfda746f8a0f05f4352666a2adfd865466a761
   languageName: node
   linkType: hard
 
@@ -1266,10 +1266,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.17.4":
-  version: 18.17.4
-  resolution: "@types/node@npm:18.17.4"
-  checksum: 0bf46094ba815b5dce0db5c920b547755bce4e0baa8b4b994e93d653ef6aed01344e12ef5aa20bcbcc965d56ae814bb8c3120a331fa0b56b10f5e9a31a0d368f
+"@types/node@npm:18.17.6":
+  version: 18.17.6
+  resolution: "@types/node@npm:18.17.6"
+  checksum: 952184330426dfc7af31dcee46cdfe352ae5f9568debf9a8b2c59ae43d35d0b94d63085cce9719e4835579d3a5a1fb96b82b214d5c094cca9f0ee2cabbcd8fdb
   languageName: node
   linkType: hard
 
@@ -1538,7 +1538,7 @@ __metadata:
   dependencies:
     "@types/babel__core": "npm:7.20.1"
     "@willbooster/prettier-config": "npm:^9.0.1"
-    core-js: "npm:3.32.0"
+    core-js: "npm:3.32.1"
     lint-staged: "npm:14.0.0"
     prettier: "npm:3.0.2"
     sort-package-json: "npm:2.5.1"
@@ -1555,7 +1555,7 @@ __metadata:
     "@typescript-eslint/parser": "npm:6.4.0"
     "@willbooster/prettier-config": "npm:^9.0.1"
     conventional-changelog-conventionalcommits: "npm:6.1.0"
-    dotenv-cli: "npm:7.2.1"
+    dotenv-cli: "npm:7.3.0"
     eslint: "npm:8.47.0"
     husky: "npm:8.0.3"
     lint-staged: "npm:14.0.0"
@@ -1571,17 +1571,17 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-blitz-next@workspace:packages/eslint-config-blitz-next"
   dependencies:
-    "@blitzjs/next": "npm:2.0.0-beta.31"
+    "@blitzjs/next": "npm:2.0.0-beta.32"
     "@types/eslint": "npm:8.44.2"
     "@types/micromatch": "npm:4.0.2"
-    "@types/node": "npm:18.17.4"
+    "@types/node": "npm:18.17.6"
     "@types/react": "npm:18.2.20"
     "@typescript-eslint/eslint-plugin": "npm:6.4.0"
     "@typescript-eslint/parser": "npm:6.4.0"
     "@willbooster/eslint-config-ts": "npm:^10.0.8"
     "@willbooster/prettier-config": "npm:^9.0.1"
     eslint: "npm:8.47.0"
-    eslint-config-next: "npm:13.4.13"
+    eslint-config-next: "npm:13.4.19"
     eslint-config-prettier: "npm:9.0.0"
     eslint-import-resolver-typescript: "npm:3.6.0"
     eslint-plugin-import: "npm:2.28.1"
@@ -1694,7 +1694,7 @@ __metadata:
   dependencies:
     "@types/eslint": "npm:8.44.2"
     "@types/micromatch": "npm:4.0.2"
-    "@types/node": "npm:18.17.4"
+    "@types/node": "npm:18.17.6"
     "@types/react": "npm:18.2.20"
     "@typescript-eslint/eslint-plugin": "npm:6.4.0"
     "@typescript-eslint/parser": "npm:6.4.0"
@@ -1756,7 +1756,7 @@ __metadata:
   dependencies:
     "@types/eslint": "npm:8.44.2"
     "@types/micromatch": "npm:4.0.2"
-    "@types/node": "npm:18.17.4"
+    "@types/node": "npm:18.17.6"
     "@typescript-eslint/eslint-plugin": "npm:6.4.0"
     "@typescript-eslint/parser": "npm:6.4.0"
     "@willbooster/prettier-config": "npm:^9.0.1"
@@ -1815,7 +1815,7 @@ __metadata:
     "@rollup/plugin-babel": "npm:6.0.3"
     "@rollup/plugin-commonjs": "npm:25.0.4"
     "@rollup/plugin-json": "npm:6.0.0"
-    "@rollup/plugin-node-resolve": "npm:15.1.0"
+    "@rollup/plugin-node-resolve": "npm:15.2.0"
     "@rollup/plugin-replace": "npm:5.0.2"
     "@willbooster/prettier-config": "npm:^9.0.1"
     lint-staged: "npm:14.0.0"
@@ -2846,10 +2846,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:3.32.0":
-  version: 3.32.0
-  resolution: "core-js@npm:3.32.0"
-  checksum: 8839b9a5cfff4999cf5e3277072c7c581b29618c6dbc2f9d0170c529a701310ec78843bd97bede0742cf6899b526bdb062bb1d148c6e9a40f3d19173b7ee8e88
+"core-js@npm:3.32.1":
+  version: 3.32.1
+  resolution: "core-js@npm:3.32.1"
+  checksum: 994ba8379331c8e1dcbd28dc4952208b629c2dec8b8fbb6104f85282c9dfd0b1f76f23ea42778ad7ef236626cc29e403562c6a0726004fd39eaf5c7d618f7fa2
   languageName: node
   linkType: hard
 
@@ -3118,17 +3118,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv-cli@npm:7.2.1":
-  version: 7.2.1
-  resolution: "dotenv-cli@npm:7.2.1"
+"dotenv-cli@npm:7.3.0":
+  version: 7.3.0
+  resolution: "dotenv-cli@npm:7.3.0"
   dependencies:
     cross-spawn: "npm:^7.0.3"
-    dotenv: "npm:^16.0.0"
+    dotenv: "npm:^16.3.0"
     dotenv-expand: "npm:^10.0.0"
     minimist: "npm:^1.2.6"
   bin:
     dotenv: cli.js
-  checksum: fbb6c4b0ebfef19357bc138bed3ae6a583382fc666265d06ba081b763d152d3240ddeb6e049f8b5454d3f808114a383338b9cc60a0341c076ba816826a4f96f3
+  checksum: 1fbad462078fe75c105ff47345671c0a38e8b5416db93a8c669e4e62dd26e3c1db6157aec0926ad6159bb176393395a493f0a23fd6a3e182191cf6d8380c6f16
   languageName: node
   linkType: hard
 
@@ -3139,7 +3139,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:^16.0.0":
+"dotenv@npm:^16.3.0":
   version: 16.3.1
   resolution: "dotenv@npm:16.3.1"
   checksum: b95ff1bbe624ead85a3cd70dbd827e8e06d5f05f716f2d0cbc476532d54c7c9469c3bc4dd93ea519f6ad711cb522c00ac9a62b6eb340d5affae8008facc3fbd7
@@ -3359,11 +3359,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-next@npm:13.4.13":
-  version: 13.4.13
-  resolution: "eslint-config-next@npm:13.4.13"
+"eslint-config-next@npm:13.4.19":
+  version: 13.4.19
+  resolution: "eslint-config-next@npm:13.4.19"
   dependencies:
-    "@next/eslint-plugin-next": "npm:13.4.13"
+    "@next/eslint-plugin-next": "npm:13.4.19"
     "@rushstack/eslint-patch": "npm:^1.1.3"
     "@typescript-eslint/parser": "npm:^5.4.2 || ^6.0.0"
     eslint-import-resolver-node: "npm:^0.3.6"
@@ -3371,14 +3371,14 @@ __metadata:
     eslint-plugin-import: "npm:^2.26.0"
     eslint-plugin-jsx-a11y: "npm:^6.5.1"
     eslint-plugin-react: "npm:^7.31.7"
-    eslint-plugin-react-hooks: "npm:5.0.0-canary-7118f5dd7-20230705"
+    eslint-plugin-react-hooks: "npm:^4.5.0 || 5.0.0-canary-7118f5dd7-20230705"
   peerDependencies:
     eslint: ^7.23.0 || ^8.0.0
     typescript: ">=3.3.1"
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: b9d48fbcf3808a3b88d8d1dd3713dcdb4f50400de68172d59018533928efe8ca9591db60649d3f5e8e857376c99191a9e728e52d0055b81705fe7956600cda44
+  checksum: 6cfecded6a64b27f45659c6211d2fa5bcc298468dba0545fa11fde3c2e1a282c68db6fc43f506aedf3b05e47d2b81cf4c087c63002a4513549b2c8c4b8fc84d6
   languageName: node
   linkType: hard
 
@@ -3524,7 +3524,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-hooks@npm:5.0.0-canary-7118f5dd7-20230705":
+"eslint-plugin-react-hooks@npm:^4.5.0 || 5.0.0-canary-7118f5dd7-20230705":
   version: 5.0.0-canary-7118f5dd7-20230705
   resolution: "eslint-plugin-react-hooks@npm:5.0.0-canary-7118f5dd7-20230705"
   peerDependencies:

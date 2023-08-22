@@ -78,7 +78,7 @@
     "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_", "ignoreRestSiblings": true }], // allow unused vars in object destructuring
     "@typescript-eslint/no-use-before-define": "off", // abstract code should appear first
     "eqeqeq": "error",
-    "no-console": "off", // Allow `console.log()`
+    "no-console": "off", // Allow `console.log()`.
     // Disallow 'enum' as it interferes with the tree-shaking process.
     // Additionally, when 'enum' is used with integers, it can lead to type-safety issues.
     "no-restricted-syntax": [
@@ -89,8 +89,9 @@
       }
     ],
     "object-shorthand": "error",
-    "one-var": ["error", "never"], // We prefer one variable declaration per line
-    "import/default": "off", // to use `import XXX from YYY` instead of `import XXX = require(YYY)`
+    "one-var": ["error", "never"], // We prefer one variable declaration per line.
+    "spaced-comment": "error", // Enforce consistency of spacing after the start of a comment // or /*.
+    "import/default": "off", // To use `import XXX from YYY` instead of `import XXX = require(YYY)`.
     "import/newline-after-import": "error",
     "import/no-duplicates": "error",
     "import/order": [

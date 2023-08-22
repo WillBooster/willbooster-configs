@@ -13,10 +13,11 @@
   "env": { "es2022": true },
   "rules": {
     "eqeqeq": "warn",
-    "no-console": "off", // allow `console.log()`
-    "no-unused-vars": ["warn", { "ignoreRestSiblings": true }], // allow unused vars in object destructuring
+    "no-console": "off", // Allow `console.log()`.
+    "no-unused-vars": ["warn", { "ignoreRestSiblings": true }], // Allow unused vars in object destructuring.
     "object-shorthand": "error",
-    "one-var": ["error", "never"], // We prefer one variable declaration per line
+    "one-var": ["error", "never"], // We prefer one variable declaration per line.
+    "spaced-comment": "error", // Enforce consistency of spacing after the start of a comment // or /*.
     "import/newline-after-import": "error",
     "import/no-duplicates": "error",
     "import/order": [

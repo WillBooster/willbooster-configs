@@ -33,7 +33,6 @@
       ignoreUnstable: false,
     },
     {
-      matchDatasources: ['docker'],
       matchPackageNames: ['node'],
       allowedVersions: '<=20',
     },

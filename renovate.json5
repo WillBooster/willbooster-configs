@@ -37,7 +37,7 @@
       allowedVersions: '<=20',
     },
     {
-      // Since v7 doesn't work with semantic-release v21
+      // Since v7 doesn't work with @qiwi/multi-semantic-release v7
       packageNames: ['conventional-changelog-conventionalcommits'],
       enabled: false,
     },

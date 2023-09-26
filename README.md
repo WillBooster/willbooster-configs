@@ -10,8 +10,10 @@
 ## Packages
 
 - [@willbooster/babel-configs](packages/babel-configs)
+- [@willbooster/eslint-config-blitz-next](packages/eslint-config-blitz-next)
 - [@willbooster/eslint-config-js](packages/eslint-config-js)
 - [@willbooster/eslint-config-js-react](packages/eslint-config-js-react)
+- [@willbooster/eslint-config-next](packages/eslint-config-next)
 - [@willbooster/eslint-config-ts](packages/eslint-config-ts)
 - [@willbooster/eslint-config-ts-react](packages/eslint-config-ts-react)
 - [@willbooster/prettier-config](packages/prettier-config)

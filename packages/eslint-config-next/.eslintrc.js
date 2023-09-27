@@ -21,7 +21,7 @@ module.exports = {
   overrides: [
     {
       // A default export is required in app and page files.
-      files: ['src/**/pages/*.ts', 'src/pages/**/*.tsx', 'src/pages/api/**/*.ts'],
+      files: ['src/app/**/{layout,page}.tsx', 'src/pages/**/*.tsx', 'src/pages/api/**/*.ts'],
       rules: { 'import/no-default-export': 'off' },
     },
     {

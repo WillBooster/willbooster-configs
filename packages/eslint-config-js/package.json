@@ -18,8 +18,8 @@
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
-    "@types/eslint": "8.44.2",
-    "@types/micromatch": "4.0.2",
+    "@types/eslint": "8.44.3",
+    "@types/micromatch": "4.0.3",
     "@willbooster/prettier-config": "^9.0.1",
     "eslint": "8.50.0",
     "eslint-config-prettier": "9.0.0",
@@ -30,7 +30,7 @@
     "lint-staged": "14.0.1",
     "micromatch": "4.0.5",
     "prettier": "3.0.3",
-    "sort-package-json": "2.5.1"
+    "sort-package-json": "2.6.0"
   },
   "peerDependencies": {
     "@willbooster/prettier-config": ">=6",

@@ -9,6 +9,7 @@
     ':automergeTesters',
     ':automergeTypes',
     ':maintainLockFilesWeekly',
+    ':pinAllExceptPeerDependencies',
     ':prImmediately',
     ':rebaseStalePrs',
     ':semanticCommits',
@@ -16,9 +17,15 @@
     'group:nodeJs',
     'group:test',
     'group:allNonMajor',
+    'docker:enableMajor',
+    'docker:pinDigests',
   ],
   dependencyDashboardAutoclose: true,
   packageRules: [
+    {
+      matchDepTypes: ['overrides', 'resolutions'],
+      enabled: true,
+    },
     {
       groupName: 'willbooster-config',
       matchPackagePatterns: ['^@willbooster/.*config'],

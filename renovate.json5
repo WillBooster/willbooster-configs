@@ -44,6 +44,11 @@
       allowedVersions: '<=20',
     },
     {
+      // Since they exist in private repositories
+      packageNames: ['@willbooster/judge'],
+      enabled: false,
+    },
+    {
       // Since v7 doesn't work with @qiwi/multi-semantic-release v7
       packageNames: ['conventional-changelog-conventionalcommits'],
       enabled: false,

@@ -1,3 +1,5 @@
+const eslintConfigTs = require('@willbooster/eslint-config-ts');
+
 module.exports = {
   extends: ['next/core-web-vitals', '@willbooster/eslint-config-ts'],
   rules: {
@@ -29,6 +31,22 @@ module.exports = {
       // cf. https://nextjs.org/docs/getting-started/project-structure
       files: ['src/pages/**/*.tsx', 'src/pages/api/**/*.ts'],
       rules: { 'unicorn/filename-case': ['error', { case: 'kebabCase', ignore: ['^\\[.+\\]\\.tsx?$'] }] },
+    },
+    {
+      // Request handlers must have the same name as the HTTP methods name (uppercase, e.g. `GET`).
+      // https://nextjs.org/docs/app/api-reference/file-conventions/route
+      files: ['src/app/api/**/route.ts'],
+      rules: {
+        '@typescript-eslint/naming-convention': [
+          ...eslintConfigTs.rules['@typescript-eslint/naming-convention'],
+          {
+            filter: '^(?:DELETE|GET|HEAD|OPTIONS|PATCH|POST|PUT)$',
+            selector: 'function',
+            modifiers: ['exported'],
+            format: null,
+          },
+        ],
+      },
     },
   ],
 };

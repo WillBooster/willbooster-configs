@@ -57,8 +57,8 @@
         "format": ["PascalCase"]
       },
       {
-        // allow any name when referring to property
-        "selector": "property",
+        // allow any name when referring to import and property
+        "selector": ["import", "property"],
         "format": null
       },
       {

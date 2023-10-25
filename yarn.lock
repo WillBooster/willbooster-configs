@@ -1588,7 +1588,7 @@ __metadata:
     "@types/react": "npm:18.2.31"
     "@typescript-eslint/eslint-plugin": "npm:6.9.0"
     "@typescript-eslint/parser": "npm:6.9.0"
-    "@willbooster/eslint-config-ts": "npm:^10.0.8"
+    "@willbooster/eslint-config-ts": "npm:^10.5.1"
     "@willbooster/prettier-config": "npm:^9.0.1"
     eslint: "npm:8.52.0"
     eslint-config-next: "npm:13.5.6"
@@ -1630,7 +1630,7 @@ __metadata:
     "@types/eslint": "npm:8.44.6"
     "@types/micromatch": "npm:4.0.4"
     "@types/react": "npm:18.2.31"
-    "@willbooster/eslint-config-js": "npm:^10.0.3"
+    "@willbooster/eslint-config-js": "npm:^10.2.1"
     "@willbooster/prettier-config": "npm:^9.0.1"
     eslint: "npm:8.52.0"
     eslint-config-prettier: "npm:9.0.0"
@@ -1657,17 +1657,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/eslint-config-js@npm:^10.0.3":
-  version: 10.2.0
-  resolution: "@willbooster/eslint-config-js@npm:10.2.0"
+"@willbooster/eslint-config-js@npm:^10.2.1":
+  version: 10.2.1
+  resolution: "@willbooster/eslint-config-js@npm:10.2.1"
   peerDependencies:
-    "@willbooster/prettier-config": 9.1.1
+    "@willbooster/prettier-config": 9.1.2
     eslint: ">=8"
     eslint-config-prettier: ">=8"
     eslint-plugin-import: ">=2"
     eslint-plugin-sort-class-members: ">=1.14"
     eslint-plugin-sort-destructure-keys: ">=1.4"
-  checksum: 4efb64a2ed690322d5ee3c90a7fe6ff7c6b87e16dfd926c4ff643212550890a1c0cffe6fc544fd353dbfd309c27c15786430b0f6147ddadd87bfa3832e840be4
+  checksum: 752ac44feec10f4073582437e99459749790dba29ee8c5b781b2fcc68047facc3500256806c9ff14ade67653bdc9bdc60371257b77d9067c7ee8b31ae176a993
   languageName: node
   linkType: hard
 
@@ -1708,7 +1708,7 @@ __metadata:
     "@types/react": "npm:18.2.31"
     "@typescript-eslint/eslint-plugin": "npm:6.9.0"
     "@typescript-eslint/parser": "npm:6.9.0"
-    "@willbooster/eslint-config-ts": "npm:^10.0.8"
+    "@willbooster/eslint-config-ts": "npm:^10.5.1"
     "@willbooster/prettier-config": "npm:^9.0.1"
     eslint: "npm:8.52.0"
     eslint-config-next: "npm:13.5.6"
@@ -1752,7 +1752,7 @@ __metadata:
     "@types/react": "npm:18.2.31"
     "@typescript-eslint/eslint-plugin": "npm:6.9.0"
     "@typescript-eslint/parser": "npm:6.9.0"
-    "@willbooster/eslint-config-ts": "npm:^10.0.8"
+    "@willbooster/eslint-config-ts": "npm:^10.5.1"
     "@willbooster/prettier-config": "npm:^9.0.1"
     eslint: "npm:8.52.0"
     eslint-config-prettier: "npm:9.0.0"
@@ -1786,13 +1786,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/eslint-config-ts@npm:^10.0.8":
-  version: 10.5.0
-  resolution: "@willbooster/eslint-config-ts@npm:10.5.0"
+"@willbooster/eslint-config-ts@npm:^10.5.1":
+  version: 10.5.1
+  resolution: "@willbooster/eslint-config-ts@npm:10.5.1"
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ">=5"
     "@typescript-eslint/parser": ">=5"
-    "@willbooster/prettier-config": 9.1.1
+    "@willbooster/prettier-config": 9.1.2
     eslint: ">=8"
     eslint-config-prettier: ">=8"
     eslint-import-resolver-typescript: ">=2"
@@ -1800,7 +1800,7 @@ __metadata:
     eslint-plugin-sort-class-members: ">=1.14"
     eslint-plugin-sort-destructure-keys: ">=1.4"
     typescript: ">=4"
-  checksum: a4b861ae04d5a73223e7c948492774b048b85410ad0957ecc3b795980efe94f10d8426197c8a6dc85baf872a9faae4c60c167ea2381f1bf054ee83561e158276
+  checksum: abf880f446eaeab3cff1c63d34f3018737717d00b8a4d3524e6406f48db0d8b96287e425aef9c8328b6cb19e3ba2170d45ba208bc38acd5f97a72160faa84bbd
   languageName: node
   linkType: hard
 
@@ -1842,11 +1842,11 @@ __metadata:
   linkType: soft
 
 "@willbooster/prettier-config@npm:^9.0.1":
-  version: 9.1.1
-  resolution: "@willbooster/prettier-config@npm:9.1.1"
+  version: 9.1.2
+  resolution: "@willbooster/prettier-config@npm:9.1.2"
   peerDependencies:
     prettier: ">=2"
-  checksum: 28e8237e9c7d180e723ea10e7a9710c318320b8fada694d6b15d8baa867339f4236f28e6c5254fc12a3725264e399ca7e3e43b94b043eff608c262693d8aab42
+  checksum: 814c5ca454f809f391b1884a9243764aaa3bd2d2ccbc853be925bf7d1cb395c0d2a5df9165eb2239cf72fa19b56b22597d375221674c229da6ffcc55cdcdc9dc
   languageName: node
   linkType: hard
 

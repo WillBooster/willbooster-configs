@@ -4,9 +4,9 @@
   "description": "A ESLint config for Next.js",
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
-  "main": ".eslintrc.js",
+  "main": ".eslintrc.json",
   "files": [
-    ".eslintrc.js"
+    ".eslintrc.json"
   ],
   "scripts": {
     "cleanup": "yarn format && yarn lint-fix",

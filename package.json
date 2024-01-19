@@ -29,7 +29,7 @@
     "@qiwi/multi-semantic-release": "7.1.1",
     "@types/eslint": "8.56.2",
     "@types/micromatch": "4.0.6",
-    "@typescript-eslint/parser": "6.18.1",
+    "@typescript-eslint/parser": "6.19.0",
     "@willbooster/prettier-config": "^9.0.1",
     "conventional-changelog-conventionalcommits": "6.1.0",
     "dotenv-cli": "7.3.0",
@@ -38,7 +38,7 @@
     "lint-staged": "15.2.0",
     "micromatch": "4.0.5",
     "pinst": "3.0.0",
-    "prettier": "3.2.0",
+    "prettier": "3.2.4",
     "sort-package-json": "2.6.0",
     "typescript": "5.3.3"
   },

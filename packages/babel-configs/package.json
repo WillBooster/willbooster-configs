@@ -16,7 +16,7 @@
   "devDependencies": {
     "@types/babel__core": "7.20.5",
     "@willbooster/prettier-config": "^9.0.1",
-    "core-js": "3.35.0",
+    "core-js": "3.35.1",
     "lint-staged": "15.2.0",
     "prettier": "3.2.4",
     "sort-package-json": "2.6.0"

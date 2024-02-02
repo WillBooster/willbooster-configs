@@ -23,7 +23,7 @@
   "devDependencies": {
     "@types/eslint": "8.56.2",
     "@types/micromatch": "4.0.6",
-    "@types/react": "18.2.48",
+    "@types/react": "18.2.51",
     "@willbooster/prettier-config": "^9.0.1",
     "eslint": "8.56.0",
     "eslint-config-prettier": "9.1.0",
@@ -33,11 +33,11 @@
     "eslint-plugin-sort-class-members": "1.19.0",
     "eslint-plugin-sort-destructure-keys": "1.5.0",
     "eslint-plugin-unicorn": "50.0.1",
-    "lint-staged": "15.2.0",
+    "lint-staged": "15.2.1",
     "micromatch": "4.0.5",
     "prettier": "3.2.4",
     "react": "18.2.0",
-    "sort-package-json": "2.6.0"
+    "sort-package-json": "2.7.0"
   },
   "peerDependencies": {
     "@willbooster/prettier-config": ">=6",

@@ -23,7 +23,7 @@
   "devDependencies": {
     "@types/eslint": "8.56.6",
     "@types/micromatch": "4.0.6",
-    "@types/react": "18.2.68",
+    "@types/react": "18.2.73",
     "@willbooster/prettier-config": "^9.0.1",
     "eslint": "8.57.0",
     "eslint-config-prettier": "9.1.0",
@@ -37,7 +37,7 @@
     "micromatch": "4.0.5",
     "prettier": "3.2.5",
     "react": "18.2.0",
-    "sort-package-json": "2.8.0"
+    "sort-package-json": "2.9.0"
   },
   "peerDependencies": {
     "@willbooster/prettier-config": ">=6",

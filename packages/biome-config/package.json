@@ -1,0 +1,27 @@
+{
+  "name": "@willbooster/biome-config",
+  "version": "0.0.0-semantically-released",
+  "description": "A Biome config for WillBooster projects",
+  "license": "Apache-2.0",
+  "author": "WillBooster Inc.",
+  "main": "biome.jsonc",
+  "files": [
+    "biome.jsonc"
+  ],
+  "scripts": {
+    "cleanup": "yarn format",
+    "format": "sort-package-json && yarn prettify",
+    "prettify": "prettier --cache --color --write \"**/{.*/,}*.{cjs,css,cts,htm,html,js,json,json5,jsx,md,mjs,mts,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\""
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.7.1",
+    "lint-staged": "15.2.2",
+    "sort-package-json": "2.10.0"
+  },
+  "peerDependencies": {
+    "@biomejs/biome": ">=1.7.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,17 +1,17 @@
 {
   "$schema": "https://biomejs.dev/schemas/1.7.1/schema.json",
   "organizeImports": {
-    "enabled": true
+    "enabled": true,
   },
   "formatter": {
     "enabled": true,
     "formatWithErrors": false,
     "ignore": [],
     "attributePosition": "auto",
-    "indentStyle": "tab",
+    "indentStyle": "space",
     "indentWidth": 2,
     "lineEnding": "lf",
-    "lineWidth": 120
+    "lineWidth": 120,
   },
   "javascript": {
     "formatter": {
@@ -22,18 +22,18 @@
       "quoteProperties": "asNeeded",
       "quoteStyle": "single",
       "semicolons": "always",
-      "trailingComma": "es5"
-    }
+      "trailingComma": "es5",
+    },
   },
   "json": {
     "formatter": {
-      "trailingCommas": "none"
-    }
+      "trailingCommas": "none",
+    },
   },
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true
-    }
-  }
+      "recommended": true,
+    },
+  },
 }

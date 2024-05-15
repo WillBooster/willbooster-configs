@@ -6,7 +6,7 @@
   "formatter": {
     "enabled": true,
     "formatWithErrors": false,
-    "ignore": [],
+    "ignore": ["**/test-fixtures/**"],
     "attributePosition": "auto",
     "indentStyle": "space",
     "indentWidth": 2,

@@ -19,7 +19,7 @@
     "@rollup/plugin-json": "6.1.0",
     "@rollup/plugin-node-resolve": "15.2.3",
     "@rollup/plugin-replace": "5.0.5",
-    "@rollup/plugin-terser": "0.1.0",
+    "@rollup/plugin-terser": "0.4.4",
     "@willbooster/prettier-config": "^9.0.1",
     "lint-staged": "15.2.2",
     "prettier": "3.2.5",

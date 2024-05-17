@@ -916,17 +916,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-terser@npm:0.1.0":
-  version: 0.1.0
-  resolution: "@rollup/plugin-terser@npm:0.1.0"
+"@rollup/plugin-terser@npm:0.4.4":
+  version: 0.4.4
+  resolution: "@rollup/plugin-terser@npm:0.4.4"
   dependencies:
-    terser: "npm:^5.15.1"
+    serialize-javascript: "npm:^6.0.1"
+    smob: "npm:^1.0.0"
+    terser: "npm:^5.17.4"
   peerDependencies:
-    rollup: ^2.x || ^3.x
+    rollup: ^2.0.0||^3.0.0||^4.0.0
   peerDependenciesMeta:
     rollup:
       optional: true
-  checksum: 10c0/4849fef63e8328f103d582e0ea8da3c982f19d8417223665730c9b852ea4735a4b07358535ef6a555a09aaccdaee1742b92fd6b7b52aa2bebe7421eb8c0787a5
+  checksum: 10c0/b9cb6c8f02ac1c1344019e9fb854321b74f880efebc41b6bdd84f18331fce0f4a2aadcdb481042245cd3f409b429ac363af71f9efec4a2024731d67d32af36ee
   languageName: node
   linkType: hard
 
@@ -1423,12 +1425,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.12.11":
-  version: 20.12.11
-  resolution: "@types/node@npm:20.12.11"
+"@types/node@npm:20.12.12":
+  version: 20.12.12
+  resolution: "@types/node@npm:20.12.12"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10c0/efaa7b08c50ba6e6982ac7d531ba08d5935539ba76e954807df1ff9382a319ead7e003ccaca5ad7cf33ecf53f212507f7c1f2794bd2ff52df6365fef21f6e1fb
+  checksum: 10c0/f374b763c744e8f16e4f38cf6e2c0eef31781ec9228c9e43a6f267880fea420fab0a238b59f10a7cb3444e49547c5e3785787e371fc242307310995b21988812
   languageName: node
   linkType: hard
 
@@ -1460,23 +1462,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*":
+"@types/react@npm:*, @types/react@npm:18.3.2":
   version: 18.3.2
   resolution: "@types/react@npm:18.3.2"
   dependencies:
     "@types/prop-types": "npm:*"
     csstype: "npm:^3.0.2"
   checksum: 10c0/9fb2f1fcf7e889ee4ea7c3c5978df595c66e770e5fd3a245dbdd2589b9b911524c11dab25a6275d8af4e336e4cb5fa850d447884b84c335a187a338c89df99ba
-  languageName: node
-  linkType: hard
-
-"@types/react@npm:18.3.1":
-  version: 18.3.1
-  resolution: "@types/react@npm:18.3.1"
-  dependencies:
-    "@types/prop-types": "npm:*"
-    csstype: "npm:^3.0.2"
-  checksum: 10c0/18d856c12a4ec93f3cda2d58ef3d77a9480818afd3af895f812896fb82cfca1f35a692ab1add4ce826a4eb58a071624c7d1c8c6c4ccfb81c100d2916dc607614
   languageName: node
   linkType: hard
 
@@ -1703,7 +1695,7 @@ __metadata:
   dependencies:
     "@types/babel__core": "npm:7.20.5"
     "@willbooster/prettier-config": "npm:^9.0.1"
-    core-js: "npm:3.37.0"
+    core-js: "npm:3.37.1"
     lint-staged: "npm:15.2.2"
     prettier: "npm:3.2.5"
     sort-package-json: "npm:2.10.0"
@@ -1752,8 +1744,8 @@ __metadata:
     "@blitzjs/next": "npm:2.0.9"
     "@types/eslint": "npm:8.56.10"
     "@types/micromatch": "npm:4.0.7"
-    "@types/node": "npm:20.12.11"
-    "@types/react": "npm:18.3.1"
+    "@types/node": "npm:20.12.12"
+    "@types/react": "npm:18.3.2"
     "@typescript-eslint/eslint-plugin": "npm:7.9.0"
     "@typescript-eslint/parser": "npm:7.9.0"
     "@willbooster/eslint-config-ts": "npm:^10.5.1"
@@ -1797,7 +1789,7 @@ __metadata:
   dependencies:
     "@types/eslint": "npm:8.56.10"
     "@types/micromatch": "npm:4.0.7"
-    "@types/react": "npm:18.3.1"
+    "@types/react": "npm:18.3.2"
     "@willbooster/eslint-config-js": "npm:^10.2.1"
     "@willbooster/prettier-config": "npm:^9.0.1"
     eslint: "npm:8.57.0"
@@ -1872,8 +1864,8 @@ __metadata:
   dependencies:
     "@types/eslint": "npm:8.56.10"
     "@types/micromatch": "npm:4.0.7"
-    "@types/node": "npm:20.12.11"
-    "@types/react": "npm:18.3.1"
+    "@types/node": "npm:20.12.12"
+    "@types/react": "npm:18.3.2"
     "@typescript-eslint/eslint-plugin": "npm:7.9.0"
     "@typescript-eslint/parser": "npm:7.9.0"
     "@willbooster/eslint-config-ts": "npm:^10.5.1"
@@ -1916,8 +1908,8 @@ __metadata:
   dependencies:
     "@types/eslint": "npm:8.56.10"
     "@types/micromatch": "npm:4.0.7"
-    "@types/node": "npm:20.12.11"
-    "@types/react": "npm:18.3.1"
+    "@types/node": "npm:20.12.12"
+    "@types/react": "npm:18.3.2"
     "@typescript-eslint/eslint-plugin": "npm:7.9.0"
     "@typescript-eslint/parser": "npm:7.9.0"
     "@willbooster/eslint-config-ts": "npm:^10.5.1"
@@ -1978,7 +1970,7 @@ __metadata:
   dependencies:
     "@types/eslint": "npm:8.56.10"
     "@types/micromatch": "npm:4.0.7"
-    "@types/node": "npm:20.12.11"
+    "@types/node": "npm:20.12.12"
     "@typescript-eslint/eslint-plugin": "npm:7.9.0"
     "@typescript-eslint/parser": "npm:7.9.0"
     "@willbooster/prettier-config": "npm:^9.0.1"
@@ -2039,7 +2031,7 @@ __metadata:
     "@rollup/plugin-json": "npm:6.1.0"
     "@rollup/plugin-node-resolve": "npm:15.2.3"
     "@rollup/plugin-replace": "npm:5.0.5"
-    "@rollup/plugin-terser": "npm:0.1.0"
+    "@rollup/plugin-terser": "npm:0.4.4"
     "@willbooster/prettier-config": "npm:^9.0.1"
     lint-staged: "npm:15.2.2"
     prettier: "npm:3.2.5"
@@ -3121,10 +3113,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:3.37.0":
-  version: 3.37.0
-  resolution: "core-js@npm:3.37.0"
-  checksum: 10c0/7e00331f346318ca3f595c08ce9e74ddae744715aef137486c1399163afd79792fb94c3161280863adfdc3e30f8026912d56bd3036f93cacfc689d33e185f2ee
+"core-js@npm:3.37.1":
+  version: 3.37.1
+  resolution: "core-js@npm:3.37.1"
+  checksum: 10c0/440eb51a7a39128a320225fe349f870a3641b96c9ecd26470227db730ef8c161ea298eaea621db66ec0ff622a85299efb4e23afebf889c0a1748616102307675
   languageName: node
   linkType: hard
 
@@ -7970,7 +7962,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"serialize-javascript@npm:^6.0.0":
+"serialize-javascript@npm:^6.0.0, serialize-javascript@npm:^6.0.1":
   version: 6.0.2
   resolution: "serialize-javascript@npm:6.0.2"
   dependencies:
@@ -8125,6 +8117,13 @@ __metadata:
   version: 4.2.0
   resolution: "smart-buffer@npm:4.2.0"
   checksum: 10c0/a16775323e1404dd43fabafe7460be13a471e021637bc7889468eb45ce6a6b207261f454e4e530a19500cc962c4cc5348583520843b363f4193cee5c00e1e539
+  languageName: node
+  linkType: hard
+
+"smob@npm:^1.0.0":
+  version: 1.5.0
+  resolution: "smob@npm:1.5.0"
+  checksum: 10c0/a1067f23265812de8357ed27312101af49b89129eb973e3f26ab5856ea774f88cace13342e66e32470f933ccfa916e0e9d0f7ca8bbd4f92dfab2af45c15956c2
   languageName: node
   linkType: hard
 
@@ -8566,7 +8565,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"terser@npm:^5.15.1":
+"terser@npm:^5.17.4":
   version: 5.31.0
   resolution: "terser@npm:5.31.0"
   dependencies:

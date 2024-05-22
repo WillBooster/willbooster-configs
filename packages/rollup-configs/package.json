@@ -21,7 +21,7 @@
     "@rollup/plugin-replace": "5.0.5",
     "@rollup/plugin-terser": "0.4.4",
     "@willbooster/prettier-config": "^9.0.1",
-    "lint-staged": "15.2.2",
+    "lint-staged": "15.2.4",
     "prettier": "3.2.5",
     "rollup-plugin-analyzer": "4.0.0",
     "rollup-plugin-node-externals": "7.1.2",

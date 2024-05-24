@@ -849,9 +849,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-commonjs@npm:25.0.7":
-  version: 25.0.7
-  resolution: "@rollup/plugin-commonjs@npm:25.0.7"
+"@rollup/plugin-commonjs@npm:25.0.8":
+  version: 25.0.8
+  resolution: "@rollup/plugin-commonjs@npm:25.0.8"
   dependencies:
     "@rollup/pluginutils": "npm:^5.0.1"
     commondir: "npm:^1.0.1"
@@ -864,7 +864,7 @@ __metadata:
   peerDependenciesMeta:
     rollup:
       optional: true
-  checksum: 10c0/d096af5aedd55c19ac528daa84a4cacdf21a69c9c9b20c23e04f27a64966cb383f5e2b01b9c903d40318e35dcaa74dc7b5292a844c6cbc66c252f5447eac05b4
+  checksum: 10c0/00d6fe41c33476dcb4b4ac3068f869b8537153646ea18f1fb9d0dfd5592792148567dd735d58ac15e2fdd4ed6c98453d20fe5343105f8cfa93d291198c9a90f5
   languageName: node
   linkType: hard
 
@@ -1462,13 +1462,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.3.2":
+"@types/react@npm:*":
   version: 18.3.2
   resolution: "@types/react@npm:18.3.2"
   dependencies:
     "@types/prop-types": "npm:*"
     csstype: "npm:^3.0.2"
   checksum: 10c0/9fb2f1fcf7e889ee4ea7c3c5978df595c66e770e5fd3a245dbdd2589b9b911524c11dab25a6275d8af4e336e4cb5fa850d447884b84c335a187a338c89df99ba
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:18.3.3":
+  version: 18.3.3
+  resolution: "@types/react@npm:18.3.3"
+  dependencies:
+    "@types/prop-types": "npm:*"
+    csstype: "npm:^3.0.2"
+  checksum: 10c0/fe455f805c5da13b89964c3d68060cebd43e73ec15001a68b34634604a78140e6fc202f3f61679b9d809dde6d7a7c2cb3ed51e0fd1462557911db09879b55114
   languageName: node
   linkType: hard
 
@@ -1745,7 +1755,7 @@ __metadata:
     "@types/eslint": "npm:8.56.10"
     "@types/micromatch": "npm:4.0.7"
     "@types/node": "npm:20.12.12"
-    "@types/react": "npm:18.3.2"
+    "@types/react": "npm:18.3.3"
     "@typescript-eslint/eslint-plugin": "npm:7.10.0"
     "@typescript-eslint/parser": "npm:7.10.0"
     "@willbooster/eslint-config-ts": "npm:^10.5.1"
@@ -1789,7 +1799,7 @@ __metadata:
   dependencies:
     "@types/eslint": "npm:8.56.10"
     "@types/micromatch": "npm:4.0.7"
-    "@types/react": "npm:18.3.2"
+    "@types/react": "npm:18.3.3"
     "@willbooster/eslint-config-js": "npm:^10.2.1"
     "@willbooster/prettier-config": "npm:^9.0.1"
     eslint: "npm:8.57.0"
@@ -1865,7 +1875,7 @@ __metadata:
     "@types/eslint": "npm:8.56.10"
     "@types/micromatch": "npm:4.0.7"
     "@types/node": "npm:20.12.12"
-    "@types/react": "npm:18.3.2"
+    "@types/react": "npm:18.3.3"
     "@typescript-eslint/eslint-plugin": "npm:7.10.0"
     "@typescript-eslint/parser": "npm:7.10.0"
     "@willbooster/eslint-config-ts": "npm:^10.5.1"
@@ -1909,7 +1919,7 @@ __metadata:
     "@types/eslint": "npm:8.56.10"
     "@types/micromatch": "npm:4.0.7"
     "@types/node": "npm:20.12.12"
-    "@types/react": "npm:18.3.2"
+    "@types/react": "npm:18.3.3"
     "@typescript-eslint/eslint-plugin": "npm:7.10.0"
     "@typescript-eslint/parser": "npm:7.10.0"
     "@willbooster/eslint-config-ts": "npm:^10.5.1"
@@ -2027,7 +2037,7 @@ __metadata:
   resolution: "@willbooster/rollup-configs@workspace:packages/rollup-configs"
   dependencies:
     "@rollup/plugin-babel": "npm:6.0.4"
-    "@rollup/plugin-commonjs": "npm:25.0.7"
+    "@rollup/plugin-commonjs": "npm:25.0.8"
     "@rollup/plugin-json": "npm:6.1.0"
     "@rollup/plugin-node-resolve": "npm:15.2.3"
     "@rollup/plugin-replace": "npm:5.0.5"

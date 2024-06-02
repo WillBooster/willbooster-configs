@@ -384,9 +384,9 @@ __metadata:
   linkType: hard
 
 "@mdn/browser-compat-data@npm:^5.3.7":
-  version: 5.5.29
-  resolution: "@mdn/browser-compat-data@npm:5.5.29"
-  checksum: 10c0/9371f1c6bae1db630bb730cbf879848b9b5c304efff52b6f4cd4581e902511232e6d1a4ff982a969137ae551c6e81c43a86feb15847d0878c5490a6e3967e66f
+  version: 5.5.31
+  resolution: "@mdn/browser-compat-data@npm:5.5.31"
+  checksum: 10c0/c6d99d46e4192cc6cbfe35482380b403afe5a54085411ac94c456b1c571dd89e401df82acf9f5d05c3153825ee8cf7c450917decc189c39642438364c803a42e
   languageName: node
   linkType: hard
 
@@ -2360,7 +2360,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"array.prototype.findlast@npm:^1.2.4, array.prototype.findlast@npm:^1.2.5":
+"array.prototype.findlast@npm:^1.2.5":
   version: 1.2.5
   resolution: "array.prototype.findlast@npm:1.2.5"
   dependencies:
@@ -2721,9 +2721,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001518, caniuse-lite@npm:^1.0.30001587":
-  version: 1.0.30001621
-  resolution: "caniuse-lite@npm:1.0.30001621"
-  checksum: 10c0/c7e7fb021ca32b26394ddf0d62faa8a7919c2e50f8a0dcc51f02a96b7b46fff69a81d6b7ead711367fcaf9dfbc6c795320553b6f84dcb393806a10efeb756ce7
+  version: 1.0.30001626
+  resolution: "caniuse-lite@npm:1.0.30001626"
+  checksum: 10c0/112c7219fbfefb5f1d8c05194712ea08093daee7f245896bba9750c7512443178ac1e8de581b4e7868415c4cef28d7577c0078ed170e8d2deff948eb16aa761a
   languageName: node
   linkType: hard
 
@@ -3237,14 +3237,14 @@ __metadata:
   linkType: hard
 
 "debug@npm:4, debug@npm:^4.0.0, debug@npm:^4.3.1, debug@npm:^4.3.2, debug@npm:^4.3.3, debug@npm:^4.3.4, debug@npm:~4.3.4":
-  version: 4.3.4
-  resolution: "debug@npm:4.3.4"
+  version: 4.3.5
+  resolution: "debug@npm:4.3.5"
   dependencies:
     ms: "npm:2.1.2"
   peerDependenciesMeta:
     supports-color:
       optional: true
-  checksum: 10c0/cedbec45298dd5c501d01b92b119cd3faebe5438c3917ff11ae1bff86a6c722930ac9c8659792824013168ba6db7c4668225d845c633fbdafbbf902a6389f736
+  checksum: 10c0/082c375a2bdc4f4469c99f325ff458adad62a3fc2c482d59923c260cb08152f34e2659f72b3767db8bb2f21ca81a60a42d1019605a412132d7b9f59363a005cc
   languageName: node
   linkType: hard
 
@@ -3461,9 +3461,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.668":
-  version: 1.4.783
-  resolution: "electron-to-chromium@npm:1.4.783"
-  checksum: 10c0/d112e5602e2ee7516ead648e2d2449027f1106147858442781ac475f9a3861a783cb6c8f4638316800f5eff2c4a1f046cd412704678c90479c5417bf204de572
+  version: 1.4.788
+  resolution: "electron-to-chromium@npm:1.4.788"
+  checksum: 10c0/62ad89f153a68b3d231f4e4e681ac0fc130b2f6ff4538fe835d712acdf253a46c8282919396177ddb028246d5f91fbc60b6b23d74d214e729345c585995e476d
   languageName: node
   linkType: hard
 
@@ -3610,7 +3610,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"es-iterator-helpers@npm:^1.0.15, es-iterator-helpers@npm:^1.0.17, es-iterator-helpers@npm:^1.0.19":
+"es-iterator-helpers@npm:^1.0.15, es-iterator-helpers@npm:^1.0.19":
   version: 1.0.19
   resolution: "es-iterator-helpers@npm:1.0.19"
   dependencies:
@@ -3846,7 +3846,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:7.34.2":
+"eslint-plugin-react@npm:7.34.2, eslint-plugin-react@npm:^7.33.2":
   version: 7.34.2
   resolution: "eslint-plugin-react@npm:7.34.2"
   dependencies:
@@ -3871,34 +3871,6 @@ __metadata:
   peerDependencies:
     eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
   checksum: 10c0/37dc04424da8626f20a071466e7238d53ed111c53e5e5398d813ac2cf76a2078f00d91f7833fe5b2f0fc98f2688a75b36e78e9ada9f1068705d23c7031094316
-  languageName: node
-  linkType: hard
-
-"eslint-plugin-react@npm:^7.33.2":
-  version: 7.34.1
-  resolution: "eslint-plugin-react@npm:7.34.1"
-  dependencies:
-    array-includes: "npm:^3.1.7"
-    array.prototype.findlast: "npm:^1.2.4"
-    array.prototype.flatmap: "npm:^1.3.2"
-    array.prototype.toreversed: "npm:^1.1.2"
-    array.prototype.tosorted: "npm:^1.1.3"
-    doctrine: "npm:^2.1.0"
-    es-iterator-helpers: "npm:^1.0.17"
-    estraverse: "npm:^5.3.0"
-    jsx-ast-utils: "npm:^2.4.1 || ^3.0.0"
-    minimatch: "npm:^3.1.2"
-    object.entries: "npm:^1.1.7"
-    object.fromentries: "npm:^2.0.7"
-    object.hasown: "npm:^1.1.3"
-    object.values: "npm:^1.1.7"
-    prop-types: "npm:^15.8.1"
-    resolve: "npm:^2.0.0-next.5"
-    semver: "npm:^6.3.1"
-    string.prototype.matchall: "npm:^4.0.10"
-  peerDependencies:
-    eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
-  checksum: 10c0/7c61b1314d37a4ac2f2474f9571f801f1a1a5d81dcd4abbb5d07145406518722fb792367267757ee116bde254be9753242d6b93c9619110398b3fe1746e4848c
   languageName: node
   linkType: hard
 
@@ -6880,7 +6852,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"object.hasown@npm:^1.1.3, object.hasown@npm:^1.1.4":
+"object.hasown@npm:^1.1.4":
   version: 1.1.4
   resolution: "object.hasown@npm:1.1.4"
   dependencies:
@@ -8379,7 +8351,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"string.prototype.matchall@npm:^4.0.10, string.prototype.matchall@npm:^4.0.11":
+"string.prototype.matchall@npm:^4.0.11":
   version: 4.0.11
   resolution: "string.prototype.matchall@npm:4.0.11"
   dependencies:
@@ -8908,9 +8880,9 @@ __metadata:
   linkType: hard
 
 "ua-parser-js@npm:^1.0.35":
-  version: 1.0.37
-  resolution: "ua-parser-js@npm:1.0.37"
-  checksum: 10c0/dac8cf82a55b2e097bd2286954e01454c4cfcf23c9d9b56961ce94bda3cec5a38ca536e6e84c20a4000a9d4b4a4abcbd98ec634ccebe21be36595ea3069126e4
+  version: 1.0.38
+  resolution: "ua-parser-js@npm:1.0.38"
+  checksum: 10c0/b1dd11b87e1784c79f7129e9aec679753fccf8a9b22f5202b79b19492635b5b46b779607a3cfae0270999a0d48da223bf94015642d2abee69d83c9069ab37bd0
   languageName: node
   linkType: hard
 
@@ -9272,11 +9244,11 @@ __metadata:
   linkType: hard
 
 "yaml@npm:~2.4.2":
-  version: 2.4.2
-  resolution: "yaml@npm:2.4.2"
+  version: 2.4.3
+  resolution: "yaml@npm:2.4.3"
   bin:
     yaml: bin.mjs
-  checksum: 10c0/280ddb2e43ffa7d91a95738e80c8f33e860749cdc25aa6d9e4d350a28e174fd7e494e4aa023108aaee41388e451e3dc1292261d8f022aabcf90df9c63d647549
+  checksum: 10c0/b4a9dea34265f000402c909144ac310be42c4526dfd16dff1aee2b04a0d94051713651c0cd2b0a3d8109266997422120f16a7934629d12f22dc215839ebbeccf
   languageName: node
   linkType: hard
 

@@ -3,10 +3,12 @@
   "organizeImports": {
     "enabled": true,
   },
+  "files": {
+    "ignore": ["**/test-fixtures/**"],
+  },
   "formatter": {
     "enabled": true,
     "formatWithErrors": false,
-    "ignore": ["**/test-fixtures/**"],
     "attributePosition": "auto",
     "indentStyle": "space",
     "indentWidth": 2,

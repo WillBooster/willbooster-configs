@@ -1,8 +1,5 @@
 {
   "$schema": "https://biomejs.dev/schemas/1.8.0/schema.json",
-  "organizeImports": {
-    "enabled": true,
-  },
   "files": {
     "ignore": ["**/test-fixtures/**"],
   },
@@ -37,6 +34,9 @@
     "rules": {
       "recommended": true,
     },
+  },
+  "organizeImports": {
+    "enabled": true,
   },
   "vcs": {
     "enabled": true,

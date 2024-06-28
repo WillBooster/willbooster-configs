@@ -24,8 +24,8 @@
   "devDependencies": {
     "@blitzjs/next": "2.0.10",
     "@types/eslint": "8.56.10",
-    "@types/micromatch": "4.0.7",
-    "@types/node": "20.14.7",
+    "@types/micromatch": "4.0.8",
+    "@types/node": "20.14.9",
     "@types/react": "18.3.3",
     "@typescript-eslint/eslint-plugin": "7.14.1",
     "@typescript-eslint/parser": "7.14.1",

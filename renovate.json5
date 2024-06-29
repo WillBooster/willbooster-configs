@@ -53,6 +53,11 @@
       packageNames: ['conventional-changelog-conventionalcommits'],
       enabled: false,
     },
+    {
+      // Since renovate downgrades babel-plugin-react-compiler automatically
+      packageNames: ['babel-plugin-react-compiler'],
+      enabled: false,
+    },
   ],
   schedule: ['before 6am on Saturday'],
   timezone: 'Asia/Tokyo',

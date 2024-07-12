@@ -59,6 +59,6 @@
       enabled: false,
     },
   ],
-  schedule: ['before 6am on Saturday'],
+  schedule: ['after 5am on Saturday'],
   timezone: 'Asia/Tokyo',
 }

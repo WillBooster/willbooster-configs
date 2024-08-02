@@ -816,9 +816,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@qiwi/multi-semantic-release@npm:7.1.1":
-  version: 7.1.1
-  resolution: "@qiwi/multi-semantic-release@npm:7.1.1"
+"@qiwi/multi-semantic-release@npm:7.1.2":
+  version: 7.1.2
+  resolution: "@qiwi/multi-semantic-release@npm:7.1.2"
   dependencies:
     "@semrel-extra/topo": "npm:^1.14.0"
     blork: "npm:^9.3.0"
@@ -839,7 +839,7 @@ __metadata:
     stream-buffers: "npm:^3.0.2"
   bin:
     multi-semantic-release: bin/cli.js
-  checksum: 10c0/4d75b768493f619d80d5f6adfc20ecab3e662ce7556923e622007c95ee09bbdb28e08603873216ac15418b7a27b0571332d0a712290b1dab0fb2cd4e7b81dbdf
+  checksum: 10c0/3666887ef59d0341dbad4cf6759b7a91408c6afa465ed6217ed5a6cd8ad40149cca5db977d8dcaf26b3330b2c4c48c4aa9f1b212196fc6356262ea7dbf825d79
   languageName: node
   linkType: hard
 
@@ -1438,12 +1438,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.14.12":
-  version: 20.14.12
-  resolution: "@types/node@npm:20.14.12"
+"@types/node@npm:20.14.14":
+  version: 20.14.14
+  resolution: "@types/node@npm:20.14.14"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10c0/59bc5fa11fdd23fd517f859063118f54a1ab53d3399ef63c926f8902429d7453abc0db22ef4b0a6110026b6ab81b6472fee894e1d235c24b01a0b3e10cfae0bb
+  checksum: 10c0/4fc8d368df2b6f5497698327b30db68d7d20e32221ce7d057fb15cbd5834685b2fde0440609e4cb2204e5d305b928f008faf41b950a425f3fd55b60cb1b997cf
   languageName: node
   linkType: hard
 
@@ -1730,7 +1730,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/configs@workspace:."
   dependencies:
-    "@qiwi/multi-semantic-release": "npm:7.1.1"
+    "@qiwi/multi-semantic-release": "npm:7.1.2"
     "@types/eslint": "npm:8.56.11"
     "@types/micromatch": "npm:4.0.9"
     "@typescript-eslint/parser": "npm:8.0.0"
@@ -1755,7 +1755,7 @@ __metadata:
     "@blitzjs/next": "npm:2.0.10"
     "@types/eslint": "npm:8.56.11"
     "@types/micromatch": "npm:4.0.9"
-    "@types/node": "npm:20.14.12"
+    "@types/node": "npm:20.14.14"
     "@types/react": "npm:18.3.3"
     "@typescript-eslint/eslint-plugin": "npm:8.0.0"
     "@typescript-eslint/parser": "npm:8.0.0"
@@ -1875,7 +1875,7 @@ __metadata:
   dependencies:
     "@types/eslint": "npm:8.56.11"
     "@types/micromatch": "npm:4.0.9"
-    "@types/node": "npm:20.14.12"
+    "@types/node": "npm:20.14.14"
     "@types/react": "npm:18.3.3"
     "@typescript-eslint/eslint-plugin": "npm:8.0.0"
     "@typescript-eslint/parser": "npm:8.0.0"
@@ -1919,7 +1919,7 @@ __metadata:
   dependencies:
     "@types/eslint": "npm:8.56.11"
     "@types/micromatch": "npm:4.0.9"
-    "@types/node": "npm:20.14.12"
+    "@types/node": "npm:20.14.14"
     "@types/react": "npm:18.3.3"
     "@typescript-eslint/eslint-plugin": "npm:8.0.0"
     "@typescript-eslint/parser": "npm:8.0.0"
@@ -1981,7 +1981,7 @@ __metadata:
   dependencies:
     "@types/eslint": "npm:8.56.11"
     "@types/micromatch": "npm:4.0.9"
-    "@types/node": "npm:20.14.12"
+    "@types/node": "npm:20.14.14"
     "@typescript-eslint/eslint-plugin": "npm:8.0.0"
     "@typescript-eslint/parser": "npm:8.0.0"
     "@willbooster/prettier-config": "npm:^9.0.1"

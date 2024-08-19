@@ -41,7 +41,7 @@
     },
     {
       matchPackageNames: ['node'],
-      allowedVersions: '<=20',
+      allowedVersions: '<=22',
     },
     {
       // Since they exist in private repositories
@@ -56,6 +56,11 @@
     {
       // Since renovate downgrades babel-plugin-react-compiler automatically
       packageNames: ['babel-plugin-react-compiler'],
+      enabled: false,
+    },
+    {
+      // Since willbooster-configs doesn't support ESLint v9+
+      packageNames: ['eslint', '@types/eslint'],
       enabled: false,
     },
   ],

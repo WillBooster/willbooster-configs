@@ -44,23 +44,28 @@
       allowedVersions: '<=22',
     },
     {
-      // Since they exist in private repositories
+      // Because they exist in private repositories
       packageNames: ['@willbooster/judge'],
       enabled: false,
     },
     {
-      // Since v7 doesn't work with @qiwi/multi-semantic-release v7
+      // Because v7 doesn't work with @qiwi/multi-semantic-release v7
       packageNames: ['conventional-changelog-conventionalcommits'],
       enabled: false,
     },
     {
-      // Since renovate downgrades babel-plugin-react-compiler automatically
+      // Because renovate downgrades babel-plugin-react-compiler automatically
       packageNames: ['babel-plugin-react-compiler'],
       enabled: false,
     },
     {
-      // Since willbooster-configs doesn't support ESLint v9+
+      // Because willbooster-configs doesn't support ESLint v9+
       packageNames: ['eslint', '@types/eslint'],
+      enabled: false,
+    },
+    {
+      // Because WebKit doesn't work on Blitz v2.0.5+
+      packageNames: ['@blitzjs/auth', '@blitzjs/next', '@blitzjs/rpc', 'blitz'],
       enabled: false,
     },
   ],

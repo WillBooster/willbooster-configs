@@ -26,7 +26,7 @@
     "rollup-plugin-analyzer": "4.0.0",
     "rollup-plugin-node-externals": "7.1.2",
     "rollup-plugin-ts": "3.4.5",
-    "sort-package-json": "2.10.0"
+    "sort-package-json": "2.10.1"
   },
   "publishConfig": {
     "access": "public"

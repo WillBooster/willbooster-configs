@@ -405,12 +405,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:14.2.5":
-  version: 14.2.5
-  resolution: "@next/eslint-plugin-next@npm:14.2.5"
+"@next/eslint-plugin-next@npm:14.2.6":
+  version: 14.2.6
+  resolution: "@next/eslint-plugin-next@npm:14.2.6"
   dependencies:
     glob: "npm:10.3.10"
-  checksum: 10c0/13eefc2a17e37925ded8e43ae2446a73cbc5a23ade7a73c33adb75d3d2907ec75cedd8534f89a361ce8e63b5141d7e2d38aed40abd8b4eb3e7c21ba84f6bda8a
+  checksum: 10c0/52ca55d98bb72a3bccaa08859036d312bc4936be00923bd8c6399472928e6d2b295f4e2f5f94bec30c8b9274f02bb170ee272b1242ca6cad3ae3d1b4a0ceb53e
   languageName: node
   linkType: hard
 
@@ -1440,12 +1440,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.15.0":
-  version: 20.15.0
-  resolution: "@types/node@npm:20.15.0"
+"@types/node@npm:20.16.1":
+  version: 20.16.1
+  resolution: "@types/node@npm:20.16.1"
   dependencies:
-    undici-types: "npm:~6.13.0"
-  checksum: 10c0/5d682b360e747c789a8b95fd680c102666610df5db69ac5da908c87d6571bafeeae444cad1700f56a147c5c1527a7c9c38ba234840d447ef9ed96cabfe5821cb
+    undici-types: "npm:~6.19.2"
+  checksum: 10c0/cac13c0f42467df3254805a671ca9e74a6eb7c41568de972e26b10dcc448a45743aaf00e9e5fce4a9214da5bc8444fe902918e105dac5a224e24e83fd9989a97
   languageName: node
   linkType: hard
 
@@ -1477,13 +1477,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.3.3":
+"@types/react@npm:*":
   version: 18.3.3
   resolution: "@types/react@npm:18.3.3"
   dependencies:
     "@types/prop-types": "npm:*"
     csstype: "npm:^3.0.2"
   checksum: 10c0/fe455f805c5da13b89964c3d68060cebd43e73ec15001a68b34634604a78140e6fc202f3f61679b9d809dde6d7a7c2cb3ed51e0fd1462557911db09879b55114
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:18.3.4":
+  version: 18.3.4
+  resolution: "@types/react@npm:18.3.4"
+  dependencies:
+    "@types/prop-types": "npm:*"
+    csstype: "npm:^3.0.2"
+  checksum: 10c0/5c52e1e6f540cff21e3c2a5212066d02e005f6fb21e4a536a29097fae878db9f407cd7a4b43778f51359349c5f692e08bc77ddb5f5cecbfca9ca4d4e3c91a48e
   languageName: node
   linkType: hard
 
@@ -1708,7 +1718,7 @@ __metadata:
   dependencies:
     "@types/babel__core": "npm:7.20.5"
     "@willbooster/prettier-config": "npm:^9.0.1"
-    core-js: "npm:3.38.0"
+    core-js: "npm:3.38.1"
     lint-staged: "npm:15.2.9"
     prettier: "npm:3.3.3"
     sort-package-json: "npm:2.10.1"
@@ -1742,7 +1752,7 @@ __metadata:
     eslint: "npm:8.57.0"
     husky: "npm:9.1.5"
     lint-staged: "npm:15.2.9"
-    micromatch: "npm:4.0.7"
+    micromatch: "npm:4.0.8"
     pinst: "npm:3.0.0"
     prettier: "npm:3.3.3"
     sort-package-json: "npm:2.10.1"
@@ -1757,14 +1767,14 @@ __metadata:
     "@blitzjs/next": "npm:2.1.1"
     "@types/eslint": "npm:8.56.11"
     "@types/micromatch": "npm:4.0.9"
-    "@types/node": "npm:20.15.0"
-    "@types/react": "npm:18.3.3"
+    "@types/node": "npm:20.16.1"
+    "@types/react": "npm:18.3.4"
     "@typescript-eslint/eslint-plugin": "npm:8.2.0"
     "@typescript-eslint/parser": "npm:8.2.0"
     "@willbooster/eslint-config-ts": "npm:^10.5.1"
     "@willbooster/prettier-config": "npm:^9.0.1"
     eslint: "npm:8.57.0"
-    eslint-config-next: "npm:14.2.5"
+    eslint-config-next: "npm:14.2.6"
     eslint-config-prettier: "npm:9.1.0"
     eslint-import-resolver-typescript: "npm:3.6.1"
     eslint-plugin-import: "npm:2.29.1"
@@ -1774,7 +1784,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: "npm:2.0.0"
     eslint-plugin-unicorn: "npm:55.0.0"
     lint-staged: "npm:15.2.9"
-    micromatch: "npm:4.0.7"
+    micromatch: "npm:4.0.8"
     prettier: "npm:3.3.3"
     react: "npm:18.3.1"
     sort-package-json: "npm:2.10.1"
@@ -1802,7 +1812,7 @@ __metadata:
   dependencies:
     "@types/eslint": "npm:8.56.11"
     "@types/micromatch": "npm:4.0.9"
-    "@types/react": "npm:18.3.3"
+    "@types/react": "npm:18.3.4"
     "@willbooster/eslint-config-js": "npm:^10.2.1"
     "@willbooster/prettier-config": "npm:^9.0.1"
     eslint: "npm:8.57.0"
@@ -1814,7 +1824,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: "npm:2.0.0"
     eslint-plugin-unicorn: "npm:55.0.0"
     lint-staged: "npm:15.2.9"
-    micromatch: "npm:4.0.7"
+    micromatch: "npm:4.0.8"
     prettier: "npm:3.3.3"
     react: "npm:18.3.1"
     sort-package-json: "npm:2.10.1"
@@ -1858,7 +1868,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: "npm:2.0.0"
     eslint-plugin-unicorn: "npm:55.0.0"
     lint-staged: "npm:15.2.9"
-    micromatch: "npm:4.0.7"
+    micromatch: "npm:4.0.8"
     prettier: "npm:3.3.3"
     sort-package-json: "npm:2.10.1"
   peerDependencies:
@@ -1877,14 +1887,14 @@ __metadata:
   dependencies:
     "@types/eslint": "npm:8.56.11"
     "@types/micromatch": "npm:4.0.9"
-    "@types/node": "npm:20.15.0"
-    "@types/react": "npm:18.3.3"
+    "@types/node": "npm:20.16.1"
+    "@types/react": "npm:18.3.4"
     "@typescript-eslint/eslint-plugin": "npm:8.2.0"
     "@typescript-eslint/parser": "npm:8.2.0"
     "@willbooster/eslint-config-ts": "npm:^10.5.1"
     "@willbooster/prettier-config": "npm:^9.0.1"
     eslint: "npm:8.57.0"
-    eslint-config-next: "npm:14.2.5"
+    eslint-config-next: "npm:14.2.6"
     eslint-config-prettier: "npm:9.1.0"
     eslint-import-resolver-typescript: "npm:3.6.1"
     eslint-plugin-import: "npm:2.29.1"
@@ -1894,7 +1904,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: "npm:2.0.0"
     eslint-plugin-unicorn: "npm:55.0.0"
     lint-staged: "npm:15.2.9"
-    micromatch: "npm:4.0.7"
+    micromatch: "npm:4.0.8"
     prettier: "npm:3.3.3"
     react: "npm:18.3.1"
     sort-package-json: "npm:2.10.1"
@@ -1921,8 +1931,8 @@ __metadata:
   dependencies:
     "@types/eslint": "npm:8.56.11"
     "@types/micromatch": "npm:4.0.9"
-    "@types/node": "npm:20.15.0"
-    "@types/react": "npm:18.3.3"
+    "@types/node": "npm:20.16.1"
+    "@types/react": "npm:18.3.4"
     "@typescript-eslint/eslint-plugin": "npm:8.2.0"
     "@typescript-eslint/parser": "npm:8.2.0"
     "@willbooster/eslint-config-ts": "npm:^10.5.1"
@@ -1937,7 +1947,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: "npm:2.0.0"
     eslint-plugin-unicorn: "npm:55.0.0"
     lint-staged: "npm:15.2.9"
-    micromatch: "npm:4.0.7"
+    micromatch: "npm:4.0.8"
     prettier: "npm:3.3.3"
     react: "npm:18.3.1"
     sort-package-json: "npm:2.10.1"
@@ -1983,7 +1993,7 @@ __metadata:
   dependencies:
     "@types/eslint": "npm:8.56.11"
     "@types/micromatch": "npm:4.0.9"
-    "@types/node": "npm:20.15.0"
+    "@types/node": "npm:20.16.1"
     "@typescript-eslint/eslint-plugin": "npm:8.2.0"
     "@typescript-eslint/parser": "npm:8.2.0"
     "@willbooster/prettier-config": "npm:^9.0.1"
@@ -1995,7 +2005,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: "npm:2.0.0"
     eslint-plugin-unicorn: "npm:55.0.0"
     lint-staged: "npm:15.2.9"
-    micromatch: "npm:4.0.7"
+    micromatch: "npm:4.0.8"
     prettier: "npm:3.3.3"
     sort-package-json: "npm:2.10.1"
     typescript: "npm:5.5.4"
@@ -2049,7 +2059,7 @@ __metadata:
     lint-staged: "npm:15.2.9"
     prettier: "npm:3.3.3"
     rollup-plugin-analyzer: "npm:4.0.0"
-    rollup-plugin-node-externals: "npm:7.1.2"
+    rollup-plugin-node-externals: "npm:7.1.3"
     rollup-plugin-ts: "npm:3.4.5"
     sort-package-json: "npm:2.10.1"
   languageName: unknown
@@ -2072,7 +2082,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: "npm:2.0.0"
     eslint-plugin-unicorn: "npm:55.0.0"
     lint-staged: "npm:15.2.9"
-    micromatch: "npm:4.0.7"
+    micromatch: "npm:4.0.8"
     prettier: "npm:3.3.3"
     sort-package-json: "npm:2.10.1"
     typescript: "npm:5.5.4"
@@ -3123,10 +3133,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:3.38.0":
-  version: 3.38.0
-  resolution: "core-js@npm:3.38.0"
-  checksum: 10c0/3218ae19bfe0c6560663012cbd3e7f3dc1b36d50fc71e8c365f3b119185e8a35ac4e8bb9698ae510b3c201ef93f40bdc29f9215716ccf31aca28f77969bb4ed0
+"core-js@npm:3.38.1":
+  version: 3.38.1
+  resolution: "core-js@npm:3.38.1"
+  checksum: 10c0/7df063b6f13a54e46515817ac3e235c6c598a4d3de65cd188a061fc250642be313b895fb9fb2f36e1e31890a1bb4ef61d82666a340413f540b7ce3c65689739b
   languageName: node
   linkType: hard
 
@@ -3753,11 +3763,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-next@npm:14.2.5":
-  version: 14.2.5
-  resolution: "eslint-config-next@npm:14.2.5"
+"eslint-config-next@npm:14.2.6":
+  version: 14.2.6
+  resolution: "eslint-config-next@npm:14.2.6"
   dependencies:
-    "@next/eslint-plugin-next": "npm:14.2.5"
+    "@next/eslint-plugin-next": "npm:14.2.6"
     "@rushstack/eslint-patch": "npm:^1.3.3"
     "@typescript-eslint/parser": "npm:^5.4.2 || ^6.0.0 || 7.0.0 - 7.2.0"
     eslint-import-resolver-node: "npm:^0.3.6"
@@ -3772,7 +3782,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10c0/a8b51095182dec7a2775e6779269cfea8ba1b668392ade93d3264c43e7a5f3f673a1bf8b7823767f4e6ca26358a431b91fab7376d2b852bcc7310b8449f2c3d3
+  checksum: 10c0/3a1b46696fa70a6a8b0dfdbb528ac30f324ad548d36736ebb08b2dd96d085224c59dafcac35dbcb0148173b8cd7519126abcacfbee1ad829184581ffb20b1b8d
   languageName: node
   linkType: hard
 
@@ -6240,7 +6250,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micromatch@npm:4.0.7, micromatch@npm:^4.0.2, micromatch@npm:^4.0.4, micromatch@npm:~4.0.7":
+"micromatch@npm:4.0.8":
+  version: 4.0.8
+  resolution: "micromatch@npm:4.0.8"
+  dependencies:
+    braces: "npm:^3.0.3"
+    picomatch: "npm:^2.3.1"
+  checksum: 10c0/166fa6eb926b9553f32ef81f5f531d27b4ce7da60e5baf8c021d043b27a388fb95e46a8038d5045877881e673f8134122b59624d5cecbd16eb50a42e7a6b5ca8
+  languageName: node
+  linkType: hard
+
+"micromatch@npm:^4.0.2, micromatch@npm:^4.0.4, micromatch@npm:~4.0.7":
   version: 4.0.7
   resolution: "micromatch@npm:4.0.7"
   dependencies:
@@ -7844,12 +7864,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup-plugin-node-externals@npm:7.1.2":
-  version: 7.1.2
-  resolution: "rollup-plugin-node-externals@npm:7.1.2"
+"rollup-plugin-node-externals@npm:7.1.3":
+  version: 7.1.3
+  resolution: "rollup-plugin-node-externals@npm:7.1.3"
   peerDependencies:
     rollup: ^3.0.0 || ^4.0.0
-  checksum: 10c0/c8a23d65aedf3141985e960b2894b3faee3d3818e898d8a218c3ed5a07ddea4faddd44e4108c8f6ff71a5470b5df0cb09a19fd515b91a833eeee55f91f88f85f
+  checksum: 10c0/79d0a964cb488d442f571dd7ce29c53099ca40a76cb71fd985b9978d52efad31346b11138dced9c974e9881b4a56dce384afc0e6d42d9740cebb58120028a37a
   languageName: node
   linkType: hard
 
@@ -8985,10 +9005,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici-types@npm:~6.13.0":
-  version: 6.13.0
-  resolution: "undici-types@npm:6.13.0"
-  checksum: 10c0/2de55181f569c77a4f08063f8bf2722fcbb6ea312a26a9e927bd1f5ea5cf3a281c5ddf23155061db083e0a25838f54813543ff13b0ac34d230d5c1205ead66c1
+"undici-types@npm:~6.19.2":
+  version: 6.19.8
+  resolution: "undici-types@npm:6.19.8"
+  checksum: 10c0/078afa5990fba110f6824823ace86073b4638f1d5112ee26e790155f481f2a868cc3e0615505b6f4282bdf74a3d8caad715fd809e870c2bb0704e3ea6082f344
   languageName: node
   linkType: hard
 

@@ -1813,7 +1813,7 @@ __metadata:
     conventional-changelog-conventionalcommits: "npm:6.1.0"
     dotenv-cli: "npm:7.4.2"
     eslint: "npm:8.57.0"
-    husky: "npm:9.1.5"
+    husky: "npm:9.1.6"
     lint-staged: "npm:15.2.10"
     micromatch: "npm:4.0.8"
     pinst: "npm:3.0.0"
@@ -1841,7 +1841,7 @@ __metadata:
     eslint-config-prettier: "npm:9.1.0"
     eslint-import-resolver-typescript: "npm:3.6.3"
     eslint-plugin-import: "npm:2.30.0"
-    eslint-plugin-react: "npm:7.35.2"
+    eslint-plugin-react: "npm:7.36.0"
     eslint-plugin-react-hooks: "npm:4.6.2"
     eslint-plugin-sort-class-members: "npm:1.20.0"
     eslint-plugin-sort-destructure-keys: "npm:2.0.0"
@@ -1881,7 +1881,7 @@ __metadata:
     eslint: "npm:8.57.0"
     eslint-config-prettier: "npm:9.1.0"
     eslint-plugin-import: "npm:2.30.0"
-    eslint-plugin-react: "npm:7.35.2"
+    eslint-plugin-react: "npm:7.36.0"
     eslint-plugin-react-hooks: "npm:4.6.2"
     eslint-plugin-sort-class-members: "npm:1.20.0"
     eslint-plugin-sort-destructure-keys: "npm:2.0.0"
@@ -1961,7 +1961,7 @@ __metadata:
     eslint-config-prettier: "npm:9.1.0"
     eslint-import-resolver-typescript: "npm:3.6.3"
     eslint-plugin-import: "npm:2.30.0"
-    eslint-plugin-react: "npm:7.35.2"
+    eslint-plugin-react: "npm:7.36.0"
     eslint-plugin-react-hooks: "npm:4.6.2"
     eslint-plugin-sort-class-members: "npm:1.20.0"
     eslint-plugin-sort-destructure-keys: "npm:2.0.0"
@@ -2004,7 +2004,7 @@ __metadata:
     eslint-config-prettier: "npm:9.1.0"
     eslint-import-resolver-typescript: "npm:3.6.3"
     eslint-plugin-import: "npm:2.30.0"
-    eslint-plugin-react: "npm:7.35.2"
+    eslint-plugin-react: "npm:7.36.0"
     eslint-plugin-react-hooks: "npm:4.6.2"
     eslint-plugin-sort-class-members: "npm:1.20.0"
     eslint-plugin-sort-destructure-keys: "npm:2.0.0"
@@ -3979,7 +3979,35 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:7.35.2, eslint-plugin-react@npm:^7.33.2":
+"eslint-plugin-react@npm:7.36.0":
+  version: 7.36.0
+  resolution: "eslint-plugin-react@npm:7.36.0"
+  dependencies:
+    array-includes: "npm:^3.1.8"
+    array.prototype.findlast: "npm:^1.2.5"
+    array.prototype.flatmap: "npm:^1.3.2"
+    array.prototype.tosorted: "npm:^1.1.4"
+    doctrine: "npm:^2.1.0"
+    es-iterator-helpers: "npm:^1.0.19"
+    estraverse: "npm:^5.3.0"
+    hasown: "npm:^2.0.2"
+    jsx-ast-utils: "npm:^2.4.1 || ^3.0.0"
+    minimatch: "npm:^3.1.2"
+    object.entries: "npm:^1.1.8"
+    object.fromentries: "npm:^2.0.8"
+    object.values: "npm:^1.2.0"
+    prop-types: "npm:^15.8.1"
+    resolve: "npm:^2.0.0-next.5"
+    semver: "npm:^6.3.1"
+    string.prototype.matchall: "npm:^4.0.11"
+    string.prototype.repeat: "npm:^1.0.0"
+  peerDependencies:
+    eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9.7
+  checksum: 10c0/001e634fee12afca8e1f15a1b6c2e5e9a2db137a4f59f21c1ad2e4b3b7ba708f1be92a559c5d6f9e7e2e0dd0ca709e3d91ecc0e96442cc1e200d2a4b1725423c
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-react@npm:^7.33.2":
   version: 7.35.2
   resolution: "eslint-plugin-react@npm:7.35.2"
   dependencies:
@@ -5018,12 +5046,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:9.1.5":
-  version: 9.1.5
-  resolution: "husky@npm:9.1.5"
+"husky@npm:9.1.6":
+  version: 9.1.6
+  resolution: "husky@npm:9.1.6"
   bin:
     husky: bin.js
-  checksum: 10c0/f42efb95a026303eb880898760f802d88409780dd72f17781d2dfc302177d4f80b641cf1f1694f53f6d97c536c7397684133d8c8fe4a4426f7460186a7d1c6b8
+  checksum: 10c0/705673db4a247c1febd9c5df5f6a3519106cf0335845027bb50a15fba9b1f542cb2610932ede96fd08008f6d9f49db0f15560509861808b0031cdc0e7c798bac
   languageName: node
   linkType: hard
 

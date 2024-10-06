@@ -45,7 +45,7 @@
     },
     {
       // Because they exist in private repositories
-      packageNames: ['@willbooster/judge'],
+      packageNames: ['@willbooster/auth', '@willbooster/judge', '@willbooster/llm-proxy'],
       enabled: false,
     },
     {

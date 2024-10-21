@@ -3,6 +3,7 @@
   description: 'Default preset for use with WillBooster and WillBoosterLab repos',
   extends: [
     'config:base',
+    ':automergeDigest',
     ':automergeLinters',
     ':automergeMinor',
     ':automergePr',

@@ -42,12 +42,7 @@
     },
     {
       matchPackageNames: ['node'],
-      allowedVersions: '<=22',
-    },
-    {
-      // Because they exist in private repositories
-      packageNames: ['@willbooster/auth', '@willbooster/judge', '@willbooster/llm-proxy'],
-      enabled: false,
+      allowedVersions: '<=24',
     },
     {
       // Because v7 doesn't work with @qiwi/multi-semantic-release v7

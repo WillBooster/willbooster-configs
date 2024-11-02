@@ -34,7 +34,10 @@
     "rules": {
       "recommended": true,
       "correctness": {
-        "noUnusedImports": true,
+        "noUnusedImports": {
+          "level": "error",
+          "fix": "safe",
+        },
       },
     },
   },

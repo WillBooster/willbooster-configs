@@ -46,22 +46,22 @@
     },
     {
       // Because v7 doesn't work with @qiwi/multi-semantic-release v7
-      packageNames: ['conventional-changelog-conventionalcommits'],
+      matchPackageNames: ['conventional-changelog-conventionalcommits'],
       enabled: false,
     },
     {
       // Because renovate downgrades babel-plugin-react-compiler automatically
-      packageNames: ['babel-plugin-react-compiler'],
+      matchPackageNames: ['babel-plugin-react-compiler'],
       enabled: false,
     },
     {
       // Because willbooster-configs doesn't support ESLint v9+
-      packageNames: ['eslint', '@types/eslint'],
+      matchPackageNames: ['eslint', '@types/eslint'],
       enabled: false,
     },
     {
       // Because WebKit doesn't work on Blitz v2.0.5+
-      packageNames: ['@blitzjs/auth', '@blitzjs/next', '@blitzjs/rpc', 'blitz'],
+      matchPackageNames: ['@blitzjs/auth', '@blitzjs/next', '@blitzjs/rpc', 'blitz'],
       enabled: false,
     },
   ],

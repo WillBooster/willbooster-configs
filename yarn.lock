@@ -1233,29 +1233,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/prop-types@npm:*":
-  version: 15.7.14
-  resolution: "@types/prop-types@npm:15.7.14"
-  checksum: 10c0/1ec775160bfab90b67a782d735952158c7e702ca4502968aa82565bd8e452c2de8601c8dfe349733073c31179116cf7340710160d3836aa8a1ef76d1532893b1
-  languageName: node
-  linkType: hard
-
-"@types/react@npm:*":
+"@types/react@npm:*, @types/react@npm:19.0.2":
   version: 19.0.2
   resolution: "@types/react@npm:19.0.2"
   dependencies:
     csstype: "npm:^3.0.2"
   checksum: 10c0/8992f39701fcf1bf893ef8f94a56196445667baf08fe4f6050a14e229a17aad3265ad3efc01595ff3b4d5d5c69da885f9aa4ff80f164a613018734efcff1eb8f
-  languageName: node
-  linkType: hard
-
-"@types/react@npm:18.3.18":
-  version: 18.3.18
-  resolution: "@types/react@npm:18.3.18"
-  dependencies:
-    "@types/prop-types": "npm:*"
-    csstype: "npm:^3.0.2"
-  checksum: 10c0/8fb2b00672072135d0858dc9db07873ea107cc238b6228aaa2a9afd1ef7a64a7074078250db38afbeb19064be8ea6af5eac32d404efdd5f45e093cc4829d87f8
   languageName: node
   linkType: hard
 
@@ -1434,7 +1417,7 @@ __metadata:
     "@types/eslint": "npm:8.56.11"
     "@types/micromatch": "npm:4.0.9"
     "@types/node": "npm:22.10.5"
-    "@types/react": "npm:18.3.18"
+    "@types/react": "npm:19.0.2"
     "@typescript-eslint/eslint-plugin": "npm:8.19.0"
     "@typescript-eslint/parser": "npm:8.19.0"
     "@willbooster/eslint-config-ts": "npm:^10.5.1"
@@ -1452,7 +1435,7 @@ __metadata:
     lint-staged: "npm:15.3.0"
     micromatch: "npm:4.0.8"
     prettier: "npm:3.4.2"
-    react: "npm:18.3.1"
+    react: "npm:19.0.0"
     sort-package-json: "npm:2.12.0"
     typescript: "npm:5.7.2"
     use-immer: "npm:0.11.0"
@@ -1478,7 +1461,7 @@ __metadata:
   dependencies:
     "@types/eslint": "npm:8.56.11"
     "@types/micromatch": "npm:4.0.9"
-    "@types/react": "npm:18.3.18"
+    "@types/react": "npm:19.0.2"
     "@willbooster/eslint-config-js": "npm:^10.2.1"
     "@willbooster/prettier-config": "npm:^9.0.1"
     eslint: "npm:8.57.0"
@@ -1492,7 +1475,7 @@ __metadata:
     lint-staged: "npm:15.3.0"
     micromatch: "npm:4.0.8"
     prettier: "npm:3.4.2"
-    react: "npm:18.3.1"
+    react: "npm:19.0.0"
     sort-package-json: "npm:2.12.0"
   peerDependencies:
     "@willbooster/prettier-config": ">=6"
@@ -1554,7 +1537,7 @@ __metadata:
     "@types/eslint": "npm:8.56.11"
     "@types/micromatch": "npm:4.0.9"
     "@types/node": "npm:22.10.5"
-    "@types/react": "npm:18.3.18"
+    "@types/react": "npm:19.0.2"
     "@typescript-eslint/eslint-plugin": "npm:8.19.0"
     "@typescript-eslint/parser": "npm:8.19.0"
     "@willbooster/eslint-config-ts": "npm:^10.5.1"
@@ -1572,7 +1555,7 @@ __metadata:
     lint-staged: "npm:15.3.0"
     micromatch: "npm:4.0.8"
     prettier: "npm:3.4.2"
-    react: "npm:18.3.1"
+    react: "npm:19.0.0"
     sort-package-json: "npm:2.12.0"
     typescript: "npm:5.7.2"
     use-immer: "npm:0.11.0"
@@ -1598,7 +1581,7 @@ __metadata:
     "@types/eslint": "npm:8.56.11"
     "@types/micromatch": "npm:4.0.9"
     "@types/node": "npm:22.10.5"
-    "@types/react": "npm:18.3.18"
+    "@types/react": "npm:19.0.2"
     "@typescript-eslint/eslint-plugin": "npm:8.19.0"
     "@typescript-eslint/parser": "npm:8.19.0"
     "@willbooster/eslint-config-ts": "npm:^10.5.1"
@@ -1615,7 +1598,7 @@ __metadata:
     lint-staged: "npm:15.3.0"
     micromatch: "npm:4.0.8"
     prettier: "npm:3.4.2"
-    react: "npm:18.3.1"
+    react: "npm:19.0.0"
     sort-package-json: "npm:2.12.0"
     typescript: "npm:5.7.2"
     use-immer: "npm:0.11.0"
@@ -5596,7 +5579,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"loose-envify@npm:^1.1.0, loose-envify@npm:^1.4.0":
+"loose-envify@npm:^1.4.0":
   version: 1.4.0
   resolution: "loose-envify@npm:1.4.0"
   dependencies:
@@ -7023,12 +7006,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.3.1":
-  version: 18.3.1
-  resolution: "react@npm:18.3.1"
-  dependencies:
-    loose-envify: "npm:^1.1.0"
-  checksum: 10c0/283e8c5efcf37802c9d1ce767f302dd569dd97a70d9bb8c7be79a789b9902451e0d16334b05d73299b20f048cbc3c7d288bbbde10b701fa194e2089c237dbea3
+"react@npm:19.0.0":
+  version: 19.0.0
+  resolution: "react@npm:19.0.0"
+  checksum: 10c0/9cad8f103e8e3a16d15cb18a0d8115d8bd9f9e1ce3420310aea381eb42aa0a4f812cf047bb5441349257a05fba8a291515691e3cb51267279b2d2c3253f38471
   languageName: node
   linkType: hard
 

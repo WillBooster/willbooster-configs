@@ -23,7 +23,7 @@
   "devDependencies": {
     "@types/eslint": "8.56.11",
     "@types/micromatch": "4.0.9",
-    "@types/react": "19.0.4",
+    "@types/react": "19.0.7",
     "@willbooster/prettier-config": "^9.0.1",
     "eslint": "8.57.0",
     "eslint-config-prettier": "10.0.1",

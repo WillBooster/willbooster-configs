@@ -12,6 +12,7 @@
     "packages/*"
   ],
   "scripts": {
+    "check-all": "yarn cleanup && yarn typecheck && yarn test",
     "cleanup": "yarn format && yarn lint-fix",
     "format": "sort-package-json && yarn prettify && yarn workspaces foreach --all --parallel --verbose run format",
     "postinstall": "husky || true",
@@ -30,7 +31,7 @@
     "@qiwi/multi-semantic-release": "7.1.2",
     "@types/eslint": "8.56.11",
     "@types/micromatch": "4.0.9",
-    "@typescript-eslint/parser": "8.24.0",
+    "@typescript-eslint/parser": "8.24.1",
     "@willbooster/prettier-config": "^9.0.1",
     "conventional-changelog-conventionalcommits": "6.1.0",
     "dotenv-cli": "8.0.0",

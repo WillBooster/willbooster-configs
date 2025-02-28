@@ -26,10 +26,10 @@
     "@types/react": "19.0.10",
     "@willbooster/prettier-config": "^9.0.1",
     "eslint": "8.57.0",
-    "eslint-config-prettier": "10.0.1",
+    "eslint-config-prettier": "10.0.2",
     "eslint-plugin-import": "2.31.0",
     "eslint-plugin-react": "7.37.4",
-    "eslint-plugin-react-hooks": "5.1.0",
+    "eslint-plugin-react-hooks": "5.2.0",
     "eslint-plugin-sort-class-members": "1.21.0",
     "eslint-plugin-sort-destructure-keys": "2.0.0",
     "eslint-plugin-unicorn": "56.0.1",
@@ -37,7 +37,7 @@
     "micromatch": "4.0.8",
     "prettier": "3.5.2",
     "react": "19.0.0",
-    "sort-package-json": "2.14.0"
+    "sort-package-json": "2.15.0"
   },
   "peerDependencies": {
     "@willbooster/prettier-config": ">=6",

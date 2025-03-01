@@ -44,10 +44,6 @@
       allowedVersions: '<=24',
     },
     {
-      matchPackageNames: ['conventional-changelog-conventionalcommits'],
-      enabled: false,
-    },
-    {
       matchPackageNames: ['babel-plugin-react-compiler'],
       enabled: false,
     },

@@ -1735,7 +1735,7 @@ __metadata:
     "@eslint/eslintrc": ">=3"
     "@eslint/js": ">=8"
     "@typescript-eslint/eslint-plugin": ">=5"
-    "@typescript-eslint/parser": ">=5"
+    "@typescript-eslint/parser": ">=8"
     "@willbooster/eslint-config-ts": ">=10"
     "@willbooster/prettier-config": ">=6"
     eslint: ">=8"
@@ -1784,7 +1784,7 @@ __metadata:
   peerDependencies:
     "@eslint/js": ">=8"
     "@typescript-eslint/eslint-plugin": ">=5"
-    "@typescript-eslint/parser": ">=5"
+    "@typescript-eslint/parser": ">=8"
     "@willbooster/eslint-config-ts": ">=10"
     "@willbooster/prettier-config": ">=6"
     eslint: ">=8"
@@ -1806,7 +1806,7 @@ __metadata:
   resolution: "@willbooster/eslint-config-ts@npm:10.6.1"
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ">=5"
-    "@typescript-eslint/parser": ">=5"
+    "@typescript-eslint/parser": ">=8"
     "@willbooster/prettier-config": 9.1.3
     eslint: ">=8"
     eslint-config-prettier: ">=8"
@@ -1847,7 +1847,7 @@ __metadata:
   peerDependencies:
     "@eslint/js": ">=8"
     "@typescript-eslint/eslint-plugin": ">=5"
-    "@typescript-eslint/parser": ">=5"
+    "@typescript-eslint/parser": ">=8"
     "@willbooster/prettier-config": ">=6"
     eslint: ">=8"
     eslint-config-prettier: ">=8"

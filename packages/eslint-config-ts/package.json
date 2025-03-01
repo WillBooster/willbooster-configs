@@ -45,7 +45,7 @@
   "peerDependencies": {
     "@eslint/js": ">=8",
     "@typescript-eslint/eslint-plugin": ">=5",
-    "@typescript-eslint/parser": ">=5",
+    "@typescript-eslint/parser": ">=8",
     "@willbooster/prettier-config": ">=6",
     "eslint": ">=8",
     "eslint-config-prettier": ">=8",

@@ -229,7 +229,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/eslintrc@npm:^3.0.0, @eslint/eslintrc@npm:^3.3.0":
+"@eslint/eslintrc@npm:3.3.0, @eslint/eslintrc@npm:^3.0.0, @eslint/eslintrc@npm:^3.3.0":
   version: 3.3.0
   resolution: "@eslint/eslintrc@npm:3.3.0"
   dependencies:
@@ -1568,7 +1568,7 @@ __metadata:
   resolution: "@willbooster/eslint-config-blitz-next@workspace:packages/eslint-config-blitz-next"
   dependencies:
     "@blitzjs/next": "npm:3.0.1"
-    "@eslint/eslintrc": "npm:^3.0.0"
+    "@eslint/eslintrc": "npm:3.3.0"
     "@eslint/js": "npm:9.21.0"
     "@types/eslint": "npm:9.6.1"
     "@types/micromatch": "npm:4.0.9"
@@ -1597,11 +1597,11 @@ __metadata:
     typescript-eslint: "npm:8.25.0"
     use-immer: "npm:0.11.0"
   peerDependencies:
-    "@blitzjs/next": ">=2.0.0-beta.19"
+    "@blitzjs/next": ">=3"
     "@eslint/eslintrc": ">=3"
-    "@eslint/js": ">=8"
-    "@typescript-eslint/eslint-plugin": ">=5"
-    "@typescript-eslint/parser": ">=5"
+    "@eslint/js": ">=9"
+    "@typescript-eslint/eslint-plugin": ">=8"
+    "@typescript-eslint/parser": ">=8"
     "@willbooster/eslint-config-ts": ">=10"
     "@willbooster/prettier-config": ">=6"
     eslint: ">=8"

@@ -12,9 +12,15 @@ const compat = new FlatCompat({
 });
 
 export default [
+  {
+    ignores: ['node_modules/**', 'dist/**', 'build/**', 'coverage/**'],
+  },
   ...tsConfig,
   ...compat.extends('@blitzjs/next/eslint'),
   {
+    settings: {
+      'import-x/external-module-folders': ['node_modules', 'node_modules/@types'],
+    },
     rules: {
       'import-x/no-default-export': 'error',
       'react/jsx-sort-props': [

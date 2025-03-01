@@ -5,9 +5,12 @@ import eslintPluginSortClassMembers from 'eslint-plugin-sort-class-members';
 import eslintPluginUnicorn from 'eslint-plugin-unicorn';
 import eslintPluginSortDestructureKeys from 'eslint-plugin-sort-destructure-keys';
 import eslintConfigPrettier from 'eslint-config-prettier';
-import importResolver from 'eslint-import-resolver-typescript';
+import { createTypeScriptImportResolver } from 'eslint-import-resolver-typescript';
 
 export default [
+  {
+    ignores: ['node_modules/**', 'dist/**', 'build/**', 'coverage/**'],
+  },
   js.configs.recommended,
   ...tseslint.configs.recommended,
   {
@@ -18,9 +21,12 @@ export default [
       'sort-destructure-keys': eslintPluginSortDestructureKeys,
     },
     settings: {
-      'import-x/resolver': {
-        typescript: true,
-      },
+      'import-x/resolver-next': [
+        createTypeScriptImportResolver({
+          alwaysTryTypes: true,
+          project: './tsconfig.json',
+        }),
+      ],
     },
     languageOptions: {
       parser: tseslint.parser,

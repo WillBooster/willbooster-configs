@@ -3,6 +3,9 @@ import eslintPluginReact from 'eslint-plugin-react';
 import eslintPluginReactHooks from 'eslint-plugin-react-hooks';
 
 export default [
+  {
+    ignores: ['node_modules/**', 'dist/**', 'build/**', 'coverage/**'],
+  },
   ...jsConfig,
   {
     plugins: {
@@ -10,6 +13,7 @@ export default [
       'react-hooks': eslintPluginReactHooks,
     },
     settings: {
+      'import-x/external-module-folders': ['node_modules', 'node_modules/@types'],
       'import-x/core-modules': ['react-dom'],
       react: {
         version: 'detect',

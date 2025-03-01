@@ -20,7 +20,7 @@
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {
-    "@willbooster/eslint-config-ts": "^10.6.1"
+    "@willbooster/eslint-config-ts": "workspace:*"
   },
   "devDependencies": {
     "@blitzjs/next": "3.0.1",

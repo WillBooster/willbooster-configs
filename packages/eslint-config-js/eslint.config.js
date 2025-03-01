@@ -6,6 +6,9 @@ import eslintPluginSortDestructureKeys from 'eslint-plugin-sort-destructure-keys
 import eslintConfigPrettier from 'eslint-config-prettier';
 
 export default [
+  {
+    ignores: ['node_modules/**', 'dist/**', 'build/**', 'coverage/**'],
+  },
   js.configs.recommended,
   {
     plugins: {
@@ -13,6 +16,10 @@ export default [
       'sort-class-members': eslintPluginSortClassMembers,
       unicorn: eslintPluginUnicorn,
       'sort-destructure-keys': eslintPluginSortDestructureKeys,
+    },
+    settings: {
+      'import-x/extensions': ['.js', '.jsx', '.json'],
+      'import-x/external-module-folders': ['node_modules', 'node_modules/@types'],
     },
     languageOptions: {
       ecmaVersion: 'latest',
@@ -59,6 +66,22 @@ export default [
       ],
       'unicorn/prefer-top-level-await': 'warn',
       'unicorn/prevent-abbreviations': 'off',
+    },
+  },
+  {
+    files: ['**/*.cjs'],
+    languageOptions: {
+      sourceType: 'commonjs',
+      globals: {
+        require: 'readonly',
+        module: 'readonly',
+        console: 'readonly',
+        process: 'readonly',
+        __dirname: 'readonly',
+        __filename: 'readonly',
+        exports: 'writable',
+        Buffer: 'readonly',
+      },
     },
   },
   eslintConfigPrettier,

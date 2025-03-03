@@ -9,13 +9,14 @@
     ".prettierrc.json"
   ],
   "scripts": {
+    "check-all": "yarn cleanup && yarn typecheck && yarn test",
     "cleanup": "yarn format",
     "format": "sort-package-json && yarn prettify",
     "prettify": "prettier --cache --color --write \"**/{.*/,}*.{cjs,css,cts,htm,html,js,json,json5,jsonc,jsx,md,mjs,mts,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\""
   },
   "devDependencies": {
     "lint-staged": "15.4.3",
-    "prettier": "3.5.2",
+    "prettier": "3.5.3",
     "sort-package-json": "2.15.1"
   },
   "peerDependencies": {

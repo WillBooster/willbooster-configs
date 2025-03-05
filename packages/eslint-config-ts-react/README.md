@@ -1,6 +1,6 @@
 # eslint-config-ts-react
 
-A ESLint config for TypeScript projects using React.
+A ESLint flat config for TypeScript projects using React.
 You need to do the following command to install peer dependencies.
 
 ```sh
@@ -14,10 +14,8 @@ yarn add -D @willbooster/eslint-config-ts-react \
     eslint-plugin-sort-class-members \
     eslint-plugin-sort-destructure-keys \
     eslint-plugin-unicorn \
+    eslint-plugin-unused-imports \
     typescript \
-    @typescript-eslint/eslint-plugin \
     @typescript-eslint/parser \
-    eslint-import-resolver-typescript \
-    prettier \
-    @willbooster/prettier-config
+    eslint-import-resolver-typescript
 ```

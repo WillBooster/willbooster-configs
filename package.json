@@ -8,6 +8,7 @@
   },
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
+  "type": "module",
   "workspaces": [
     "packages/*"
   ],
@@ -28,19 +29,18 @@
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
     "@qiwi/multi-semantic-release": "7.1.2",
-    "@types/eslint": "8.56.11",
+    "@types/eslint": "9.6.1",
     "@types/micromatch": "4.0.9",
-    "@typescript-eslint/parser": "8.25.0",
-    "@willbooster/prettier-config": "^9.0.1",
+    "@willbooster/prettier-config": "workspace:*",
     "conventional-changelog-conventionalcommits": "6.1.0",
     "dotenv-cli": "8.0.0",
-    "eslint": "8.57.0",
+    "eslint": "9.21.0",
     "husky": "9.1.7",
     "lint-staged": "15.4.3",
     "micromatch": "4.0.8",
     "pinst": "3.0.0",
-    "prettier": "3.5.2",
-    "sort-package-json": "2.15.1",
+    "prettier": "3.5.3",
+    "sort-package-json": "3.0.0",
     "typescript": "5.8.2"
   },
   "packageManager": "yarn@4.6.0"

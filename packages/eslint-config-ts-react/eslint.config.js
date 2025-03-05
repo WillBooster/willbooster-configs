@@ -1,10 +1,40 @@
 import tsConfig from '@willbooster/eslint-config-ts';
 import eslintPluginReact from 'eslint-plugin-react';
 import eslintPluginReactHooks from 'eslint-plugin-react-hooks';
+import { FlatCompat } from '@eslint/eslintrc';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+// mimic CommonJS variables -- not needed if using CommonJS
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const compat = new FlatCompat({
+  baseDirectory: __dirname,
+});
 
 export default [
   {
-    ignores: ['node_modules/**', 'dist/**', 'build/**', 'coverage/**'],
+    ignores: [
+      'node_modules/**',
+      'dist/**',
+      'build/**',
+      'coverage/**',
+      '3rd-party/**',
+      '@types/**',
+      '__generated__/**',
+      'android/**',
+      'ios/**',
+      'no-format/**',
+      'test-fixtures/**',
+      '*.config.*js',
+      '*.d.ts',
+      '*.min.*js',
+      '.yarn/**',
+      '.pnp.js',
+      '.env.production',
+      '*/mount/*.hash',
+    ],
   },
   ...tsConfig,
   {

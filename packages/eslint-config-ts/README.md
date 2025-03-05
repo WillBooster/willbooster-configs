@@ -1,6 +1,6 @@
 # eslint-config-ts
 
-A ESLint config for TypeScript projects.
+A ESLint flat config for TypeScript projects.
 You need to do the following command to install peer dependencies.
 
 ```sh

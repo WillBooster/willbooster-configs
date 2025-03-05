@@ -1,6 +1,6 @@
 # eslint-config-js-react
 
-A ESLint config for JavaScript projects using React.
+A ESLint flat config for JavaScript projects using React.
 You need to do the following command to install peer dependencies.
 
 ```sh

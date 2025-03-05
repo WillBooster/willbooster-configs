@@ -1,7 +1,7 @@
 {
   "name": "@willbooster/eslint-config-js-react",
   "version": "0.0.0-semantically-released",
-  "description": "A ESLint config for JavaScript projects using React",
+  "description": "A ESLint flat config for JavaScript projects using React",
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
   "type": "module",
@@ -12,10 +12,11 @@
   "scripts": {
     "cleanup": "yarn format && yarn lint-fix",
     "format": "sort-package-json && yarn prettify",
-    "lint": "eslint --color \"./{scripts,src,tests}/**/*.{cjs,cts,js,jsx,mjs,mts,ts,tsx}\"",
+    "lint": "eslint --color",
     "lint-fix": "yarn lint --fix --rule \"{ react-hooks/exhaustive-deps: 0 }\"",
     "prettify": "prettier --cache --color --write \"**/{.*/,}*.{cjs,css,cts,htm,html,js,json,json5,jsonc,jsx,md,mjs,mts,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\"",
-    "test": "yarn lint"
+    "test": "yarn lint",
+    "typecheck": "tsc --noEmit --Pretty"
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {
@@ -35,24 +36,25 @@
     "eslint-plugin-sort-class-members": "1.21.0",
     "eslint-plugin-sort-destructure-keys": "2.0.0",
     "eslint-plugin-unicorn": "57.0.0",
+    "globals": "16.0.0",
     "lint-staged": "15.4.3",
     "micromatch": "4.0.8",
-    "prettier": "3.5.2",
+    "prettier": "3.5.3",
     "react": "19.0.0",
-    "sort-package-json": "2.15.1"
+    "sort-package-json": "3.0.0"
   },
   "peerDependencies": {
-    "@eslint/js": ">=8",
+    "@eslint/js": ">=9",
     "@willbooster/eslint-config-js": ">=10",
-    "@willbooster/prettier-config": ">=6",
-    "eslint": ">=8",
-    "eslint-config-prettier": ">=8",
-    "eslint-plugin-import-x": ">=0.4.0",
+    "@willbooster/prettier-config": ">=9",
+    "eslint": ">=9",
+    "eslint-config-prettier": ">=10",
+    "eslint-plugin-import-x": ">=4",
     "eslint-plugin-react": ">=7",
-    "eslint-plugin-react-hooks": ">=2",
-    "eslint-plugin-sort-class-members": ">=1.14",
-    "eslint-plugin-sort-destructure-keys": ">=1.4",
-    "globals": ">=13"
+    "eslint-plugin-react-hooks": ">=5",
+    "eslint-plugin-sort-class-members": ">=1.21",
+    "eslint-plugin-sort-destructure-keys": ">=2",
+    "globals": ">=16"
   },
   "publishConfig": {
     "access": "public"

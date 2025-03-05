@@ -1,6 +1,6 @@
 # eslint-config-next
 
-A ESLint config for Next.js.
+A ESLint flat config for Next.js.
 You need to do the following command to install peer dependencies.
 
 ```sh

@@ -1,14 +1,35 @@
 import js from '@eslint/js';
+import eslintConfigPrettier from 'eslint-config-prettier';
 import eslintPluginImportX from 'eslint-plugin-import-x';
 import eslintPluginSortClassMembers from 'eslint-plugin-sort-class-members';
-import eslintPluginUnicorn from 'eslint-plugin-unicorn';
 import eslintPluginSortDestructureKeys from 'eslint-plugin-sort-destructure-keys';
-import eslintConfigPrettier from 'eslint-config-prettier';
+import eslintPluginUnicorn from 'eslint-plugin-unicorn';
+import globals from 'globals';
 
 export default [
   {
-    ignores: ['node_modules/**', 'dist/**', 'build/**', 'coverage/**'],
+    files: ['{,src/**/,tests/**/,scripts/**/}*.{cjs,js,mjs}'],
+    ignores: [
+      // Directories
+      '.yarn/**',
+      '3rd-party/**',
+      '@types/**',
+      '__generated__/**',
+      'android/**',
+      'build/**',
+      'coverage/**',
+      'dist/**',
+      'ios/**',
+      'no-format/**',
+      'node_modules/**',
+      'temp/**',
+      'test-fixtures/**',
+      // Files
+      '*.d.ts',
+      '*.min.*js',
+    ],
   },
+  // cf. https://github.com/eslint/eslint/blob/main/packages/js/src/configs/eslint-recommended.js
   js.configs.recommended,
   {
     plugins: {
@@ -17,13 +38,15 @@ export default [
       unicorn: eslintPluginUnicorn,
       'sort-destructure-keys': eslintPluginSortDestructureKeys,
     },
-    settings: {
-      'import-x/extensions': ['.js', '.jsx', '.json'],
-      'import-x/external-module-folders': ['node_modules', 'node_modules/@types'],
-    },
     languageOptions: {
       ecmaVersion: 'latest',
-      sourceType: 'module',
+      globals: {
+        // for Web
+        ...globals.browser,
+        ...globals.serviceworker,
+        // for Node.js
+        ...globals.node,
+      },
     },
     rules: {
       eqeqeq: 'warn',
@@ -68,21 +91,6 @@ export default [
       'unicorn/prevent-abbreviations': 'off',
     },
   },
-  {
-    files: ['**/*.cjs'],
-    languageOptions: {
-      sourceType: 'commonjs',
-      globals: {
-        require: 'readonly',
-        module: 'readonly',
-        console: 'readonly',
-        process: 'readonly',
-        __dirname: 'readonly',
-        __filename: 'readonly',
-        exports: 'writable',
-        Buffer: 'readonly',
-      },
-    },
-  },
+  // cf. https://github.com/prettier/eslint-config-prettier#installation
   eslintConfigPrettier,
 ];

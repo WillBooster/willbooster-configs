@@ -1,6 +1,6 @@
 # eslint-config-js
 
-A ESLint config for JavaScript projects.
+A ESLint flat config for JavaScript projects.
 You need to do the following command to install peer dependencies.
 
 ```sh

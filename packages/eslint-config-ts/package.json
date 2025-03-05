@@ -12,20 +12,21 @@
   "scripts": {
     "cleanup": "yarn format && yarn lint-fix",
     "format": "sort-package-json && yarn prettify",
-    "lint": "eslint --color --no-warn-ignored eslint.config.js",
+    "lint": "eslint --color",
     "lint-fix": "yarn lint --fix --rule \"{ react-hooks/exhaustive-deps: 0 }\"",
     "prettify": "prettier --cache --color --write \"**/{.*/,}*.{cjs,css,cts,htm,html,js,json,json5,jsonc,jsx,md,mjs,mts,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\"",
     "test": "yarn lint",
     "typecheck": "tsc --noEmit --Pretty"
   },
   "prettier": "@willbooster/prettier-config",
+  "dependencies": {
+    "@willbooster/eslint-config-js": "workspace:*"
+  },
   "devDependencies": {
     "@eslint/js": "9.21.0",
     "@types/eslint": "9.6.1",
     "@types/micromatch": "4.0.9",
     "@types/node": "22.13.9",
-    "@typescript-eslint/eslint-plugin": "8.26.0",
-    "@typescript-eslint/parser": "8.26.0",
     "@willbooster/prettier-config": "^9.1.3",
     "eslint": "9.21.0",
     "eslint-config-prettier": "10.0.2",
@@ -44,7 +45,7 @@
     "use-immer": "0.11.0"
   },
   "peerDependencies": {
-    "@eslint/js": ">=8",
+    "@eslint/js": ">=9",
     "@typescript-eslint/eslint-plugin": ">=5",
     "@typescript-eslint/parser": ">=8",
     "@willbooster/prettier-config": ">=9",

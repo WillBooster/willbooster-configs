@@ -7,27 +7,8 @@ export default [
   ...jsConfig,
   {
     files: ['{,src/**/,tests/**/,scripts/**/}*.jsx'],
-    ignores: [
-      // Directories
-      '.yarn/**',
-      '3rd-party/**',
-      '@types/**',
-      '__generated__/**',
-      'android/**',
-      'build/**',
-      'coverage/**',
-      'dist/**',
-      'ios/**',
-      'no-format/**',
-      'node_modules/**',
-      'temp/**',
-      'test-fixtures/**',
-      // Files
-      '*.d.ts',
-      '*.min.*js',
-    ],
   },
-  // cf. https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks#flat-config-eslintconfigjsts
+  // cf. https://github.com/jsx-eslint/eslint-plugin-react#flat-configs
   eslintPluginReact.configs.flat.recommended,
   eslintPluginReact.configs.flat['jsx-runtime'],
   // cf. https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks#flat-config-eslintconfigjsts

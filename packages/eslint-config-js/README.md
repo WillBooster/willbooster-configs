@@ -7,11 +7,12 @@ You need to do the following command to install peer dependencies.
 yarn add -D @willbooster/eslint-config-js \
     eslint \
     eslint-config-prettier \
-    eslint-plugin-import \
+    eslint-plugin-import-x \
     eslint-plugin-prettier \
     eslint-plugin-sort-class-members \
     eslint-plugin-sort-destructure-keys \
     eslint-plugin-unicorn \
+    globals \
     prettier \
     @willbooster/prettier-config
 ```

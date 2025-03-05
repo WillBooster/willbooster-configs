@@ -1,3 +1,7 @@
 export const MyComponent = () => {
-  return <div className="b">MyComponent</div>;
+  return (
+    <div className="b" id="c">
+      MyComponent
+    </div>
+  );
 };

@@ -7,8 +7,11 @@ import eslintPluginUnicorn from 'eslint-plugin-unicorn';
 import globals from 'globals';
 
 export default [
+  // Note: don't merge the below two objects!
   {
     files: ['{,src/**/,tests/**/,scripts/**/}*.{cjs,js,mjs}'],
+  },
+  {
     ignores: [
       // Directories
       '.yarn/**',
@@ -31,11 +34,13 @@ export default [
   },
   // cf. https://github.com/eslint/eslint/blob/main/packages/js/src/configs/eslint-recommended.js
   js.configs.recommended,
+  // cf. https://github.com/un-ts/eslint-plugin-import-x#configuration-new-eslintconfigjs
+  eslintPluginImportX.flatConfigs.recommended,
+  // cf. https://github.com/sindresorhus/eslint-plugin-unicorn#recommended-config
+  eslintPluginUnicorn.configs.recommended,
   {
     plugins: {
-      'import-x': eslintPluginImportX,
       'sort-class-members': eslintPluginSortClassMembers,
-      unicorn: eslintPluginUnicorn,
       'sort-destructure-keys': eslintPluginSortDestructureKeys,
     },
     languageOptions: {

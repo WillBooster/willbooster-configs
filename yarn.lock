@@ -1602,7 +1602,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/prettier-config@npm:9.1.3, @willbooster/prettier-config@npm:^9.1.3":
+"@willbooster/prettier-config@npm:^9.1.3":
   version: 9.1.3
   resolution: "@willbooster/prettier-config@npm:9.1.3"
   peerDependencies:
@@ -1632,7 +1632,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": "npm:8.26.0"
     "@typescript-eslint/parser": "npm:8.26.0"
     "@willbooster/eslint-config-ts": "workspace:*"
-    "@willbooster/prettier-config": "npm:9.1.3"
+    "@willbooster/prettier-config": "npm:^9.1.3"
     eslint: "npm:9.21.0"
     eslint-config-prettier: "npm:10.0.2"
     eslint-import-resolver-typescript: "npm:3.8.3"

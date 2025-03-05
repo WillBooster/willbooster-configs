@@ -12,5 +12,6 @@ yarn add -D @willbooster/eslint-config-js \
     eslint-plugin-sort-class-members \
     eslint-plugin-sort-destructure-keys \
     eslint-plugin-unicorn \
+    eslint-plugin-unused-imports \
     globals
 ```

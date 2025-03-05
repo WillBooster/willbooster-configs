@@ -12,7 +12,7 @@
   "scripts": {
     "cleanup": "yarn format && yarn lint-fix",
     "format": "sort-package-json && yarn prettify",
-    "lint": "eslint --color eslint.config.js",
+    "lint": "eslint --color",
     "lint-fix": "yarn lint --fix --rule \"{ react-hooks/exhaustive-deps: 0 }\"",
     "prettify": "prettier --cache --color --write \"**/{.*/,}*.{cjs,css,cts,htm,html,js,json,json5,jsonc,jsx,md,mjs,mts,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\"",
     "test": "yarn lint",
@@ -20,7 +20,7 @@
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {
-    "@willbooster/eslint-config-ts": "workspace:*"
+    "@willbooster/eslint-config-ts-react": "workspace:*"
   },
   "devDependencies": {
     "@eslint/eslintrc": "3.3.0",
@@ -29,6 +29,7 @@
     "@types/micromatch": "4.0.9",
     "@types/node": "22.13.9",
     "@types/react": "19.0.10",
+    "@typescript-eslint/parser": "8.26.0",
     "@willbooster/prettier-config": "workspace:*",
     "eslint": "9.21.0",
     "eslint-config-next": "15.2.1",
@@ -40,8 +41,10 @@
     "eslint-plugin-sort-class-members": "1.21.0",
     "eslint-plugin-sort-destructure-keys": "2.0.0",
     "eslint-plugin-unicorn": "57.0.0",
+    "globals": "16.0.0",
     "lint-staged": "15.4.3",
     "micromatch": "4.0.8",
+    "next": "15.2.1",
     "prettier": "3.5.3",
     "react": "19.0.0",
     "sort-package-json": "3.0.0",
@@ -51,18 +54,17 @@
   },
   "peerDependencies": {
     "@eslint/eslintrc": ">=3",
-    "@eslint/js": ">=8",
-    "@willbooster/eslint-config-ts": ">=10",
-    "@willbooster/prettier-config": ">=6",
-    "eslint": ">=8",
-    "eslint-config-next": ">=13",
-    "eslint-config-prettier": ">=8",
-    "eslint-import-resolver-typescript": ">=2",
-    "eslint-plugin-import-x": ">=0.4.0",
-    "eslint-plugin-sort-class-members": ">=1.14",
-    "eslint-plugin-sort-destructure-keys": ">=1.4",
-    "globals": ">=13",
-    "typescript": ">=4",
+    "@eslint/js": ">=9",
+    "@typescript-eslint/parser": ">=8",
+    "eslint": ">=9",
+    "eslint-config-next": ">=15",
+    "eslint-config-prettier": ">=10",
+    "eslint-import-resolver-typescript": ">=3",
+    "eslint-plugin-import-x": ">=4",
+    "eslint-plugin-sort-class-members": ">=1.21",
+    "eslint-plugin-sort-destructure-keys": ">=2",
+    "globals": ">=16",
+    "typescript": ">=5",
     "typescript-eslint": ">=8"
   },
   "publishConfig": {

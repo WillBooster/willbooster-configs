@@ -1,7 +1,10 @@
-import tsConfig from '@willbooster/eslint-config-ts';
+/* eslint-disable unicorn/no-null */
+
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
 import { FlatCompat } from '@eslint/eslintrc';
-import path from 'path';
-import { fileURLToPath } from 'url';
+import tsReactConfig from '@willbooster/eslint-config-ts-react';
 
 // mimic CommonJS variables -- not needed if using CommonJS
 const __filename = fileURLToPath(import.meta.url);
@@ -11,52 +14,26 @@ const compat = new FlatCompat({
   baseDirectory: __dirname,
 });
 
+console.info(compat.extends('next/core-web-vitals'));
+
 export default [
+  ...compat.extends('next/core-web-vitals').map((config) => ({
+    ...config,
+  })),
+  ...tsReactConfig.map((config) => {
+    const clonedConfig = { ...config };
+    if (clonedConfig.plugins) {
+      const clonedPlugins = { ...clonedConfig.plugins };
+      delete clonedPlugins['react-hooks'];
+      clonedConfig.plugins = clonedPlugins;
+    }
+    return clonedConfig;
+  }),
   {
-    ignores: [
-      'node_modules/**',
-      'dist/**',
-      'build/**',
-      'coverage/**',
-      '3rd-party/**',
-      '@types/**',
-      '__generated__/**',
-      'android/**',
-      'ios/**',
-      'no-format/**',
-      'test-fixtures/**',
-      '*.config.*js',
-      '*.d.ts',
-      '*.min.*js',
-      '.yarn/**',
-      '.pnp.js',
-      '.env.production',
-      '*/mount/*.hash',
-    ],
-  },
-  ...tsConfig,
-  ...compat.extends('next/core-web-vitals'),
-  {
-    settings: {
-      'import-x/external-module-folders': ['node_modules', 'node_modules/@types'],
-    },
+    files: ['{,src/**/,tests/**/,scripts/**/}*.{cts,mts,ts,tsx}'],
+    ignores: ['*.{cjs,js,mjs}'],
     rules: {
-      'import-x/no-default-export': 'error',
-      'react/jsx-sort-props': [
-        'error',
-        {
-          callbacksLast: true,
-          shorthandFirst: true,
-          reservedFirst: true,
-        },
-      ],
-      'react/no-unknown-property': [
-        'error',
-        {
-          ignore: ['global', 'jsx'],
-        },
-      ],
-      'react/prop-types': 'off',
+      'import-x/no-default-export': 'off',
     },
   },
   {
@@ -69,7 +46,7 @@ export default [
       'src/pages/api/**/*.ts',
     ],
     rules: {
-      'import-x/no-default-export': 'off',
+      'import/no-default-export': 'off',
     },
   },
   {
@@ -81,7 +58,7 @@ export default [
         'error',
         {
           case: 'kebabCase',
-          ignore: ['^\\[.+\\]\\.tsx?$'],
+          ignore: [String.raw`^\[.+\]\.tsx?$`],
         },
       ],
     },

@@ -14,6 +14,7 @@ yarn add -D @willbooster/eslint-config-ts-react \
     eslint-plugin-sort-class-members \
     eslint-plugin-sort-destructure-keys \
     eslint-plugin-unicorn \
+    eslint-plugin-unused-imports \
     typescript \
     @typescript-eslint/parser \
     eslint-import-resolver-typescript

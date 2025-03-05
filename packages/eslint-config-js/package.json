@@ -27,6 +27,7 @@
     "eslint-plugin-sort-class-members": "1.21.0",
     "eslint-plugin-sort-destructure-keys": "2.0.0",
     "eslint-plugin-unicorn": "57.0.0",
+    "eslint-plugin-unused-imports": "4.1.4",
     "globals": "16.0.0",
     "lint-staged": "15.4.3",
     "micromatch": "4.0.8",
@@ -41,6 +42,7 @@
     "eslint-plugin-sort-class-members": ">=1.21",
     "eslint-plugin-sort-destructure-keys": ">=2",
     "eslint-plugin-unicorn": ">=57",
+    "eslint-plugin-unused-imports": ">=4",
     "globals": ">=16"
   },
   "publishConfig": {

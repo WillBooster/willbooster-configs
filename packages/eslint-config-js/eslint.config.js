@@ -4,6 +4,7 @@ import eslintPluginImportX from 'eslint-plugin-import-x';
 import eslintPluginSortClassMembers from 'eslint-plugin-sort-class-members';
 import eslintPluginSortDestructureKeys from 'eslint-plugin-sort-destructure-keys';
 import eslintPluginUnicorn from 'eslint-plugin-unicorn';
+import eslintPluginUnusedImports from 'eslint-plugin-unused-imports';
 import globals from 'globals';
 
 export default [
@@ -94,6 +95,25 @@ export default [
       ],
       'unicorn/prefer-top-level-await': 'warn',
       'unicorn/prevent-abbreviations': 'off',
+    },
+  },
+  // cf. https://github.com/sweepline/eslint-plugin-unused-imports#usage
+  {
+    plugins: {
+      'unused-imports': eslintPluginUnusedImports,
+    },
+    rules: {
+      'no-unused-vars': 'off',
+      'unused-imports/no-unused-imports': 'error',
+      'unused-imports/no-unused-vars': [
+        'warn',
+        {
+          vars: 'all',
+          varsIgnorePattern: '^_',
+          args: 'after-used',
+          argsIgnorePattern: '^_',
+        },
+      ],
     },
   },
   // cf. https://github.com/prettier/eslint-config-prettier#installation

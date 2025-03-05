@@ -3,6 +3,7 @@
 import jsConfig from '@willbooster/eslint-config-js';
 import eslintConfigPrettier from 'eslint-config-prettier';
 import eslintPluginImportX from 'eslint-plugin-import-x';
+import eslintPluginUnusedImports from 'eslint-plugin-unused-imports';
 import tseslint from 'typescript-eslint';
 
 export default [
@@ -87,6 +88,25 @@ export default [
       '@typescript-eslint/no-explicit-any': 'error', // let's try avoding `any`
       '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_', ignoreRestSiblings: true }], // allow unused vars in object destructuring
       '@typescript-eslint/no-use-before-define': 'off', // abstract code should appear first
+    },
+  },
+  // cf. https://github.com/sweepline/eslint-plugin-unused-imports#usage
+  {
+    plugins: {
+      'unused-imports': eslintPluginUnusedImports,
+    },
+    rules: {
+      '@typescript-eslint/no-unused-vars': 'off',
+      'unused-imports/no-unused-imports': 'error',
+      'unused-imports/no-unused-vars': [
+        'warn',
+        {
+          vars: 'all',
+          varsIgnorePattern: '^_',
+          args: 'after-used',
+          argsIgnorePattern: '^_',
+        },
+      ],
     },
   },
   // cf. https://github.com/prettier/eslint-config-prettier#installation

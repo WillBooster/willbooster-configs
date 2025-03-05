@@ -4,7 +4,15 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import { FlatCompat } from '@eslint/eslintrc';
-import tsReactConfig from '@willbooster/eslint-config-ts-react';
+import js from '@eslint/js';
+import eslintConfigPrettier from 'eslint-config-prettier';
+import eslintPluginReact from 'eslint-plugin-react';
+import eslintPluginSortClassMembers from 'eslint-plugin-sort-class-members';
+import eslintPluginSortDestructureKeys from 'eslint-plugin-sort-destructure-keys';
+import eslintPluginUnicorn from 'eslint-plugin-unicorn';
+import eslintPluginUnusedImports from 'eslint-plugin-unused-imports';
+import globals from 'globals';
+import tseslint from 'typescript-eslint';
 
 // mimic CommonJS variables -- not needed if using CommonJS
 const __filename = fileURLToPath(import.meta.url);
@@ -14,28 +22,235 @@ const compat = new FlatCompat({
   baseDirectory: __dirname,
 });
 
-console.info(compat.extends('next/core-web-vitals'));
-
-export default [
+const config = [
   ...compat.extends('next/core-web-vitals').map((config) => ({
     ...config,
   })),
-  ...tsReactConfig.map((config) => {
-    const clonedConfig = { ...config };
-    if (clonedConfig.plugins) {
-      const clonedPlugins = { ...clonedConfig.plugins };
-      delete clonedPlugins['react-hooks'];
-      clonedConfig.plugins = clonedPlugins;
-    }
-    return clonedConfig;
-  }),
+
+  // --------------- from eslint-config-js ---------------
+  // Note: don't merge the below two objects!
+  {
+    files: ['{,src/**/,tests/**/,scripts/**/}*.{cjs,js,jsx,mjs}'],
+  },
+  {
+    ignores: [
+      // Directories
+      '.yarn/**',
+      '3rd-party/**',
+      '@types/**',
+      '__generated__/**',
+      'android/**',
+      'build/**',
+      'coverage/**',
+      'dist/**',
+      'ios/**',
+      'no-format/**',
+      'node_modules/**',
+      'temp/**',
+      'test-fixtures/**',
+      // Files
+      '*.d.ts',
+      '*.min.*js',
+    ],
+  },
+  // cf. https://github.com/eslint/eslint/blob/main/packages/js/src/configs/eslint-recommended.js
+  js.configs.recommended,
+  // cf. https://github.com/sindresorhus/eslint-plugin-unicorn#recommended-config
+  eslintPluginUnicorn.configs.recommended,
+  {
+    plugins: {
+      'sort-class-members': eslintPluginSortClassMembers,
+      'sort-destructure-keys': eslintPluginSortDestructureKeys,
+    },
+    languageOptions: {
+      ecmaVersion: 'latest',
+      globals: {
+        // for Web
+        ...globals.browser,
+        ...globals.serviceworker,
+        // for Node.js
+        ...globals.node,
+      },
+    },
+    rules: {
+      eqeqeq: 'warn',
+      'no-console': 'off', // Allow `console.log()`.
+      'no-unused-vars': ['warn', { ignoreRestSiblings: true }], // Allow unused vars in object destructuring.
+      'object-shorthand': 'error',
+      'one-var': ['error', 'never'], // We prefer one variable declaration per line.
+      'spaced-comment': 'error', // Enforce consistency of spacing after the start of a comment // or /*.
+      'import/newline-after-import': 'error',
+      'import/no-duplicates': 'error',
+      'import/order': [
+        'error',
+        {
+          'newlines-between': 'always',
+          alphabetize: {
+            order: 'asc',
+          },
+        },
+      ],
+      'sort-destructure-keys/sort-destructure-keys': 'error',
+      'unicorn/filename-case': [
+        'error',
+        {
+          cases: {
+            camelCase: true,
+            pascalCase: true,
+          },
+        },
+      ],
+      'unicorn/no-abusive-eslint-disable': 'off',
+      'unicorn/no-array-callback-reference': 'off',
+      'unicorn/no-array-reduce': 'warn',
+      'unicorn/no-null': 'warn',
+      'unicorn/no-process-exit': 'off',
+      'unicorn/no-useless-undefined': [
+        'error',
+        {
+          checkArguments: false,
+        },
+      ],
+      'unicorn/prefer-top-level-await': 'warn',
+      'unicorn/prevent-abbreviations': 'off',
+    },
+  },
+  // -----------------------------------------------------------
+
+  // --------------- from eslint-config-js-react ---------------
+  // cf. https://github.com/jsx-eslint/eslint-plugin-react#flat-configs
+  eslintPluginReact.configs.flat.recommended,
+  eslintPluginReact.configs.flat['jsx-runtime'],
+  {
+    settings: {
+      react: {
+        version: 'detect',
+      },
+    },
+    rules: {
+      'react/jsx-sort-props': [
+        'error',
+        {
+          callbacksLast: true,
+          shorthandFirst: true,
+          reservedFirst: true,
+        },
+      ],
+      'react/no-unknown-property': [
+        'error',
+        {
+          ignore: ['global', 'jsx'],
+        },
+      ],
+      'react/prop-types': 'off',
+    },
+  },
+  // -----------------------------------------------------------
+
+  // --------------- from eslint-config-ts ---------------
+  ...tseslint.configs.recommendedTypeChecked.map((config) => ({
+    ...config,
+    files: ['{,src/**/,tests/**/,scripts/**/}*.{cts,mts,ts,tsx}'],
+    ignores: ['*.{cjs,js,mjs}'],
+  })),
   {
     files: ['{,src/**/,tests/**/,scripts/**/}*.{cts,mts,ts,tsx}'],
     ignores: ['*.{cjs,js,mjs}'],
+    languageOptions: {
+      parserOptions: {
+        projectService: true,
+        tsconfigRootDir: import.meta.dirname,
+      },
+    },
     rules: {
-      'import-x/no-default-export': 'off',
+      '@typescript-eslint/camelcase': 'off', // c.f. https://github.com/typescript-eslint/typescript-eslint/issues/2050
+      '@typescript-eslint/consistent-type-imports': 'error',
+      '@typescript-eslint/explicit-function-return-type': [
+        'error',
+        {
+          allowExpressions: true,
+          allowHigherOrderFunctions: true,
+        },
+      ],
+      '@typescript-eslint/explicit-member-accessibility': [
+        'error',
+        {
+          accessibility: 'no-public',
+        },
+      ],
+      '@typescript-eslint/naming-convention': [
+        'error',
+        {
+          selector: 'default',
+          format: ['camelCase'],
+          leadingUnderscore: 'allow',
+          trailingUnderscore: 'allow',
+        },
+        {
+          selector: 'parameter',
+          format: ['camelCase'],
+          leadingUnderscore: 'allow',
+        },
+        {
+          selector: 'variable',
+          format: ['camelCase', 'PascalCase', 'UPPER_CASE'], // to use 'const ReactElem = () => { ...  };'
+          leadingUnderscore: 'allow',
+          trailingUnderscore: 'allow',
+        },
+        {
+          selector: 'typeLike',
+          format: ['PascalCase'],
+        },
+        {
+          selector: 'enumMember',
+          format: ['PascalCase'],
+        },
+        {
+          // allow any name when referring to import and property
+          selector: ['import', 'property'],
+          format: null,
+        },
+        {
+          // allow any name in object destructuring of variable
+          selector: 'variable',
+          modifiers: ['destructured'],
+          format: null,
+        },
+        {
+          // allow any name in object destructuring of parameter
+          selector: 'parameter',
+          modifiers: ['destructured'],
+          format: null,
+        },
+      ],
+      '@typescript-eslint/no-explicit-any': 'error', // let's try avoiding `any`
+      '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_', ignoreRestSiblings: true }], // allow unused vars in object destructuring
+      '@typescript-eslint/no-use-before-define': 'off', // abstract code should appear first
     },
   },
+  // cf. https://github.com/sweepline/eslint-plugin-unused-imports#usage
+  {
+    plugins: {
+      'unused-imports': eslintPluginUnusedImports,
+    },
+    rules: {
+      '@typescript-eslint/no-unused-vars': 'off',
+      'unused-imports/no-unused-imports': 'error',
+      'unused-imports/no-unused-vars': [
+        'warn',
+        {
+          vars: 'all',
+          varsIgnorePattern: '^_',
+          args: 'after-used',
+          argsIgnorePattern: '^_',
+        },
+      ],
+    },
+  },
+  // cf. https://github.com/prettier/eslint-config-prettier#installation
+  eslintConfigPrettier,
+  // -----------------------------------------------------------
+
   {
     // A default export is required in app and page files.
     // See also https://nextjs.org/docs/app/building-your-application/routing#file-conventions
@@ -123,3 +338,5 @@ export default [
     },
   },
 ];
+
+export default config;

@@ -1555,7 +1555,6 @@ __metadata:
     "@types/node": "npm:22.13.9"
     "@types/react": "npm:19.0.10"
     "@typescript-eslint/parser": "npm:8.26.0"
-    "@willbooster/eslint-config-ts-react": "workspace:*"
     "@willbooster/prettier-config": "workspace:*"
     eslint: "npm:9.21.0"
     eslint-config-next: "npm:15.2.1"
@@ -1567,6 +1566,7 @@ __metadata:
     eslint-plugin-sort-class-members: "npm:1.21.0"
     eslint-plugin-sort-destructure-keys: "npm:2.0.0"
     eslint-plugin-unicorn: "npm:57.0.0"
+    eslint-plugin-unused-imports: "npm:4.1.4"
     globals: "npm:16.0.0"
     lint-staged: "npm:15.4.3"
     micromatch: "npm:4.0.8"
@@ -1588,13 +1588,15 @@ __metadata:
     eslint-plugin-import-x: ">=4"
     eslint-plugin-sort-class-members: ">=1.21"
     eslint-plugin-sort-destructure-keys: ">=2"
+    eslint-plugin-unicorn: ">=57"
+    eslint-plugin-unused-imports: ">=4"
     globals: ">=16"
     typescript: ">=5"
     typescript-eslint: ">=8"
   languageName: unknown
   linkType: soft
 
-"@willbooster/eslint-config-ts-react@workspace:*, @willbooster/eslint-config-ts-react@workspace:packages/eslint-config-ts-react":
+"@willbooster/eslint-config-ts-react@workspace:packages/eslint-config-ts-react":
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-ts-react@workspace:packages/eslint-config-ts-react"
   dependencies:

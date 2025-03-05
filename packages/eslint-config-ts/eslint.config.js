@@ -85,7 +85,7 @@ export default [
           format: null,
         },
       ],
-      '@typescript-eslint/no-explicit-any': 'error', // let's try avoding `any`
+      '@typescript-eslint/no-explicit-any': 'error', // let's try avoiding `any`
       '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_', ignoreRestSiblings: true }], // allow unused vars in object destructuring
       '@typescript-eslint/no-use-before-define': 'off', // abstract code should appear first
     },

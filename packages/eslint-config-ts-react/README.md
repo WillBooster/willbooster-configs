@@ -16,6 +16,6 @@ yarn add -D @willbooster/eslint-config-ts-react \
     eslint-plugin-unicorn \
     eslint-plugin-unused-imports \
     typescript \
-    @typescript-eslint/parser \
+    typescript-eslint \
     eslint-import-resolver-typescript
 ```

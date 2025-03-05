@@ -14,11 +14,9 @@ yarn add -D @willbooster/eslint-config-next \
     eslint-plugin-sort-class-members \
     eslint-plugin-sort-destructure-keys \
     eslint-plugin-unicorn \
+    eslint-plugin-unused-imports \
     typescript \
-    @typescript-eslint/eslint-plugin \
-    @typescript-eslint/parser \
+    typescript-eslint \
     eslint-import-resolver-typescript \
-    prettier \
-    @willbooster/prettier-config \
     eslint-config-next
 ```

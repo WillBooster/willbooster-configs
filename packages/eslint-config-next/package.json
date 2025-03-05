@@ -26,7 +26,6 @@
     "@types/micromatch": "4.0.9",
     "@types/node": "22.13.9",
     "@types/react": "19.0.10",
-    "@typescript-eslint/parser": "8.26.0",
     "@willbooster/prettier-config": "*",
     "eslint": "9.21.0",
     "eslint-config-next": "15.2.1",
@@ -53,7 +52,6 @@
   "peerDependencies": {
     "@eslint/eslintrc": ">=3",
     "@eslint/js": ">=9",
-    "@typescript-eslint/parser": ">=8",
     "eslint": ">=9",
     "eslint-config-next": ">=15",
     "eslint-config-prettier": ">=10",

@@ -20,6 +20,7 @@ export default [
       '@types/**',
       '__generated__/**',
       'android/**',
+      'bin/**',
       'build/**',
       'coverage/**',
       'dist/**',

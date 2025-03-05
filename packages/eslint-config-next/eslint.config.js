@@ -44,6 +44,7 @@ const config = [
       '@types/**',
       '__generated__/**',
       'android/**',
+      'bin/**',
       'build/**',
       'coverage/**',
       'dist/**',

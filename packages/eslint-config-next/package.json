@@ -29,8 +29,6 @@
     "@types/micromatch": "4.0.9",
     "@types/node": "22.13.9",
     "@types/react": "19.0.10",
-    "@typescript-eslint/eslint-plugin": "8.26.0",
-    "@typescript-eslint/parser": "8.26.0",
     "@willbooster/prettier-config": "^9.1.3",
     "eslint": "9.21.0",
     "eslint-config-next": "15.2.1",
@@ -54,8 +52,6 @@
   "peerDependencies": {
     "@eslint/eslintrc": ">=3",
     "@eslint/js": ">=8",
-    "@typescript-eslint/eslint-plugin": ">=5",
-    "@typescript-eslint/parser": ">=8",
     "@willbooster/eslint-config-ts": ">=10",
     "@willbooster/prettier-config": ">=6",
     "eslint": ">=8",

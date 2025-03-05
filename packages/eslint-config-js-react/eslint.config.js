@@ -14,6 +14,11 @@ export default [
   // cf. https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks#flat-config-eslintconfigjsts
   eslintPluginReactHooks.configs['recommended-latest'],
   {
+    settings: {
+      react: {
+        version: 'detect',
+      },
+    },
     rules: {
       'react/jsx-sort-props': [
         'error',
@@ -30,8 +35,6 @@ export default [
         },
       ],
       'react/prop-types': 'off',
-      'react-hooks/rules-of-hooks': 'error',
-      'react-hooks/exhaustive-deps': 'warn',
     },
   },
   // cf. https://github.com/prettier/eslint-config-prettier#installation

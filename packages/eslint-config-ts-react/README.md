@@ -15,9 +15,6 @@ yarn add -D @willbooster/eslint-config-ts-react \
     eslint-plugin-sort-destructure-keys \
     eslint-plugin-unicorn \
     typescript \
-    @typescript-eslint/eslint-plugin \
     @typescript-eslint/parser \
-    eslint-import-resolver-typescript \
-    prettier \
-    @willbooster/prettier-config
+    eslint-import-resolver-typescript
 ```

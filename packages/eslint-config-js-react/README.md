@@ -14,7 +14,5 @@ yarn add -D @willbooster/eslint-config-js-react \
     eslint-plugin-sort-class-members \
     eslint-plugin-sort-destructure-keys \
     eslint-plugin-unicorn \
-    globals \
-    prettier \
-    @willbooster/prettier-config
+    globals
 ```

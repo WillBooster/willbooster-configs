@@ -1,5 +1,3 @@
-/* eslint-env node */
-
 import child_process from 'node:child_process';
 
 import { useImmer } from 'use-immer';

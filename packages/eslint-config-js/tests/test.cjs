@@ -1,5 +1,3 @@
-/* eslint-env node */
-
 const child_process = require('node:child_process');
 
 const { useImmer } = require('use-immer');

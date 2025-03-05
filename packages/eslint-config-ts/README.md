@@ -13,8 +13,6 @@ yarn add -D @willbooster/eslint-config-ts \
     eslint-plugin-sort-destructure-keys \
     eslint-plugin-unicorn \
     typescript \
-    @typescript-eslint/eslint-plugin \
-    eslint-import-resolver-typescript \
-    prettier \
-    @willbooster/prettier-config
+    @typescript-eslint/parser \
+    eslint-import-resolver-typescript
 ```

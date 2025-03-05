@@ -64,6 +64,8 @@ export default [
       'spaced-comment': 'error', // Enforce consistency of spacing after the start of a comment // or /*.
       'import-x/newline-after-import': 'error',
       'import-x/no-duplicates': 'error',
+      /** Because we faced false positives (e.g. fast-glob),  */
+      'import-x/no-named-as-default-member': 'warn',
       'import-x/order': [
         'error',
         {

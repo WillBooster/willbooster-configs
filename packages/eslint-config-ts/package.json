@@ -20,7 +20,7 @@
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {
-    "@willbooster/eslint-config-js": "workspace:*"
+    "@willbooster/eslint-config-js": "*"
   },
   "devDependencies": {
     "@eslint/js": "9.21.0",
@@ -28,7 +28,7 @@
     "@types/micromatch": "4.0.9",
     "@types/node": "22.13.9",
     "@typescript-eslint/parser": "8.26.0",
-    "@willbooster/prettier-config": "workspace:*",
+    "@willbooster/prettier-config": "*",
     "eslint": "9.21.0",
     "eslint-config-prettier": "10.0.2",
     "eslint-import-resolver-typescript": "3.8.3",

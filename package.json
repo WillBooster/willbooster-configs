@@ -31,7 +31,7 @@
     "@qiwi/multi-semantic-release": "7.1.2",
     "@types/eslint": "9.6.1",
     "@types/micromatch": "4.0.9",
-    "@willbooster/prettier-config": "workspace:*",
+    "@willbooster/prettier-config": "*",
     "conventional-changelog-conventionalcommits": "6.1.0",
     "dotenv-cli": "8.0.0",
     "eslint": "9.21.0",

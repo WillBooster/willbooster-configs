@@ -16,6 +16,7 @@
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
+    "@willbooster/prettier-config": "*",
     "lint-staged": "15.4.3",
     "prettier": "3.5.3",
     "sort-package-json": "3.0.0"

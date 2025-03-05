@@ -19,8 +19,8 @@
   "devDependencies": {
     "@types/eslint": "9.6.1",
     "@types/micromatch": "4.0.9",
-    "@willbooster/eslint-config-ts": "workspace:*",
-    "@willbooster/prettier-config": "workspace:*",
+    "@willbooster/eslint-config-ts": "*",
+    "@willbooster/prettier-config": "*",
     "eslint": "9.21.0",
     "eslint-config-prettier": "10.0.2",
     "eslint-import-resolver-typescript": "3.8.3",

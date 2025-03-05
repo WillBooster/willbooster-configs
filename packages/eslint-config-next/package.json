@@ -27,7 +27,7 @@
     "@types/node": "22.13.9",
     "@types/react": "19.0.10",
     "@typescript-eslint/parser": "8.26.0",
-    "@willbooster/prettier-config": "workspace:*",
+    "@willbooster/prettier-config": "*",
     "eslint": "9.21.0",
     "eslint-config-next": "15.2.1",
     "eslint-config-prettier": "10.0.2",

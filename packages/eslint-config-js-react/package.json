@@ -19,11 +19,11 @@
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {
-    "@willbooster/eslint-config-js": "workspace:*"
+    "@willbooster/eslint-config-js": "*"
   },
   "devDependencies": {
     "@eslint/js": "9.21.0",
-    "@willbooster/prettier-config": "workspace:*",
+    "@willbooster/prettier-config": "*",
     "eslint": "9.21.0",
     "eslint-config-prettier": "10.0.2",
     "eslint-plugin-import-x": "4.6.1",

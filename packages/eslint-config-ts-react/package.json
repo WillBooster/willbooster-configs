@@ -20,8 +20,8 @@
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {
-    "@willbooster/eslint-config-js-react": "workspace:*",
-    "@willbooster/eslint-config-ts": "workspace:*"
+    "@willbooster/eslint-config-js-react": "*",
+    "@willbooster/eslint-config-ts": "*"
   },
   "devDependencies": {
     "@eslint/js": "9.21.0",
@@ -30,7 +30,7 @@
     "@types/node": "22.13.9",
     "@types/react": "19.0.10",
     "@typescript-eslint/parser": "8.26.0",
-    "@willbooster/prettier-config": "workspace:*",
+    "@willbooster/prettier-config": "*",
     "eslint": "9.21.0",
     "eslint-config-prettier": "10.0.2",
     "eslint-import-resolver-typescript": "3.8.3",

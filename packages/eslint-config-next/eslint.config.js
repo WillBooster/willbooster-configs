@@ -27,6 +27,10 @@ const config = [
     ...config,
   })),
 
+  // We import configs of eslint-config-js/js-react/ts/ts-react manually
+  // because next/core-web-vitals depends on eslint-plugin-import,
+  // and we want to use eslint-plugin-import-x in the above configs.
+
   // --------------- from eslint-config-js ---------------
   // Note: don't merge the below two objects!
   {

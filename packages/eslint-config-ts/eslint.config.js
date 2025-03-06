@@ -60,6 +60,11 @@ export default [
           trailingUnderscore: 'allow',
         },
         {
+          selector: 'function',
+          format: ['camelCase', 'PascalCase'], // Allow PascalCase for React component functions
+          leadingUnderscore: 'allow',
+        },
+        {
           selector: 'typeLike',
           format: ['PascalCase'],
         },

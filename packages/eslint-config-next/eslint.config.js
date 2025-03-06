@@ -234,6 +234,17 @@ const config = [
         },
       ],
       '@typescript-eslint/no-explicit-any': 'error', // let's try avoiding `any`
+      '@typescript-eslint/no-misused-promises': [
+        // for React components
+        // cf. https://typescript-eslint.io/rules/no-misused-promises/#checksvoidreturn
+        'error',
+        {
+          checksVoidReturn: {
+            arguments: false,
+            attributes: false,
+          },
+        },
+      ],
       '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_', ignoreRestSiblings: true }], // allow unused vars in object destructuring
       '@typescript-eslint/no-use-before-define': 'off', // abstract code should appear first
     },

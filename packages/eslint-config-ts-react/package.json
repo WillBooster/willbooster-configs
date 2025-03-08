@@ -24,7 +24,7 @@
     "@willbooster/eslint-config-ts": "*"
   },
   "devDependencies": {
-    "@eslint/js": "9.21.0",
+    "@eslint/js": "9.22.0",
     "@types/eslint": "9.6.1",
     "@types/micromatch": "4.0.9",
     "@types/node": "22.13.9",

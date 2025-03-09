@@ -1,6 +1,6 @@
 import jsConfig from '@willbooster/eslint-config-js';
-import eslintConfigPrettier from 'eslint-config-prettier';
 import eslintConfigFlatGitignore from 'eslint-config-flat-gitignore';
+import eslintConfigPrettier from 'eslint-config-prettier';
 import eslintPluginReact from 'eslint-plugin-react';
 import eslintPluginReactHooks from 'eslint-plugin-react-hooks';
 

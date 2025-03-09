@@ -176,6 +176,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eslint/compat@npm:^1.2.5":
+  version: 1.2.7
+  resolution: "@eslint/compat@npm:1.2.7"
+  peerDependencies:
+    eslint: ^9.10.0
+  peerDependenciesMeta:
+    eslint:
+      optional: true
+  checksum: 10c0/df89a0396750748c3748eb5fc582bd6cb89be6599d88ed1c5cc60ae0d13f77d4bf5fb30fabdb6c9ce16dda35745ef2e6417fa82548cde7d2b3fa5a896da02c8e
+  languageName: node
+  linkType: hard
+
 "@eslint/config-array@npm:^0.19.2":
   version: 0.19.2
   resolution: "@eslint/config-array@npm:0.19.2"
@@ -1513,7 +1525,7 @@ __metadata:
     "@willbooster/eslint-config-js": "npm:*"
     "@willbooster/prettier-config": "npm:*"
     eslint: "npm:9.21.0"
-    eslint-config-flat-gitignore: "npm:0.1.2"
+    eslint-config-flat-gitignore: "npm:2.1.0"
     eslint-config-prettier: "npm:10.1.1"
     eslint-plugin-import-x: "npm:4.6.1"
     eslint-plugin-react: "npm:7.37.4"
@@ -1531,7 +1543,7 @@ __metadata:
   peerDependencies:
     "@eslint/js": ">=9"
     eslint: ">=9"
-    eslint-config-flat-gitignore: ">=0.1"
+    eslint-config-flat-gitignore: ">=2.1"
     eslint-config-prettier: ">=10"
     eslint-plugin-import-x: ">=4"
     eslint-plugin-react: ">=7"
@@ -1568,7 +1580,7 @@ __metadata:
     "@eslint/js": "npm:9.22.0"
     "@willbooster/prettier-config": "npm:*"
     eslint: "npm:9.21.0"
-    eslint-config-flat-gitignore: "npm:0.1.2"
+    eslint-config-flat-gitignore: "npm:2.1.0"
     eslint-config-prettier: "npm:10.1.1"
     eslint-plugin-import-x: "npm:4.6.1"
     eslint-plugin-sort-class-members: "npm:1.21.0"
@@ -1583,7 +1595,7 @@ __metadata:
   peerDependencies:
     "@eslint/js": ">=9"
     eslint: ">=9"
-    eslint-config-flat-gitignore: ">=0.1"
+    eslint-config-flat-gitignore: ">=2.1"
     eslint-config-prettier: ">=10"
     eslint-plugin-import-x: ">=4"
     eslint-plugin-sort-class-members: ">=1.21"
@@ -1606,7 +1618,7 @@ __metadata:
     "@types/react": "npm:19.0.10"
     "@willbooster/prettier-config": "npm:*"
     eslint: "npm:9.21.0"
-    eslint-config-flat-gitignore: "npm:0.1.2"
+    eslint-config-flat-gitignore: "npm:2.1.0"
     eslint-config-next: "npm:15.2.1"
     eslint-config-prettier: "npm:10.1.1"
     eslint-import-resolver-typescript: "npm:3.8.3"
@@ -1631,7 +1643,7 @@ __metadata:
     "@eslint/eslintrc": ">=3"
     "@eslint/js": ">=9"
     eslint: ">=9"
-    eslint-config-flat-gitignore: ">=0.1"
+    eslint-config-flat-gitignore: ">=2.1"
     eslint-config-next: ">=15"
     eslint-config-prettier: ">=10"
     eslint-import-resolver-typescript: ">=3"
@@ -1659,7 +1671,7 @@ __metadata:
     "@willbooster/eslint-config-ts": "npm:*"
     "@willbooster/prettier-config": "npm:*"
     eslint: "npm:9.21.0"
-    eslint-config-flat-gitignore: "npm:0.1.2"
+    eslint-config-flat-gitignore: "npm:2.1.0"
     eslint-config-prettier: "npm:10.1.1"
     eslint-import-resolver-typescript: "npm:3.8.3"
     eslint-plugin-import-x: "npm:4.6.1"
@@ -1681,7 +1693,7 @@ __metadata:
   peerDependencies:
     "@eslint/js": ">=9"
     eslint: ">=9"
-    eslint-config-flat-gitignore: ">=0.1"
+    eslint-config-flat-gitignore: ">=2.1"
     eslint-config-prettier: ">=10"
     eslint-import-resolver-typescript: ">=3"
     eslint-plugin-import-x: ">=4"
@@ -1731,7 +1743,7 @@ __metadata:
     "@willbooster/eslint-config-js": "npm:*"
     "@willbooster/prettier-config": "npm:*"
     eslint: "npm:9.21.0"
-    eslint-config-flat-gitignore: "npm:0.1.2"
+    eslint-config-flat-gitignore: "npm:2.1.0"
     eslint-config-prettier: "npm:10.1.1"
     eslint-import-resolver-typescript: "npm:3.8.3"
     eslint-plugin-import-x: "npm:4.6.1"
@@ -1750,7 +1762,7 @@ __metadata:
   peerDependencies:
     "@eslint/js": ">=9"
     eslint: ">=9"
-    eslint-config-flat-gitignore: ">=0.1"
+    eslint-config-flat-gitignore: ">=2.1"
     eslint-config-prettier: ">=10"
     eslint-import-resolver-typescript: ">=3"
     eslint-plugin-import-x: ">=4"
@@ -3341,12 +3353,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-flat-gitignore@npm:0.1.2":
-  version: 0.1.2
-  resolution: "eslint-config-flat-gitignore@npm:0.1.2"
+"eslint-config-flat-gitignore@npm:2.1.0":
+  version: 2.1.0
+  resolution: "eslint-config-flat-gitignore@npm:2.1.0"
   dependencies:
-    parse-gitignore: "npm:^2.0.0"
-  checksum: 10c0/3ac4868b74acca5d792f11e46435277e39b987dadfb86721baf2d9e5729a05cefdd77d00fdb74b5b977fea4279932432e4835b06bcfcf5109d789c04e44776ac
+    "@eslint/compat": "npm:^1.2.5"
+  peerDependencies:
+    eslint: ^9.5.0
+  checksum: 10c0/ed043b2bbbaf14fcc063343888810292bfc3e671d69d9406085a102e4b60b6787a06602da289eb3e71a67ace201b69203a86998f0a3b5de8213706690d8b101b
   languageName: node
   linkType: hard
 
@@ -6776,13 +6790,6 @@ __metadata:
     just-diff: "npm:^6.0.0"
     just-diff-apply: "npm:^5.2.0"
   checksum: 10c0/610b37181229ce3e945125c3a9548ec24d1de2d697a7ea3ef0f2660cccc6613715c2ba4bdbaf37c565133d6b61758703618a2c63d1ee29f97fd33c70a8aae323
-  languageName: node
-  linkType: hard
-
-"parse-gitignore@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "parse-gitignore@npm:2.0.0"
-  checksum: 10c0/d42d8512ad1737fbe47bd1ecdd685bb08efb777136cafcf1344eba9fd3104f79c14e9d3d1b313427b900250d99827ef124e0dc06ff6e9883b2d3617e56b2cbbc
   languageName: node
   linkType: hard
 

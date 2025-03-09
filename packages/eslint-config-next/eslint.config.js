@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 
 import { FlatCompat } from '@eslint/eslintrc';
 import js from '@eslint/js';
+import eslintConfigFlatGitignore from 'eslint-config-flat-gitignore';
 import eslintConfigPrettier from 'eslint-config-prettier';
 import eslintPluginReact from 'eslint-plugin-react';
 import eslintPluginSortClassMembers from 'eslint-plugin-sort-class-members';
@@ -268,6 +269,8 @@ const config = [
       ],
     },
   },
+  // Add eslint-config-flat-gitignore before eslintConfigPrettier
+  eslintConfigFlatGitignore(),
   // cf. https://github.com/prettier/eslint-config-prettier#installation
   eslintConfigPrettier,
   // -----------------------------------------------------------

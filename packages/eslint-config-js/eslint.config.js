@@ -1,5 +1,6 @@
 import js from '@eslint/js';
 import eslintConfigPrettier from 'eslint-config-prettier';
+import eslintConfigFlatGitignore from 'eslint-config-flat-gitignore';
 import eslintPluginImportX from 'eslint-plugin-import-x';
 import eslintPluginSortClassMembers from 'eslint-plugin-sort-class-members';
 import eslintPluginSortDestructureKeys from 'eslint-plugin-sort-destructure-keys';
@@ -119,6 +120,8 @@ export default [
       ],
     },
   },
+  // Add eslint-config-flat-gitignore before eslintConfigPrettier
+  eslintConfigFlatGitignore(),
   // cf. https://github.com/prettier/eslint-config-prettier#installation
   eslintConfigPrettier,
 ];

@@ -2,6 +2,7 @@
 
 import jsConfig from '@willbooster/eslint-config-js';
 import eslintConfigPrettier from 'eslint-config-prettier';
+import eslintConfigFlatGitignore from 'eslint-config-flat-gitignore';
 import eslintPluginImportX from 'eslint-plugin-import-x';
 import eslintPluginUnusedImports from 'eslint-plugin-unused-imports';
 import tseslint from 'typescript-eslint';
@@ -125,6 +126,8 @@ export default [
       ],
     },
   },
+  // Add eslint-config-flat-gitignore before eslintConfigPrettier
+  eslintConfigFlatGitignore(),
   // cf. https://github.com/prettier/eslint-config-prettier#installation
   eslintConfigPrettier,
 ];

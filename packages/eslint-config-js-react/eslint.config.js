@@ -1,5 +1,6 @@
 import jsConfig from '@willbooster/eslint-config-js';
 import eslintConfigPrettier from 'eslint-config-prettier';
+import eslintConfigFlatGitignore from 'eslint-config-flat-gitignore';
 import eslintPluginReact from 'eslint-plugin-react';
 import eslintPluginReactHooks from 'eslint-plugin-react-hooks';
 
@@ -37,6 +38,8 @@ export default [
       'react/prop-types': 'off',
     },
   },
+  // Add eslint-config-flat-gitignore before eslintConfigPrettier
+  eslintConfigFlatGitignore(),
   // cf. https://github.com/prettier/eslint-config-prettier#installation
   eslintConfigPrettier,
 ];

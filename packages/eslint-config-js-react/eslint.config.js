@@ -38,7 +38,6 @@ export default [
       'react/prop-types': 'off',
     },
   },
-  // Add eslint-config-flat-gitignore before eslintConfigPrettier
   eslintConfigFlatGitignore(),
   // cf. https://github.com/prettier/eslint-config-prettier#installation
   eslintConfigPrettier,

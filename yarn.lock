@@ -1808,6 +1808,7 @@ __metadata:
     "@willbooster/eslint-config-ts": "npm:*"
     "@willbooster/prettier-config": "npm:*"
     eslint: "npm:9.21.0"
+    eslint-config-flat-gitignore: "npm:2.1.0"
     eslint-config-prettier: "npm:10.1.1"
     eslint-import-resolver-typescript: "npm:3.8.3"
     eslint-plugin-import: "npm:2.31.0"

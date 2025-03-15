@@ -10,6 +10,7 @@
     "eslint.config.js"
   ],
   "scripts": {
+    "check-all": "yarn cleanup && yarn typecheck && yarn test",
     "cleanup": "yarn format && yarn lint-fix",
     "format": "sort-package-json && yarn prettify",
     "lint": "eslint --color",
@@ -30,7 +31,7 @@
     "@types/node": "22.13.10",
     "@types/react": "19.0.10",
     "@willbooster/prettier-config": "*",
-    "eslint": "9.21.0",
+    "eslint": "9.22.0",
     "eslint-config-flat-gitignore": "2.1.0",
     "eslint-config-prettier": "10.1.1",
     "eslint-import-resolver-typescript": "3.9.0",

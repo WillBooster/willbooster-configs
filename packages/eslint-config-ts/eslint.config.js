@@ -105,6 +105,7 @@ export default [
       ],
       '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_', ignoreRestSiblings: true }], // allow unused vars in object destructuring
       '@typescript-eslint/no-use-before-define': 'off', // abstract code should appear first
+      '@typescript-eslint/restrict-template-expressions': 'off', // Allow any values in template literals
     },
   },
   // cf. https://github.com/sweepline/eslint-plugin-unused-imports#usage

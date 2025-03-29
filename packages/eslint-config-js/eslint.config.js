@@ -16,6 +16,7 @@ export default [
   {
     ignores: [
       // Directories
+      '**/.venv/**',
       '**/.yarn/**',
       '**/3rd-party/**',
       '**/@types/**',

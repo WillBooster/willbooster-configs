@@ -20,15 +20,15 @@
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {
-    "@willbooster/eslint-config-js": "*"
+    "@willbooster/eslint-config-js": "11.1.0"
   },
   "devDependencies": {
     "@eslint/js": "9.23.0",
     "@types/eslint": "9.6.1",
     "@types/micromatch": "4.0.9",
     "@types/node": "22.13.14",
-    "@willbooster/prettier-config": "*",
-    "eslint": "9.21.0",
+    "@willbooster/prettier-config": "^10.0.0",
+    "eslint": "9.23.0",
     "eslint-config-flat-gitignore": "2.1.0",
     "eslint-config-prettier": "10.1.1",
     "eslint-import-resolver-typescript": "4.2.7",

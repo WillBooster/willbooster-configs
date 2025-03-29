@@ -2148,15 +2148,18 @@ __metadata:
     eslint-config-flat-gitignore: "npm:2.1.0"
     eslint-config-prettier: "npm:10.1.1"
     eslint-import-resolver-typescript: "npm:4.2.7"
-    eslint-plugin-import: "npm:2.31.0"
+    eslint-plugin-import-x: "npm:4.9.3"
     eslint-plugin-sort-class-members: "npm:1.21.0"
     eslint-plugin-sort-destructure-keys: "npm:2.0.0"
     eslint-plugin-unicorn: "npm:58.0.0"
+    eslint-plugin-unused-imports: "npm:4.1.4"
+    globals: "npm:16.0.0"
     lint-staged: "npm:15.5.0"
     micromatch: "npm:4.0.8"
     prettier: "npm:3.5.3"
     sort-package-json: "npm:3.0.0"
     typescript: "npm:5.8.2"
+    typescript-eslint: "npm:8.28.0"
   languageName: unknown
   linkType: soft
 
@@ -3820,7 +3823,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:2.31.0, eslint-plugin-import@npm:^2.31.0":
+"eslint-plugin-import@npm:^2.31.0":
   version: 2.31.0
   resolution: "eslint-plugin-import@npm:2.31.0"
   dependencies:

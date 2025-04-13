@@ -36,12 +36,12 @@
     "dotenv-cli": "8.0.0",
     "eslint": "9.23.0",
     "husky": "9.1.7",
-    "lint-staged": "15.5.0",
+    "lint-staged": "15.5.1",
     "micromatch": "4.0.8",
     "pinst": "3.0.0",
     "prettier": "3.5.3",
     "sort-package-json": "3.0.0",
-    "typescript": "5.8.2"
+    "typescript": "5.8.3"
   },
-  "packageManager": "yarn@4.8.0"
+  "packageManager": "yarn@4.9.0"
 }

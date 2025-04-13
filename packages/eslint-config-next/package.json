@@ -27,7 +27,7 @@
     "@types/node": "22.14.1",
     "@types/react": "19.1.1",
     "@willbooster/prettier-config": "^10.0.0",
-    "eslint": "9.23.0",
+    "eslint": "9.24.0",
     "eslint-config-flat-gitignore": "2.1.0",
     "eslint-config-next": "15.3.0",
     "eslint-config-prettier": "10.1.2",

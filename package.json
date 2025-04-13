@@ -34,7 +34,7 @@
     "@willbooster/prettier-config": "^10.0.0",
     "conventional-changelog-conventionalcommits": "6.1.0",
     "dotenv-cli": "8.0.0",
-    "eslint": "9.23.0",
+    "eslint": "9.24.0",
     "husky": "9.1.7",
     "lint-staged": "15.5.1",
     "micromatch": "4.0.8",

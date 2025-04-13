@@ -7,7 +7,6 @@ import { FlatCompat } from '@eslint/eslintrc';
 import js from '@eslint/js';
 import eslintConfigFlatGitignore from 'eslint-config-flat-gitignore';
 import eslintConfigPrettier from 'eslint-config-prettier';
-import eslintPluginReact from 'eslint-plugin-react';
 import eslintPluginSortClassMembers from 'eslint-plugin-sort-class-members';
 import eslintPluginSortDestructureKeys from 'eslint-plugin-sort-destructure-keys';
 import eslintPluginUnicorn from 'eslint-plugin-unicorn';
@@ -24,9 +23,7 @@ const compat = new FlatCompat({
 });
 
 const config = [
-  ...compat.extends('next/core-web-vitals').map((config) => ({
-    ...config,
-  })),
+  ...compat.extends('next/core-web-vitals'),
 
   // We import configs of eslint-config-js/js-react/ts/ts-react manually
   // because next/core-web-vitals depends on eslint-plugin-import,
@@ -126,8 +123,10 @@ const config = [
 
   // --------------- from eslint-config-js-react ---------------
   // cf. https://github.com/jsx-eslint/eslint-plugin-react#flat-configs
-  eslintPluginReact.configs.flat.recommended,
-  eslintPluginReact.configs.flat['jsx-runtime'],
+  // To fix the error: ConfigError: Config (unnamed): Key "plugins": Cannot redefine plugin "react".
+  // TODO: re-enable the below configs after the error is fixed.
+  // eslintPluginReact.configs.flat.recommended,
+  // eslintPluginReact.configs.flat['jsx-runtime'],
   {
     settings: {
       react: {

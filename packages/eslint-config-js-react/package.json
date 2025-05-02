@@ -39,7 +39,7 @@
     "micromatch": "4.0.8",
     "prettier": "3.5.3",
     "react": "19.1.0",
-    "sort-package-json": "3.0.0"
+    "sort-package-json": "3.1.0"
   },
   "peerDependencies": {
     "@eslint/js": ">=9",

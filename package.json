@@ -13,6 +13,7 @@
     "packages/*"
   ],
   "scripts": {
+    "check-for-ai": "yarn install > /dev/null && yarn format > /dev/null && yarn lint-fix --quiet && yarn typecheck && yarn test --silent",
     "cleanup": "yarn format && yarn lint-fix",
     "format": "sort-package-json && yarn prettify && yarn workspaces foreach --all --parallel --verbose run format",
     "postinstall": "husky || true",
@@ -34,9 +35,9 @@
     "@willbooster/prettier-config": "^10.0.0",
     "conventional-changelog-conventionalcommits": "6.1.0",
     "dotenv-cli": "8.0.0",
-    "eslint": "9.24.0",
+    "eslint": "9.26.0",
     "husky": "9.1.7",
-    "lint-staged": "15.5.2",
+    "lint-staged": "16.0.0",
     "micromatch": "4.0.8",
     "pinst": "3.0.0",
     "prettier": "3.5.3",

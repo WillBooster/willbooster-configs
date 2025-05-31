@@ -41,11 +41,11 @@
     },
     {
       matchPackageNames: ['node'],
-      allowedVersions: '<=24',
+      allowedVersions: '<25',
     },
     {
-      matchPackageNames: ['babel-plugin-react-compiler'],
-      enabled: false,
+      matchPackageNames: ['babel-plugin-react-compiler', 'eslint-plugin-react-compiler'],
+      ignoreUnstable: false,
     },
     {
       matchPackageNames: ['eslint', '@types/eslint'],

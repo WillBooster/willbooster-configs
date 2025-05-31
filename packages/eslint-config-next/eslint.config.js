@@ -7,6 +7,8 @@ import { FlatCompat } from '@eslint/eslintrc';
 import js from '@eslint/js';
 import eslintConfigFlatGitignore from 'eslint-config-flat-gitignore';
 import eslintConfigPrettier from 'eslint-config-prettier';
+import eslintPluginReact from 'eslint-plugin-react';
+import eslintPluginReactCompiler from 'eslint-plugin-react-compiler';
 import eslintPluginSortClassMembers from 'eslint-plugin-sort-class-members';
 import eslintPluginSortDestructureKeys from 'eslint-plugin-sort-destructure-keys';
 import eslintPluginUnicorn from 'eslint-plugin-unicorn';
@@ -27,7 +29,7 @@ const config = [
 
   // We import configs of eslint-config-js/js-react/ts/ts-react manually
   // because next/core-web-vitals depends on eslint-plugin-import,
-  // and we want to use eslint-plugin-import-x in the above configs.
+  // but we want to keep using eslint-plugin-import-x in the above configs.
 
   // --------------- from eslint-config-js ---------------
   // Note: don't merge the below two objects!
@@ -123,10 +125,14 @@ const config = [
 
   // --------------- from eslint-config-js-react ---------------
   // cf. https://github.com/jsx-eslint/eslint-plugin-react#flat-configs
-  // To fix the error: ConfigError: Config (unnamed): Key "plugins": Cannot redefine plugin "react".
+  eslintPluginReact.configs.flat.recommended,
+  eslintPluginReact.configs.flat['jsx-runtime'],
+  // cf. https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks#flat-config-eslintconfigjsts
+  // To fix the error: ConfigError: Config "react-hooks/recommended": Key "plugins": Cannot redefine plugin "react-hooks".
   // TODO: re-enable the below configs after the error is fixed.
-  // eslintPluginReact.configs.flat.recommended,
-  // eslintPluginReact.configs.flat['jsx-runtime'],
+  // eslintPluginReactHooks.configs['recommended-latest'],
+  // cf. https://www.npmjs.com/package/eslint-plugin-react-compiler
+  eslintPluginReactCompiler.configs.recommended,
   {
     settings: {
       react: {

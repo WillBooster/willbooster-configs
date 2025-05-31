@@ -2,6 +2,7 @@ import jsConfig from '@willbooster/eslint-config-js';
 import eslintConfigFlatGitignore from 'eslint-config-flat-gitignore';
 import eslintConfigPrettier from 'eslint-config-prettier';
 import eslintPluginReact from 'eslint-plugin-react';
+import eslintPluginReactCompiler from 'eslint-plugin-react-compiler';
 import eslintPluginReactHooks from 'eslint-plugin-react-hooks';
 
 export default [
@@ -14,6 +15,8 @@ export default [
   eslintPluginReact.configs.flat['jsx-runtime'],
   // cf. https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks#flat-config-eslintconfigjsts
   eslintPluginReactHooks.configs['recommended-latest'],
+  // cf. https://www.npmjs.com/package/eslint-plugin-react-compiler
+  eslintPluginReactCompiler.configs.recommended,
   {
     settings: {
       react: {

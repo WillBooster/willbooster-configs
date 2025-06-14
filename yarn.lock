@@ -2220,7 +2220,7 @@ __metadata:
     prettier: "npm:3.5.3"
     sort-package-json: "npm:3.2.1"
   peerDependencies:
-    "@biomejs/biome": ">=1.7.1"
+    "@biomejs/biome": 1.9.4
   languageName: unknown
   linkType: soft
 
@@ -2305,7 +2305,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: ">=2"
     eslint-plugin-unicorn: ">=57"
     eslint-plugin-unused-imports: ">=4"
-    globals: ">=16"
+    globals: 16.2.0
   languageName: unknown
   linkType: soft
 
@@ -2356,7 +2356,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: ">=2"
     eslint-plugin-unicorn: ">=57"
     eslint-plugin-unused-imports: ">=4"
-    globals: ">=16"
+    globals: 16.2.0
   languageName: unknown
   linkType: soft
 
@@ -2407,8 +2407,8 @@ __metadata:
     eslint-plugin-sort-destructure-keys: ">=2"
     eslint-plugin-unicorn: ">=57"
     eslint-plugin-unused-imports: ">=4"
-    globals: ">=16"
-    typescript: ">=5"
+    globals: 16.2.0
+    typescript: 5.8.3
     typescript-eslint: ">=8"
   languageName: unknown
   linkType: soft
@@ -2459,8 +2459,8 @@ __metadata:
     eslint-plugin-sort-destructure-keys: ">=2"
     eslint-plugin-unicorn: ">=57"
     eslint-plugin-unused-imports: ">=4"
-    globals: ">=16"
-    typescript: ">=5"
+    globals: 16.2.0
+    typescript: 5.8.3
     typescript-eslint: ">=8"
   languageName: unknown
   linkType: soft
@@ -2526,8 +2526,8 @@ __metadata:
     eslint-plugin-sort-destructure-keys: ">=2"
     eslint-plugin-unicorn: ">=57"
     eslint-plugin-unused-imports: ">=4"
-    globals: ">=16"
-    typescript: ">=5"
+    globals: 16.2.0
+    typescript: 5.8.3
     typescript-eslint: ">=8"
   languageName: unknown
   linkType: soft

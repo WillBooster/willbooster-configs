@@ -23,7 +23,7 @@
     "sort-package-json": "3.2.1"
   },
   "peerDependencies": {
-    "@biomejs/biome": ">=1.7.1"
+    "@biomejs/biome": "1.9.4"
   },
   "publishConfig": {
     "access": "public"

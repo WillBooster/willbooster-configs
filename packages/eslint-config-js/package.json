@@ -46,7 +46,7 @@
     "eslint-plugin-sort-destructure-keys": ">=2",
     "eslint-plugin-unicorn": ">=57",
     "eslint-plugin-unused-imports": ">=4",
-    "globals": ">=16"
+    "globals": "16.2.0"
   },
   "publishConfig": {
     "access": "public"

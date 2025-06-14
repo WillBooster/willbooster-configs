@@ -10,7 +10,6 @@
     ':automergeTesters',
     ':automergeTypes',
     ':maintainLockFilesWeekly',
-    ':pinAllExceptPeerDependencies',
     ':prImmediately',
     ':rebaseStalePrs',
     ':semanticCommits',
@@ -62,6 +61,16 @@
       automerge: true,
       automergeType: 'branch',
       automergeStrategy: 'squash',
+    },
+    // cf. https://docs.renovatebot.com/presets-default/#pinallexceptpeerdependencies
+    {
+      matchPackageNames: ['*'],
+      excludePackageNames: ['zod'],
+      rangeStrategy: 'pin',
+    },
+    {
+      matchPackageNames: ['zod'],
+      rangeStrategy: 'replace',
     },
   ],
   schedule: ['after 5am on Saturday'],

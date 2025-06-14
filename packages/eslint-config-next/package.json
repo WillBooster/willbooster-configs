@@ -53,21 +53,21 @@
     "use-immer": "0.11.0"
   },
   "peerDependencies": {
-    "@eslint/eslintrc": ">=3",
-    "@eslint/js": ">=9",
+    "@eslint/eslintrc": "3.3.1",
+    "@eslint/js": "9.29.0",
     "eslint": ">=9",
-    "eslint-config-flat-gitignore": ">=2.1",
-    "eslint-config-next": ">=15",
-    "eslint-config-prettier": ">=10",
-    "eslint-import-resolver-typescript": ">=3",
-    "eslint-plugin-import-x": ">=4",
-    "eslint-plugin-sort-class-members": ">=1.21",
-    "eslint-plugin-sort-destructure-keys": ">=2",
-    "eslint-plugin-unicorn": ">=57",
-    "eslint-plugin-unused-imports": ">=4",
+    "eslint-config-flat-gitignore": "2.1.0",
+    "eslint-config-next": "15.3.3",
+    "eslint-config-prettier": "10.1.5",
+    "eslint-import-resolver-typescript": "4.4.3",
+    "eslint-plugin-import-x": "4.15.2",
+    "eslint-plugin-sort-class-members": "1.21.0",
+    "eslint-plugin-sort-destructure-keys": "2.0.0",
+    "eslint-plugin-unicorn": "59.0.1",
+    "eslint-plugin-unused-imports": "4.1.4",
     "globals": ">=16",
     "typescript": ">=5",
-    "typescript-eslint": ">=8"
+    "typescript-eslint": "8.34.0"
   },
   "publishConfig": {
     "access": "public"

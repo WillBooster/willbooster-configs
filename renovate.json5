@@ -69,6 +69,10 @@
       rangeStrategy: 'pin',
     },
     {
+      matchDepTypes: ['engines', 'peerDependencies'],
+      rangeStrategy: 'auto',
+    },
+    {
       matchPackageNames: ['zod'],
       rangeStrategy: 'replace',
     },

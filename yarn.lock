@@ -2204,7 +2204,7 @@ __metadata:
     "@types/babel__core": "npm:7.20.5"
     "@willbooster/prettier-config": "npm:^10.0.0"
     core-js: "npm:3.43.0"
-    lint-staged: "npm:16.1.0"
+    lint-staged: "npm:16.1.1"
     prettier: "npm:3.5.3"
     sort-package-json: "npm:3.2.1"
   languageName: unknown
@@ -2216,7 +2216,7 @@ __metadata:
   dependencies:
     "@biomejs/biome": "npm:1.9.4"
     "@willbooster/prettier-config": "npm:^10.0.0"
-    lint-staged: "npm:16.1.0"
+    lint-staged: "npm:16.1.1"
     prettier: "npm:3.5.3"
     sort-package-json: "npm:3.2.1"
   peerDependencies:
@@ -2236,7 +2236,7 @@ __metadata:
     dotenv-cli: "npm:8.0.0"
     eslint: "npm:9.28.0"
     husky: "npm:9.1.7"
-    lint-staged: "npm:16.1.0"
+    lint-staged: "npm:16.1.1"
     micromatch: "npm:4.0.8"
     pinst: "npm:3.0.0"
     prettier: "npm:3.5.3"
@@ -2287,7 +2287,7 @@ __metadata:
     eslint-plugin-unicorn: "npm:59.0.1"
     eslint-plugin-unused-imports: "npm:4.1.4"
     globals: "npm:16.2.0"
-    lint-staged: "npm:16.1.0"
+    lint-staged: "npm:16.1.1"
     micromatch: "npm:4.0.8"
     prettier: "npm:3.5.3"
     react: "npm:19.1.0"
@@ -2342,7 +2342,7 @@ __metadata:
     eslint-plugin-unicorn: "npm:59.0.1"
     eslint-plugin-unused-imports: "npm:4.1.4"
     globals: "npm:16.2.0"
-    lint-staged: "npm:16.1.0"
+    lint-staged: "npm:16.1.1"
     micromatch: "npm:4.0.8"
     prettier: "npm:3.5.3"
     sort-package-json: "npm:3.2.1"
@@ -2385,7 +2385,7 @@ __metadata:
     eslint-plugin-unicorn: "npm:59.0.1"
     eslint-plugin-unused-imports: "npm:4.1.4"
     globals: "npm:16.2.0"
-    lint-staged: "npm:16.1.0"
+    lint-staged: "npm:16.1.1"
     micromatch: "npm:4.0.8"
     next: "npm:15.3.3"
     prettier: "npm:3.5.3"
@@ -2438,7 +2438,7 @@ __metadata:
     eslint-plugin-unicorn: "npm:59.0.1"
     eslint-plugin-unused-imports: "npm:4.1.4"
     globals: "npm:16.2.0"
-    lint-staged: "npm:16.1.0"
+    lint-staged: "npm:16.1.1"
     micromatch: "npm:4.0.8"
     prettier: "npm:3.5.3"
     react: "npm:19.1.0"
@@ -2508,7 +2508,7 @@ __metadata:
     eslint-plugin-unicorn: "npm:59.0.1"
     eslint-plugin-unused-imports: "npm:4.1.4"
     globals: "npm:16.2.0"
-    lint-staged: "npm:16.1.0"
+    lint-staged: "npm:16.1.1"
     micromatch: "npm:4.0.8"
     prettier: "npm:3.5.3"
     sort-package-json: "npm:3.2.1"
@@ -2545,7 +2545,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/prettier-config@workspace:packages/prettier-config"
   dependencies:
-    lint-staged: "npm:16.1.0"
+    lint-staged: "npm:16.1.1"
     prettier: "npm:3.5.3"
     sort-package-json: "npm:3.2.1"
   peerDependencies:
@@ -2571,7 +2571,7 @@ __metadata:
     eslint-plugin-unicorn: "npm:59.0.1"
     eslint-plugin-unused-imports: "npm:4.1.4"
     globals: "npm:16.2.0"
-    lint-staged: "npm:16.1.0"
+    lint-staged: "npm:16.1.1"
     micromatch: "npm:4.0.8"
     prettier: "npm:3.5.3"
     sort-package-json: "npm:3.2.1"
@@ -6338,9 +6338,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:16.1.0":
-  version: 16.1.0
-  resolution: "lint-staged@npm:16.1.0"
+"lint-staged@npm:16.1.1":
+  version: 16.1.1
+  resolution: "lint-staged@npm:16.1.1"
   dependencies:
     chalk: "npm:^5.4.1"
     commander: "npm:^14.0.0"
@@ -6354,7 +6354,7 @@ __metadata:
     yaml: "npm:^2.8.0"
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 10c0/5cc33d61ec2c682e488eb3fcea5c153ce486623b80314f2c56af438ad78d73c7fcd3e7c911d273ac740bd34f1e030d35d4fb92d8e476984150c0c59724ac7fa4
+  checksum: 10c0/80b1945b4e7c9d6c2e08f05bd2c175465f7b8b08a7f512582027ef7da5f2e961b96d4db3e50f9946d4d11a8068658d8fd2ac946655b30883a0adaf64acbc5613
   languageName: node
   linkType: hard
 

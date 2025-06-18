@@ -47,14 +47,11 @@
     "useIgnoreFile": true,
     "defaultBranch": "main",
   },
-  "overrides": [
-    {
-      "includes": ["package.json"],
-      "json": {
-        "formatter": {
-          "expand": "auto",
-        },
+  "assist": {
+    "actions": {
+      "source": {
+        "organizeImports": "on",
       },
     },
-  ],
+  },
 }

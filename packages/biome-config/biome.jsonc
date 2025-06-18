@@ -41,17 +41,17 @@
       },
     },
   },
-  "vcs": {
-    "enabled": true,
-    "clientKind": "git",
-    "useIgnoreFile": true,
-    "defaultBranch": "main",
-  },
   "assist": {
     "actions": {
       "source": {
         "organizeImports": "on",
       },
     },
+  },
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true,
+    "defaultBranch": "main",
   },
 }

@@ -29,11 +29,11 @@
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
-    "@anolilab/multi-semantic-release": "2.0.0",
+    "@qiwi/multi-semantic-release": "3.16.0",
     "@types/eslint": "9.6.1",
     "@types/micromatch": "4.0.9",
     "@willbooster/prettier-config": "^10.0.0",
-    "conventional-changelog-conventionalcommits": "9.0.0",
+    "conventional-changelog-conventionalcommits": "6.1.0",
     "dotenv-cli": "8.0.0",
     "eslint": "9.29.0",
     "husky": "9.1.7",

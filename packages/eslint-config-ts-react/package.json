@@ -21,8 +21,8 @@
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {
-    "@willbooster/eslint-config-js-react": "workspace:*",
-    "@willbooster/eslint-config-ts": "workspace:*"
+    "@willbooster/eslint-config-js-react": "11.2.0",
+    "@willbooster/eslint-config-ts": "11.2.0"
   },
   "devDependencies": {
     "@eslint/js": "9.29.0",

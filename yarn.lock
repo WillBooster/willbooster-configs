@@ -2015,35 +2015,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/eslint-config-js-react@npm:^11.2.0":
-  version: 11.3.0
-  resolution: "@willbooster/eslint-config-js-react@npm:11.3.0"
-  dependencies:
-    "@willbooster/eslint-config-js": "npm:11.2.0"
-  peerDependencies:
-    "@eslint/js": ">=9"
-    eslint: ">=9"
-    eslint-config-flat-gitignore: ">=2.1"
-    eslint-config-prettier: ">=10"
-    eslint-plugin-import-x: ">=4"
-    eslint-plugin-react: ">=7"
-    eslint-plugin-react-compiler: ">=19"
-    eslint-plugin-react-hooks: ">=5"
-    eslint-plugin-sort-class-members: ">=1.21"
-    eslint-plugin-sort-destructure-keys: ">=2"
-    eslint-plugin-unicorn: ">=57"
-    eslint-plugin-unused-imports: ">=4"
-    globals: ">=16"
-  checksum: 10c0/53541fccf54143e6c9c9602c52ccea912eb4d205d044bcdfa33783ed28a78b0666048fdfa2106fd72dea7404fea153e53dbec434549eb37688b1e6942214a257
-  languageName: node
-  linkType: hard
-
-"@willbooster/eslint-config-js-react@workspace:packages/eslint-config-js-react":
+"@willbooster/eslint-config-js-react@workspace:*, @willbooster/eslint-config-js-react@workspace:packages/eslint-config-js-react":
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-js-react@workspace:packages/eslint-config-js-react"
   dependencies:
     "@eslint/js": "npm:9.29.0"
-    "@willbooster/eslint-config-js": "npm:^11.2.0"
+    "@willbooster/eslint-config-js": "workspace:*"
     "@willbooster/prettier-config": "npm:^10.0.0"
     eslint: "npm:9.29.0"
     eslint-config-flat-gitignore: "npm:2.1.0"
@@ -2079,7 +2056,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/eslint-config-js@npm:11.2.0, @willbooster/eslint-config-js@npm:^11.2.0":
+"@willbooster/eslint-config-js@npm:11.2.0":
   version: 11.2.0
   resolution: "@willbooster/eslint-config-js@npm:11.2.0"
   peerDependencies:
@@ -2097,7 +2074,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@willbooster/eslint-config-js@workspace:packages/eslint-config-js":
+"@willbooster/eslint-config-js@workspace:*, @willbooster/eslint-config-js@workspace:packages/eslint-config-js":
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-js@workspace:packages/eslint-config-js"
   dependencies:
@@ -2192,8 +2169,8 @@ __metadata:
     "@types/micromatch": "npm:4.0.9"
     "@types/node": "npm:22.15.32"
     "@types/react": "npm:19.1.8"
-    "@willbooster/eslint-config-js-react": "npm:^11.2.0"
-    "@willbooster/eslint-config-ts": "npm:^11.2.0"
+    "@willbooster/eslint-config-js-react": "workspace:*"
+    "@willbooster/eslint-config-ts": "workspace:*"
     "@willbooster/prettier-config": "npm:^10.0.0"
     eslint: "npm:9.29.0"
     eslint-config-flat-gitignore: "npm:2.1.0"
@@ -2259,7 +2236,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@willbooster/eslint-config-ts@workspace:packages/eslint-config-ts":
+"@willbooster/eslint-config-ts@workspace:*, @willbooster/eslint-config-ts@workspace:packages/eslint-config-ts":
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-ts@workspace:packages/eslint-config-ts"
   dependencies:
@@ -2267,7 +2244,7 @@ __metadata:
     "@types/eslint": "npm:9.6.1"
     "@types/micromatch": "npm:4.0.9"
     "@types/node": "npm:22.15.32"
-    "@willbooster/eslint-config-js": "npm:11.2.0"
+    "@willbooster/eslint-config-js": "workspace:*"
     "@willbooster/prettier-config": "npm:^10.0.0"
     eslint: "npm:9.29.0"
     eslint-config-flat-gitignore: "npm:2.1.0"

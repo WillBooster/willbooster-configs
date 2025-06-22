@@ -20,7 +20,7 @@
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {
-    "@willbooster/eslint-config-js": "^11.2.0"
+    "@willbooster/eslint-config-js": "workspace:*"
   },
   "devDependencies": {
     "@eslint/js": "9.29.0",

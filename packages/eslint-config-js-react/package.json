@@ -39,9 +39,9 @@
     "globals": "16.2.0",
     "lint-staged": "16.1.2",
     "micromatch": "4.0.8",
-    "prettier": "3.5.3",
+    "prettier": "3.6.0",
     "react": "19.1.0",
-    "sort-package-json": "3.2.1"
+    "sort-package-json": "3.2.2"
   },
   "peerDependencies": {
     "@eslint/js": ">=9",

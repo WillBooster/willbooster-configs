@@ -19,8 +19,8 @@
     "@biomejs/biome": "2.0.4",
     "@willbooster/prettier-config": "^10.0.0",
     "lint-staged": "16.1.2",
-    "prettier": "3.5.3",
-    "sort-package-json": "3.2.1"
+    "prettier": "3.6.0",
+    "sort-package-json": "3.2.2"
   },
   "peerDependencies": {
     "@biomejs/biome": ">=2"

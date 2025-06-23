@@ -1974,8 +1974,8 @@ __metadata:
     "@willbooster/prettier-config": "npm:^10.0.0"
     core-js: "npm:3.43.0"
     lint-staged: "npm:16.1.2"
-    prettier: "npm:3.5.3"
-    sort-package-json: "npm:3.2.1"
+    prettier: "npm:3.6.0"
+    sort-package-json: "npm:3.2.2"
   languageName: unknown
   linkType: soft
 
@@ -1986,8 +1986,8 @@ __metadata:
     "@biomejs/biome": "npm:2.0.4"
     "@willbooster/prettier-config": "npm:^10.0.0"
     lint-staged: "npm:16.1.2"
-    prettier: "npm:3.5.3"
-    sort-package-json: "npm:3.2.1"
+    prettier: "npm:3.6.0"
+    sort-package-json: "npm:3.2.2"
   peerDependencies:
     "@biomejs/biome": ">=2"
   languageName: unknown
@@ -2008,9 +2008,9 @@ __metadata:
     lint-staged: "npm:16.1.2"
     micromatch: "npm:4.0.8"
     pinst: "npm:3.0.0"
-    prettier: "npm:3.5.3"
+    prettier: "npm:3.6.0"
     semantic-release: "npm:24.2.5"
-    sort-package-json: "npm:3.2.1"
+    sort-package-json: "npm:3.2.2"
     typescript: "npm:5.8.3"
   languageName: unknown
   linkType: soft
@@ -2059,9 +2059,9 @@ __metadata:
     globals: "npm:16.2.0"
     lint-staged: "npm:16.1.2"
     micromatch: "npm:4.0.8"
-    prettier: "npm:3.5.3"
+    prettier: "npm:3.6.0"
     react: "npm:19.1.0"
-    sort-package-json: "npm:3.2.1"
+    sort-package-json: "npm:3.2.2"
   peerDependencies:
     "@eslint/js": ">=9"
     eslint: ">=9"
@@ -2114,8 +2114,8 @@ __metadata:
     globals: "npm:16.2.0"
     lint-staged: "npm:16.1.2"
     micromatch: "npm:4.0.8"
-    prettier: "npm:3.5.3"
-    sort-package-json: "npm:3.2.1"
+    prettier: "npm:3.6.0"
+    sort-package-json: "npm:3.2.2"
   peerDependencies:
     "@eslint/js": ">=9"
     eslint: ">=9"
@@ -2158,9 +2158,9 @@ __metadata:
     lint-staged: "npm:16.1.2"
     micromatch: "npm:4.0.8"
     next: "npm:15.3.4"
-    prettier: "npm:3.5.3"
+    prettier: "npm:3.6.0"
     react: "npm:19.1.0"
-    sort-package-json: "npm:3.2.1"
+    sort-package-json: "npm:3.2.2"
     typescript: "npm:5.8.3"
     typescript-eslint: "npm:8.34.1"
     use-immer: "npm:0.11.0"
@@ -2213,9 +2213,9 @@ __metadata:
     globals: "npm:16.2.0"
     lint-staged: "npm:16.1.2"
     micromatch: "npm:4.0.8"
-    prettier: "npm:3.5.3"
+    prettier: "npm:3.6.0"
     react: "npm:19.1.0"
-    sort-package-json: "npm:3.2.1"
+    sort-package-json: "npm:3.2.2"
     typescript: "npm:5.8.3"
     typescript-eslint: "npm:8.34.1"
     use-immer: "npm:0.11.0"
@@ -2284,8 +2284,8 @@ __metadata:
     globals: "npm:16.2.0"
     lint-staged: "npm:16.1.2"
     micromatch: "npm:4.0.8"
-    prettier: "npm:3.5.3"
-    sort-package-json: "npm:3.2.1"
+    prettier: "npm:3.6.0"
+    sort-package-json: "npm:3.2.2"
     typescript: "npm:5.8.3"
     typescript-eslint: "npm:8.34.1"
     use-immer: "npm:0.11.0"
@@ -2320,8 +2320,8 @@ __metadata:
   resolution: "@willbooster/prettier-config@workspace:packages/prettier-config"
   dependencies:
     lint-staged: "npm:16.1.2"
-    prettier: "npm:3.5.3"
-    sort-package-json: "npm:3.2.1"
+    prettier: "npm:3.6.0"
+    sort-package-json: "npm:3.2.2"
   peerDependencies:
     prettier: ">=3"
   languageName: unknown
@@ -2347,8 +2347,8 @@ __metadata:
     globals: "npm:16.2.0"
     lint-staged: "npm:16.1.2"
     micromatch: "npm:4.0.8"
-    prettier: "npm:3.5.3"
-    sort-package-json: "npm:3.2.1"
+    prettier: "npm:3.6.0"
+    sort-package-json: "npm:3.2.2"
     typescript: "npm:5.8.3"
     typescript-eslint: "npm:8.34.1"
   languageName: unknown
@@ -7142,12 +7142,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.5.3":
-  version: 3.5.3
-  resolution: "prettier@npm:3.5.3"
+"prettier@npm:3.6.0":
+  version: 3.6.0
+  resolution: "prettier@npm:3.6.0"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 10c0/3880cb90b9dc0635819ab52ff571518c35bd7f15a6e80a2054c05dbc8a3aa6e74f135519e91197de63705bcb38388ded7e7230e2178432a1468005406238b877
+  checksum: 10c0/636897c8084b71ef1f740a46199df0d8f6ed896aa497212cc8cc229d3026b9dca82fa92f61e55924c4708cea11e39a88478e2d93c4818741c55b7408a9ac6d91
   languageName: node
   linkType: hard
 
@@ -7936,9 +7936,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sort-package-json@npm:3.2.1":
-  version: 3.2.1
-  resolution: "sort-package-json@npm:3.2.1"
+"sort-package-json@npm:3.2.2":
+  version: 3.2.2
+  resolution: "sort-package-json@npm:3.2.2"
   dependencies:
     detect-indent: "npm:^7.0.1"
     detect-newline: "npm:^4.0.1"
@@ -7949,7 +7949,7 @@ __metadata:
     tinyglobby: "npm:^0.2.12"
   bin:
     sort-package-json: cli.js
-  checksum: 10c0/383a62dbea96a030e90f9c3ac42fa4fb7700904f125a50700a1f75b048bb319d4104c57a989ef8f7b7a8f1553fe7b10e49ebcfd13a5ca08658541fd0bdcd202f
+  checksum: 10c0/bd111e755715ae03572d88f7a6d06b0f2245f992e43746488f09ab253a728ffda7c6e463f34fa87a5afc50fbc8af0113a14880abed2876b6ce823235acbd554c
   languageName: node
   linkType: hard
 

@@ -1,5 +1,4 @@
 {
-  "plugins": ["prettier-plugin-java"],
   "printWidth": 120,
   "singleQuote": true,
   "trailingComma": "es5",
@@ -7,8 +6,7 @@
     {
       "files": "*.java",
       "options": {
-        "tabWidth": 4,
-        "parser": "java"
+        "tabWidth": 4
       }
     }
   ]

@@ -54,6 +54,7 @@ const config = [
       '**/node_modules/**',
       '**/temp/**',
       '**/test-fixtures/**',
+      '**/test/fixtures/**',
       // Files
       '**/*.d.ts',
       '**/*.min.*js',

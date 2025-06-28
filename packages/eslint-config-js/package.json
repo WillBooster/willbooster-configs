@@ -10,7 +10,8 @@
     "eslint.config.js"
   ],
   "scripts": {
-    "check-for-ai": "yarn install > /dev/null && yarn format > /dev/null && yarn lint-fix --quiet && yarn typecheck && yarn test --silent",
+    "check-all-for-ai": "yarn check-for-ai && yarn test --silent",
+    "check-for-ai": "yarn install > /dev/null && yarn format > /dev/null && yarn lint-fix --quiet && yarn typecheck",
     "cleanup": "yarn format && yarn lint-fix",
     "format": "sort-package-json && yarn prettify",
     "lint": "eslint --color",
@@ -22,7 +23,7 @@
   "devDependencies": {
     "@eslint/js": "9.30.0",
     "@willbooster/prettier-config": "^10.0.0",
-    "eslint": "9.29.0",
+    "eslint": "9.30.0",
     "eslint-config-flat-gitignore": "2.1.0",
     "eslint-config-prettier": "10.1.5",
     "eslint-plugin-import-x": "4.16.1",

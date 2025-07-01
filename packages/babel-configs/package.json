@@ -12,7 +12,7 @@
     "check-for-ai": "yarn install > /dev/null && yarn format > /dev/null && yarn lint-fix --quiet && yarn typecheck",
     "cleanup": "yarn format",
     "format": "sort-package-json && yarn prettify",
-    "prettify": "prettier --cache --color --write \"**/{.*/,}*.{cjs,css,cts,htm,html,js,json,json5,jsonc,jsx,md,mjs,mts,scss,ts,tsx,vue,yaml,yml}\" \"!**/test{-,/}fixtures/**\""
+    "prettify": "prettier --cache --color --write \"**/{.*/,}*.{cjs,css,cts,htm,html,java,js,json,json5,jsonc,jsx,md,mjs,mts,scss,ts,tsx,vue,yaml,yml}\" \"!**/test{-,/}fixtures/**\""
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {

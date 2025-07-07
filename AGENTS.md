@@ -1,4 +1,4 @@
-# Project Information
+## Project Information
 
 - Name: @willbooster/configs
 - Description: undefined

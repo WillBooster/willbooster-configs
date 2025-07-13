@@ -294,12 +294,12 @@ __metadata:
   linkType: hard
 
 "@babel/types@npm:^7.0.0, @babel/types@npm:^7.20.7, @babel/types@npm:^7.27.1, @babel/types@npm:^7.27.3, @babel/types@npm:^7.27.6, @babel/types@npm:^7.28.0":
-  version: 7.28.0
-  resolution: "@babel/types@npm:7.28.0"
+  version: 7.28.1
+  resolution: "@babel/types@npm:7.28.1"
   dependencies:
     "@babel/helper-string-parser": "npm:^7.27.1"
     "@babel/helper-validator-identifier": "npm:^7.27.1"
-  checksum: 10c0/7ca8521bf5e2d2ed4db31176efaaf94463a6b7a4d16dcc60e34e963b3596c2ecadb85457bebed13a9ee9a5829ef5f515d05b55a991b6a8f3b835451843482e39
+  checksum: 10c0/5e99b346c11ee42ffb0cadc28159fe0b184d865a2cc1593df79b199772a534f6453969b4942aa5e4a55a3081863096e1cc3fc1c724d826926dc787cf229b845d
   languageName: node
   linkType: hard
 
@@ -2063,10 +2063,10 @@ __metadata:
   linkType: soft
 
 "@willbooster/eslint-config-js-react@npm:^11.2.0":
-  version: 11.5.0
-  resolution: "@willbooster/eslint-config-js-react@npm:11.5.0"
+  version: 11.5.1
+  resolution: "@willbooster/eslint-config-js-react@npm:11.5.1"
   dependencies:
-    "@willbooster/eslint-config-js": "npm:11.4.0"
+    "@willbooster/eslint-config-js": "npm:11.4.1"
   peerDependencies:
     "@eslint/js": ">=9"
     eslint: ">=9"
@@ -2081,7 +2081,7 @@ __metadata:
     eslint-plugin-unicorn: ">=57"
     eslint-plugin-unused-imports: ">=4"
     globals: ">=16"
-  checksum: 10c0/534ea76cb0888f93c76e27ebad5c3bbfee2c6dd5183c392c4468e089029d21cc879a1ce56d61545206a5737fab03a17cdcffeeb94de3f63da324356633a80cbd
+  checksum: 10c0/c7990e9937994e85fef8508b57b42aefa881880bae5f7ee9f325f6954d83390a8d03d3b8cbb63bc070e56dca4bd3b41474508fcc3b8b731f4419e85033e41949
   languageName: node
   linkType: hard
 
@@ -2127,9 +2127,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/eslint-config-js@npm:11.4.0, @willbooster/eslint-config-js@npm:^11.2.0":
-  version: 11.4.0
-  resolution: "@willbooster/eslint-config-js@npm:11.4.0"
+"@willbooster/eslint-config-js@npm:11.4.1, @willbooster/eslint-config-js@npm:^11.2.0":
+  version: 11.4.1
+  resolution: "@willbooster/eslint-config-js@npm:11.4.1"
   peerDependencies:
     "@eslint/js": ">=9"
     eslint: ">=9"
@@ -2141,7 +2141,7 @@ __metadata:
     eslint-plugin-unicorn: ">=57"
     eslint-plugin-unused-imports: ">=4"
     globals: ">=16"
-  checksum: 10c0/b9621bf401613481515b67a91a7455f513359d856c1de2ba21d43ca3e0a996a2cbeb8da8a7e07e69b7fbfab94ce84dfb411b8a458f21fbcaec9304e021f3f9bf
+  checksum: 10c0/21a1410ec33eae0e1dacdf215b04d44ac95f4e89a5481ffb304fbb72ff042f350f95e807e7f9a3399b4bb6fbac61be470edce4c7e169e99e84a22dcadb606a21
   languageName: node
   linkType: hard
 
@@ -2291,10 +2291,10 @@ __metadata:
   linkType: soft
 
 "@willbooster/eslint-config-ts@npm:^11.2.0":
-  version: 11.4.0
-  resolution: "@willbooster/eslint-config-ts@npm:11.4.0"
+  version: 11.4.1
+  resolution: "@willbooster/eslint-config-ts@npm:11.4.1"
   dependencies:
-    "@willbooster/eslint-config-js": "npm:11.4.0"
+    "@willbooster/eslint-config-js": "npm:11.4.1"
   peerDependencies:
     "@eslint/js": ">=9"
     eslint: ">=9"
@@ -2309,7 +2309,7 @@ __metadata:
     globals: ">=16"
     typescript: ">=5"
     typescript-eslint: ">=8"
-  checksum: 10c0/8e55732491819cd820572e67d866137e27d1b6fd966e0e2818b4d070c3e3fa24e313fb162d673176a0da6616b19d3eb1680212f95b034cc861cdeb4938a454ff
+  checksum: 10c0/53679af96c42dea872edc9c619218af7610fb860b54caa67941ea0dda20f64e5b965ce4482e31a46b3db61abbea2158bdcacf0f8b51513714b73f7605050b08f
   languageName: node
   linkType: hard
 
@@ -2520,9 +2520,9 @@ __metadata:
   linkType: hard
 
 "aproba@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "aproba@npm:2.0.0"
-  checksum: 10c0/d06e26384a8f6245d8c8896e138c0388824e259a329e0c9f196b4fa533c82502a6fd449586e3604950a0c42921832a458bb3aa0aa9f0ba449cfd4f50fd0d09b5
+  version: 2.1.0
+  resolution: "aproba@npm:2.1.0"
+  checksum: 10c0/ec8c1d351bac0717420c737eb062766fb63bde1552900e0f4fdad9eb064c3824fef23d1c416aa5f7a80f21ca682808e902d79b7c9ae756d342b5f1884f36932f
   languageName: node
   linkType: hard
 

@@ -2020,7 +2020,7 @@ __metadata:
     core-js: "npm:3.44.0"
     lint-staged: "npm:16.1.2"
     prettier: "npm:3.6.2"
-    prettier-plugin-java: "npm:2.7.2"
+    prettier-plugin-java: "npm:2.7.3"
     sort-package-json: "npm:3.4.0"
   languageName: unknown
   linkType: soft
@@ -2033,7 +2033,7 @@ __metadata:
     "@willbooster/prettier-config": "npm:^10.0.0"
     lint-staged: "npm:16.1.2"
     prettier: "npm:3.6.2"
-    prettier-plugin-java: "npm:2.7.2"
+    prettier-plugin-java: "npm:2.7.3"
     sort-package-json: "npm:3.4.0"
   peerDependencies:
     "@biomejs/biome": ">=2"
@@ -2056,7 +2056,7 @@ __metadata:
     micromatch: "npm:4.0.8"
     pinst: "npm:3.0.0"
     prettier: "npm:3.6.2"
-    prettier-plugin-java: "npm:2.7.2"
+    prettier-plugin-java: "npm:2.7.3"
     semantic-release: "npm:24.2.7"
     sort-package-json: "npm:3.4.0"
     typescript: "npm:5.8.3"
@@ -2108,7 +2108,7 @@ __metadata:
     lint-staged: "npm:16.1.2"
     micromatch: "npm:4.0.8"
     prettier: "npm:3.6.2"
-    prettier-plugin-java: "npm:2.7.2"
+    prettier-plugin-java: "npm:2.7.3"
     react: "npm:19.1.0"
     sort-package-json: "npm:3.4.0"
   peerDependencies:
@@ -2164,7 +2164,7 @@ __metadata:
     lint-staged: "npm:16.1.2"
     micromatch: "npm:4.0.8"
     prettier: "npm:3.6.2"
-    prettier-plugin-java: "npm:2.7.2"
+    prettier-plugin-java: "npm:2.7.3"
     sort-package-json: "npm:3.4.0"
   peerDependencies:
     "@eslint/js": ">=9"
@@ -2209,7 +2209,7 @@ __metadata:
     micromatch: "npm:4.0.8"
     next: "npm:15.3.5"
     prettier: "npm:3.6.2"
-    prettier-plugin-java: "npm:2.7.2"
+    prettier-plugin-java: "npm:2.7.3"
     react: "npm:19.1.0"
     sort-package-json: "npm:3.4.0"
     typescript: "npm:5.8.3"
@@ -2265,7 +2265,7 @@ __metadata:
     lint-staged: "npm:16.1.2"
     micromatch: "npm:4.0.8"
     prettier: "npm:3.6.2"
-    prettier-plugin-java: "npm:2.7.2"
+    prettier-plugin-java: "npm:2.7.3"
     react: "npm:19.1.0"
     sort-package-json: "npm:3.4.0"
     typescript: "npm:5.8.3"
@@ -2337,7 +2337,7 @@ __metadata:
     lint-staged: "npm:16.1.2"
     micromatch: "npm:4.0.8"
     prettier: "npm:3.6.2"
-    prettier-plugin-java: "npm:2.7.2"
+    prettier-plugin-java: "npm:2.7.3"
     sort-package-json: "npm:3.4.0"
     typescript: "npm:5.8.3"
     typescript-eslint: "npm:8.37.0"
@@ -2404,7 +2404,7 @@ __metadata:
     lint-staged: "npm:16.1.2"
     micromatch: "npm:4.0.8"
     prettier: "npm:3.6.2"
-    prettier-plugin-java: "npm:2.7.2"
+    prettier-plugin-java: "npm:2.7.3"
     sort-package-json: "npm:3.4.0"
     typescript: "npm:5.8.3"
     typescript-eslint: "npm:8.37.0"
@@ -3546,9 +3546,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.173":
-  version: 1.5.184
-  resolution: "electron-to-chromium@npm:1.5.184"
-  checksum: 10c0/1037f52550cbb5fac6b9f7f6edd22e4f75c424e6e645fb062288d8510459f1b81342fa95adec3c57aca2602b640c9792f7993280f91bed24737b7b04bf782eef
+  version: 1.5.185
+  resolution: "electron-to-chromium@npm:1.5.185"
+  checksum: 10c0/26820527fc85f64798ec21fcd32d3607efdf4567b701da749bbd1dd407a162373bf18733d7f0b12c56ae71ece721073b45beeba82b7d2692c494fb4b5636c4a8
   languageName: node
   linkType: hard
 
@@ -7130,9 +7130,9 @@ __metadata:
   linkType: hard
 
 "picomatch@npm:^4.0.2":
-  version: 4.0.2
-  resolution: "picomatch@npm:4.0.2"
-  checksum: 10c0/7c51f3ad2bb42c776f49ebf964c644958158be30d0a510efd5a395e8d49cb5acfed5b82c0c5b365523ce18e6ab85013c9ebe574f60305892ec3fa8eee8304ccc
+  version: 4.0.3
+  resolution: "picomatch@npm:4.0.3"
+  checksum: 10c0/9582c951e95eebee5434f59e426cddd228a7b97a0161a375aed4be244bd3fe8e3a31b846808ea14ef2c8a2527a6eeab7b3946a67d5979e81694654f939473ae2
   languageName: node
   linkType: hard
 
@@ -7224,14 +7224,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-java@npm:2.7.2":
-  version: 2.7.2
-  resolution: "prettier-plugin-java@npm:2.7.2"
+"prettier-plugin-java@npm:2.7.3":
+  version: 2.7.3
+  resolution: "prettier-plugin-java@npm:2.7.3"
   dependencies:
     java-parser: "npm:3.0.1"
   peerDependencies:
     prettier: ^3.0.0
-  checksum: 10c0/0108067172bc73e879ae6ee170d2ac07ef7ec6e389e76ac10970b411a7436d6b87dc469f47a091e7c238884b06f1618326f0edce4af540aa6d70f73e92123722
+  checksum: 10c0/9a831f773cc9c71853b68fda0fb05b8b944374cb2171e96eda88a824a0e1171a03fcf937976a22daf56e6b94247c83baaf3300782ed281f5dcb414919c2bc666
   languageName: node
   linkType: hard
 

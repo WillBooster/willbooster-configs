@@ -46,7 +46,7 @@
     "prettier-plugin-java": "2.7.3",
     "sort-package-json": "3.4.0",
     "typescript": "5.8.3",
-    "typescript-eslint": "8.37.0",
+    "typescript-eslint": "8.38.0",
     "use-immer": "0.11.0"
   },
   "peerDependencies": {

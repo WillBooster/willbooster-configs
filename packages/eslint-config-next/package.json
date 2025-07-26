@@ -29,7 +29,7 @@
     "@types/node": "24.1.0",
     "@types/react": "19.1.8",
     "@willbooster/prettier-config": "^10.0.0",
-    "eslint": "9.31.0",
+    "eslint": "9.32.0",
     "eslint-config-flat-gitignore": "2.1.0",
     "eslint-config-next": "15.4.4",
     "eslint-config-prettier": "10.1.8",

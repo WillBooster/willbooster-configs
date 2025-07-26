@@ -2023,7 +2023,7 @@ __metadata:
     "@types/micromatch": "npm:4.0.9"
     "@willbooster/prettier-config": "npm:^10.0.0"
     conventional-changelog-conventionalcommits: "npm:9.1.0"
-    dotenv-cli: "npm:8.0.0"
+    dotenv-cli: "npm:9.0.0"
     eslint: "npm:9.32.0"
     husky: "npm:9.1.7"
     lint-staged: "npm:16.1.2"
@@ -3462,17 +3462,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv-cli@npm:8.0.0":
-  version: 8.0.0
-  resolution: "dotenv-cli@npm:8.0.0"
+"dotenv-cli@npm:9.0.0":
+  version: 9.0.0
+  resolution: "dotenv-cli@npm:9.0.0"
   dependencies:
     cross-spawn: "npm:^7.0.6"
-    dotenv: "npm:^16.3.0"
+    dotenv: "npm:^17.1.0"
     dotenv-expand: "npm:^10.0.0"
     minimist: "npm:^1.2.6"
   bin:
     dotenv: cli.js
-  checksum: 10c0/000469632758b7b44aaaa80cbbbd7f0c94dc170ec02e51aa8d8280341a0108fb7407954c23054257b77235b064033efdb8745836633eb6fd1586924953cf0528
+  checksum: 10c0/6a77003f8cc63410098a0d9cf8dff10f97653fc077a07a5aa85a24e08f75f4b5c31d79734fecfca1d61959a206077717c0c895147d5b017e0b72f4410991a2f3
   languageName: node
   linkType: hard
 
@@ -3483,10 +3483,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:^16.3.0":
-  version: 16.6.1
-  resolution: "dotenv@npm:16.6.1"
-  checksum: 10c0/15ce56608326ea0d1d9414a5c8ee6dcf0fffc79d2c16422b4ac2268e7e2d76ff5a572d37ffe747c377de12005f14b3cc22361e79fc7f1061cce81f77d2c973dc
+"dotenv@npm:^17.1.0":
+  version: 17.2.1
+  resolution: "dotenv@npm:17.2.1"
+  checksum: 10c0/918dd2f9d8b8f86b0afabad9534793d51de3718c437f9e7b6525628cf68c1d4ae768cc37a5afff38c066f58a8ecf549f4ac6cd5617485bd328e826112cc2650a
   languageName: node
   linkType: hard
 

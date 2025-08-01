@@ -1633,11 +1633,11 @@ __metadata:
   linkType: hard
 
 "@types/babel__traverse@npm:*":
-  version: 7.20.7
-  resolution: "@types/babel__traverse@npm:7.20.7"
+  version: 7.28.0
+  resolution: "@types/babel__traverse@npm:7.28.0"
   dependencies:
-    "@babel/types": "npm:^7.20.7"
-  checksum: 10c0/5386f0af44f8746b063b87418f06129a814e16bb2686965a575e9d7376b360b088b89177778d8c426012abc43dd1a2d8ec3218bfc382280c898682746ce2ffbd
+    "@babel/types": "npm:^7.28.2"
+  checksum: 10c0/b52d7d4e8fc6a9018fe7361c4062c1c190f5778cf2466817cb9ed19d69fbbb54f9a85ffedeb748ed8062d2cf7d4cc088ee739848f47c57740de1c48cbf0d0994
   languageName: node
   linkType: hard
 
@@ -1994,7 +1994,7 @@ __metadata:
     core-js: "npm:3.44.0"
     lint-staged: "npm:16.1.2"
     prettier: "npm:3.6.2"
-    prettier-plugin-java: "npm:2.7.3"
+    prettier-plugin-java: "npm:2.7.4"
     sort-package-json: "npm:3.4.0"
   languageName: unknown
   linkType: soft
@@ -2007,7 +2007,7 @@ __metadata:
     "@willbooster/prettier-config": "npm:^10.0.0"
     lint-staged: "npm:16.1.2"
     prettier: "npm:3.6.2"
-    prettier-plugin-java: "npm:2.7.3"
+    prettier-plugin-java: "npm:2.7.4"
     sort-package-json: "npm:3.4.0"
   peerDependencies:
     "@biomejs/biome": ">=2"
@@ -2030,10 +2030,10 @@ __metadata:
     micromatch: "npm:4.0.8"
     pinst: "npm:3.0.0"
     prettier: "npm:3.6.2"
-    prettier-plugin-java: "npm:2.7.3"
+    prettier-plugin-java: "npm:2.7.4"
     semantic-release: "npm:24.2.7"
     sort-package-json: "npm:3.4.0"
-    typescript: "npm:5.8.3"
+    typescript: "npm:5.9.2"
   languageName: unknown
   linkType: soft
 
@@ -2082,7 +2082,7 @@ __metadata:
     lint-staged: "npm:16.1.2"
     micromatch: "npm:4.0.8"
     prettier: "npm:3.6.2"
-    prettier-plugin-java: "npm:2.7.3"
+    prettier-plugin-java: "npm:2.7.4"
     react: "npm:19.1.0"
     sort-package-json: "npm:3.4.0"
   peerDependencies:
@@ -2138,7 +2138,7 @@ __metadata:
     lint-staged: "npm:16.1.2"
     micromatch: "npm:4.0.8"
     prettier: "npm:3.6.2"
-    prettier-plugin-java: "npm:2.7.3"
+    prettier-plugin-java: "npm:2.7.4"
     sort-package-json: "npm:3.4.0"
   peerDependencies:
     "@eslint/js": ">=9"
@@ -2183,10 +2183,10 @@ __metadata:
     micromatch: "npm:4.0.8"
     next: "npm:15.4.4"
     prettier: "npm:3.6.2"
-    prettier-plugin-java: "npm:2.7.3"
+    prettier-plugin-java: "npm:2.7.4"
     react: "npm:19.1.0"
     sort-package-json: "npm:3.4.0"
-    typescript: "npm:5.8.3"
+    typescript: "npm:5.9.2"
     typescript-eslint: "npm:8.38.0"
     use-immer: "npm:0.11.0"
   peerDependencies:
@@ -2239,10 +2239,10 @@ __metadata:
     lint-staged: "npm:16.1.2"
     micromatch: "npm:4.0.8"
     prettier: "npm:3.6.2"
-    prettier-plugin-java: "npm:2.7.3"
+    prettier-plugin-java: "npm:2.7.4"
     react: "npm:19.1.0"
     sort-package-json: "npm:3.4.0"
-    typescript: "npm:5.8.3"
+    typescript: "npm:5.9.2"
     typescript-eslint: "npm:8.38.0"
     use-immer: "npm:0.11.0"
   peerDependencies:
@@ -2311,9 +2311,9 @@ __metadata:
     lint-staged: "npm:16.1.2"
     micromatch: "npm:4.0.8"
     prettier: "npm:3.6.2"
-    prettier-plugin-java: "npm:2.7.3"
+    prettier-plugin-java: "npm:2.7.4"
     sort-package-json: "npm:3.4.0"
-    typescript: "npm:5.8.3"
+    typescript: "npm:5.9.2"
     typescript-eslint: "npm:8.38.0"
     use-immer: "npm:0.11.0"
   peerDependencies:
@@ -2378,9 +2378,9 @@ __metadata:
     lint-staged: "npm:16.1.2"
     micromatch: "npm:4.0.8"
     prettier: "npm:3.6.2"
-    prettier-plugin-java: "npm:2.7.3"
+    prettier-plugin-java: "npm:2.7.4"
     sort-package-json: "npm:3.4.0"
-    typescript: "npm:5.8.3"
+    typescript: "npm:5.9.2"
     typescript-eslint: "npm:8.38.0"
   languageName: unknown
   linkType: soft
@@ -7195,6 +7195,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prettier-plugin-java@npm:2.7.4":
+  version: 2.7.4
+  resolution: "prettier-plugin-java@npm:2.7.4"
+  dependencies:
+    java-parser: "npm:3.0.1"
+  peerDependencies:
+    prettier: ^3.0.0
+  checksum: 10c0/bd75cf8fe2beed01d28d3e30ea86f97cf1b0ae151cf3c1840932fb00cf909f4e3a15cb9685e0c01587f817c5222d442f0d4dae680791a8122105d7bba3e4949e
+  languageName: node
+  linkType: hard
+
 "prettier@npm:3.6.2":
   version: 3.6.2
   resolution: "prettier@npm:3.6.2"
@@ -8674,23 +8685,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:5.8.3":
-  version: 5.8.3
-  resolution: "typescript@npm:5.8.3"
+"typescript@npm:5.9.2":
+  version: 5.9.2
+  resolution: "typescript@npm:5.9.2"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/5f8bb01196e542e64d44db3d16ee0e4063ce4f3e3966df6005f2588e86d91c03e1fb131c2581baf0fb65ee79669eea6e161cd448178986587e9f6844446dbb48
+  checksum: 10c0/cd635d50f02d6cf98ed42de2f76289701c1ec587a363369255f01ed15aaf22be0813226bff3c53e99d971f9b540e0b3cc7583dbe05faded49b1b0bed2f638a18
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>":
-  version: 5.8.3
-  resolution: "typescript@patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"
+"typescript@patch:typescript@npm%3A5.9.2#optional!builtin<compat/typescript>":
+  version: 5.9.2
+  resolution: "typescript@patch:typescript@npm%3A5.9.2#optional!builtin<compat/typescript>::version=5.9.2&hash=5786d5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/39117e346ff8ebd87ae1510b3a77d5d92dae5a89bde588c747d25da5c146603a99c8ee588c7ef80faaf123d89ed46f6dbd918d534d641083177d5fac38b8a1cb
+  checksum: 10c0/34d2a8e23eb8e0d1875072064d5e1d9c102e0bdce56a10a25c0b917b8aa9001a9cf5c225df12497e99da107dc379360bc138163c66b55b95f5b105b50578067e
   languageName: node
   linkType: hard
 

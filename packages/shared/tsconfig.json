@@ -1,1 +1,21 @@
-{"compilerOptions":{"allowSyntheticDefaultImports":true,"alwaysStrict":true,"declaration":true,"erasableSyntaxOnly":true,"esModuleInterop":true,"importHelpers":false,"module":"NodeNext","moduleResolution":"NodeNext","outDir":"dist","resolveJsonModule":true,"skipLibCheck":true,"sourceMap":true,"strict":true,"target":"esnext","typeRoots":["../../node_modules/@types","../../@types","./@types"]},"exclude":["test/fixtures"],"include":["scripts/**/*","src/**/*","test/**/*"]}
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "declaration": true,
+    "erasableSyntaxOnly": true,
+    "esModuleInterop": true,
+    "importHelpers": false,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "esnext",
+    "typeRoots": ["../../node_modules/@types", "../../@types", "./@types"]
+  },
+  "exclude": ["test/fixtures"],
+  "include": ["scripts/**/*", "src/**/*", "test/**/*"]
+}

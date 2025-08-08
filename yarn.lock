@@ -490,14 +490,14 @@ __metadata:
   linkType: hard
 
 "@eslint/compat@npm:^1.2.5":
-  version: 1.3.1
-  resolution: "@eslint/compat@npm:1.3.1"
+  version: 1.3.2
+  resolution: "@eslint/compat@npm:1.3.2"
   peerDependencies:
     eslint: ^8.40 || 9
   peerDependenciesMeta:
     eslint:
       optional: true
-  checksum: 10c0/8dfcea5ecb854111f9c0acc23a469e0a25cdaddceb5fb40c47988c247d6e32ec199bcd00f1b8ba9ed779228526552703c4b74948169e78b78b5fd814e04b042b
+  checksum: 10c0/9b95b49ee74c50adf8f0e45066b471bc76842c43d4721727ff93d186745bdd1679d18420c992a05eab3bb41762672cd3faa5c56c99325dbb97200f7533cbd2bf
   languageName: node
   linkType: hard
 
@@ -513,18 +513,18 @@ __metadata:
   linkType: hard
 
 "@eslint/config-helpers@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "@eslint/config-helpers@npm:0.3.0"
-  checksum: 10c0/013ae7b189eeae8b30cc2ee87bc5c9c091a9cd615579003290eb28bebad5d78806a478e74ba10b3fe08ed66975b52af7d2cd4b4b43990376412b14e5664878c8
+  version: 0.3.1
+  resolution: "@eslint/config-helpers@npm:0.3.1"
+  checksum: 10c0/f6c5b3a0b76a0d7d84cc93e310c259e6c3e0792ddd0a62c5fc0027796ffae44183432cb74b2c2b1162801ee1b1b34a6beb5d90a151632b4df7349f994146a856
   languageName: node
   linkType: hard
 
-"@eslint/core@npm:^0.15.0, @eslint/core@npm:^0.15.1":
-  version: 0.15.1
-  resolution: "@eslint/core@npm:0.15.1"
+"@eslint/core@npm:^0.15.0, @eslint/core@npm:^0.15.2":
+  version: 0.15.2
+  resolution: "@eslint/core@npm:0.15.2"
   dependencies:
     "@types/json-schema": "npm:^7.0.15"
-  checksum: 10c0/abaf641940776638b8c15a38d99ce0dac551a8939310ec81b9acd15836a574cf362588eaab03ab11919bc2a0f9648b19ea8dee33bf12675eb5b6fd38bda6f25e
+  checksum: 10c0/c17a6dc4f5a6006ecb60165cc38bcd21fefb4a10c7a2578a0cfe5813bbd442531a87ed741da5adab5eb678e8e693fda2e2b14555b035355537e32bcec367ea17
   languageName: node
   linkType: hard
 
@@ -560,12 +560,12 @@ __metadata:
   linkType: hard
 
 "@eslint/plugin-kit@npm:^0.3.3, @eslint/plugin-kit@npm:^0.3.4":
-  version: 0.3.4
-  resolution: "@eslint/plugin-kit@npm:0.3.4"
+  version: 0.3.5
+  resolution: "@eslint/plugin-kit@npm:0.3.5"
   dependencies:
-    "@eslint/core": "npm:^0.15.1"
+    "@eslint/core": "npm:^0.15.2"
     levn: "npm:^0.4.1"
-  checksum: 10c0/64331ca100f62a0115d10419a28059d0f377e390192163b867b9019517433d5073d10b4ec21f754fa01faf832aceb34178745924baab2957486f8bf95fd628d2
+  checksum: 10c0/c178c1b58c574200c0fd125af3e4bc775daba7ce434ba6d1eeaf9bcb64b2e9fea75efabffb3ed3ab28858e55a016a5efa95f509994ee4341b341199ca630b89e
   languageName: node
   linkType: hard
 
@@ -2038,10 +2038,10 @@ __metadata:
   linkType: soft
 
 "@willbooster/eslint-config-js-react@npm:^11.2.0":
-  version: 11.5.1
-  resolution: "@willbooster/eslint-config-js-react@npm:11.5.1"
+  version: 11.5.2
+  resolution: "@willbooster/eslint-config-js-react@npm:11.5.2"
   dependencies:
-    "@willbooster/eslint-config-js": "npm:11.4.1"
+    "@willbooster/eslint-config-js": "npm:11.4.2"
   peerDependencies:
     "@eslint/js": ">=9"
     eslint: ">=9"
@@ -2056,7 +2056,7 @@ __metadata:
     eslint-plugin-unicorn: ">=57"
     eslint-plugin-unused-imports: ">=4"
     globals: ">=16"
-  checksum: 10c0/c7990e9937994e85fef8508b57b42aefa881880bae5f7ee9f325f6954d83390a8d03d3b8cbb63bc070e56dca4bd3b41474508fcc3b8b731f4419e85033e41949
+  checksum: 10c0/556b24c391c51d56bcdf6dd65896770be690cc1648e698228a9d2cd56385978059effcea6fb2e167e1fd786dddc3f57da419b0b30bc35c3dc8bf7b69e58620ce
   languageName: node
   linkType: hard
 
@@ -2102,9 +2102,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/eslint-config-js@npm:11.4.1, @willbooster/eslint-config-js@npm:^11.2.0":
-  version: 11.4.1
-  resolution: "@willbooster/eslint-config-js@npm:11.4.1"
+"@willbooster/eslint-config-js@npm:11.4.2, @willbooster/eslint-config-js@npm:^11.2.0":
+  version: 11.4.2
+  resolution: "@willbooster/eslint-config-js@npm:11.4.2"
   peerDependencies:
     "@eslint/js": ">=9"
     eslint: ">=9"
@@ -2116,7 +2116,7 @@ __metadata:
     eslint-plugin-unicorn: ">=57"
     eslint-plugin-unused-imports: ">=4"
     globals: ">=16"
-  checksum: 10c0/21a1410ec33eae0e1dacdf215b04d44ac95f4e89a5481ffb304fbb72ff042f350f95e807e7f9a3399b4bb6fbac61be470edce4c7e169e99e84a22dcadb606a21
+  checksum: 10c0/c8aa2578adf6cb51a20ac6b17ee371157fdb975f6cfdc110f66d361b5f11ee37f87bd1772cf635d2f1b60c797bd060e0783f596779a023d8b0ade239690ee0ef
   languageName: node
   linkType: hard
 
@@ -2266,10 +2266,10 @@ __metadata:
   linkType: soft
 
 "@willbooster/eslint-config-ts@npm:^11.2.0":
-  version: 11.4.1
-  resolution: "@willbooster/eslint-config-ts@npm:11.4.1"
+  version: 11.4.2
+  resolution: "@willbooster/eslint-config-ts@npm:11.4.2"
   dependencies:
-    "@willbooster/eslint-config-js": "npm:11.4.1"
+    "@willbooster/eslint-config-js": "npm:11.4.2"
   peerDependencies:
     "@eslint/js": ">=9"
     eslint: ">=9"
@@ -2284,7 +2284,7 @@ __metadata:
     globals: ">=16"
     typescript: ">=5"
     typescript-eslint: ">=8"
-  checksum: 10c0/53679af96c42dea872edc9c619218af7610fb860b54caa67941ea0dda20f64e5b965ce4482e31a46b3db61abbea2158bdcacf0f8b51513714b73f7605050b08f
+  checksum: 10c0/79f9721b8c8687c7257d0b8301af2a9336e678bbdf97caeca39ed61004287ded2690a1e0926fd72f92fef075dd120d25978903937d340f3f571b5f8611b47851
   languageName: node
   linkType: hard
 
@@ -2837,9 +2837,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001579, caniuse-lite@npm:^1.0.30001726":
-  version: 1.0.30001731
-  resolution: "caniuse-lite@npm:1.0.30001731"
-  checksum: 10c0/d8cddf817d5bec8e7c2106affdbf1bfc3923463ca16697c992b2efeb043e6a5d9dcb70cda913bc6acf9112fd66f9e80279316c08e7800359116925066a63fdfa
+  version: 1.0.30001733
+  resolution: "caniuse-lite@npm:1.0.30001733"
+  checksum: 10c0/2c03ad3362be7c93c09537f3853156ade5c70fb131888971dd538631971873ba27b83c5aad48dd06b6cde005fe57caae2db5d0f467d0c63a315391add70f01f5
   languageName: node
   linkType: hard
 
@@ -3518,9 +3518,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.173":
-  version: 1.5.198
-  resolution: "electron-to-chromium@npm:1.5.198"
-  checksum: 10c0/745ded4c4bf73c96d6a491c4ab6e573903242f3e414ebbaa27efbee7001a7a07e8f0f95bfea1b572e93e70a355caa65e5090f95a146e90bc397e8276d2da30de
+  version: 1.5.199
+  resolution: "electron-to-chromium@npm:1.5.199"
+  checksum: 10c0/5586d20455407edc583e33422e370bbdc07913d8f5c73da2ae1c6adcc79c3be7384ecaf893978027cb26a410c1354f199a05edb99b1ab03dd0346e2201525148
   languageName: node
   linkType: hard
 

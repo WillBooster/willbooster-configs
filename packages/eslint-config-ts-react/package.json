@@ -26,10 +26,10 @@
     "@willbooster/eslint-config-ts": "^11.2.0"
   },
   "devDependencies": {
-    "@eslint/js": "9.32.0",
+    "@eslint/js": "9.33.0",
     "@types/eslint": "9.6.1",
     "@types/micromatch": "4.0.9",
-    "@types/node": "24.1.0",
+    "@types/node": "24.2.1",
     "@types/react": "19.1.9",
     "@willbooster/prettier-config": "^10.0.0",
     "eslint": "9.32.0",
@@ -45,7 +45,7 @@
     "eslint-plugin-unicorn": "60.0.0",
     "eslint-plugin-unused-imports": "4.1.4",
     "globals": "16.3.0",
-    "lint-staged": "16.1.4",
+    "lint-staged": "16.1.5",
     "micromatch": "4.0.8",
     "prettier": "3.6.2",
     "prettier-plugin-java": "2.7.4",

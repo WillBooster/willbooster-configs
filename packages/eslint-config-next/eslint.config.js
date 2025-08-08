@@ -34,7 +34,7 @@ const config = [
   // --------------- from eslint-config-js ---------------
   // Note: don't merge the below two objects!
   {
-    files: ['{,src/**/,tests/**/,scripts/**/}*.{cjs,js,jsx,mjs}'],
+    files: ['{,prisma/**/,src/**/,test/**/,scripts/**/}*.{cjs,js,jsx,mjs}'],
   },
   {
     ignores: [
@@ -161,13 +161,18 @@ const config = [
   // -----------------------------------------------------------
 
   // --------------- from eslint-config-ts ---------------
-  ...tseslint.configs.recommendedTypeChecked.map((config) => ({
+  ...tseslint.configs.strictTypeChecked.map((config) => ({
     ...config,
-    files: ['{,src/**/,tests/**/,scripts/**/}*.{cts,mts,ts,tsx}'],
+    files: ['{,prisma/**/,src/**/,test/**/,scripts/**/}*.{cts,mts,ts,tsx}'],
+    ignores: ['*.{cjs,js,mjs}'],
+  })),
+  ...tseslint.configs.stylisticTypeChecked.map((config) => ({
+    ...config,
+    files: ['{,prisma/**/,src/**/,test/**/,scripts/**/}*.{cts,mts,ts,tsx}'],
     ignores: ['*.{cjs,js,mjs}'],
   })),
   {
-    files: ['{,src/**/,tests/**/,scripts/**/}*.{cts,mts,ts,tsx}'],
+    files: ['{,prisma/**/,src/**/,test/**/,scripts/**/}*.{cts,mts,ts,tsx}'],
     ignores: ['*.{cjs,js,mjs}'],
     languageOptions: {
       parserOptions: {

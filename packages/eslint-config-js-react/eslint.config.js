@@ -8,7 +8,7 @@ import eslintPluginReactHooks from 'eslint-plugin-react-hooks';
 export default [
   ...jsConfig,
   {
-    files: ['{,src/**/,tests/**/,scripts/**/}*.jsx'],
+    files: ['{,prisma/**/,src/**/,test/**/,scripts/**/}*.jsx'],
   },
   // cf. https://github.com/jsx-eslint/eslint-plugin-react#flat-configs
   eslintPluginReact.configs.flat.recommended,

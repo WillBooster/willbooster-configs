@@ -11,7 +11,7 @@ import globals from 'globals';
 export default [
   // Note: don't merge the below two objects!
   {
-    files: ['{,src/**/,tests/**/,scripts/**/}*.{cjs,js,mjs}'],
+    files: ['{,prisma/**/,src/**/,test/**/,scripts/**/}*.{cjs,js,mjs}'],
   },
   {
     ignores: [

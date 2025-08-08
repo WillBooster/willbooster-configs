@@ -9,15 +9,20 @@ import tseslint from 'typescript-eslint';
 
 export default [
   ...jsConfig,
-  ...tseslint.configs.recommendedTypeChecked.map((config) => ({
+  ...tseslint.configs.strictTypeChecked.map((config) => ({
     ...config,
-    files: ['{,src/**/,tests/**/,scripts/**/}*.{cts,mts,ts}'],
+    files: ['{,prisma/**/,src/**/,test/**/,scripts/**/}*.{cts,mts,ts}'],
+    ignores: ['*.{cjs,js,mjs}'],
+  })),
+  ...tseslint.configs.stylisticTypeChecked.map((config) => ({
+    ...config,
+    files: ['{,prisma/**/,src/**/,test/**/,scripts/**/}*.{cts,mts,ts}'],
     ignores: ['*.{cjs,js,mjs}'],
   })),
   // cf. https://github.com/un-ts/eslint-plugin-import-x#configuration-new-eslintconfigjs
   eslintPluginImportX.flatConfigs.typescript,
   {
-    files: ['{,src/**/,tests/**/,scripts/**/}*.{cts,mts,ts}'],
+    files: ['{,prisma/**/,src/**/,test/**/,scripts/**/}*.{cts,mts,ts}'],
     ignores: ['*.{cjs,js,mjs}'],
     languageOptions: {
       parserOptions: {

@@ -96,6 +96,8 @@ export default [
           format: null,
         },
       ],
+      // We prefer https://typescript-eslint.io/rules/no-non-null-assertion/ to this
+      '@typescript-eslint/non-nullable-type-assertion-style': 'off',
       '@typescript-eslint/no-explicit-any': 'error', // let's try avoiding `any`
       '@typescript-eslint/no-misused-promises': [
         // for React components

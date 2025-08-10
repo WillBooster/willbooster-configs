@@ -2266,8 +2266,8 @@ __metadata:
   linkType: soft
 
 "@willbooster/eslint-config-ts@npm:^11.2.0":
-  version: 11.4.3
-  resolution: "@willbooster/eslint-config-ts@npm:11.4.3"
+  version: 11.4.4
+  resolution: "@willbooster/eslint-config-ts@npm:11.4.4"
   dependencies:
     "@willbooster/eslint-config-js": "npm:11.4.2"
   peerDependencies:
@@ -2284,7 +2284,7 @@ __metadata:
     globals: ">=16"
     typescript: ">=5"
     typescript-eslint: ">=8"
-  checksum: 10c0/ac308c9eb3d85be86c9c2cc357b2d29a34326bc825668f2a655bf7c51526b47983cfd52ec7f8e7b25dd70291e3d42c6f3f112248dfd9cfd0a9024f6b73d6b43d
+  checksum: 10c0/61e90e1a7d41ef9d1dfa3769015c2b1ac23c5cde2343b210435b648ff2599a461c11e248df5d86799b0f02d8c6bb45c5e9c1e79e650ff4a521c51e733d5a8740
   languageName: node
   linkType: hard
 

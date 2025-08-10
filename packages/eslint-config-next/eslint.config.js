@@ -262,6 +262,7 @@ const config = [
       ],
       '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_', ignoreRestSiblings: true }], // allow unused vars in object destructuring
       '@typescript-eslint/no-use-before-define': 'off', // abstract code should appear first
+      '@typescript-eslint/prefer-nullish-coalescing': ['error', { ignorePrimitives: true }], // allow || for string, number, bigint and boolean
       '@typescript-eslint/restrict-template-expressions': 'off', // Allow any values in template literals
     },
   },

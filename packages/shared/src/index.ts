@@ -1,4 +1,4 @@
-export interface SampleInterface {
+export type SampleInterface = {
   value: number;
 }
 

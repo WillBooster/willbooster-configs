@@ -32,6 +32,8 @@ export default [
     },
     rules: {
       '@typescript-eslint/camelcase': 'off', // c.f. https://github.com/typescript-eslint/typescript-eslint/issues/2050
+      // because `interface Param` cause errors on Next.js
+      '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
       '@typescript-eslint/consistent-type-imports': 'error',
       '@typescript-eslint/explicit-function-return-type': [
         'error',

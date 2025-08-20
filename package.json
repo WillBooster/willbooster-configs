@@ -47,5 +47,5 @@
     "sort-package-json": "3.4.0",
     "typescript": "5.9.2"
   },
-  "packageManager": "yarn@4.9.2"
+  "packageManager": "yarn@4.9.3"
 }

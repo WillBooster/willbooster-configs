@@ -16,6 +16,7 @@ import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
 const { flatConfig: eslintPluginNextFlatConfig } = eslintPluginNext;
+const [reactHooksFlatRecommended] = eslintPluginReactHooks.configs['flat/recommended'];
 
 const config = [
   eslintPluginNextFlatConfig.coreWebVitals,
@@ -122,23 +123,17 @@ const config = [
   // cf. https://github.com/jsx-eslint/eslint-plugin-react#flat-configs
   eslintPluginReact.configs.flat.recommended,
   eslintPluginReact.configs.flat['jsx-runtime'],
-  // cf. https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks#flat-config-eslintconfigjsts
-  // To fix the error: ConfigError: Config "react-hooks/recommended": Key "plugins": Cannot redefine plugin "react-hooks".
-  // TODO: re-enable the below configs after the error is fixed.
-  // eslintPluginReactHooks.configs['recommended-latest'],
+  // cf. https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks#readme
+  reactHooksFlatRecommended,
   // cf. https://www.npmjs.com/package/eslint-plugin-react-compiler
   eslintPluginReactCompiler.configs.recommended,
   {
-    plugins: {
-      'react-hooks': eslintPluginReactHooks,
-    },
     settings: {
       react: {
         version: 'detect',
       },
     },
     rules: {
-      'react-hooks/rules-of-hooks': 'error',
       'react/jsx-sort-props': [
         'error',
         {

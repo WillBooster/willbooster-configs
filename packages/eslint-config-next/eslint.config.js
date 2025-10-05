@@ -7,6 +7,7 @@ import eslintConfigPrettier from 'eslint-config-prettier';
 import eslintPluginImportX from 'eslint-plugin-import-x';
 import eslintPluginReact from 'eslint-plugin-react';
 import eslintPluginReactCompiler from 'eslint-plugin-react-compiler';
+import eslintPluginReactHooks from 'eslint-plugin-react-hooks';
 import eslintPluginSortClassMembers from 'eslint-plugin-sort-class-members';
 import eslintPluginSortDestructureKeys from 'eslint-plugin-sort-destructure-keys';
 import eslintPluginUnicorn from 'eslint-plugin-unicorn';
@@ -15,6 +16,7 @@ import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
 const { flatConfig: eslintPluginNextFlatConfig } = eslintPluginNext;
+const [reactHooksFlatRecommended] = eslintPluginReactHooks.configs['flat/recommended'];
 
 const config = [
   eslintPluginNextFlatConfig.coreWebVitals,
@@ -121,10 +123,8 @@ const config = [
   // cf. https://github.com/jsx-eslint/eslint-plugin-react#flat-configs
   eslintPluginReact.configs.flat.recommended,
   eslintPluginReact.configs.flat['jsx-runtime'],
-  // cf. https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks#flat-config-eslintconfigjsts
-  // To fix the error: ConfigError: Config "react-hooks/recommended": Key "plugins": Cannot redefine plugin "react-hooks".
-  // TODO: re-enable the below configs after the error is fixed.
-  // eslintPluginReactHooks.configs['recommended-latest'],
+  // cf. https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks#readme
+  reactHooksFlatRecommended,
   // cf. https://www.npmjs.com/package/eslint-plugin-react-compiler
   eslintPluginReactCompiler.configs.recommended,
   {

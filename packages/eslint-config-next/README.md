@@ -8,7 +8,7 @@ yarn add -D @willbooster/eslint-config-next \
     eslint \
     eslint-config-flat-gitignore \
     eslint-config-prettier \
-    eslint-plugin-import \
+    eslint-plugin-import-x \
     eslint-plugin-prettier \
     eslint-plugin-react \
     eslint-plugin-react-hooks \

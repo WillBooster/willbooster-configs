@@ -5,6 +5,8 @@ import eslintPluginReact from 'eslint-plugin-react';
 import eslintPluginReactCompiler from 'eslint-plugin-react-compiler';
 import eslintPluginReactHooks from 'eslint-plugin-react-hooks';
 
+const [reactHooksFlatRecommended] = eslintPluginReactHooks.configs['flat/recommended'];
+
 export default [
   ...jsConfig,
   {
@@ -13,8 +15,8 @@ export default [
   // cf. https://github.com/jsx-eslint/eslint-plugin-react#flat-configs
   eslintPluginReact.configs.flat.recommended,
   eslintPluginReact.configs.flat['jsx-runtime'],
-  // cf. https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks#flat-config-eslintconfigjsts
-  eslintPluginReactHooks.configs['recommended-latest'],
+  // cf. https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks#readme
+  reactHooksFlatRecommended,
   // cf. https://www.npmjs.com/package/eslint-plugin-react-compiler
   eslintPluginReactCompiler.configs.recommended,
   {

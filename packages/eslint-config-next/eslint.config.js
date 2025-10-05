@@ -1,12 +1,10 @@
 /* eslint-disable unicorn/no-null */
 
-import path from 'node:path';
-import { fileURLToPath } from 'node:url';
-
-import { FlatCompat } from '@eslint/eslintrc';
 import js from '@eslint/js';
+import eslintPluginNext from '@next/eslint-plugin-next';
 import eslintConfigFlatGitignore from 'eslint-config-flat-gitignore';
 import eslintConfigPrettier from 'eslint-config-prettier';
+import eslintPluginImportX from 'eslint-plugin-import-x';
 import eslintPluginReact from 'eslint-plugin-react';
 import eslintPluginReactCompiler from 'eslint-plugin-react-compiler';
 import eslintPluginSortClassMembers from 'eslint-plugin-sort-class-members';
@@ -16,20 +14,14 @@ import eslintPluginUnusedImports from 'eslint-plugin-unused-imports';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
-// mimic CommonJS variables -- not needed if using CommonJS
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
-});
+const { flatConfig: eslintPluginNextFlatConfig } = eslintPluginNext;
 
 const config = [
-  ...compat.extends('next/core-web-vitals'),
+  eslintPluginNextFlatConfig.coreWebVitals,
 
-  // We import configs of eslint-config-js/js-react/ts/ts-react manually
-  // because next/core-web-vitals depends on eslint-plugin-import,
-  // but we want to keep using eslint-plugin-import-x in the above configs.
+  // We import configs of eslint-config-js/js-react/ts/ts-react manually so
+  // the Next.js rules layer on top of our standard setups powered by
+  // eslint-plugin-import-x.
 
   // --------------- from eslint-config-js ---------------
   // Note: don't merge the below two objects!
@@ -66,6 +58,7 @@ const config = [
   eslintPluginUnicorn.configs.recommended,
   {
     plugins: {
+      'import-x': eslintPluginImportX,
       'sort-class-members': eslintPluginSortClassMembers,
       'sort-destructure-keys': eslintPluginSortDestructureKeys,
     },
@@ -86,9 +79,9 @@ const config = [
       'object-shorthand': 'error',
       'one-var': ['error', 'never'], // We prefer one variable declaration per line.
       'spaced-comment': 'error', // Enforce consistency of spacing after the start of a comment // or /*.
-      'import/newline-after-import': 'error',
-      'import/no-duplicates': 'error',
-      'import/order': [
+      'import-x/newline-after-import': 'error',
+      'import-x/no-duplicates': 'error',
+      'import-x/order': [
         'error',
         {
           'newlines-between': 'always',
@@ -302,7 +295,7 @@ const config = [
       'src/pages/api/**/*.ts',
     ],
     rules: {
-      'import/no-default-export': 'off',
+      'import-x/no-default-export': 'off',
     },
   },
   {

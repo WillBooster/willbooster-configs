@@ -2190,9 +2190,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/eslint-config-js-react@npm:^11.2.0":
-  version: 11.5.4
-  resolution: "@willbooster/eslint-config-js-react@npm:11.5.4"
+"@willbooster/eslint-config-js-react@npm:^11.5.5":
+  version: 11.5.5
+  resolution: "@willbooster/eslint-config-js-react@npm:11.5.5"
   dependencies:
     "@willbooster/eslint-config-js": "npm:11.4.4"
   peerDependencies:
@@ -2203,13 +2203,13 @@ __metadata:
     eslint-plugin-import-x: ">=4"
     eslint-plugin-react: ">=7"
     eslint-plugin-react-compiler: ">=19.1.0-rc.2"
-    eslint-plugin-react-hooks: ">=5"
+    eslint-plugin-react-hooks: ">=6"
     eslint-plugin-sort-class-members: ">=1.21"
     eslint-plugin-sort-destructure-keys: ">=2"
     eslint-plugin-unicorn: ">=57"
     eslint-plugin-unused-imports: ">=4"
     globals: ">=16"
-  checksum: 10c0/61eca68f6b72d8ca9ce0006c93c7de3015e0e4e4953fd94fe2d26cb4ad071d16eac07d9db169db4d272636d332210aa8473f392530abb9d043a97c05029dd2cc
+  checksum: 10c0/3d61cb5303d75bcf4694b33b736912864186f81a0136ddd0ff3d7d0c102e24dcb7ca254db5045fc4bbf0f2da034328e3b10f3475cca69ff12c527cee591de853
   languageName: node
   linkType: hard
 
@@ -2373,7 +2373,7 @@ __metadata:
     "@types/micromatch": "npm:4.0.9"
     "@types/node": "npm:24.7.1"
     "@types/react": "npm:19.2.2"
-    "@willbooster/eslint-config-js-react": "npm:^11.2.0"
+    "@willbooster/eslint-config-js-react": "npm:^11.5.5"
     "@willbooster/eslint-config-ts": "npm:^11.2.0"
     "@willbooster/prettier-config": "npm:^10.0.0"
     eslint: "npm:9.37.0"

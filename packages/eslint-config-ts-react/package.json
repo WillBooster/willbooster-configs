@@ -22,7 +22,7 @@
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {
-    "@willbooster/eslint-config-js-react": "^11.2.0",
+    "@willbooster/eslint-config-js-react": "^11.5.5",
     "@willbooster/eslint-config-ts": "^11.2.0"
   },
   "devDependencies": {

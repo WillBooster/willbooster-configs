@@ -5,7 +5,7 @@ import eslintPluginReact from 'eslint-plugin-react';
 import eslintPluginReactCompiler from 'eslint-plugin-react-compiler';
 import eslintPluginReactHooks from 'eslint-plugin-react-hooks';
 
-const [reactHooksFlatRecommended] = eslintPluginReactHooks.configs['flat/recommended'];
+const reactHooksFlatRecommended = eslintPluginReactHooks.configs.flat.recommended;
 
 export default [
   ...jsConfig,

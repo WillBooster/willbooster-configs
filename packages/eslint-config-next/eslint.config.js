@@ -16,7 +16,7 @@ import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
 const { flatConfig: eslintPluginNextFlatConfig } = eslintPluginNext;
-const [reactHooksFlatRecommended] = eslintPluginReactHooks.configs['flat/recommended'];
+const reactHooksFlatRecommended = eslintPluginReactHooks.configs.flat.recommended;
 
 const config = [
   eslintPluginNextFlatConfig.coreWebVitals,

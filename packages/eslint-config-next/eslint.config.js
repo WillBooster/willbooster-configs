@@ -19,7 +19,8 @@ const { flatConfig: eslintPluginNextFlatConfig } = eslintPluginNext;
 const reactHooksFlatRecommended = eslintPluginReactHooks.configs.flat.recommended;
 
 const config = [
-  eslintPluginNextFlatConfig.coreWebVitals,
+  // Since eslintPluginNextFlatConfig.coreWebVitals does not work on Next.js 16 beta.
+  ...[eslintPluginNextFlatConfig?.coreWebVitals].filter(Boolean),
 
   // We import configs of eslint-config-js/js-react/ts/ts-react manually so
   // the Next.js rules layer on top of our standard setups powered by

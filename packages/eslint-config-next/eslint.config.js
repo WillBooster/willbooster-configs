@@ -176,8 +176,9 @@ const config = [
     },
     rules: {
       '@typescript-eslint/camelcase': 'off', // c.f. https://github.com/typescript-eslint/typescript-eslint/issues/2050
-      // because `interface Param` cause errors on Next.js
-      '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
+      // cf. https://zenn.dev/bmth/articles/interface-props-extends
+      // Note: `interface Params` causes errors on Next.js. We should extends it with Next.js `Params`.
+      '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
       '@typescript-eslint/consistent-type-imports': 'error',
       '@typescript-eslint/explicit-function-return-type': [
         'error',

@@ -23,10 +23,10 @@
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
     "@eslint/eslintrc": "3.3.1",
-    "@eslint/js": "9.39.0",
+    "@eslint/js": "9.39.1",
     "@types/eslint": "9.6.1",
     "@types/micromatch": "4.0.10",
-    "@types/node": "24.9.2",
+    "@types/node": "24.10.0",
     "@types/react": "19.2.2",
     "@willbooster/prettier-config": "^10.0.0",
     "eslint": "9.37.0",
@@ -51,7 +51,7 @@
     "react": "19.2.0",
     "sort-package-json": "3.4.0",
     "typescript": "5.9.3",
-    "typescript-eslint": "8.46.2",
+    "typescript-eslint": "8.46.3",
     "use-immer": "0.11.0"
   },
   "peerDependencies": {

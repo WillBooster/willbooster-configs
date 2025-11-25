@@ -23,6 +23,10 @@
   dependencyDashboardAutoclose: true,
   packageRules: [
     {
+      matchDatasources: ['npm'],
+      minimumReleaseAge: '5 days',
+    },
+    {
       matchDepTypes: ['overrides', 'resolutions'],
       enabled: true,
     },

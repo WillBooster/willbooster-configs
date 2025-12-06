@@ -1,7 +1,12 @@
 {
   "name": "@willbooster/babel-configs",
   "version": "0.0.0-semantically-released",
-  "description": "A set of babel configs for WillBooster projects",
+  "description": "Babel configs for WillBooster projects",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WillBooster/willbooster-configs.git",
+    "directory": "packages/babel-configs"
+  },
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
   "files": [

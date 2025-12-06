@@ -1,7 +1,12 @@
 {
   "name": "@willbooster/biome-config",
   "version": "0.0.0-semantically-released",
-  "description": "A Biome config for WillBooster projects",
+  "description": "Biome config for WillBooster projects",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WillBooster/willbooster-configs.git",
+    "directory": "packages/biome-config"
+  },
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
   "main": "biome.jsonc",

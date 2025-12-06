@@ -1,7 +1,12 @@
 {
   "name": "@willbooster/eslint-config-ts",
   "version": "0.0.0-semantically-released",
-  "description": "A ESLint flat config for TypeScript projects",
+  "description": "ESLint flat config for TypeScript projects",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WillBooster/willbooster-configs.git",
+    "directory": "packages/eslint-config-ts"
+  },
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
   "type": "module",

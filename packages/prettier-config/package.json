@@ -1,7 +1,12 @@
 {
   "name": "@willbooster/prettier-config",
   "version": "0.0.0-semantically-released",
-  "description": "A Prettier config for WillBooster projects",
+  "description": "Prettier config for WillBooster projects",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WillBooster/willbooster-configs.git",
+    "directory": "packages/prettier-config"
+  },
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
   "main": ".prettierrc.json",

@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "check-all-for-ai": "yarn check-for-ai && yarn test",
-    "check-for-ai": "yarn install > /dev/null && yarn format > /dev/null 2> /dev/null || true && yarn lint-fix --quiet",
+    "check-for-ai": "yarn install > /dev/null && yarn format > /dev/null 2> /dev/null || true",
     "cleanup": "yarn format",
     "format": "sort-package-json && yarn prettify",
     "prettify": "prettier --cache --color --write \"**/{.*/,}*.{cjs,css,cts,htm,html,java,js,json,json5,jsonc,jsx,md,mjs,mts,scss,ts,tsx,vue,yaml,yml}\" \"!**/test{-,/}fixtures/**\" || true"
@@ -20,9 +20,9 @@
     "@biomejs/biome": "2.3.7",
     "@willbooster/prettier-config": "^10.0.0",
     "lint-staged": "16.2.7",
-    "prettier": "3.6.2",
+    "prettier": "3.7.3",
     "prettier-plugin-java": "2.7.7",
-    "sort-package-json": "3.4.0"
+    "sort-package-json": "3.5.0"
   },
   "peerDependencies": {
     "@biomejs/biome": ">=2"

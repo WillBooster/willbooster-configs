@@ -30,7 +30,7 @@
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
-    "@anolilab/multi-semantic-release": "3.0.0",
+    "@anolilab/multi-semantic-release": "3.2.2",
     "@types/eslint": "9.6.1",
     "@types/micromatch": "4.0.10",
     "@willbooster/prettier-config": "^10.0.0",
@@ -41,7 +41,7 @@
     "lint-staged": "16.2.7",
     "micromatch": "4.0.8",
     "pinst": "3.0.0",
-    "prettier": "3.7.3",
+    "prettier": "3.7.4",
     "prettier-plugin-java": "2.7.7",
     "semantic-release": "25.0.2",
     "sort-package-json": "3.5.0",

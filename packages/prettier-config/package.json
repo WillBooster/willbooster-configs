@@ -22,9 +22,9 @@
   },
   "devDependencies": {
     "lint-staged": "16.2.7",
-    "prettier": "3.8.0",
+    "prettier": "3.8.1",
     "prettier-plugin-java": "2.8.1",
-    "sort-package-json": "3.6.0"
+    "sort-package-json": "3.6.1"
   },
   "peerDependencies": {
     "prettier": ">=3",

@@ -41,9 +41,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@anolilab/multi-semantic-release@npm:3.2.2":
-  version: 3.2.2
-  resolution: "@anolilab/multi-semantic-release@npm:3.2.2"
+"@anolilab/multi-semantic-release@npm:4.1.1":
+  version: 4.1.1
+  resolution: "@anolilab/multi-semantic-release@npm:4.1.1"
   dependencies:
     "@semrel-extra/topo": "npm:^1.14.1"
     "@visulima/fs": "npm:^4.1.0"
@@ -54,7 +54,7 @@ __metadata:
     detect-newline: "npm:^4.0.1"
     execa: "npm:^9.6.1"
     git-log-parser: "npm:^1.2.1"
-    lodash-es: "npm:^4.17.21"
+    lodash-es: "npm:4.17.23"
     resolve-from: "npm:^5.0.0"
     semver: "npm:^7.7.3"
     signale: "npm:^1.4.0"
@@ -2073,7 +2073,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/configs@workspace:."
   dependencies:
-    "@anolilab/multi-semantic-release": "npm:3.2.2"
+    "@anolilab/multi-semantic-release": "npm:4.1.1"
     "@types/eslint": "npm:9.6.1"
     "@types/micromatch": "npm:4.0.10"
     "@willbooster/prettier-config": "npm:^10.0.0"
@@ -5860,7 +5860,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash-es@npm:^4.17.21":
+"lodash-es@npm:4.17.23, lodash-es@npm:^4.17.21":
   version: 4.17.23
   resolution: "lodash-es@npm:4.17.23"
   checksum: 10c0/3150fb6660c14c7a6b5f23bd11597d884b140c0e862a17fdb415aaa5ef7741523182904a6b7929f04e5f60a11edb5a79499eb448734381c99ffb3c4734beeddd

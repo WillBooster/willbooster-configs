@@ -98,6 +98,11 @@
       matchPackageNames: ['zod'],
       rangeStrategy: 'replace',
     },
+    // Prismaがメモリを食いすぎてRenovateが落ちるので対象外とする。
+    {
+      matchPackageNames: ['prisma', '@prisma/client'],
+      enabled: false,
+    },
   ],
   schedule: ['after 5am on Saturday'],
   timezone: 'Asia/Tokyo',

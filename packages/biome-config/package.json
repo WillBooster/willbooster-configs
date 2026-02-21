@@ -23,7 +23,7 @@
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
     "@biomejs/biome": "2.4.0",
-    "@willbooster/prettier-config": "^10.0.0",
+    "@willbooster/prettier-config": "workspace:*",
     "lint-staged": "16.2.7",
     "prettier": "3.8.1",
     "prettier-plugin-java": "2.8.1",

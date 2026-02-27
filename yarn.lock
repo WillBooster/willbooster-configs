@@ -331,18 +331,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@biomejs/biome@npm:2.4.2":
-  version: 2.4.2
-  resolution: "@biomejs/biome@npm:2.4.2"
+"@biomejs/biome@npm:2.4.4":
+  version: 2.4.4
+  resolution: "@biomejs/biome@npm:2.4.4"
   dependencies:
-    "@biomejs/cli-darwin-arm64": "npm:2.4.2"
-    "@biomejs/cli-darwin-x64": "npm:2.4.2"
-    "@biomejs/cli-linux-arm64": "npm:2.4.2"
-    "@biomejs/cli-linux-arm64-musl": "npm:2.4.2"
-    "@biomejs/cli-linux-x64": "npm:2.4.2"
-    "@biomejs/cli-linux-x64-musl": "npm:2.4.2"
-    "@biomejs/cli-win32-arm64": "npm:2.4.2"
-    "@biomejs/cli-win32-x64": "npm:2.4.2"
+    "@biomejs/cli-darwin-arm64": "npm:2.4.4"
+    "@biomejs/cli-darwin-x64": "npm:2.4.4"
+    "@biomejs/cli-linux-arm64": "npm:2.4.4"
+    "@biomejs/cli-linux-arm64-musl": "npm:2.4.4"
+    "@biomejs/cli-linux-x64": "npm:2.4.4"
+    "@biomejs/cli-linux-x64-musl": "npm:2.4.4"
+    "@biomejs/cli-win32-arm64": "npm:2.4.4"
+    "@biomejs/cli-win32-x64": "npm:2.4.4"
   dependenciesMeta:
     "@biomejs/cli-darwin-arm64":
       optional: true
@@ -362,62 +362,62 @@ __metadata:
       optional: true
   bin:
     biome: bin/biome
-  checksum: 10c0/1386dfd94642350c82594a6aac2ffdc041a37c5f58fcba5d5055ed952372f3d38e87f29cd4a946114f4af8a29d4c8d007887993b440fbb81460ec12f0a5b841f
+  checksum: 10c0/f2b7620d39caeeb9e0ed070dd1065cc2378626c7fa6ecda3db84b64df4c94fb4909407726044e28c83e8a95121ad389498cc3f0e5be600a421d906ca705b821c
   languageName: node
   linkType: hard
 
-"@biomejs/cli-darwin-arm64@npm:2.4.2":
-  version: 2.4.2
-  resolution: "@biomejs/cli-darwin-arm64@npm:2.4.2"
+"@biomejs/cli-darwin-arm64@npm:2.4.4":
+  version: 2.4.4
+  resolution: "@biomejs/cli-darwin-arm64@npm:2.4.4"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-darwin-x64@npm:2.4.2":
-  version: 2.4.2
-  resolution: "@biomejs/cli-darwin-x64@npm:2.4.2"
+"@biomejs/cli-darwin-x64@npm:2.4.4":
+  version: 2.4.4
+  resolution: "@biomejs/cli-darwin-x64@npm:2.4.4"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-arm64-musl@npm:2.4.2":
-  version: 2.4.2
-  resolution: "@biomejs/cli-linux-arm64-musl@npm:2.4.2"
+"@biomejs/cli-linux-arm64-musl@npm:2.4.4":
+  version: 2.4.4
+  resolution: "@biomejs/cli-linux-arm64-musl@npm:2.4.4"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-arm64@npm:2.4.2":
-  version: 2.4.2
-  resolution: "@biomejs/cli-linux-arm64@npm:2.4.2"
+"@biomejs/cli-linux-arm64@npm:2.4.4":
+  version: 2.4.4
+  resolution: "@biomejs/cli-linux-arm64@npm:2.4.4"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-x64-musl@npm:2.4.2":
-  version: 2.4.2
-  resolution: "@biomejs/cli-linux-x64-musl@npm:2.4.2"
+"@biomejs/cli-linux-x64-musl@npm:2.4.4":
+  version: 2.4.4
+  resolution: "@biomejs/cli-linux-x64-musl@npm:2.4.4"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-x64@npm:2.4.2":
-  version: 2.4.2
-  resolution: "@biomejs/cli-linux-x64@npm:2.4.2"
+"@biomejs/cli-linux-x64@npm:2.4.4":
+  version: 2.4.4
+  resolution: "@biomejs/cli-linux-x64@npm:2.4.4"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@biomejs/cli-win32-arm64@npm:2.4.2":
-  version: 2.4.2
-  resolution: "@biomejs/cli-win32-arm64@npm:2.4.2"
+"@biomejs/cli-win32-arm64@npm:2.4.4":
+  version: 2.4.4
+  resolution: "@biomejs/cli-win32-arm64@npm:2.4.4"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-win32-x64@npm:2.4.2":
-  version: 2.4.2
-  resolution: "@biomejs/cli-win32-x64@npm:2.4.2"
+"@biomejs/cli-win32-x64@npm:2.4.4":
+  version: 2.4.4
+  resolution: "@biomejs/cli-win32-x64@npm:2.4.4"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -517,17 +517,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/compat@npm:^1.2.5":
-  version: 1.4.1
-  resolution: "@eslint/compat@npm:1.4.1"
+"@eslint/compat@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "@eslint/compat@npm:2.0.2"
   dependencies:
-    "@eslint/core": "npm:^0.17.0"
+    "@eslint/core": "npm:^1.1.0"
   peerDependencies:
-    eslint: ^8.40 || 9
+    eslint: ^8.40 || 9 || 10
   peerDependenciesMeta:
     eslint:
       optional: true
-  checksum: 10c0/46f5ff884873c2e2366df55dd7b2d6b12f7f852bfba8e2a48dae4819cc5e58756deefa9b7f87f1b107af725ee883a05fcc02caf969b58fb142e790c6036a0450
+  checksum: 10c0/176df611bcb54ff7d9c3ac440df6844e552a4ed5de30eba28edbeebb68ccc7f19111fdd4c10780101ee5f871bd03ec0457f38c67834c285751c2bdb37d8ae73c
   languageName: node
   linkType: hard
 
@@ -557,6 +557,15 @@ __metadata:
   dependencies:
     "@types/json-schema": "npm:^7.0.15"
   checksum: 10c0/9a580f2246633bc752298e7440dd942ec421860d1946d0801f0423830e67887e4aeba10ab9a23d281727a978eb93d053d1922a587d502942a713607f40ed704e
+  languageName: node
+  linkType: hard
+
+"@eslint/core@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@eslint/core@npm:1.1.0"
+  dependencies:
+    "@types/json-schema": "npm:^7.0.15"
+  checksum: 10c0/0f875d6f24fbf67cc796e01c2ca82884f755488052ed84183e56377c5b90fe10b491a26e600642db4daea1d5d8ab7906ec12f2bd5cbdb5004b0ef73c802bdb57
   languageName: node
   linkType: hard
 
@@ -2047,7 +2056,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/biome-config@workspace:packages/biome-config"
   dependencies:
-    "@biomejs/biome": "npm:2.4.2"
+    "@biomejs/biome": "npm:2.4.4"
     "@willbooster/prettier-config": "npm:^10.0.0"
     lint-staged: "npm:16.2.7"
     prettier: "npm:3.8.1"
@@ -2112,7 +2121,7 @@ __metadata:
     "@willbooster/eslint-config-js": "npm:^11.2.0"
     "@willbooster/prettier-config": "npm:^10.0.0"
     eslint: "npm:9.39.1"
-    eslint-config-flat-gitignore: "npm:2.1.0"
+    eslint-config-flat-gitignore: "npm:2.2.1"
     eslint-config-prettier: "npm:10.1.8"
     eslint-plugin-import-x: "npm:4.16.1"
     eslint-plugin-react: "npm:7.37.5"
@@ -2171,7 +2180,7 @@ __metadata:
     "@eslint/js": "npm:10.0.1"
     "@willbooster/prettier-config": "npm:^10.0.0"
     eslint: "npm:9.39.1"
-    eslint-config-flat-gitignore: "npm:2.1.0"
+    eslint-config-flat-gitignore: "npm:2.2.1"
     eslint-config-prettier: "npm:10.1.8"
     eslint-plugin-import-x: "npm:4.16.1"
     eslint-plugin-sort-class-members: "npm:1.21.0"
@@ -2210,7 +2219,7 @@ __metadata:
     "@types/react": "npm:19.2.14"
     "@willbooster/prettier-config": "npm:^10.0.0"
     eslint: "npm:9.39.1"
-    eslint-config-flat-gitignore: "npm:2.1.0"
+    eslint-config-flat-gitignore: "npm:2.2.1"
     eslint-config-next: "npm:16.1.6"
     eslint-config-prettier: "npm:10.1.8"
     eslint-import-resolver-typescript: "npm:4.4.4"
@@ -2268,7 +2277,7 @@ __metadata:
     "@willbooster/eslint-config-ts": "npm:^11.2.0"
     "@willbooster/prettier-config": "npm:^10.0.0"
     eslint: "npm:9.39.1"
-    eslint-config-flat-gitignore: "npm:2.1.0"
+    eslint-config-flat-gitignore: "npm:2.2.1"
     eslint-config-prettier: "npm:10.1.8"
     eslint-import-resolver-typescript: "npm:4.4.4"
     eslint-plugin-import-x: "npm:4.16.1"
@@ -2343,7 +2352,7 @@ __metadata:
     "@willbooster/eslint-config-js": "npm:^11.2.0"
     "@willbooster/prettier-config": "npm:^10.0.0"
     eslint: "npm:9.39.1"
-    eslint-config-flat-gitignore: "npm:2.1.0"
+    eslint-config-flat-gitignore: "npm:2.2.1"
     eslint-config-prettier: "npm:10.1.8"
     eslint-import-resolver-typescript: "npm:4.4.4"
     eslint-plugin-import-x: "npm:4.16.1"
@@ -2410,7 +2419,7 @@ __metadata:
     "@willbooster/eslint-config-ts": "npm:^11.2.0"
     "@willbooster/prettier-config": "npm:^10.0.0"
     eslint: "npm:9.39.1"
-    eslint-config-flat-gitignore: "npm:2.1.0"
+    eslint-config-flat-gitignore: "npm:2.2.1"
     eslint-config-prettier: "npm:10.1.8"
     eslint-import-resolver-typescript: "npm:4.4.4"
     eslint-plugin-import-x: "npm:4.16.1"
@@ -3801,14 +3810,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-flat-gitignore@npm:2.1.0":
-  version: 2.1.0
-  resolution: "eslint-config-flat-gitignore@npm:2.1.0"
+"eslint-config-flat-gitignore@npm:2.2.1":
+  version: 2.2.1
+  resolution: "eslint-config-flat-gitignore@npm:2.2.1"
   dependencies:
-    "@eslint/compat": "npm:^1.2.5"
+    "@eslint/compat": "npm:^2.0.2"
   peerDependencies:
-    eslint: ^9.5.0
-  checksum: 10c0/ed043b2bbbaf14fcc063343888810292bfc3e671d69d9406085a102e4b60b6787a06602da289eb3e71a67ace201b69203a86998f0a3b5de8213706690d8b101b
+    eslint: ^9.5.0 || ^10.0.0
+  checksum: 10c0/e2d9069c87b5355ba8d46e9f3b516eac04bbfd76c73b00aced6eb39834b2973cbabbef3dbb5a80a2b638b50d59fa577b6e058daee8fd60d4b57e0d6b930d9bad
   languageName: node
   linkType: hard
 

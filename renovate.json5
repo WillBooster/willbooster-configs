@@ -16,6 +16,7 @@
     'group:linters',
     'group:nodeJs',
     'group:test',
+    'group:definitelyTyped',
     // Keep grouped updates while avoiding huge all-in-one lockfile churn.
     'group:recommended',
     'docker:enableMajor',
@@ -26,6 +27,16 @@
     {
       matchDatasources: ['npm'],
       minimumReleaseAge: '5 days',
+    },
+    {
+      groupName: 'deps (non-major)',
+      matchDepTypes: ['dependencies'],
+      matchUpdateTypes: ['minor', 'patch'],
+    },
+    {
+      groupName: 'devDeps (non-major)',
+      matchDepTypes: ['devDependencies'],
+      matchUpdateTypes: ['minor', 'patch'],
     },
     {
       description: 'Allow immediate updates for preapproved npm packages',

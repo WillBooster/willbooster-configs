@@ -16,7 +16,8 @@
     'group:linters',
     'group:nodeJs',
     'group:test',
-    'group:allNonMajor',
+    // Keep grouped updates while avoiding huge all-in-one lockfile churn.
+    'group:recommended',
     'docker:enableMajor',
     'docker:pinDigests',
   ],

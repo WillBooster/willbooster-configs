@@ -16,7 +16,8 @@
     'group:linters',
     'group:nodeJs',
     'group:test',
-    'group:allNonMajor',
+    'group:definitelyTyped',
+    'group:recommended',
     'docker:enableMajor',
     'docker:pinDigests',
   ],
@@ -25,6 +26,16 @@
     {
       matchDatasources: ['npm'],
       minimumReleaseAge: '5 days',
+    },
+    {
+      groupName: 'deps (non-major)',
+      matchDepTypes: ['dependencies'],
+      matchUpdateTypes: ['minor', 'patch'],
+    },
+    {
+      groupName: 'devDeps (non-major)',
+      matchDepTypes: ['devDependencies'],
+      matchUpdateTypes: ['minor', 'patch'],
     },
     {
       description: 'Allow immediate updates for preapproved npm packages',

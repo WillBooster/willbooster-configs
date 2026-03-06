@@ -29,11 +29,13 @@
     },
     {
       groupName: 'deps (non-major)',
+      groupSlug: 'deps-non-major',
       matchDepTypes: ['dependencies'],
       matchUpdateTypes: ['minor', 'patch'],
     },
     {
       groupName: 'devDeps (non-major)',
+      groupSlug: 'devdeps-non-major',
       matchDepTypes: ['devDependencies'],
       matchUpdateTypes: ['minor', 'patch'],
     },

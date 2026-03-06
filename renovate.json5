@@ -28,12 +28,14 @@
       minimumReleaseAge: '5 days',
     },
     {
-      groupName: 'deps (non-major)',
+      groupName: 'dependencies (non-major)',
+      groupSlug: 'deps-non-major',
       matchDepTypes: ['dependencies'],
       matchUpdateTypes: ['minor', 'patch'],
     },
     {
-      groupName: 'devDeps (non-major)',
+      groupName: 'devDependencies (non-major)',
+      groupSlug: 'dev-deps-non-major',
       matchDepTypes: ['devDependencies'],
       matchUpdateTypes: ['minor', 'patch'],
     },

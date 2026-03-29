@@ -29,8 +29,8 @@
     "sort-package-json": "3.6.1"
   },
   "peerDependencies": {
-    "oxlint": ">=1",
-    "oxlint-tsgolint": ">=0.15.0"
+    "oxlint": ">=1.57.0",
+    "oxlint-tsgolint": ">=0.18.1"
   },
   "publishConfig": {
     "access": "public"

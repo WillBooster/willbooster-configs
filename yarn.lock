@@ -2541,8 +2541,8 @@ __metadata:
     prettier-plugin-java: "npm:2.8.1"
     sort-package-json: "npm:3.6.1"
   peerDependencies:
-    oxlint: ">=1"
-    oxlint-tsgolint: ">=0.15.0"
+    oxlint: ">=1.57.0"
+    oxlint-tsgolint: ">=0.18.1"
   languageName: unknown
   linkType: soft
 

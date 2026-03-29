@@ -1,9 +1,10 @@
 # prettier-config
 
 A prettier config file for my repositories.
-You need to do the following command to install peer dependencies.
+Install the package and its peer dependencies.
 
-```
-yarn add -D prettier \
+```sh
+yarn add -D @willbooster/prettier-config \
+    prettier \
     prettier-plugin-java
 ```

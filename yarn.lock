@@ -2531,6 +2531,21 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@willbooster/oxlint-config@workspace:packages/oxlint-config":
+  version: 0.0.0-use.local
+  resolution: "@willbooster/oxlint-config@workspace:packages/oxlint-config"
+  dependencies:
+    "@willbooster/prettier-config": "npm:^10.2.4"
+    lint-staged: "npm:16.4.0"
+    prettier: "npm:3.8.1"
+    prettier-plugin-java: "npm:2.8.1"
+    sort-package-json: "npm:3.6.1"
+  peerDependencies:
+    oxlint: ">=1"
+    oxlint-tsgolint: ">=0.15.0"
+  languageName: unknown
+  linkType: soft
+
 "@willbooster/prettier-config@npm:^10.2.4":
   version: 10.2.4
   resolution: "@willbooster/prettier-config@npm:10.2.4"

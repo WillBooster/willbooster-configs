@@ -2195,6 +2195,20 @@ __metadata:
     prettier: "npm:3.8.1"
     prettier-plugin-java: "npm:2.8.1"
     sort-package-json: "npm:3.6.1"
+  peerDependencies:
+    "@babel/core": ">=7"
+    "@babel/plugin-proposal-class-properties": ">=7"
+    "@babel/plugin-proposal-numeric-separator": ">=7"
+    "@babel/preset-env": ">=7"
+    "@babel/preset-react": ">=7"
+    "@babel/preset-typescript": ">=7"
+    babel-plugin-transform-remove-console: ">=6"
+    core-js: ">=3"
+  peerDependenciesMeta:
+    "@babel/preset-react":
+      optional: true
+    core-js:
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2388,11 +2402,10 @@ __metadata:
     typescript-eslint: "npm:8.57.2"
     use-immer: "npm:0.11.0"
   peerDependencies:
-    "@eslint/eslintrc": ">=3"
     "@eslint/js": ">=9"
+    "@next/eslint-plugin-next": ">=16"
     eslint: ">=9"
     eslint-config-flat-gitignore: ">=2.1"
-    eslint-config-next: ">=15"
     eslint-config-prettier: ">=10"
     eslint-import-resolver-typescript: ">=4"
     eslint-plugin-import-x: ">=4"

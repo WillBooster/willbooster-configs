@@ -29,6 +29,24 @@
     "prettier-plugin-java": "2.8.1",
     "sort-package-json": "3.6.1"
   },
+  "peerDependencies": {
+    "@babel/core": ">=7",
+    "@babel/plugin-proposal-class-properties": ">=7",
+    "@babel/plugin-proposal-numeric-separator": ">=7",
+    "@babel/preset-env": ">=7",
+    "@babel/preset-react": ">=7",
+    "@babel/preset-typescript": ">=7",
+    "babel-plugin-transform-remove-console": ">=6",
+    "core-js": ">=3"
+  },
+  "peerDependenciesMeta": {
+    "@babel/preset-react": {
+      "optional": true
+    },
+    "core-js": {
+      "optional": true
+    }
+  },
   "publishConfig": {
     "access": "public"
   }

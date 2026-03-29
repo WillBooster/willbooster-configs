@@ -1,16 +1,17 @@
 {
-  "name": "@willbooster/babel-configs",
+  "name": "@willbooster/oxlint-config",
   "version": "0.0.0-semantically-released",
-  "description": "Babel configs for WillBooster projects",
+  "description": "Oxlint config for WillBooster projects",
   "repository": {
     "type": "git",
     "url": "https://github.com/WillBooster/willbooster-configs.git",
-    "directory": "packages/babel-configs"
+    "directory": "packages/oxlint-config"
   },
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
+  "main": ".oxlintrc.json",
   "files": [
-    "babel.*.cjs"
+    ".oxlintrc.json"
   ],
   "scripts": {
     "check-all-for-ai": "yarn check-for-ai && yarn test",
@@ -21,31 +22,15 @@
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
-    "@types/babel__core": "7.20.5",
     "@willbooster/prettier-config": "^10.2.4",
-    "core-js": "3.49.0",
     "lint-staged": "16.4.0",
     "prettier": "3.8.1",
     "prettier-plugin-java": "2.8.1",
     "sort-package-json": "3.6.1"
   },
   "peerDependencies": {
-    "@babel/core": ">=7",
-    "@babel/plugin-proposal-class-properties": ">=7",
-    "@babel/plugin-proposal-numeric-separator": ">=7",
-    "@babel/preset-env": ">=7",
-    "@babel/preset-react": ">=7",
-    "@babel/preset-typescript": ">=7",
-    "babel-plugin-transform-remove-console": ">=6",
-    "core-js": ">=3"
-  },
-  "peerDependenciesMeta": {
-    "@babel/preset-react": {
-      "optional": true
-    },
-    "core-js": {
-      "optional": true
-    }
+    "oxlint": ">=1.57.0",
+    "oxlint-tsgolint": ">=0.18.1"
   },
   "publishConfig": {
     "access": "public"

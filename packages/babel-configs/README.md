@@ -1,8 +1,9 @@
 # babel-configs
 
 A set of babel config files for my repositories.
+Install `@willbooster/babel-configs` and the peer dependencies required by the config file you use.
 
-## How to add dependencies for babel.config.cjs
+## `babel.config.cjs`
 
 ```sh
 yarn add -D @willbooster/babel-configs \
@@ -14,7 +15,9 @@ yarn add -D @willbooster/babel-configs \
     babel-plugin-transform-remove-console
 ```
 
-## How to add dependencies for babel.corejs.config.cjs
+## `babel.corejs.config.cjs`
+
+This config also requires the optional `core-js` peer dependency.
 
 ```sh
 yarn add -D @willbooster/babel-configs \
@@ -27,7 +30,9 @@ yarn add -D @willbooster/babel-configs \
     core-js
 ```
 
-## How to add dependencies for babel.react.config.cjs
+## `babel.react.config.cjs`
+
+This config also requires the optional `@babel/preset-react` peer dependency.
 
 ```sh
 yarn add -D @willbooster/babel-configs \
@@ -40,7 +45,9 @@ yarn add -D @willbooster/babel-configs \
     babel-plugin-transform-remove-console
 ```
 
-## How to add dependencies for babel.corejs.react.config.cjs
+## `babel.corejs.react.config.cjs`
+
+This config also requires the optional `@babel/preset-react` and `core-js` peer dependencies.
 
 ```sh
 yarn add -D @willbooster/babel-configs \

@@ -1,8 +1,8 @@
 # biome-config
 
 A Biome config file for my repositories.
-You need to do the following command to install peer dependencies.
+Install the package and its peer dependency.
 
-```
-yarn add -D @biomejs/biome
+```sh
+yarn add -D @willbooster/biome-config @biomejs/biome
 ```

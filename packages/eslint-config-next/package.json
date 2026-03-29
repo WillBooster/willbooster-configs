@@ -60,11 +60,10 @@
     "use-immer": "0.11.0"
   },
   "peerDependencies": {
-    "@eslint/eslintrc": ">=3",
     "@eslint/js": ">=9",
+    "@next/eslint-plugin-next": ">=16",
     "eslint": ">=9",
     "eslint-config-flat-gitignore": ">=2.1",
-    "eslint-config-next": ">=15",
     "eslint-config-prettier": ">=10",
     "eslint-import-resolver-typescript": ">=4",
     "eslint-plugin-import-x": ">=4",

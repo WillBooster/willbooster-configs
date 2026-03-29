@@ -1,0 +1,108 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["import", "typescript", "unicorn"],
+  "options": {
+    "typeAware": true
+  },
+  "env": {
+    "builtin": true,
+    "es2026": true,
+    "browser": true,
+    "node": true,
+    "serviceworker": true
+  },
+  "ignorePatterns": [
+    "**/.venv/**",
+    "**/.yarn/**",
+    "**/3rd-party/**",
+    "**/@types/**",
+    "**/__generated__/**",
+    "**/android/**",
+    "**/bin/**",
+    "**/build/**",
+    "**/coverage/**",
+    "**/dist/**",
+    "**/ios/**",
+    "**/no-format/**",
+    "**/node_modules/**",
+    "**/temp/**",
+    "**/test-fixtures/**",
+    "**/test-results/**",
+    "**/test/fixtures/**",
+    "**/*.d.ts",
+    "**/*.min.*js"
+  ],
+  "rules": {
+    "eqeqeq": "warn",
+    "import-x/no-duplicates": "error",
+    "import-x/no-named-as-default-member": "warn",
+    "no-unused-vars": [
+      "warn",
+      {
+        "ignoreRestSiblings": true
+      }
+    ],
+    "unicorn/filename-case": [
+      "error",
+      {
+        "cases": {
+          "camelCase": true,
+          "pascalCase": true
+        }
+      }
+    ],
+    "unicorn/no-array-reduce": "warn",
+    "unicorn/no-null": "warn",
+    "unicorn/no-process-exit": "off",
+    "unicorn/no-useless-undefined": [
+      "error",
+      {
+        "checkArguments": false
+      }
+    ],
+    "unicorn/prefer-top-level-await": "warn",
+    "unicorn/prevent-abbreviations": "off"
+  },
+  "overrides": [
+    {
+      "files": ["{,prisma/**/,src/**/,test/**/,scripts/**/}*.{cts,mts,ts,tsx}"],
+      "rules": {
+        "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
+        "@typescript-eslint/consistent-type-imports": "error",
+        "@typescript-eslint/explicit-function-return-type": [
+          "error",
+          {
+            "allowExpressions": true,
+            "allowHigherOrderFunctions": true
+          }
+        ],
+        "@typescript-eslint/no-explicit-any": "error",
+        "@typescript-eslint/no-misused-promises": [
+          "error",
+          {
+            "checksVoidReturn": {
+              "arguments": false,
+              "attributes": false
+            }
+          }
+        ],
+        "no-unused-vars": [
+          "error",
+          {
+            "argsIgnorePattern": "^_",
+            "ignoreRestSiblings": true
+          }
+        ],
+        "@typescript-eslint/non-nullable-type-assertion-style": "off",
+        "@typescript-eslint/prefer-nullish-coalescing": [
+          "error",
+          {
+            "ignorePrimitives": true
+          }
+        ],
+        "@typescript-eslint/restrict-template-expressions": "off",
+        "no-use-before-define": "off"
+      }
+    }
+  ]
+}

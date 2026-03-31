@@ -4,7 +4,7 @@
   "description": "Oxfmt config for WillBooster projects",
   "repository": {
     "type": "git",
-    "url": "https://github.com/WillBooster/willbooster-configs.git",
+    "url": "git+https://github.com/WillBooster/willbooster-configs.git",
     "directory": "packages/oxfmt-config"
   },
   "license": "Apache-2.0",

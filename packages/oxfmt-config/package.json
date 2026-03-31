@@ -1,17 +1,17 @@
 {
-  "name": "@willbooster/biome-config",
+  "name": "@willbooster/oxfmt-config",
   "version": "0.0.0-semantically-released",
-  "description": "Biome config for WillBooster projects",
+  "description": "Oxfmt config for WillBooster projects",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WillBooster/willbooster-configs.git",
-    "directory": "packages/biome-config"
+    "directory": "packages/oxfmt-config"
   },
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
-  "main": "biome.jsonc",
+  "main": ".oxfmtrc.json",
   "files": [
-    "biome.jsonc"
+    ".oxfmtrc.json"
   ],
   "scripts": {
     "check-all-for-ai": "yarn check-for-ai && yarn test",
@@ -22,15 +22,13 @@
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
-    "@biomejs/biome": "2.4.8",
-    "@willbooster/prettier-config": "^10.2.4",
     "lint-staged": "16.4.0",
     "prettier": "3.8.1",
     "prettier-plugin-java": "2.8.1",
     "sort-package-json": "3.6.1"
   },
   "peerDependencies": {
-    "@biomejs/biome": ">=2"
+    "oxfmt": ">=0.42.0"
   },
   "publishConfig": {
     "access": "public"

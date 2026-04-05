@@ -22,7 +22,7 @@
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
-    "@willbooster/prettier-config": "^10.2.4",
+    "@willbooster/prettier-config": "^10.4.0",
     "lint-staged": "16.4.0",
     "prettier": "3.8.1",
     "prettier-plugin-java": "2.8.1",

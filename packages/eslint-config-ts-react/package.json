@@ -31,13 +31,13 @@
     "@willbooster/eslint-config-ts": "^11.4.12"
   },
   "devDependencies": {
-    "@eslint/js": "10.0.1",
+    "@eslint/js": "9.39.4",
     "@types/eslint": "9.6.1",
     "@types/micromatch": "4.0.10",
     "@types/node": "25.5.0",
     "@types/react": "19.2.14",
-    "@willbooster/prettier-config": "^10.2.4",
-    "eslint": "9.39.1",
+    "@willbooster/prettier-config": "^10.4.0",
+    "eslint": "9.39.4",
     "eslint-config-flat-gitignore": "2.3.0",
     "eslint-config-prettier": "10.1.8",
     "eslint-import-resolver-typescript": "4.4.4",

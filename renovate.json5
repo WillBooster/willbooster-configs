@@ -9,7 +9,6 @@
     ':automergePr',
     ':automergeTesters',
     ':automergeTypes',
-    ':maintainLockFilesWeekly',
     ':prImmediately',
     ':rebaseStalePrs',
     ':semanticCommits',

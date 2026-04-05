@@ -1,10 +1,9 @@
-import child_process from 'node:child_process';
+import { execSync } from 'node:child_process';
 
+import { sampleValue } from '@willbooster/shared/src/index.js';
 import { useImmer } from 'use-immer';
 
-import { sampleValue } from '../../shared/src/index.js';
-
-child_process.exec('echo 0');
+execSync('echo 0');
 console.log(useImmer);
 console.log(sampleValue);
 

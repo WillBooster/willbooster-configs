@@ -50,7 +50,7 @@
     "globals": "17.4.0",
     "lint-staged": "16.4.0",
     "micromatch": "4.0.8",
-    "next": "16.2.1",
+    "next": "16.2.2",
     "prettier": "3.8.1",
     "prettier-plugin-java": "2.8.1",
     "react": "19.2.4",

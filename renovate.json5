@@ -33,7 +33,7 @@
       groupSlug: 'all-patch',
       matchPackageNames: [
         '*',
-        // group:nodeJs
+        // group:recommended -> group:nodeJs
         '!/(?:^|/)node$/',
         // group:nextjsMonorepo
         '!next',
@@ -53,7 +53,7 @@
         '!eslint-import-resolver-typescript',
         // group:definitelyTyped
         '!/^@types\\//',
-        // packages:react
+        // group:recommended -> group:react
         '!/^react/',
         '!/^@types\\/react/',
         // group:semantic-releaseMonorepo
@@ -65,7 +65,7 @@
         '!standard',
         '!codelyzer',
         '!/\\btslint\\b/',
-        // group:test
+        // group:test and group:recommended -> jestPlusTypes / jestPlusTSJest
         '!@types/chai',
         '!@types/ember-mocha',
         '!@types/ember-qunit',
@@ -101,6 +101,9 @@
         '!/^qunit/',
         '!/^should/',
         '!/^sinon/',
+        // group:prismaMonorepo
+        '!prisma',
+        '!@prisma/client',
         '!oxlint-tsgolint',
       ],
       matchUpdateTypes: ['patch'],
@@ -110,7 +113,7 @@
       groupSlug: 'all-minor',
       matchPackageNames: [
         '*',
-        // group:nodeJs
+        // group:recommended -> group:nodeJs
         '!/(?:^|/)node$/',
         // group:nextjsMonorepo
         '!next',
@@ -130,7 +133,7 @@
         '!eslint-import-resolver-typescript',
         // group:definitelyTyped
         '!/^@types\\//',
-        // packages:react
+        // group:recommended -> group:react
         '!/^react/',
         '!/^@types\\/react/',
         // group:semantic-releaseMonorepo
@@ -142,7 +145,7 @@
         '!standard',
         '!codelyzer',
         '!/\\btslint\\b/',
-        // group:test
+        // group:test and group:recommended -> jestPlusTypes / jestPlusTSJest
         '!@types/chai',
         '!@types/ember-mocha',
         '!@types/ember-qunit',
@@ -178,6 +181,9 @@
         '!/^qunit/',
         '!/^should/',
         '!/^sinon/',
+        // group:prismaMonorepo
+        '!prisma',
+        '!@prisma/client',
         '!oxlint-tsgolint',
       ],
       matchUpdateTypes: ['minor'],

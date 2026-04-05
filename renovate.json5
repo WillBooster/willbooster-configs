@@ -48,6 +48,7 @@
       groupSlug: 'linters',
       matchPackageNames: [
         '*/eslint-plugin',
+        '@biomejs/**',
         '@babel/eslint-parser',
         '@eslint/**',
         '@eslint-community/**',
@@ -60,6 +61,9 @@
         'typescript-eslint',
         'oxlint',
         'eslint-plugin-oxlint',
+        'oxlint-**',
+        'oxfmt',
+        'oxfmt-**',
         'prettier',
         'remark-lint',
         'standard',

@@ -25,7 +25,7 @@
     "@types/eslint": "9.6.1",
     "@types/micromatch": "4.0.10",
     "@willbooster/eslint-config-ts": "^11.4.12",
-    "@willbooster/prettier-config": "^10.2.4",
+    "@willbooster/prettier-config": "^10.4.0",
     "eslint": "9.39.4",
     "eslint-config-flat-gitignore": "2.3.0",
     "eslint-config-prettier": "10.1.8",

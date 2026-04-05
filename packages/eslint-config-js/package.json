@@ -27,7 +27,7 @@
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
     "@eslint/js": "9.39.4",
-    "@willbooster/prettier-config": "^10.2.4",
+    "@willbooster/prettier-config": "^10.4.0",
     "eslint": "9.39.4",
     "eslint-config-flat-gitignore": "2.3.0",
     "eslint-config-prettier": "10.1.8",

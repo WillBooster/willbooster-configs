@@ -36,10 +36,13 @@
       groupSlug: 'all-patch',
       matchPackageNames: [
         '*',
+        // group:nodeJs
         '!/(?:^|/)node$/',
+        // group:nextjsMonorepo
         '!next',
         '!/^@next\\//',
         '!eslint-config-next',
+        // group:linters
         '!*/eslint-plugin',
         '!@babel/eslint-parser',
         '!/^@eslint\\//',
@@ -52,13 +55,18 @@
         '!/^eslint/',
         '!globals',
         '!eslint-import-resolver-typescript',
+        // group:typescript-eslintMonorepo
         '!typescript-eslint',
+        // group:definitelyTyped
         '!/^@types\\//',
+        // packages:react
         '!/^react/',
         '!/^@types\\/react/',
+        // group:semantic-releaseMonorepo
         '!semantic-release',
         '!/^@semantic-release\\//',
         '!@anolilab/multi-semantic-release',
+        // group:oxlintMonorepo
         '!oxlint',
         '!eslint-plugin-oxlint',
         '!prettier',
@@ -66,6 +74,7 @@
         '!standard',
         '!codelyzer',
         '!/\\btslint\\b/',
+        // group:test
         '!@types/chai',
         '!@types/ember-mocha',
         '!@types/ember-qunit',
@@ -110,10 +119,13 @@
       groupSlug: 'all-minor',
       matchPackageNames: [
         '*',
+        // group:nodeJs
         '!/(?:^|/)node$/',
+        // group:nextjsMonorepo
         '!next',
         '!/^@next\\//',
         '!eslint-config-next',
+        // group:linters
         '!*/eslint-plugin',
         '!@babel/eslint-parser',
         '!/^@eslint\\//',
@@ -126,13 +138,18 @@
         '!/^eslint/',
         '!globals',
         '!eslint-import-resolver-typescript',
+        // group:typescript-eslintMonorepo
         '!typescript-eslint',
+        // group:definitelyTyped
         '!/^@types\\//',
+        // packages:react
         '!/^react/',
         '!/^@types\\/react/',
+        // group:semantic-releaseMonorepo
         '!semantic-release',
         '!/^@semantic-release\\//',
         '!@anolilab/multi-semantic-release',
+        // group:oxlintMonorepo
         '!oxlint',
         '!eslint-plugin-oxlint',
         '!prettier',
@@ -140,6 +157,7 @@
         '!standard',
         '!codelyzer',
         '!/\\btslint\\b/',
+        // group:test
         '!@types/chai',
         '!@types/ember-mocha',
         '!@types/ember-qunit',

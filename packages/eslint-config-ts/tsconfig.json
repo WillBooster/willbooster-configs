@@ -15,6 +15,7 @@
     "sourceMap": true,
     "strict": true,
     "target": "esnext",
+    "types": ["node"],
     "typeRoots": ["../../node_modules/@types", "../../@types", "./@types"]
   },
   "exclude": ["test/fixtures"],

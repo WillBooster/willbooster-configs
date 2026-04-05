@@ -29,10 +29,10 @@
     "@willbooster/eslint-config-js": "^11.4.7"
   },
   "devDependencies": {
-    "@eslint/js": "9.39.1",
+    "@eslint/js": "9.39.4",
     "@willbooster/prettier-config": "^10.2.4",
     "eslint": "9.39.1",
-    "eslint-config-flat-gitignore": "2.2.1",
+    "eslint-config-flat-gitignore": "2.3.0",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-import-x": "4.16.2",
     "eslint-plugin-react": "7.37.5",

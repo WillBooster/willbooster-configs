@@ -50,13 +50,10 @@
         '!/^@stylistic\\/eslint-plugin/',
         '!@types/eslint',
         '!/^@types\\/eslint__/',
-        '!/^@typescript-eslint\\//',
         '!babel-eslint',
         '!/^eslint/',
         '!globals',
         '!eslint-import-resolver-typescript',
-        // group:typescript-eslintMonorepo
-        '!typescript-eslint',
         // group:definitelyTyped
         '!/^@types\\//',
         // packages:react
@@ -66,9 +63,6 @@
         '!semantic-release',
         '!/^@semantic-release\\//',
         '!@anolilab/multi-semantic-release',
-        // group:oxlintMonorepo
-        '!oxlint',
-        '!eslint-plugin-oxlint',
         '!prettier',
         '!remark-lint',
         '!standard',
@@ -133,13 +127,10 @@
         '!/^@stylistic\\/eslint-plugin/',
         '!@types/eslint',
         '!/^@types\\/eslint__/',
-        '!/^@typescript-eslint\\//',
         '!babel-eslint',
         '!/^eslint/',
         '!globals',
         '!eslint-import-resolver-typescript',
-        // group:typescript-eslintMonorepo
-        '!typescript-eslint',
         // group:definitelyTyped
         '!/^@types\\//',
         // packages:react
@@ -149,9 +140,6 @@
         '!semantic-release',
         '!/^@semantic-release\\//',
         '!@anolilab/multi-semantic-release',
-        // group:oxlintMonorepo
-        '!oxlint',
-        '!eslint-plugin-oxlint',
         '!prettier',
         '!remark-lint',
         '!standard',

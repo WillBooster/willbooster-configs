@@ -331,18 +331,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@biomejs/biome@npm:2.4.8":
-  version: 2.4.8
-  resolution: "@biomejs/biome@npm:2.4.8"
+"@biomejs/biome@npm:2.4.10":
+  version: 2.4.10
+  resolution: "@biomejs/biome@npm:2.4.10"
   dependencies:
-    "@biomejs/cli-darwin-arm64": "npm:2.4.8"
-    "@biomejs/cli-darwin-x64": "npm:2.4.8"
-    "@biomejs/cli-linux-arm64": "npm:2.4.8"
-    "@biomejs/cli-linux-arm64-musl": "npm:2.4.8"
-    "@biomejs/cli-linux-x64": "npm:2.4.8"
-    "@biomejs/cli-linux-x64-musl": "npm:2.4.8"
-    "@biomejs/cli-win32-arm64": "npm:2.4.8"
-    "@biomejs/cli-win32-x64": "npm:2.4.8"
+    "@biomejs/cli-darwin-arm64": "npm:2.4.10"
+    "@biomejs/cli-darwin-x64": "npm:2.4.10"
+    "@biomejs/cli-linux-arm64": "npm:2.4.10"
+    "@biomejs/cli-linux-arm64-musl": "npm:2.4.10"
+    "@biomejs/cli-linux-x64": "npm:2.4.10"
+    "@biomejs/cli-linux-x64-musl": "npm:2.4.10"
+    "@biomejs/cli-win32-arm64": "npm:2.4.10"
+    "@biomejs/cli-win32-x64": "npm:2.4.10"
   dependenciesMeta:
     "@biomejs/cli-darwin-arm64":
       optional: true
@@ -362,62 +362,62 @@ __metadata:
       optional: true
   bin:
     biome: bin/biome
-  checksum: 10c0/aa77037ee9e49d3ee8d3efcbe11750a84a3536f9ef05457c77ce34dfb5f06da23630cd701ef98b06abf7c691b64ebebcde9fbfb32abadf6b55bdc825ee600662
+  checksum: 10c0/80d10d5e6fa41a24efb9020ee73b79b0aca46942b55ea96e880c3bb45ea14c71e49fb1be9f134bee23b2d940bb8cad51a70351ca051e09a43613018dba693bd6
   languageName: node
   linkType: hard
 
-"@biomejs/cli-darwin-arm64@npm:2.4.8":
-  version: 2.4.8
-  resolution: "@biomejs/cli-darwin-arm64@npm:2.4.8"
+"@biomejs/cli-darwin-arm64@npm:2.4.10":
+  version: 2.4.10
+  resolution: "@biomejs/cli-darwin-arm64@npm:2.4.10"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-darwin-x64@npm:2.4.8":
-  version: 2.4.8
-  resolution: "@biomejs/cli-darwin-x64@npm:2.4.8"
+"@biomejs/cli-darwin-x64@npm:2.4.10":
+  version: 2.4.10
+  resolution: "@biomejs/cli-darwin-x64@npm:2.4.10"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-arm64-musl@npm:2.4.8":
-  version: 2.4.8
-  resolution: "@biomejs/cli-linux-arm64-musl@npm:2.4.8"
+"@biomejs/cli-linux-arm64-musl@npm:2.4.10":
+  version: 2.4.10
+  resolution: "@biomejs/cli-linux-arm64-musl@npm:2.4.10"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-arm64@npm:2.4.8":
-  version: 2.4.8
-  resolution: "@biomejs/cli-linux-arm64@npm:2.4.8"
+"@biomejs/cli-linux-arm64@npm:2.4.10":
+  version: 2.4.10
+  resolution: "@biomejs/cli-linux-arm64@npm:2.4.10"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-x64-musl@npm:2.4.8":
-  version: 2.4.8
-  resolution: "@biomejs/cli-linux-x64-musl@npm:2.4.8"
+"@biomejs/cli-linux-x64-musl@npm:2.4.10":
+  version: 2.4.10
+  resolution: "@biomejs/cli-linux-x64-musl@npm:2.4.10"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-x64@npm:2.4.8":
-  version: 2.4.8
-  resolution: "@biomejs/cli-linux-x64@npm:2.4.8"
+"@biomejs/cli-linux-x64@npm:2.4.10":
+  version: 2.4.10
+  resolution: "@biomejs/cli-linux-x64@npm:2.4.10"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@biomejs/cli-win32-arm64@npm:2.4.8":
-  version: 2.4.8
-  resolution: "@biomejs/cli-win32-arm64@npm:2.4.8"
+"@biomejs/cli-win32-arm64@npm:2.4.10":
+  version: 2.4.10
+  resolution: "@biomejs/cli-win32-arm64@npm:2.4.10"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-win32-x64@npm:2.4.8":
-  version: 2.4.8
-  resolution: "@biomejs/cli-win32-x64@npm:2.4.8"
+"@biomejs/cli-win32-x64@npm:2.4.10":
+  version: 2.4.10
+  resolution: "@biomejs/cli-win32-x64@npm:2.4.10"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -2236,7 +2236,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/biome-config@workspace:packages/biome-config"
   dependencies:
-    "@biomejs/biome": "npm:2.4.8"
+    "@biomejs/biome": "npm:2.4.10"
     "@willbooster/prettier-config": "npm:^10.2.4"
     lint-staged: "npm:16.4.0"
     prettier: "npm:3.8.1"
@@ -2257,7 +2257,7 @@ __metadata:
     "@types/eslint": "npm:9.6.1"
     "@types/micromatch": "npm:4.0.10"
     "@willbooster/prettier-config": "npm:^10.2.4"
-    conventional-changelog-conventionalcommits: "npm:9.3.0"
+    conventional-changelog-conventionalcommits: "npm:9.3.1"
     dotenv-cli: "npm:11.0.0"
     eslint: "npm:^9"
     lefthook: "npm:2.1.4"
@@ -3408,12 +3408,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-changelog-conventionalcommits@npm:9.3.0":
-  version: 9.3.0
-  resolution: "conventional-changelog-conventionalcommits@npm:9.3.0"
+"conventional-changelog-conventionalcommits@npm:9.3.1":
+  version: 9.3.1
+  resolution: "conventional-changelog-conventionalcommits@npm:9.3.1"
   dependencies:
     compare-func: "npm:^2.0.0"
-  checksum: 10c0/36be9435bb1f6e97bc729a1e69471851b6621054980617dc9a82c03221de5f9c21cd2369308c364f89b2383bd596071f90c8c71efdbe7a2908f91a935685fc76
+  checksum: 10c0/e3d0dfe5680899da3660a7fbc859de1a92dd9358dc497624c3582596173713a80dcc8236d844116a3ba8403350e244c007c0c7fa5796631aea19e464cc6c2f44
   languageName: node
   linkType: hard
 

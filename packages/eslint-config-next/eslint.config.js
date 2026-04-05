@@ -17,6 +17,7 @@ import tseslint from 'typescript-eslint';
 
 const { flatConfig: eslintPluginNextFlatConfig } = eslintPluginNext;
 const reactHooksFlatRecommended = eslintPluginReactHooks.configs.flat.recommended;
+const reactFiles = ['{,prisma/**/,src/**/,test/**/,scripts/**/}*.{jsx,tsx}'];
 
 const config = [
   // Since eslintPluginNextFlatConfig.coreWebVitals does not work on Next.js 16 beta.
@@ -122,13 +123,14 @@ const config = [
 
   // --------------- from eslint-config-js-react ---------------
   // cf. https://github.com/jsx-eslint/eslint-plugin-react#flat-configs
-  eslintPluginReact.configs.flat.recommended,
-  eslintPluginReact.configs.flat['jsx-runtime'],
+  addFilesToConfig(eslintPluginReact.configs.flat.recommended, reactFiles),
+  addFilesToConfig(eslintPluginReact.configs.flat['jsx-runtime'], reactFiles),
   // cf. https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks#readme
-  reactHooksFlatRecommended,
+  addFilesToConfig(reactHooksFlatRecommended, reactFiles),
   // cf. https://www.npmjs.com/package/eslint-plugin-react-compiler
-  eslintPluginReactCompiler.configs.recommended,
+  addFilesToConfig(eslintPluginReactCompiler.configs.recommended, reactFiles),
   {
+    files: reactFiles,
     settings: {
       react: {
         version: 'detect',
@@ -376,3 +378,10 @@ const config = [
 ];
 
 export default config;
+
+function addFilesToConfig(config, files) {
+  return {
+    ...config,
+    files,
+  };
+}

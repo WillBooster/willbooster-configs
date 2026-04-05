@@ -6,20 +6,22 @@ import eslintPluginReactCompiler from 'eslint-plugin-react-compiler';
 import eslintPluginReactHooks from 'eslint-plugin-react-hooks';
 
 const reactHooksFlatRecommended = eslintPluginReactHooks.configs.flat.recommended;
+const reactFiles = ['{,prisma/**/,src/**/,test/**/,scripts/**/}*.jsx'];
 
 export default [
   ...jsConfig,
   {
-    files: ['{,prisma/**/,src/**/,test/**/,scripts/**/}*.jsx'],
+    files: reactFiles,
   },
   // cf. https://github.com/jsx-eslint/eslint-plugin-react#flat-configs
-  eslintPluginReact.configs.flat.recommended,
-  eslintPluginReact.configs.flat['jsx-runtime'],
+  addFilesToConfig(eslintPluginReact.configs.flat.recommended, reactFiles),
+  addFilesToConfig(eslintPluginReact.configs.flat['jsx-runtime'], reactFiles),
   // cf. https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks#readme
-  reactHooksFlatRecommended,
+  addFilesToConfig(reactHooksFlatRecommended, reactFiles),
   // cf. https://www.npmjs.com/package/eslint-plugin-react-compiler
-  eslintPluginReactCompiler.configs.recommended,
+  addFilesToConfig(eslintPluginReactCompiler.configs.recommended, reactFiles),
   {
+    files: reactFiles,
     settings: {
       react: {
         version: 'detect',
@@ -47,3 +49,10 @@ export default [
   // cf. https://github.com/prettier/eslint-config-prettier#installation
   eslintConfigPrettier,
 ];
+
+function addFilesToConfig(config, files) {
+  return {
+    ...config,
+    files,
+  };
+}

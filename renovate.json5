@@ -19,7 +19,7 @@
   dependencyDashboardAutoclose: true,
   packageRules: [
     {
-      matchDatasources: ['npm'],
+      matchDatasources: ['npm', 'pypi'],
       minimumReleaseAge: '5 days',
     },
     {

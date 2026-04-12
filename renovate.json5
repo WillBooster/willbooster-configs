@@ -169,7 +169,15 @@
     {
       description: 'Allow immediate updates for preapproved npm packages',
       matchDatasources: ['npm'],
-      matchPackageNames: ['/^@exercode\\//', '/^@willbooster\\//', 'next', '/^@next\\//', 'react', 'react-dom'],
+      matchPackageNames: [
+        '/^@exercode\\//',
+        '/^@willbooster\\//',
+        'agent-runtime-kit',
+        'next',
+        '/^@next\\//',
+        'react',
+        'react-dom',
+      ],
       minimumReleaseAge: '0 days',
     },
     {

@@ -3299,9 +3299,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.328":
-  version: 1.5.331
-  resolution: "electron-to-chromium@npm:1.5.331"
-  checksum: 10c0/a7687f3bb4df4640bfeac08d1586531624917452bbbbeb67ccf2b07f111e584321e60945da080df664cbb57f272307d7867c8b93e279150ce8385f13d5178c96
+  version: 1.5.332
+  resolution: "electron-to-chromium@npm:1.5.332"
+  checksum: 10c0/0e9aedd5634e81f323919a5fba7e1cf34c18860262a50915fb2371a6c65324cbfa50eaea231d05d235cc40b1b60cfaf0c1546d3f2daa6ad6c03e89dfe21cb55f
   languageName: node
   linkType: hard
 
@@ -7988,9 +7988,9 @@ __metadata:
   linkType: hard
 
 "tinyexec@npm:^1.0.4":
-  version: 1.0.4
-  resolution: "tinyexec@npm:1.0.4"
-  checksum: 10c0/d4a5bbcf6bdb23527a4b74c4aa566f41432167112fe76f420ec7e3a90a3ecfd3a7d944383e2719fc3987b69400f7b928daf08700d145fb527c2e80ec01e198bd
+  version: 1.1.1
+  resolution: "tinyexec@npm:1.1.1"
+  checksum: 10c0/48433cb32573a767e2b63bb92343cbbae4240d05a19a63f7869f9447491305e7bd82d11daccb79b2628b596ad703a25798226c50bfd1d8e63477fb42af6a5b35
   languageName: node
   linkType: hard
 

@@ -8,14 +8,17 @@
     "importHelpers": false,
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
+    "noEmit": false,
     "noUncheckedIndexedAccess": true,
     "outDir": "dist",
     "resolveJsonModule": true,
+    "rootDir": "./src",
     "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
     "target": "esnext",
-    "typeRoots": ["../../node_modules/@types", "../../@types", "./@types"]
+    "typeRoots": ["../../node_modules/@types", "../../@types", "./@types"],
+    "types": ["node"]
   },
   "exclude": ["test/fixtures"],
   "extends": ["@tsconfig/node-lts/tsconfig.json", "@tsconfig/node-ts/tsconfig.json"],

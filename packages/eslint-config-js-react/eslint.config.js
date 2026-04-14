@@ -26,7 +26,7 @@ const reactHooksConflictRules = Object.fromEntries(
 export default [
   ...jsConfig,
   {
-    files: ['{,prisma/**/,src/**/,test/**/,scripts/**/}*.jsx'],
+    files: ['{,prisma/**/,src/**/,test/**/,scripts/**/}*.{js,jsx}'],
     languageOptions: {
       parserOptions: {
         ecmaFeatures: {

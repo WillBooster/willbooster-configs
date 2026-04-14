@@ -12,7 +12,7 @@ import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
 const jsConfig = [
-  // Copied from packages/eslint-config-js/eslint.config.js to keep this published config self-contained.
+  /** Copied from `packages/eslint-config-js/eslint.config.js` to keep this published config self-contained. */
   // Note: don't merge the below two objects!
   {
     files: ['{,prisma/**/,src/**/,test/**/,scripts/**/}*.{cjs,js,mjs}'],
@@ -134,7 +134,7 @@ const jsConfig = [
 
 export default [
   ...jsConfig,
-  // TypeScript-specific rules copied from the previous @willbooster/eslint-config-ts body.
+  /** TypeScript-specific rules copied from the previous `@willbooster/eslint-config-ts` body. */
   ...tseslint.configs.strictTypeChecked.map((config) => ({
     ...config,
     files: ['{,prisma/**/,src/**/,test/**/,scripts/**/}*.{cts,mts,ts}'],

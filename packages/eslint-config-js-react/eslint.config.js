@@ -12,7 +12,7 @@ import eslintPluginUnusedImports from 'eslint-plugin-unused-imports';
 import globals from 'globals';
 
 const jsConfig = [
-  // Copied from packages/eslint-config-js/eslint.config.js to keep this published config self-contained.
+  /** Copied from `packages/eslint-config-js/eslint.config.js` to keep this published config self-contained. */
   // Note: don't merge the below two objects!
   {
     files: ['{,prisma/**/,src/**/,test/**/,scripts/**/}*.{cjs,js,mjs}'],
@@ -134,7 +134,7 @@ const jsConfig = [
 
 export default [
   ...jsConfig,
-  // React-specific rules copied from the previous @willbooster/eslint-config-js-react body.
+  /** React-specific rules copied from the previous `@willbooster/eslint-config-js-react` body. */
   {
     files: ['{,prisma/**/,src/**/,test/**/,scripts/**/}*.{cjs,js,jsx,mjs}'],
     languageOptions: {

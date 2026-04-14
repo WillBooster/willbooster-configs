@@ -15,7 +15,7 @@ import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
 const jsConfig = [
-  // Copied from packages/eslint-config-js/eslint.config.js to keep this published config self-contained.
+  /** Copied from `packages/eslint-config-js/eslint.config.js` to keep this published config self-contained. */
   // Note: don't merge the below two objects!
   {
     files: ['{,prisma/**/,src/**/,test/**/,scripts/**/}*.{cjs,js,mjs}'],
@@ -136,7 +136,7 @@ const jsConfig = [
 ];
 
 const jsReactConfig = [
-  // Copied from packages/eslint-config-js-react/eslint.config.js.
+  /** Copied from `packages/eslint-config-js-react/eslint.config.js`. */
   ...jsConfig,
   {
     files: ['{,prisma/**/,src/**/,test/**/,scripts/**/}*.{cjs,js,jsx,mjs}'],
@@ -192,7 +192,7 @@ const jsReactConfig = [
 ];
 
 const tsConfig = [
-  // Copied from packages/eslint-config-ts/eslint.config.js.
+  /** Copied from `packages/eslint-config-ts/eslint.config.js`. */
   ...jsConfig,
   ...tseslint.configs.strictTypeChecked.map((config) => ({
     ...config,

@@ -13,10 +13,10 @@ yarn add -D @willbooster/eslint-config-js-react \
     eslint-plugin-import-x \
     eslint-plugin-perfectionist \
     eslint-plugin-react-compiler \
-    eslint-plugin-react-hooks \
     eslint-plugin-sort-class-members \
     eslint-plugin-sort-destructure-keys \
     eslint-plugin-unicorn \
     eslint-plugin-unused-imports \
-    globals
+    globals \
+    typescript
 ```

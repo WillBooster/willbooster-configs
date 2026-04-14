@@ -8,7 +8,6 @@ import eslintConfigPrettier from 'eslint-config-prettier';
 import eslintPluginImportX from 'eslint-plugin-import-x';
 import eslintPluginPerfectionist from 'eslint-plugin-perfectionist';
 import eslintPluginReactCompiler from 'eslint-plugin-react-compiler';
-import eslintPluginReactHooks from 'eslint-plugin-react-hooks';
 import eslintPluginSortClassMembers from 'eslint-plugin-sort-class-members';
 import eslintPluginSortDestructureKeys from 'eslint-plugin-sort-destructure-keys';
 import eslintPluginUnicorn from 'eslint-plugin-unicorn';
@@ -17,22 +16,6 @@ import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
 const { flatConfig: eslintPluginNextFlatConfig } = eslintPluginNext;
-const reactHooksFlatRecommended = eslintPluginReactHooks.configs.flat.recommended;
-const reactHooksConflictRules = Object.fromEntries(
-  [
-    'component-hook-factories',
-    'error-boundaries',
-    'exhaustive-deps',
-    'immutability',
-    'purity',
-    'refs',
-    'rules-of-hooks',
-    'set-state-in-effect',
-    'set-state-in-render',
-    'unsupported-syntax',
-    'use-memo',
-  ].map((ruleName) => [`@eslint-react/${ruleName}`, 'off'])
-);
 
 const config = [
   // Since eslintPluginNextFlatConfig.coreWebVitals does not work on Next.js 16 beta.
@@ -144,8 +127,6 @@ const config = [
   // --------------- from eslint-config-js-react ---------------
   // cf. https://eslint-react.xyz/docs/migrating-from-eslint-plugin-react
   eslintPluginReact.configs.recommended,
-  // cf. https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks#readme
-  reactHooksFlatRecommended,
   // cf. https://www.npmjs.com/package/eslint-plugin-react-compiler
   eslintPluginReactCompiler.configs.recommended,
   {
@@ -164,7 +145,6 @@ const config = [
           ignore: ['global', 'jsx'],
         },
       ],
-      ...reactHooksConflictRules,
       'perfectionist/sort-jsx-props': [
         'error',
         {

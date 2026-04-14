@@ -4,29 +4,11 @@ import eslintConfigFlatGitignore from 'eslint-config-flat-gitignore';
 import eslintConfigPrettier from 'eslint-config-prettier';
 import eslintPluginPerfectionist from 'eslint-plugin-perfectionist';
 import eslintPluginReactCompiler from 'eslint-plugin-react-compiler';
-import eslintPluginReactHooks from 'eslint-plugin-react-hooks';
-
-const reactHooksFlatRecommended = eslintPluginReactHooks.configs.flat.recommended;
-const reactHooksConflictRules = Object.fromEntries(
-  [
-    'component-hook-factories',
-    'error-boundaries',
-    'exhaustive-deps',
-    'immutability',
-    'purity',
-    'refs',
-    'rules-of-hooks',
-    'set-state-in-effect',
-    'set-state-in-render',
-    'unsupported-syntax',
-    'use-memo',
-  ].map((ruleName) => [`@eslint-react/${ruleName}`, 'off'])
-);
 
 export default [
   ...jsConfig,
   {
-    files: ['{,prisma/**/,src/**/,test/**/,scripts/**/}*.{js,jsx}'],
+    files: ['{,prisma/**/,src/**/,test/**/,scripts/**/}*.{cjs,js,jsx,mjs}'],
     languageOptions: {
       parserOptions: {
         ecmaFeatures: {
@@ -37,8 +19,6 @@ export default [
   },
   // cf. https://eslint-react.xyz/docs/migrating-from-eslint-plugin-react
   eslintPluginReact.configs.recommended,
-  // cf. https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks#readme
-  reactHooksFlatRecommended,
   // cf. https://www.npmjs.com/package/eslint-plugin-react-compiler
   eslintPluginReactCompiler.configs.recommended,
   {
@@ -57,7 +37,6 @@ export default [
           ignore: ['global', 'jsx'],
         },
       ],
-      ...reactHooksConflictRules,
       'perfectionist/sort-jsx-props': [
         'error',
         {

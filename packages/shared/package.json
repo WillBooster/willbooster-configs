@@ -19,15 +19,15 @@
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
-    "@eslint/js": "^9.39.4",
+    "@eslint/js": "^10.0.1",
     "@tsconfig/node-lts": "24.0.0",
     "@tsconfig/node-ts": "23.6.4",
     "@types/eslint": "9.6.1",
     "@types/micromatch": "4.0.10",
     "@types/node": "25.5.2",
-    "@willbooster/eslint-config-ts": "^11.4.12",
+    "@willbooster/eslint-config-ts": "workspace:^",
     "@willbooster/prettier-config": "^10.4.0",
-    "eslint": "^9.39.4",
+    "eslint": "^10.2.0",
     "eslint-config-flat-gitignore": "2.3.0",
     "eslint-config-prettier": "10.1.8",
     "eslint-import-resolver-typescript": "4.4.4",
@@ -42,6 +42,6 @@
     "prettier-plugin-java": "2.8.1",
     "sort-package-json": "3.6.1",
     "typescript": "^5.9.3",
-    "typescript-eslint": "8.58.0"
+    "typescript-eslint": "8.58.1"
   }
 }

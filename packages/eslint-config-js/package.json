@@ -26,9 +26,9 @@
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
-    "@eslint/js": "9.39.4",
+    "@eslint/js": "10.0.1",
     "@willbooster/prettier-config": "^10.4.0",
-    "eslint": "9.39.4",
+    "eslint": "10.2.0",
     "eslint-config-flat-gitignore": "2.3.0",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-import-x": "4.16.2",
@@ -44,8 +44,8 @@
     "sort-package-json": "3.6.1"
   },
   "peerDependencies": {
-    "@eslint/js": ">=9",
-    "eslint": ">=9",
+    "@eslint/js": ">=10",
+    "eslint": ">=10",
     "eslint-config-flat-gitignore": ">=2.1",
     "eslint-config-prettier": ">=10",
     "eslint-plugin-import-x": ">=4",

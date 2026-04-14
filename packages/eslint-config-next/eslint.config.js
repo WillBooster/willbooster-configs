@@ -1,13 +1,13 @@
 /* eslint-disable unicorn/no-null */
 
 import js from '@eslint/js';
+import eslintPluginReact from '@eslint-react/eslint-plugin';
 import eslintPluginNext from '@next/eslint-plugin-next';
 import eslintConfigFlatGitignore from 'eslint-config-flat-gitignore';
 import eslintConfigPrettier from 'eslint-config-prettier';
 import eslintPluginImportX from 'eslint-plugin-import-x';
-import eslintPluginReact from 'eslint-plugin-react';
+import eslintPluginPerfectionist from 'eslint-plugin-perfectionist';
 import eslintPluginReactCompiler from 'eslint-plugin-react-compiler';
-import eslintPluginReactHooks from 'eslint-plugin-react-hooks';
 import eslintPluginSortClassMembers from 'eslint-plugin-sort-class-members';
 import eslintPluginSortDestructureKeys from 'eslint-plugin-sort-destructure-keys';
 import eslintPluginUnicorn from 'eslint-plugin-unicorn';
@@ -16,7 +16,6 @@ import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
 const { flatConfig: eslintPluginNextFlatConfig } = eslintPluginNext;
-const reactHooksFlatRecommended = eslintPluginReactHooks.configs.flat.recommended;
 
 const config = [
   // Since eslintPluginNextFlatConfig.coreWebVitals does not work on Next.js 16 beta.
@@ -67,6 +66,11 @@ const config = [
     },
     languageOptions: {
       ecmaVersion: 'latest',
+      parserOptions: {
+        ecmaFeatures: {
+          jsx: true,
+        },
+      },
       globals: {
         // for Web
         ...globals.browser,
@@ -121,35 +125,42 @@ const config = [
   // -----------------------------------------------------------
 
   // --------------- from eslint-config-js-react ---------------
-  // cf. https://github.com/jsx-eslint/eslint-plugin-react#flat-configs
-  eslintPluginReact.configs.flat.recommended,
-  eslintPluginReact.configs.flat['jsx-runtime'],
-  // cf. https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks#readme
-  reactHooksFlatRecommended,
+  // cf. https://eslint-react.xyz/docs/migrating-from-eslint-plugin-react
+  eslintPluginReact.configs.recommended,
   // cf. https://www.npmjs.com/package/eslint-plugin-react-compiler
   eslintPluginReactCompiler.configs.recommended,
   {
+    plugins: {
+      perfectionist: eslintPluginPerfectionist,
+    },
     settings: {
-      react: {
+      'react-x': {
         version: 'detect',
       },
     },
     rules: {
-      'react/jsx-sort-props': [
-        'error',
-        {
-          callbacksLast: true,
-          shorthandFirst: true,
-          reservedFirst: true,
-        },
-      ],
-      'react/no-unknown-property': [
+      '@eslint-react/dom-no-unknown-property': [
         'error',
         {
           ignore: ['global', 'jsx'],
         },
       ],
-      'react/prop-types': 'off',
+      'perfectionist/sort-jsx-props': [
+        'error',
+        {
+          customGroups: [
+            {
+              groupName: 'reserved',
+              elementNamePattern: '^(children|dangerouslySetInnerHTML|key|ref)$',
+            },
+            {
+              groupName: 'callback',
+              elementNamePattern: '^on[A-Z]',
+            },
+          ],
+          groups: ['reserved', 'shorthand-prop', 'unknown', 'callback'],
+        },
+      ],
     },
   },
   // -----------------------------------------------------------

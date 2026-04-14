@@ -7,6 +7,21 @@ import eslintPluginReactCompiler from 'eslint-plugin-react-compiler';
 import eslintPluginReactHooks from 'eslint-plugin-react-hooks';
 
 const reactHooksFlatRecommended = eslintPluginReactHooks.configs.flat.recommended;
+const reactHooksConflictRules = Object.fromEntries(
+  [
+    'component-hook-factories',
+    'error-boundaries',
+    'exhaustive-deps',
+    'immutability',
+    'purity',
+    'refs',
+    'rules-of-hooks',
+    'set-state-in-effect',
+    'set-state-in-render',
+    'unsupported-syntax',
+    'use-memo',
+  ].map((ruleName) => [`@eslint-react/${ruleName}`, 'off'])
+);
 
 export default [
   ...jsConfig,
@@ -36,13 +51,13 @@ export default [
       },
     },
     rules: {
-      '@eslint-react/dom/no-unknown-property': [
+      '@eslint-react/dom-no-unknown-property': [
         'error',
         {
           ignore: ['global', 'jsx'],
         },
       ],
-      '@eslint-react/no-prop-types': 'off',
+      ...reactHooksConflictRules,
       'perfectionist/sort-jsx-props': [
         'error',
         {

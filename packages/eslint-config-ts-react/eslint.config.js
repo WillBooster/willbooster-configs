@@ -46,7 +46,7 @@ const jsConfig = [
   // cf. https://github.com/eslint/eslint/blob/main/packages/js/src/configs/eslint-recommended.js
   js.configs.recommended,
   // cf. https://github.com/un-ts/eslint-plugin-import-x#configuration-new-eslintconfigjs
-   
+
   eslintPluginImportX.flatConfigs.recommended,
   // cf. https://github.com/sindresorhus/eslint-plugin-unicorn#recommended-config
   eslintPluginUnicorn.configs.recommended,

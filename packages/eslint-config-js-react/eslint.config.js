@@ -11,8 +11,8 @@ import eslintPluginUnicorn from 'eslint-plugin-unicorn';
 import eslintPluginUnusedImports from 'eslint-plugin-unused-imports';
 import globals from 'globals';
 
+/** Copied from `packages/eslint-config-js/eslint.config.js` to keep this published config self-contained. */
 const jsConfig = [
-  /** Copied from `packages/eslint-config-js/eslint.config.js` to keep this published config self-contained. */
   // Note: don't merge the below two objects!
   {
     files: ['{,prisma/**/,src/**/,test/**/,scripts/**/}*.{cjs,js,mjs}'],

@@ -31,6 +31,7 @@
     "@willbooster/eslint-config-ts": "^11.4.12"
   },
   "devDependencies": {
+    "@eslint-react/eslint-plugin": "2.13.0",
     "@eslint/js": "9.39.4",
     "@types/eslint": "9.6.1",
     "@types/micromatch": "4.0.10",
@@ -42,7 +43,7 @@
     "eslint-config-prettier": "10.1.8",
     "eslint-import-resolver-typescript": "4.4.4",
     "eslint-plugin-import-x": "4.16.2",
-    "eslint-plugin-react": "7.37.5",
+    "eslint-plugin-perfectionist": "5.8.0",
     "eslint-plugin-react-compiler": "19.1.0-rc.2",
     "eslint-plugin-react-hooks": "7.0.1",
     "eslint-plugin-sort-class-members": "1.21.0",
@@ -61,13 +62,14 @@
     "use-immer": "0.11.0"
   },
   "peerDependencies": {
+    "@eslint-react/eslint-plugin": ">=2.13.0",
     "@eslint/js": ">=9",
     "eslint": ">=9",
     "eslint-config-flat-gitignore": ">=2.1",
     "eslint-config-prettier": ">=10",
     "eslint-import-resolver-typescript": ">=3",
     "eslint-plugin-import-x": ">=4",
-    "eslint-plugin-react": ">=7",
+    "eslint-plugin-perfectionist": ">=5.8",
     "eslint-plugin-react-compiler": ">=19.1.0-rc.2",
     "eslint-plugin-react-hooks": ">=6",
     "eslint-plugin-sort-class-members": ">=1.21",

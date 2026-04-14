@@ -26,9 +26,6 @@
     "typecheck": "tsc --noEmit --Pretty"
   },
   "prettier": "@willbooster/prettier-config",
-  "dependencies": {
-    "@willbooster/eslint-config-js": "workspace:^"
-  },
   "devDependencies": {
     "@eslint/js": "10.0.1",
     "@types/eslint": "9.6.1",

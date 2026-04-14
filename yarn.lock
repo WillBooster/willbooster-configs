@@ -2145,7 +2145,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/eslint-config-ts@workspace:^, @willbooster/eslint-config-ts@workspace:packages/eslint-config-ts":
+"@willbooster/eslint-config-ts@npm:0.0.0-semantically-released, @willbooster/eslint-config-ts@workspace:packages/eslint-config-ts":
   version: 0.0.0-use.local
   resolution: "@willbooster/eslint-config-ts@workspace:packages/eslint-config-ts"
   dependencies:
@@ -2248,7 +2248,7 @@ __metadata:
     "@types/eslint": "npm:9.6.1"
     "@types/micromatch": "npm:4.0.10"
     "@types/node": "npm:25.5.2"
-    "@willbooster/eslint-config-ts": "workspace:^"
+    "@willbooster/eslint-config-ts": "npm:0.0.0-semantically-released"
     "@willbooster/prettier-config": "npm:^10.4.0"
     eslint: "npm:^10.2.0"
     eslint-config-flat-gitignore: "npm:2.3.0"

@@ -283,6 +283,7 @@ const config = {
     {
       files: [
         '**/app/**/{global-error,not-found}.{js,jsx,ts,tsx}',
+        '**/instrumentation-client.{js,jsx,ts,tsx}',
         '**/pages/{_app,_document,_error,404,500}.{js,jsx,ts,tsx}',
       ],
       rules: {

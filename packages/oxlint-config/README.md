@@ -23,3 +23,9 @@ Run Oxlint as usual.
 ```sh
 oxlint .
 ```
+
+To debug this shared config from this repository, run it against the local fixture project.
+
+```sh
+npx -y -p oxlint@1.60.0 -p oxlint-tsgolint@0.18.1 oxlint --type-aware --type-check -c packages/oxlint-config/.oxlintrc.json packages/oxlint-config
+```

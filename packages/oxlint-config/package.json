@@ -9,9 +9,9 @@
   },
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
-  "main": ".oxlintrc.json",
+  "main": ".oxlintrc.jsonc",
   "files": [
-    ".oxlintrc.json"
+    ".oxlintrc.jsonc"
   ],
   "scripts": {
     "check-all-for-ai": "yarn check-for-ai && yarn test",

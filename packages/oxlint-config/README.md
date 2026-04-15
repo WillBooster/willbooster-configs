@@ -14,7 +14,7 @@ Then extend the shared config from your local `.oxlintrc.json`.
 
 ```json
 {
-  "extends": ["./node_modules/@willbooster/oxlint-config/.oxlintrc.json"]
+  "extends": ["./node_modules/@willbooster/oxlint-config/.oxlintrc.jsonc"]
 }
 ```
 
@@ -27,5 +27,5 @@ oxlint .
 To debug this shared config from this repository, run it against the local fixture project.
 
 ```sh
-npx -y -p oxlint@1.60.0 -p oxlint-tsgolint@0.18.1 oxlint --type-aware --type-check -c packages/oxlint-config/.oxlintrc.json packages/oxlint-config
+npx -y -p oxlint@1.60.0 -p oxlint-tsgolint@0.18.1 oxlint --type-aware --type-check -c packages/oxlint-config/.oxlintrc.jsonc packages/oxlint-config
 ```

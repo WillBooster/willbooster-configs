@@ -70,8 +70,7 @@
         "checkArguments": false
       }
     ],
-    "unicorn/prefer-top-level-await": "warn",
-    "unicorn/prevent-abbreviations": "off"
+    "unicorn/prefer-top-level-await": "warn"
   },
   "overrides": [
     {

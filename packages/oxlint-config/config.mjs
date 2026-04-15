@@ -111,9 +111,11 @@ const config = {
     'promise/param-names': 'error',
     // This rule can flag library-specific promise signatures, so keep it visible without making it fatal.
     'promise/valid-params': 'warn',
-    'react-perf/jsx-no-new-array-as-prop': 'error',
-    'react-perf/jsx-no-new-function-as-prop': 'error',
-    'react-perf/jsx-no-new-object-as-prop': 'error',
+    // React Compiler and framework-specific component APIs make these prop allocation rules too noisy
+    // for shared enforcement. Projects can still opt in locally when referential stability is required.
+    'react-perf/jsx-no-new-array-as-prop': 'off',
+    'react-perf/jsx-no-new-function-as-prop': 'off',
+    'react-perf/jsx-no-new-object-as-prop': 'off',
     'react/display-name': 'error',
     'react/jsx-key': 'error',
     'react/jsx-no-comment-textnodes': 'error',
@@ -278,6 +280,16 @@ const config = {
     'unicorn/throw-new-error': 'error',
   },
   overrides: [
+    {
+      files: [
+        '**/app/**/{global-error,not-found}.{js,jsx,ts,tsx}',
+        '**/pages/{_app,_document,_error,404,500}.{js,jsx,ts,tsx}',
+      ],
+      rules: {
+        // These filenames are reserved by Next.js and cannot be renamed to camelCase or PascalCase.
+        'unicorn/filename-case': 'off',
+      },
+    },
     {
       files: ['{,prisma/**/,src/**/,test/**/,scripts/**/}*.{cts,mts,ts,tsx}'],
       rules: {

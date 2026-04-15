@@ -9,17 +9,19 @@
     "jsx": "react-jsx",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
+    "noEmit": true,
     "noUncheckedIndexedAccess": true,
     "outDir": "dist",
     "resolveJsonModule": true,
-    "rootDir": ".",
+    "rootDir": "../..",
     "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
     "target": "esnext",
-    "types": ["node"],
-    "typeRoots": ["../../node_modules/@types", "../../@types", "./@types"]
+    "typeRoots": ["../../node_modules/@types", "../../@types", "./@types"],
+    "types": ["node"]
   },
   "exclude": ["test/fixtures"],
-  "include": ["scripts/**/*", "src/**/*", "test/**/*"]
+  "extends": ["@tsconfig/node-lts/tsconfig.json", "@tsconfig/node-ts/tsconfig.json"],
+  "include": ["*.config.ts", "scripts/**/*", "src/**/*", "test/**/*"]
 }

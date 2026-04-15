@@ -9,9 +9,18 @@
   },
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
-  "main": ".oxlintrc.jsonc",
+  "exports": {
+    ".": {
+      "types": "./config.d.ts",
+      "default": "./config.mjs"
+    }
+  },
+  "main": "config.mjs",
+  "types": "config.d.ts",
   "files": [
-    ".oxlintrc.jsonc"
+    "config.d.ts",
+    "config.mjs",
+    "oxlint.config.ts"
   ],
   "scripts": {
     "check-all-for-ai": "yarn check-for-ai && yarn test",

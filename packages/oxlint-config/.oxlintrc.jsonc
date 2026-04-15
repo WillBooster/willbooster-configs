@@ -3,14 +3,14 @@
   "plugins": ["eslint", "import", "jsx-a11y", "oxc", "promise", "react", "react-perf", "typescript", "unicorn"],
   "options": {
     "typeAware": true,
-    "typeCheck": true
+    "typeCheck": true,
   },
   "env": {
     "builtin": true,
     "es2026": true,
     "browser": true,
     "node": true,
-    "serviceworker": true
+    "serviceworker": true,
   },
   "ignorePatterns": [
     "**/.agents/**",
@@ -46,7 +46,7 @@
     "**/.pnp.js",
     "**/*/mount/*.hash",
     "**/*.d.ts",
-    "**/*.min.*js"
+    "**/*.min.*js",
   ],
   "rules": {
     // Loose equality can be intentional for nullish checks and legacy APIs, so keep it visible without blocking.
@@ -56,8 +56,8 @@
     "no-unused-vars": [
       "warn",
       {
-        "ignoreRestSiblings": true
-      }
+        "ignoreRestSiblings": true,
+      },
     ],
     "object-shorthand": "error",
     "import-x/default": "error",
@@ -150,9 +150,9 @@
       {
         "cases": {
           "camelCase": true,
-          "pascalCase": true
-        }
-      }
+          "pascalCase": true,
+        },
+      },
     ],
     "unicorn/new-for-builtins": "error",
     "unicorn/no-abusive-eslint-disable": "off",
@@ -208,8 +208,8 @@
     "unicorn/no-useless-undefined": [
       "error",
       {
-        "checkArguments": false
-      }
+        "checkArguments": false,
+      },
     ],
     "unicorn/no-zero-fractions": "error",
     // Oxfmt may normalize numeric literal casing differently, so report style mismatches without blocking.
@@ -275,7 +275,7 @@
     "unicorn/switch-case-braces": "error",
     "unicorn/switch-case-break-position": "error",
     "unicorn/text-encoding-identifier-case": "error",
-    "unicorn/throw-new-error": "error"
+    "unicorn/throw-new-error": "error",
   },
   "overrides": [
     {
@@ -287,8 +287,8 @@
           "error",
           {
             "allowExpressions": true,
-            "allowHigherOrderFunctions": true
-          }
+            "allowHigherOrderFunctions": true,
+          },
         ],
         "@typescript-eslint/no-explicit-any": "error",
         "@typescript-eslint/no-misused-promises": [
@@ -296,27 +296,27 @@
           {
             "checksVoidReturn": {
               "arguments": false,
-              "attributes": false
-            }
-          }
+              "attributes": false,
+            },
+          },
         ],
         "no-unused-vars": [
           "error",
           {
             "argsIgnorePattern": "^_",
-            "ignoreRestSiblings": true
-          }
+            "ignoreRestSiblings": true,
+          },
         ],
         "@typescript-eslint/non-nullable-type-assertion-style": "off",
         "@typescript-eslint/prefer-nullish-coalescing": [
           "error",
           {
-            "ignorePrimitives": true
-          }
+            "ignorePrimitives": true,
+          },
         ],
         "@typescript-eslint/restrict-template-expressions": "off",
-        "no-use-before-define": "off"
-      }
-    }
-  ]
+        "no-use-before-define": "off",
+      },
+    },
+  ],
 }

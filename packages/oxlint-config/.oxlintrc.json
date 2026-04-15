@@ -2,7 +2,8 @@
   "$schema": "./node_modules/oxlint/configuration_schema.json",
   "plugins": ["eslint", "import", "jsx-a11y", "oxc", "promise", "react", "react-perf", "typescript", "unicorn"],
   "options": {
-    "typeAware": true
+    "typeAware": true,
+    "typeCheck": true
   },
   "env": {
     "builtin": true,
@@ -120,7 +121,7 @@
     "react/no-unescaped-entities": "error",
     "react/no-unknown-property": "error",
     "react/no-unsafe": "off",
-    "react/react-in-jsx-scope": "error",
+    "react/react-in-jsx-scope": "off",
     "react/require-render-return": "error",
     "unicorn/catch-error-name": "error",
     "unicorn/consistent-assert": "error",

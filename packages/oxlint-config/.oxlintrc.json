@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["eslint", "import", "jsx-a11y", "oxc", "react", "react-perf", "typescript", "unicorn"],
+  "plugins": ["eslint", "import", "jsx-a11y", "oxc", "promise", "react", "react-perf", "typescript", "unicorn"],
   "options": {
     "typeAware": true
   },
@@ -42,6 +42,16 @@
         "ignoreRestSiblings": true
       }
     ],
+    "promise/always-return": "error",
+    "promise/catch-or-return": "error",
+    "promise/no-callback-in-promise": "warn",
+    "promise/no-new-statics": "error",
+    "promise/no-nesting": "warn",
+    "promise/no-promise-in-callback": "warn",
+    "promise/no-return-in-finally": "warn",
+    "promise/no-return-wrap": "error",
+    "promise/param-names": "error",
+    "promise/valid-params": "warn",
     "unicorn/filename-case": [
       "error",
       {

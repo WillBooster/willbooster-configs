@@ -1,7 +1,7 @@
 # oxlint-config
 
 An Oxlint config for WillBooster projects.
-This config follows the latest Oxlint config model and enables type-aware TypeScript rules by default, so `oxlint-tsgolint` is required together with `oxlint`.
+This config follows the latest Oxlint config model and enables type-aware TypeScript rules and type-checking diagnostics by default, so `oxlint-tsgolint` is required together with `oxlint`.
 It also enables Oxlint's built-in React, React performance, JSX accessibility, and Promise plugins to cover projects that otherwise use `@willbooster/eslint-config-ts-react`.
 
 Install the package and its peer dependencies.

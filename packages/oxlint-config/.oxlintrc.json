@@ -121,7 +121,7 @@
     "react/no-unescaped-entities": "error",
     "react/no-unknown-property": "error",
     "react/no-unsafe": "off",
-    "react/react-in-jsx-scope": "error",
+    "react/react-in-jsx-scope": "off",
     "react/require-render-return": "error",
     "unicorn/catch-error-name": "error",
     "unicorn/consistent-assert": "error",

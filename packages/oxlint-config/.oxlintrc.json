@@ -212,7 +212,8 @@
       }
     ],
     "unicorn/no-zero-fractions": "error",
-    "unicorn/number-literal-case": "error",
+    // Oxfmt may normalize numeric literal casing differently, so report style mismatches without blocking.
+    "unicorn/number-literal-case": "warn",
     "unicorn/numeric-separators-style": "error",
     "unicorn/prefer-add-event-listener": "error",
     "unicorn/prefer-array-find": "error",
@@ -262,7 +263,8 @@
     "unicorn/prefer-string-starts-ends-with": "error",
     "unicorn/prefer-string-trim-start-end": "error",
     "unicorn/prefer-structured-clone": "error",
-    "unicorn/prefer-ternary": "error",
+    // Ternaries are compact for simple value selection but can hurt readability as conditions grow.
+    "unicorn/prefer-ternary": "warn",
     // Top-level await affects module loading semantics and package compatibility, so treat it as guidance.
     "unicorn/prefer-top-level-await": "warn",
     "unicorn/prefer-type-error": "error",

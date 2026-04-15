@@ -1,1 +1,1 @@
-export { default } from '@willbooster/eslint-config-ts';
+export { default } from '../eslint-config-ts/eslint.config.js';

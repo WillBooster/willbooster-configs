@@ -2,20 +2,23 @@
   "name": "@willbooster/eslint-config-js",
   "version": "0.0.0-semantically-released",
   "description": "ESLint flat config for JavaScript projects",
+  "license": "Apache-2.0",
+  "author": "WillBooster Inc.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WillBooster/willbooster-configs.git",
     "directory": "packages/eslint-config-js"
   },
-  "license": "Apache-2.0",
-  "author": "WillBooster Inc.",
-  "type": "module",
-  "main": "eslint.config.js",
-  "types": "eslint.config.d.ts",
   "files": [
     "eslint.config.d.ts",
     "eslint.config.js"
   ],
+  "type": "module",
+  "main": "eslint.config.js",
+  "types": "eslint.config.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "check-all-for-ai": "yarn check-for-ai && yarn test",
     "check-for-ai": "yarn install > /dev/null && yarn format > /dev/null 2> /dev/null || true && yarn lint-fix --quiet",
@@ -27,7 +30,6 @@
     "prettify": "prettier --cache --color --no-error-on-unmatched-pattern --write \"**/{.*/,}*.{java}\" \"!**/test{-,/}fixtures/**\" || true",
     "test": "yarn lint"
   },
-  "prettier": "@willbooster/prettier-config",
   "devDependencies": {
     "@eslint/js": "10.0.1",
     "@tsconfig/node-lts": "24.0.0",
@@ -62,7 +64,5 @@
     "eslint-plugin-unused-imports": ">=4",
     "globals": ">=16"
   },
-  "publishConfig": {
-    "access": "public"
-  }
+  "prettier": "@willbooster/prettier-config"
 }

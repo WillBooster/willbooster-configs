@@ -10,10 +10,12 @@
     "directory": "packages/eslint-config-ts"
   },
   "files": [
+    "eslint.config.d.ts",
     "eslint.config.js"
   ],
   "type": "module",
   "main": "eslint.config.js",
+  "types": "eslint.config.d.ts",
   "publishConfig": {
     "access": "public"
   },

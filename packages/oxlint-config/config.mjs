@@ -282,12 +282,12 @@ const config = {
   overrides: [
     {
       files: [
-        '**/app/**/{global-error,not-found}.{js,jsx,ts,tsx}',
+        '**/app/**/{default,error,global-error,layout,loading,not-found,page,route,template}.{js,jsx,ts,tsx}',
         '**/instrumentation-client.{js,jsx,ts,tsx}',
-        '**/pages/{_app,_document,_error,404,500}.{js,jsx,ts,tsx}',
+        '**/pages/**/*.{js,jsx,ts,tsx}',
       ],
       rules: {
-        // These filenames are reserved by Next.js and cannot be renamed to camelCase or PascalCase.
+        // Next.js and Blitz.js route filenames are part of public routing semantics.
         'unicorn/filename-case': 'off',
       },
     },

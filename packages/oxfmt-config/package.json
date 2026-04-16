@@ -31,6 +31,7 @@
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
+    "@willbooster/prettier-config": "10.4.0",
     "prettier": "3.8.1",
     "prettier-plugin-java": "2.8.1",
     "sort-package-json": "3.6.1"

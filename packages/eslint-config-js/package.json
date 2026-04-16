@@ -2,23 +2,20 @@
   "name": "@willbooster/eslint-config-js",
   "version": "0.0.0-semantically-released",
   "description": "ESLint flat config for JavaScript projects",
-  "license": "Apache-2.0",
-  "author": "WillBooster Inc.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WillBooster/willbooster-configs.git",
     "directory": "packages/eslint-config-js"
   },
+  "license": "Apache-2.0",
+  "author": "WillBooster Inc.",
+  "type": "module",
+  "main": "eslint.config.js",
+  "types": "eslint.config.d.ts",
   "files": [
     "eslint.config.d.ts",
     "eslint.config.js"
   ],
-  "type": "module",
-  "main": "eslint.config.js",
-  "types": "eslint.config.d.ts",
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "check-all-for-ai": "yarn check-for-ai && yarn test",
     "check-for-ai": "yarn install > /dev/null && yarn format > /dev/null 2> /dev/null || true && yarn lint-fix --quiet",
@@ -30,20 +27,11 @@
     "prettify": "prettier --cache --color --no-error-on-unmatched-pattern --write \"**/{.*/,}*.{java}\" \"!**/test{-,/}fixtures/**\" || true",
     "test": "yarn lint"
   },
+  "prettier": "@willbooster/prettier-config",
   "devDependencies": {
-    "@eslint/js": "10.0.1",
     "@tsconfig/node-lts": "24.0.0",
     "@tsconfig/node-ts": "23.6.4",
     "@willbooster/prettier-config": "^10.4.0",
-    "eslint": "10.2.0",
-    "eslint-config-flat-gitignore": "2.3.0",
-    "eslint-config-prettier": "10.1.8",
-    "eslint-plugin-import-x": "4.16.2",
-    "eslint-plugin-sort-class-members": "1.21.0",
-    "eslint-plugin-sort-destructure-keys": "3.0.0",
-    "eslint-plugin-unicorn": "64.0.0",
-    "eslint-plugin-unused-imports": "4.4.1",
-    "globals": "17.4.0",
     "micromatch": "4.0.8",
     "oxfmt": "0.45.0",
     "oxlint": "1.60.0",
@@ -52,17 +40,7 @@
     "prettier-plugin-java": "2.8.1",
     "sort-package-json": "3.6.1"
   },
-  "peerDependencies": {
-    "@eslint/js": ">=10",
-    "eslint": ">=10",
-    "eslint-config-flat-gitignore": ">=2.1",
-    "eslint-config-prettier": ">=10",
-    "eslint-plugin-import-x": ">=4",
-    "eslint-plugin-sort-class-members": ">=1.21",
-    "eslint-plugin-sort-destructure-keys": ">=2",
-    "eslint-plugin-unicorn": ">=57",
-    "eslint-plugin-unused-imports": ">=4",
-    "globals": ">=16"
-  },
-  "prettier": "@willbooster/prettier-config"
+  "publishConfig": {
+    "access": "public"
+  }
 }

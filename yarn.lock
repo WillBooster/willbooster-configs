@@ -682,7 +682,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:10.0.1, @eslint/js@npm:^10.0.1":
+"@eslint/js@npm:10.0.1":
   version: 10.0.1
   resolution: "@eslint/js@npm:10.0.1"
   peerDependencies:
@@ -2030,66 +2030,66 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-darwin-arm64@npm:7.0.0-dev.20260415.1":
-  version: 7.0.0-dev.20260415.1
-  resolution: "@typescript/native-preview-darwin-arm64@npm:7.0.0-dev.20260415.1"
+"@typescript/native-preview-darwin-arm64@npm:7.0.0-dev.20260416.1":
+  version: 7.0.0-dev.20260416.1
+  resolution: "@typescript/native-preview-darwin-arm64@npm:7.0.0-dev.20260416.1"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-darwin-x64@npm:7.0.0-dev.20260415.1":
-  version: 7.0.0-dev.20260415.1
-  resolution: "@typescript/native-preview-darwin-x64@npm:7.0.0-dev.20260415.1"
+"@typescript/native-preview-darwin-x64@npm:7.0.0-dev.20260416.1":
+  version: 7.0.0-dev.20260416.1
+  resolution: "@typescript/native-preview-darwin-x64@npm:7.0.0-dev.20260416.1"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-linux-arm64@npm:7.0.0-dev.20260415.1":
-  version: 7.0.0-dev.20260415.1
-  resolution: "@typescript/native-preview-linux-arm64@npm:7.0.0-dev.20260415.1"
+"@typescript/native-preview-linux-arm64@npm:7.0.0-dev.20260416.1":
+  version: 7.0.0-dev.20260416.1
+  resolution: "@typescript/native-preview-linux-arm64@npm:7.0.0-dev.20260416.1"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-linux-arm@npm:7.0.0-dev.20260415.1":
-  version: 7.0.0-dev.20260415.1
-  resolution: "@typescript/native-preview-linux-arm@npm:7.0.0-dev.20260415.1"
+"@typescript/native-preview-linux-arm@npm:7.0.0-dev.20260416.1":
+  version: 7.0.0-dev.20260416.1
+  resolution: "@typescript/native-preview-linux-arm@npm:7.0.0-dev.20260416.1"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-linux-x64@npm:7.0.0-dev.20260415.1":
-  version: 7.0.0-dev.20260415.1
-  resolution: "@typescript/native-preview-linux-x64@npm:7.0.0-dev.20260415.1"
+"@typescript/native-preview-linux-x64@npm:7.0.0-dev.20260416.1":
+  version: 7.0.0-dev.20260416.1
+  resolution: "@typescript/native-preview-linux-x64@npm:7.0.0-dev.20260416.1"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-win32-arm64@npm:7.0.0-dev.20260415.1":
-  version: 7.0.0-dev.20260415.1
-  resolution: "@typescript/native-preview-win32-arm64@npm:7.0.0-dev.20260415.1"
+"@typescript/native-preview-win32-arm64@npm:7.0.0-dev.20260416.1":
+  version: 7.0.0-dev.20260416.1
+  resolution: "@typescript/native-preview-win32-arm64@npm:7.0.0-dev.20260416.1"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-win32-x64@npm:7.0.0-dev.20260415.1":
-  version: 7.0.0-dev.20260415.1
-  resolution: "@typescript/native-preview-win32-x64@npm:7.0.0-dev.20260415.1"
+"@typescript/native-preview-win32-x64@npm:7.0.0-dev.20260416.1":
+  version: 7.0.0-dev.20260416.1
+  resolution: "@typescript/native-preview-win32-x64@npm:7.0.0-dev.20260416.1"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview@npm:7.0.0-dev.20260415.1":
-  version: 7.0.0-dev.20260415.1
-  resolution: "@typescript/native-preview@npm:7.0.0-dev.20260415.1"
+"@typescript/native-preview@npm:7.0.0-dev.20260416.1":
+  version: 7.0.0-dev.20260416.1
+  resolution: "@typescript/native-preview@npm:7.0.0-dev.20260416.1"
   dependencies:
-    "@typescript/native-preview-darwin-arm64": "npm:7.0.0-dev.20260415.1"
-    "@typescript/native-preview-darwin-x64": "npm:7.0.0-dev.20260415.1"
-    "@typescript/native-preview-linux-arm": "npm:7.0.0-dev.20260415.1"
-    "@typescript/native-preview-linux-arm64": "npm:7.0.0-dev.20260415.1"
-    "@typescript/native-preview-linux-x64": "npm:7.0.0-dev.20260415.1"
-    "@typescript/native-preview-win32-arm64": "npm:7.0.0-dev.20260415.1"
-    "@typescript/native-preview-win32-x64": "npm:7.0.0-dev.20260415.1"
+    "@typescript/native-preview-darwin-arm64": "npm:7.0.0-dev.20260416.1"
+    "@typescript/native-preview-darwin-x64": "npm:7.0.0-dev.20260416.1"
+    "@typescript/native-preview-linux-arm": "npm:7.0.0-dev.20260416.1"
+    "@typescript/native-preview-linux-arm64": "npm:7.0.0-dev.20260416.1"
+    "@typescript/native-preview-linux-x64": "npm:7.0.0-dev.20260416.1"
+    "@typescript/native-preview-win32-arm64": "npm:7.0.0-dev.20260416.1"
+    "@typescript/native-preview-win32-x64": "npm:7.0.0-dev.20260416.1"
   dependenciesMeta:
     "@typescript/native-preview-darwin-arm64":
       optional: true
@@ -2107,7 +2107,7 @@ __metadata:
       optional: true
   bin:
     tsgo: bin/tsgo.js
-  checksum: 10c0/5420b0bceebfde1d71f693d44c1f5128e069fd4c627dea62c01992691e4f97530edd51d7adec09b715d6614475ed57e1c3912e90d69b791a4014069047d5a1ba
+  checksum: 10c0/5d28204685c356c62187df5c9b9044b66d43784a3c91b6eef3fc81ba33504282173027e2e02affcd7e28b4dfb8846c4452ac5700f1429eb297e8606b94527419
   languageName: node
   linkType: hard
 
@@ -2318,7 +2318,7 @@ __metadata:
     "@tsconfig/node-lts": "npm:24.0.0"
     "@tsconfig/node-ts": "npm:23.6.4"
     "@types/node": "npm:25.5.2"
-    "@typescript/native-preview": "npm:7.0.0-dev.20260415.1"
+    "@typescript/native-preview": "npm:7.0.0-dev.20260416.1"
     "@willbooster/prettier-config": "npm:^10.4.0"
     conventional-changelog-conventionalcommits: "npm:9.3.1"
     dotenv-cli: "npm:11.0.0"
@@ -2430,7 +2430,7 @@ __metadata:
     "@types/micromatch": "npm:4.0.10"
     "@types/node": "npm:25.5.0"
     "@types/react": "npm:19.2.14"
-    "@typescript/native-preview": "npm:7.0.0-dev.20260415.1"
+    "@typescript/native-preview": "npm:7.0.0-dev.20260416.1"
     "@willbooster/prettier-config": "npm:^10.4.0"
     eslint: "npm:10.2.0"
     eslint-config-flat-gitignore: "npm:2.3.0"
@@ -2488,7 +2488,7 @@ __metadata:
     "@types/micromatch": "npm:4.0.10"
     "@types/node": "npm:25.5.0"
     "@types/react": "npm:19.2.14"
-    "@typescript/native-preview": "npm:7.0.0-dev.20260415.1"
+    "@typescript/native-preview": "npm:7.0.0-dev.20260416.1"
     "@willbooster/prettier-config": "npm:^10.4.0"
     eslint: "npm:10.2.0"
     eslint-config-flat-gitignore: "npm:2.3.0"
@@ -2542,7 +2542,7 @@ __metadata:
     "@types/eslint": "npm:9.6.1"
     "@types/micromatch": "npm:4.0.10"
     "@types/node": "npm:25.5.0"
-    "@typescript/native-preview": "npm:7.0.0-dev.20260415.1"
+    "@typescript/native-preview": "npm:7.0.0-dev.20260416.1"
     "@willbooster/prettier-config": "npm:^10.4.0"
     eslint: "npm:10.2.0"
     eslint-config-flat-gitignore: "npm:2.3.0"
@@ -2633,24 +2633,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/shared@workspace:packages/shared"
   dependencies:
-    "@eslint/js": "npm:^10.0.1"
     "@tsconfig/node-lts": "npm:24.0.0"
     "@tsconfig/node-ts": "npm:23.6.4"
-    "@types/eslint": "npm:9.6.1"
     "@types/micromatch": "npm:4.0.10"
     "@types/node": "npm:25.5.2"
-    "@typescript/native-preview": "npm:7.0.0-dev.20260415.1"
+    "@typescript/native-preview": "npm:7.0.0-dev.20260416.1"
     "@willbooster/prettier-config": "npm:^10.4.0"
-    eslint: "npm:^10.2.0"
-    eslint-config-flat-gitignore: "npm:2.3.0"
-    eslint-config-prettier: "npm:10.1.8"
-    eslint-import-resolver-typescript: "npm:4.4.4"
-    eslint-plugin-import-x: "npm:4.16.2"
-    eslint-plugin-sort-class-members: "npm:1.22.1"
-    eslint-plugin-sort-destructure-keys: "npm:3.0.0"
-    eslint-plugin-unicorn: "npm:64.0.0"
-    eslint-plugin-unused-imports: "npm:4.4.1"
-    globals: "npm:17.4.0"
     micromatch: "npm:4.0.8"
     oxfmt: "npm:0.45.0"
     oxlint: "npm:1.60.0"
@@ -2658,7 +2646,6 @@ __metadata:
     prettier: "npm:3.8.1"
     prettier-plugin-java: "npm:2.8.1"
     sort-package-json: "npm:3.6.1"
-    typescript-eslint: "npm:8.58.1"
   languageName: unknown
   linkType: soft
 
@@ -4387,15 +4374,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-sort-class-members@npm:1.22.1":
-  version: 1.22.1
-  resolution: "eslint-plugin-sort-class-members@npm:1.22.1"
-  peerDependencies:
-    eslint: ">=0.8.0"
-  checksum: 10c0/31db0579be8346a1f15e3d3b9502f786707b645e0c507c6efde115210ee833e6b1bfed36d4eebb1c45eb88b079cc012be10b789345ce69097f7a3f0c2ca56a9b
-  languageName: node
-  linkType: hard
-
 "eslint-plugin-sort-destructure-keys@npm:3.0.0":
   version: 3.0.0
   resolution: "eslint-plugin-sort-destructure-keys@npm:3.0.0"
@@ -4479,7 +4457,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:10.2.0, eslint@npm:^10.2.0":
+"eslint@npm:10.2.0":
   version: 10.2.0
   resolution: "eslint@npm:10.2.0"
   dependencies:

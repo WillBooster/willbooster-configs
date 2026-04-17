@@ -18,12 +18,13 @@
     "test": "yarn lint",
     "typecheck": "tsgo --noEmit"
   },
+  "prettier": "@willbooster/prettier-config",
   "devDependencies": {
     "@tsconfig/node-lts": "24.0.0",
     "@tsconfig/node-ts": "23.6.4",
     "@types/micromatch": "4.0.10",
     "@types/node": "25.5.2",
-    "@typescript/native-preview": "7.0.0-dev.20260416.1",
+    "@typescript/native-preview": "7.0.0-dev.20260417.1",
     "@willbooster/prettier-config": "^10.4.0",
     "micromatch": "4.0.8",
     "oxfmt": "0.45.0",
@@ -32,6 +33,5 @@
     "prettier": "3.8.2",
     "prettier-plugin-java": "2.8.1",
     "sort-package-json": "3.6.1"
-  },
-  "prettier": "@willbooster/prettier-config"
+  }
 }

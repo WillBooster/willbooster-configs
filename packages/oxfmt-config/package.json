@@ -9,6 +9,7 @@
   },
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
+  "type": "module",
   "exports": {
     ".": {
       "types": "./config.d.ts",
@@ -20,7 +21,8 @@
   "files": [
     "config.d.ts",
     "config.mjs",
-    "oxfmt.config.ts"
+    "oxfmt.config.ts",
+    "config.d.mts"
   ],
   "scripts": {
     "check-all-for-ai": "yarn check-for-ai && yarn test",

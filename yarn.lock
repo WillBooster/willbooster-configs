@@ -331,18 +331,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@biomejs/biome@npm:2.4.10":
-  version: 2.4.10
-  resolution: "@biomejs/biome@npm:2.4.10"
+"@biomejs/biome@npm:2.4.11":
+  version: 2.4.11
+  resolution: "@biomejs/biome@npm:2.4.11"
   dependencies:
-    "@biomejs/cli-darwin-arm64": "npm:2.4.10"
-    "@biomejs/cli-darwin-x64": "npm:2.4.10"
-    "@biomejs/cli-linux-arm64": "npm:2.4.10"
-    "@biomejs/cli-linux-arm64-musl": "npm:2.4.10"
-    "@biomejs/cli-linux-x64": "npm:2.4.10"
-    "@biomejs/cli-linux-x64-musl": "npm:2.4.10"
-    "@biomejs/cli-win32-arm64": "npm:2.4.10"
-    "@biomejs/cli-win32-x64": "npm:2.4.10"
+    "@biomejs/cli-darwin-arm64": "npm:2.4.11"
+    "@biomejs/cli-darwin-x64": "npm:2.4.11"
+    "@biomejs/cli-linux-arm64": "npm:2.4.11"
+    "@biomejs/cli-linux-arm64-musl": "npm:2.4.11"
+    "@biomejs/cli-linux-x64": "npm:2.4.11"
+    "@biomejs/cli-linux-x64-musl": "npm:2.4.11"
+    "@biomejs/cli-win32-arm64": "npm:2.4.11"
+    "@biomejs/cli-win32-x64": "npm:2.4.11"
   dependenciesMeta:
     "@biomejs/cli-darwin-arm64":
       optional: true
@@ -362,62 +362,62 @@ __metadata:
       optional: true
   bin:
     biome: bin/biome
-  checksum: 10c0/80d10d5e6fa41a24efb9020ee73b79b0aca46942b55ea96e880c3bb45ea14c71e49fb1be9f134bee23b2d940bb8cad51a70351ca051e09a43613018dba693bd6
+  checksum: 10c0/5e9edd2bd54f87786a6acc681843128e95eea663d0cd61dfe2e7789683a4d1008e4855f405055c1dc4095d723b1b6a290320d240707f199d1814c955d18c6eab
   languageName: node
   linkType: hard
 
-"@biomejs/cli-darwin-arm64@npm:2.4.10":
-  version: 2.4.10
-  resolution: "@biomejs/cli-darwin-arm64@npm:2.4.10"
+"@biomejs/cli-darwin-arm64@npm:2.4.11":
+  version: 2.4.11
+  resolution: "@biomejs/cli-darwin-arm64@npm:2.4.11"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-darwin-x64@npm:2.4.10":
-  version: 2.4.10
-  resolution: "@biomejs/cli-darwin-x64@npm:2.4.10"
+"@biomejs/cli-darwin-x64@npm:2.4.11":
+  version: 2.4.11
+  resolution: "@biomejs/cli-darwin-x64@npm:2.4.11"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-arm64-musl@npm:2.4.10":
-  version: 2.4.10
-  resolution: "@biomejs/cli-linux-arm64-musl@npm:2.4.10"
+"@biomejs/cli-linux-arm64-musl@npm:2.4.11":
+  version: 2.4.11
+  resolution: "@biomejs/cli-linux-arm64-musl@npm:2.4.11"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-arm64@npm:2.4.10":
-  version: 2.4.10
-  resolution: "@biomejs/cli-linux-arm64@npm:2.4.10"
+"@biomejs/cli-linux-arm64@npm:2.4.11":
+  version: 2.4.11
+  resolution: "@biomejs/cli-linux-arm64@npm:2.4.11"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-x64-musl@npm:2.4.10":
-  version: 2.4.10
-  resolution: "@biomejs/cli-linux-x64-musl@npm:2.4.10"
+"@biomejs/cli-linux-x64-musl@npm:2.4.11":
+  version: 2.4.11
+  resolution: "@biomejs/cli-linux-x64-musl@npm:2.4.11"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-x64@npm:2.4.10":
-  version: 2.4.10
-  resolution: "@biomejs/cli-linux-x64@npm:2.4.10"
+"@biomejs/cli-linux-x64@npm:2.4.11":
+  version: 2.4.11
+  resolution: "@biomejs/cli-linux-x64@npm:2.4.11"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@biomejs/cli-win32-arm64@npm:2.4.10":
-  version: 2.4.10
-  resolution: "@biomejs/cli-win32-arm64@npm:2.4.10"
+"@biomejs/cli-win32-arm64@npm:2.4.11":
+  version: 2.4.11
+  resolution: "@biomejs/cli-win32-arm64@npm:2.4.11"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-win32-x64@npm:2.4.10":
-  version: 2.4.10
-  resolution: "@biomejs/cli-win32-x64@npm:2.4.10"
+"@biomejs/cli-win32-x64@npm:2.4.11":
+  version: 2.4.11
+  resolution: "@biomejs/cli-win32-x64@npm:2.4.11"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -820,12 +820,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:16.2.1":
-  version: 16.2.1
-  resolution: "@next/eslint-plugin-next@npm:16.2.1"
+"@next/eslint-plugin-next@npm:16.2.3":
+  version: 16.2.3
+  resolution: "@next/eslint-plugin-next@npm:16.2.3"
   dependencies:
     fast-glob: "npm:3.3.1"
-  checksum: 10c0/cb6870ee6846d1a683393bdb303ce0bfcd0f60389ac976c019bca90818bc1adba55c3c2d2896541f7607f92dfa348111fd04440042036ae6ba888329ceb17abe
+  checksum: 10c0/be881aa89e0840ab60455b07a2bb9ec0d686c664a0d91e8ca815797a65ca71d7bd79d186b0df5b6892c2bf57bd07fa05421cd93e2812dfeaedfad5ed9fd1023e
   languageName: node
   linkType: hard
 
@@ -2276,7 +2276,7 @@ __metadata:
     "@types/babel__core": "npm:7.20.5"
     "@willbooster/prettier-config": "npm:^10.4.0"
     core-js: "npm:3.49.0"
-    prettier: "npm:3.8.1"
+    prettier: "npm:3.8.2"
     prettier-plugin-java: "npm:2.8.1"
     sort-package-json: "npm:3.6.1"
   peerDependencies:
@@ -2300,9 +2300,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/biome-config@workspace:packages/biome-config"
   dependencies:
-    "@biomejs/biome": "npm:2.4.10"
+    "@biomejs/biome": "npm:2.4.11"
     "@willbooster/prettier-config": "npm:^10.4.0"
-    prettier: "npm:3.8.1"
+    prettier: "npm:3.8.2"
     prettier-plugin-java: "npm:2.8.1"
     sort-package-json: "npm:3.6.1"
   peerDependencies:
@@ -2326,7 +2326,7 @@ __metadata:
     oxfmt: "npm:0.45.0"
     oxlint: "npm:1.60.0"
     oxlint-tsgolint: "npm:0.21.0"
-    prettier: "npm:3.8.1"
+    prettier: "npm:3.8.2"
     prettier-plugin-java: "npm:2.8.1"
     semantic-release: "npm:25.0.3"
     sort-package-json: "npm:3.6.1"
@@ -2348,7 +2348,7 @@ __metadata:
     eslint-plugin-import-x: "npm:4.16.2"
     eslint-plugin-perfectionist: "npm:5.8.0"
     eslint-plugin-react-compiler: "npm:19.1.0-rc.2"
-    eslint-plugin-sort-class-members: "npm:1.21.0"
+    eslint-plugin-sort-class-members: "npm:1.22.1"
     eslint-plugin-sort-destructure-keys: "npm:3.0.0"
     eslint-plugin-unicorn: "npm:64.0.0"
     eslint-plugin-unused-imports: "npm:4.4.1"
@@ -2357,7 +2357,7 @@ __metadata:
     oxfmt: "npm:0.45.0"
     oxlint: "npm:1.60.0"
     oxlint-tsgolint: "npm:0.21.0"
-    prettier: "npm:3.8.1"
+    prettier: "npm:3.8.2"
     prettier-plugin-java: "npm:2.8.1"
     react: "npm:19.2.4"
     sort-package-json: "npm:3.6.1"
@@ -2391,7 +2391,7 @@ __metadata:
     eslint-config-flat-gitignore: "npm:2.3.0"
     eslint-config-prettier: "npm:10.1.8"
     eslint-plugin-import-x: "npm:4.16.2"
-    eslint-plugin-sort-class-members: "npm:1.21.0"
+    eslint-plugin-sort-class-members: "npm:1.22.1"
     eslint-plugin-sort-destructure-keys: "npm:3.0.0"
     eslint-plugin-unicorn: "npm:64.0.0"
     eslint-plugin-unused-imports: "npm:4.4.1"
@@ -2400,7 +2400,7 @@ __metadata:
     oxfmt: "npm:0.45.0"
     oxlint: "npm:1.60.0"
     oxlint-tsgolint: "npm:0.21.0"
-    prettier: "npm:3.8.1"
+    prettier: "npm:3.8.2"
     prettier-plugin-java: "npm:2.8.1"
     sort-package-json: "npm:3.6.1"
   peerDependencies:
@@ -2434,13 +2434,13 @@ __metadata:
     "@willbooster/prettier-config": "npm:^10.4.0"
     eslint: "npm:10.2.0"
     eslint-config-flat-gitignore: "npm:2.3.0"
-    eslint-config-next: "npm:16.2.1"
+    eslint-config-next: "npm:16.2.3"
     eslint-config-prettier: "npm:10.1.8"
     eslint-import-resolver-typescript: "npm:4.4.4"
     eslint-plugin-import-x: "npm:4.16.2"
     eslint-plugin-perfectionist: "npm:5.8.0"
     eslint-plugin-react-compiler: "npm:19.1.0-rc.2"
-    eslint-plugin-sort-class-members: "npm:1.21.0"
+    eslint-plugin-sort-class-members: "npm:1.22.1"
     eslint-plugin-sort-destructure-keys: "npm:3.0.0"
     eslint-plugin-unicorn: "npm:64.0.0"
     eslint-plugin-unused-imports: "npm:4.4.1"
@@ -2449,7 +2449,7 @@ __metadata:
     oxfmt: "npm:0.45.0"
     oxlint: "npm:1.60.0"
     oxlint-tsgolint: "npm:0.21.0"
-    prettier: "npm:3.8.1"
+    prettier: "npm:3.8.2"
     prettier-plugin-java: "npm:2.8.1"
     react: "npm:19.2.4"
     sort-package-json: "npm:3.6.1"
@@ -2497,7 +2497,7 @@ __metadata:
     eslint-plugin-import-x: "npm:4.16.2"
     eslint-plugin-perfectionist: "npm:5.8.0"
     eslint-plugin-react-compiler: "npm:19.1.0-rc.2"
-    eslint-plugin-sort-class-members: "npm:1.21.0"
+    eslint-plugin-sort-class-members: "npm:1.22.1"
     eslint-plugin-sort-destructure-keys: "npm:3.0.0"
     eslint-plugin-unicorn: "npm:64.0.0"
     eslint-plugin-unused-imports: "npm:4.4.1"
@@ -2506,7 +2506,7 @@ __metadata:
     oxfmt: "npm:0.45.0"
     oxlint: "npm:1.60.0"
     oxlint-tsgolint: "npm:0.21.0"
-    prettier: "npm:3.8.1"
+    prettier: "npm:3.8.2"
     prettier-plugin-java: "npm:2.8.1"
     react: "npm:19.2.4"
     sort-package-json: "npm:3.6.1"
@@ -2549,7 +2549,7 @@ __metadata:
     eslint-config-prettier: "npm:10.1.8"
     eslint-import-resolver-typescript: "npm:4.4.4"
     eslint-plugin-import-x: "npm:4.16.2"
-    eslint-plugin-sort-class-members: "npm:1.21.0"
+    eslint-plugin-sort-class-members: "npm:1.22.1"
     eslint-plugin-sort-destructure-keys: "npm:3.0.0"
     eslint-plugin-unicorn: "npm:64.0.0"
     eslint-plugin-unused-imports: "npm:4.4.1"
@@ -2558,7 +2558,7 @@ __metadata:
     oxfmt: "npm:0.45.0"
     oxlint: "npm:1.60.0"
     oxlint-tsgolint: "npm:0.21.0"
-    prettier: "npm:3.8.1"
+    prettier: "npm:3.8.2"
     prettier-plugin-java: "npm:2.8.1"
     sort-package-json: "npm:3.6.1"
     typescript-eslint: "npm:8.58.1"
@@ -2584,7 +2584,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/oxfmt-config@workspace:packages/oxfmt-config"
   dependencies:
-    prettier: "npm:3.8.1"
+    prettier: "npm:3.8.2"
     prettier-plugin-java: "npm:2.8.1"
     sort-package-json: "npm:3.6.1"
   peerDependencies:
@@ -2597,7 +2597,7 @@ __metadata:
   resolution: "@willbooster/oxlint-config@workspace:packages/oxlint-config"
   dependencies:
     "@willbooster/prettier-config": "npm:^10.4.0"
-    prettier: "npm:3.8.1"
+    prettier: "npm:3.8.2"
     prettier-plugin-java: "npm:2.8.1"
     sort-package-json: "npm:3.6.1"
   peerDependencies:
@@ -2620,7 +2620,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/prettier-config@workspace:packages/prettier-config"
   dependencies:
-    prettier: "npm:3.8.1"
+    prettier: "npm:3.8.2"
     prettier-plugin-java: "npm:2.8.1"
     sort-package-json: "npm:3.6.1"
   peerDependencies:
@@ -2643,7 +2643,7 @@ __metadata:
     oxfmt: "npm:0.45.0"
     oxlint: "npm:1.60.0"
     oxlint-tsgolint: "npm:0.21.0"
-    prettier: "npm:3.8.1"
+    prettier: "npm:3.8.2"
     prettier-plugin-java: "npm:2.8.1"
     sort-package-json: "npm:3.6.1"
   languageName: unknown
@@ -3966,11 +3966,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-next@npm:16.2.1":
-  version: 16.2.1
-  resolution: "eslint-config-next@npm:16.2.1"
+"eslint-config-next@npm:16.2.3":
+  version: 16.2.3
+  resolution: "eslint-config-next@npm:16.2.3"
   dependencies:
-    "@next/eslint-plugin-next": "npm:16.2.1"
+    "@next/eslint-plugin-next": "npm:16.2.3"
     eslint-import-resolver-node: "npm:^0.3.6"
     eslint-import-resolver-typescript: "npm:^3.5.2"
     eslint-plugin-import: "npm:^2.32.0"
@@ -3985,7 +3985,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10c0/f2a538bbf97aa73224b332f22f6fb86f83925722497bedef1e0b4ebd153f998224877e2c6696a9611fc366f1c32435b68141022caa5b9bc91a50c2e4aa170097
+  checksum: 10c0/c6fd3accadb53c636f034baf4363d22847bf824c8ca1ecfa8047a4eee7882d156e75f60f37098357c7ae07e646dfaa23a176336abd3c74aa9a2df61aee984653
   languageName: node
   linkType: hard
 
@@ -4365,12 +4365,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-sort-class-members@npm:1.21.0":
-  version: 1.21.0
-  resolution: "eslint-plugin-sort-class-members@npm:1.21.0"
+"eslint-plugin-sort-class-members@npm:1.22.1":
+  version: 1.22.1
+  resolution: "eslint-plugin-sort-class-members@npm:1.22.1"
   peerDependencies:
     eslint: ">=0.8.0"
-  checksum: 10c0/4cb2c58f6d835e7978b21865738ace3a294be74fd9f2149dd53adcdc79e213753609c91f66fbfd974dc027f1e36f099a3650d555473c69e6fabb56200e681f4e
+  checksum: 10c0/31db0579be8346a1f15e3d3b9502f786707b645e0c507c6efde115210ee833e6b1bfed36d4eebb1c45eb88b079cc012be10b789345ce69097f7a3f0c2ca56a9b
   languageName: node
   linkType: hard
 
@@ -7506,12 +7506,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.8.1":
-  version: 3.8.1
-  resolution: "prettier@npm:3.8.1"
+"prettier@npm:3.8.2":
+  version: 3.8.2
+  resolution: "prettier@npm:3.8.2"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 10c0/33169b594009e48f570471271be7eac7cdcf88a209eed39ac3b8d6d78984039bfa9132f82b7e6ba3b06711f3bfe0222a62a1bfb87c43f50c25a83df1b78a2c42
+  checksum: 10c0/2d64bd01d269c8dd6d8c423a2a2e1fb88230a53aac523204b327de40059ccf8bd8e6fe70b8ce6154b97ed4442e9fd878504ff8a5330f3a4f64bd13d1576f7652
   languageName: node
   linkType: hard
 

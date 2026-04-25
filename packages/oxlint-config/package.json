@@ -2,28 +2,31 @@
   "name": "@willbooster/oxlint-config",
   "version": "0.0.0-semantically-released",
   "description": "Oxlint config for WillBooster projects",
+  "license": "Apache-2.0",
+  "author": "WillBooster Inc.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WillBooster/willbooster-configs.git",
     "directory": "packages/oxlint-config"
   },
-  "license": "Apache-2.0",
-  "author": "WillBooster Inc.",
-  "type": "module",
-  "exports": {
-    ".": {
-      "types": "./config.d.ts",
-      "default": "./config.mjs"
-    }
-  },
-  "main": "config.mjs",
-  "types": "config.d.ts",
   "files": [
     "config.d.ts",
     "config.mjs",
     "oxlint.config.ts",
     "config.d.mts"
   ],
+  "type": "module",
+  "main": "config.mjs",
+  "types": "config.d.ts",
+  "exports": {
+    ".": {
+      "types": "./config.d.ts",
+      "default": "./config.mjs"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "check-all-for-ai": "yarn check-for-ai && yarn test",
     "check-for-ai": "yarn install > /dev/null && yarn format > /dev/null 2> /dev/null || true && yarn lint-fix --quiet",
@@ -47,8 +50,5 @@
   "peerDependencies": {
     "oxlint": ">=1.60.0",
     "oxlint-tsgolint": ">=0.18.1"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }

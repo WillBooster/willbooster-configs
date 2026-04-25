@@ -20,10 +20,10 @@
   "devDependencies": {
     "@tsconfig/node-lts": "24.0.0",
     "@tsconfig/node-ts": "23.6.4",
-    "@types/micromatch": "4.0.10",
     "@types/node": "25.6.0",
     "@typescript/native-preview": "7.0.0-dev.20260421.2",
-    "micromatch": "4.0.8",
+    "@willbooster/oxfmt-config": "workspace:*",
+    "@willbooster/oxlint-config": "workspace:*",
     "oxfmt": "0.45.0",
     "oxlint": "1.61.0",
     "oxlint-tsgolint": "0.21.1",

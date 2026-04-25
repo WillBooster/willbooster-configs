@@ -205,6 +205,12 @@
       ignoreUnstable: false,
     },
     {
+      description: 'Ignore Drizzle commit-suffixed prereleases that SemVer can sort after beta releases',
+      matchDatasources: ['npm'],
+      matchPackageNames: ['drizzle-kit', 'drizzle-orm'],
+      allowedVersions: '/^\\d+\\.\\d+\\.\\d+(?:-[a-z]+\\.\\d+)?$/',
+    },
+    {
       matchPackageNames: ['eslint', '@types/eslint'],
       enabled: false,
     },

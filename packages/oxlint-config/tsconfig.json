@@ -12,7 +12,7 @@
     "noEmit": true,
     "noUncheckedIndexedAccess": true,
     "resolveJsonModule": true,
-    "rootDir": ".",
+    "rootDir": "../..",
     "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
@@ -22,5 +22,5 @@
   },
   "exclude": ["test/fixtures"],
   "extends": ["@tsconfig/node-lts/tsconfig.json", "@tsconfig/node-ts/tsconfig.json"],
-  "include": ["test/**/*"]
+  "include": ["*.config.ts", "scripts/**/*", "src/**/*", "test/**/*"]
 }

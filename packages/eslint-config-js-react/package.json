@@ -23,11 +23,10 @@
     "check-all-for-ai": "yarn check-for-ai && yarn test",
     "check-for-ai": "yarn install > /dev/null && yarn format > /dev/null 2> /dev/null || true && yarn lint-fix --quiet",
     "cleanup": "yarn format && yarn lint-fix",
-    "format": "sort-package-json && yarn format-code && yarn prettify",
+    "format": "sort-package-json && yarn format-code",
     "format-code": "oxfmt --write --no-error-on-unmatched-pattern .",
     "lint": "oxlint --no-error-on-unmatched-pattern .",
     "lint-fix": "yarn lint --fix",
-    "prettify": "prettier --cache --color --no-error-on-unmatched-pattern --write \"**/{.*/,}*.{java}\" \"!**/test{-,/}fixtures/**\" || true",
     "test": "yarn lint"
   },
   "devDependencies": {
@@ -35,7 +34,6 @@
     "@eslint/js": "10.0.1",
     "@tsconfig/node-lts": "24.0.0",
     "@tsconfig/node-ts": "23.6.4",
-    "@willbooster/prettier-config": "^10.4.0",
     "eslint": "10.2.0",
     "eslint-config-flat-gitignore": "2.3.0",
     "eslint-config-prettier": "10.1.8",
@@ -49,10 +47,8 @@
     "globals": "17.5.0",
     "micromatch": "4.0.8",
     "oxfmt": "0.45.0",
-    "oxlint": "1.60.0",
+    "oxlint": "1.61.0",
     "oxlint-tsgolint": "0.21.1",
-    "prettier": "3.8.3",
-    "prettier-plugin-java": "2.8.1",
     "react": "19.2.5",
     "sort-package-json": "3.6.1"
   },
@@ -71,6 +67,5 @@
     "eslint-plugin-unused-imports": ">=4",
     "globals": ">=16",
     "typescript": ">=5"
-  },
-  "prettier": "@willbooster/prettier-config"
+  }
 }

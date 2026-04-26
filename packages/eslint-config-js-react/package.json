@@ -29,11 +29,11 @@
   "devDependencies": {
     "@tsconfig/node-lts": "24.0.0",
     "@tsconfig/node-ts": "23.6.4",
-    "@willbooster/oxfmt-config": "workspace:^",
-    "@willbooster/oxlint-config": "workspace:^",
-    "oxfmt": "0.45.0",
+    "@willbooster/oxfmt-config": "1.2.1",
+    "@willbooster/oxlint-config": "1.4.4",
+    "oxfmt": "0.46.0",
     "oxlint": "1.61.0",
-    "oxlint-tsgolint": "0.21.1",
+    "oxlint-tsgolint": "0.22.0",
     "react": "19.2.5",
     "sort-package-json": "3.6.1"
   },

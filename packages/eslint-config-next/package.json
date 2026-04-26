@@ -2,23 +2,20 @@
   "name": "@willbooster/eslint-config-next",
   "version": "0.0.0-semantically-released",
   "description": "ESLint flat config for Next.js projects",
-  "license": "Apache-2.0",
-  "author": "WillBooster Inc.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WillBooster/willbooster-configs.git",
     "directory": "packages/eslint-config-next"
   },
+  "license": "Apache-2.0",
+  "author": "WillBooster Inc.",
+  "type": "module",
+  "main": "eslint.config.js",
+  "types": "eslint.config.d.ts",
   "files": [
     "eslint.config.d.ts",
     "eslint.config.js"
   ],
-  "type": "module",
-  "main": "eslint.config.js",
-  "types": "eslint.config.d.ts",
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "check-all-for-ai": "yarn check-for-ai && yarn test",
     "check-for-ai": "yarn install > /dev/null && yarn format > /dev/null 2> /dev/null || true && yarn lint-fix --quiet",
@@ -49,5 +46,8 @@
   },
   "peerDependencies": {
     "typescript": ">=5"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

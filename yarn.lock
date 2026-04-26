@@ -2036,8 +2036,8 @@ __metadata:
     "@tsconfig/node-ts": "npm:23.6.4"
     "@types/node": "npm:25.6.0"
     "@typescript/native-preview": "npm:7.0.0-dev.20260421.2"
-    "@willbooster/oxfmt-config": "workspace:*"
-    "@willbooster/oxlint-config": "workspace:*"
+    "@willbooster/oxfmt-config": "workspace:^"
+    "@willbooster/oxlint-config": "workspace:^"
     "@willbooster/prettier-config": "npm:^10.4.0"
     conventional-changelog-conventionalcommits: "npm:9.3.1"
     dotenv-cli: "npm:11.0.0"
@@ -2058,8 +2058,8 @@ __metadata:
   dependencies:
     "@tsconfig/node-lts": "npm:24.0.0"
     "@tsconfig/node-ts": "npm:23.6.4"
-    "@willbooster/oxfmt-config": "workspace:*"
-    "@willbooster/oxlint-config": "workspace:*"
+    "@willbooster/oxfmt-config": "workspace:^"
+    "@willbooster/oxlint-config": "workspace:^"
     oxfmt: "npm:0.45.0"
     oxlint: "npm:1.61.0"
     oxlint-tsgolint: "npm:0.21.1"
@@ -2076,8 +2076,8 @@ __metadata:
   dependencies:
     "@tsconfig/node-lts": "npm:24.0.0"
     "@tsconfig/node-ts": "npm:23.6.4"
-    "@willbooster/oxfmt-config": "workspace:*"
-    "@willbooster/oxlint-config": "workspace:*"
+    "@willbooster/oxfmt-config": "workspace:^"
+    "@willbooster/oxlint-config": "workspace:^"
     oxfmt: "npm:0.45.0"
     oxlint: "npm:1.61.0"
     oxlint-tsgolint: "npm:0.21.1"
@@ -2095,8 +2095,8 @@ __metadata:
     "@types/node": "npm:25.6.0"
     "@types/react": "npm:19.2.14"
     "@typescript/native-preview": "npm:7.0.0-dev.20260421.2"
-    "@willbooster/oxfmt-config": "workspace:*"
-    "@willbooster/oxlint-config": "workspace:*"
+    "@willbooster/oxfmt-config": "workspace:^"
+    "@willbooster/oxlint-config": "workspace:^"
     eslint-config-next: "npm:16.2.4"
     oxfmt: "npm:0.45.0"
     oxlint: "npm:1.61.0"
@@ -2118,8 +2118,8 @@ __metadata:
     "@types/node": "npm:25.6.0"
     "@types/react": "npm:19.2.14"
     "@typescript/native-preview": "npm:7.0.0-dev.20260421.2"
-    "@willbooster/oxfmt-config": "workspace:*"
-    "@willbooster/oxlint-config": "workspace:*"
+    "@willbooster/oxfmt-config": "workspace:^"
+    "@willbooster/oxlint-config": "workspace:^"
     oxfmt: "npm:0.45.0"
     oxlint: "npm:1.61.0"
     oxlint-tsgolint: "npm:0.21.1"
@@ -2139,8 +2139,8 @@ __metadata:
     "@tsconfig/node-ts": "npm:23.6.4"
     "@types/node": "npm:25.6.0"
     "@typescript/native-preview": "npm:7.0.0-dev.20260421.2"
-    "@willbooster/oxfmt-config": "workspace:*"
-    "@willbooster/oxlint-config": "workspace:*"
+    "@willbooster/oxfmt-config": "workspace:^"
+    "@willbooster/oxlint-config": "workspace:^"
     oxfmt: "npm:0.45.0"
     oxlint: "npm:1.61.0"
     oxlint-tsgolint: "npm:0.21.1"
@@ -2151,7 +2151,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/oxfmt-config@workspace:*, @willbooster/oxfmt-config@workspace:packages/oxfmt-config":
+"@willbooster/oxfmt-config@workspace:^, @willbooster/oxfmt-config@workspace:packages/oxfmt-config":
   version: 0.0.0-use.local
   resolution: "@willbooster/oxfmt-config@workspace:packages/oxfmt-config"
   dependencies:
@@ -2161,7 +2161,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/oxlint-config@workspace:*, @willbooster/oxlint-config@workspace:packages/oxlint-config":
+"@willbooster/oxlint-config@workspace:^, @willbooster/oxlint-config@workspace:packages/oxlint-config":
   version: 0.0.0-use.local
   resolution: "@willbooster/oxlint-config@workspace:packages/oxlint-config"
   dependencies:
@@ -2169,7 +2169,7 @@ __metadata:
     "@tsconfig/node-ts": "npm:23.6.4"
     "@types/node": "npm:25.6.0"
     "@typescript/native-preview": "npm:7.0.0-dev.20260421.2"
-    "@willbooster/oxfmt-config": "workspace:*"
+    "@willbooster/oxfmt-config": "workspace:^"
     oxfmt: "npm:0.46.0"
     oxlint: "npm:1.61.0"
     oxlint-tsgolint: "npm:0.22.0"
@@ -2211,8 +2211,8 @@ __metadata:
     "@tsconfig/node-ts": "npm:23.6.4"
     "@types/node": "npm:25.6.0"
     "@typescript/native-preview": "npm:7.0.0-dev.20260421.2"
-    "@willbooster/oxfmt-config": "workspace:*"
-    "@willbooster/oxlint-config": "workspace:*"
+    "@willbooster/oxfmt-config": "workspace:^"
+    "@willbooster/oxlint-config": "workspace:^"
     oxfmt: "npm:0.45.0"
     oxlint: "npm:1.61.0"
     oxlint-tsgolint: "npm:0.21.1"

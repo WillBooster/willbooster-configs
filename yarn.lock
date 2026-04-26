@@ -1861,8 +1861,8 @@ __metadata:
     "@tsconfig/node-ts": "npm:23.6.4"
     "@types/node": "npm:25.6.0"
     "@typescript/native-preview": "npm:7.0.0-dev.20260421.2"
-    "@willbooster/oxfmt-config": "npm:1.2.1"
-    "@willbooster/oxlint-config": "npm:1.4.4"
+    "@willbooster/oxfmt-config": "npm:1.2.2"
+    "@willbooster/oxlint-config": "npm:1.4.5"
     "@willbooster/prettier-config": "npm:^10.4.0"
     conventional-changelog-conventionalcommits: "npm:9.3.1"
     dotenv-cli: "npm:11.0.0"
@@ -1883,8 +1883,8 @@ __metadata:
   dependencies:
     "@tsconfig/node-lts": "npm:24.0.0"
     "@tsconfig/node-ts": "npm:23.6.4"
-    "@willbooster/oxfmt-config": "npm:1.2.1"
-    "@willbooster/oxlint-config": "npm:1.4.4"
+    "@willbooster/oxfmt-config": "npm:1.2.2"
+    "@willbooster/oxlint-config": "npm:1.4.5"
     oxfmt: "npm:0.46.0"
     oxlint: "npm:1.61.0"
     oxlint-tsgolint: "npm:0.22.0"
@@ -1901,8 +1901,8 @@ __metadata:
   dependencies:
     "@tsconfig/node-lts": "npm:24.0.0"
     "@tsconfig/node-ts": "npm:23.6.4"
-    "@willbooster/oxfmt-config": "npm:1.2.1"
-    "@willbooster/oxlint-config": "npm:1.4.4"
+    "@willbooster/oxfmt-config": "npm:1.2.2"
+    "@willbooster/oxlint-config": "npm:1.4.5"
     oxfmt: "npm:0.46.0"
     oxlint: "npm:1.61.0"
     oxlint-tsgolint: "npm:0.22.0"
@@ -1920,8 +1920,8 @@ __metadata:
     "@types/node": "npm:25.6.0"
     "@types/react": "npm:19.2.14"
     "@typescript/native-preview": "npm:7.0.0-dev.20260421.2"
-    "@willbooster/oxfmt-config": "npm:1.2.1"
-    "@willbooster/oxlint-config": "npm:1.4.4"
+    "@willbooster/oxfmt-config": "npm:1.2.2"
+    "@willbooster/oxlint-config": "npm:1.4.5"
     eslint-config-next: "npm:16.2.4"
     oxfmt: "npm:0.46.0"
     oxlint: "npm:1.61.0"
@@ -1943,8 +1943,8 @@ __metadata:
     "@types/node": "npm:25.6.0"
     "@types/react": "npm:19.2.14"
     "@typescript/native-preview": "npm:7.0.0-dev.20260421.2"
-    "@willbooster/oxfmt-config": "npm:1.2.1"
-    "@willbooster/oxlint-config": "npm:1.4.4"
+    "@willbooster/oxfmt-config": "npm:1.2.2"
+    "@willbooster/oxlint-config": "npm:1.4.5"
     oxfmt: "npm:0.46.0"
     oxlint: "npm:1.61.0"
     oxlint-tsgolint: "npm:0.22.0"
@@ -1964,8 +1964,8 @@ __metadata:
     "@tsconfig/node-ts": "npm:23.6.4"
     "@types/node": "npm:25.6.0"
     "@typescript/native-preview": "npm:7.0.0-dev.20260421.2"
-    "@willbooster/oxfmt-config": "npm:1.2.1"
-    "@willbooster/oxlint-config": "npm:1.4.4"
+    "@willbooster/oxfmt-config": "npm:1.2.2"
+    "@willbooster/oxlint-config": "npm:1.4.5"
     oxfmt: "npm:0.46.0"
     oxlint: "npm:1.61.0"
     oxlint-tsgolint: "npm:0.22.0"
@@ -1976,12 +1976,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/oxfmt-config@npm:1.2.1":
-  version: 1.2.1
-  resolution: "@willbooster/oxfmt-config@npm:1.2.1"
+"@willbooster/oxfmt-config@npm:1.2.2":
+  version: 1.2.2
+  resolution: "@willbooster/oxfmt-config@npm:1.2.2"
   peerDependencies:
     oxfmt: ">=0.42.0"
-  checksum: 10c0/655d0bf232ccac7f0fbbbe7ae9f3f42169d0a69706f5ef30ad517a84a9f1091e6f842a7115439c91e8687501642f0b0c57ca83aaf039e769b04a7fad9568e354
+  checksum: 10c0/41d08e269a644210e3f41bfe246e92d8b3f5432339a42eb9bf1611f3b6b0269362189183e1890ea7198803548ec8c04fd0e0d0d4aa75a0cf97e043fc16c59fd9
   languageName: node
   linkType: hard
 
@@ -1995,13 +1995,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/oxlint-config@npm:1.4.4":
-  version: 1.4.4
-  resolution: "@willbooster/oxlint-config@npm:1.4.4"
+"@willbooster/oxlint-config@npm:1.4.5":
+  version: 1.4.5
+  resolution: "@willbooster/oxlint-config@npm:1.4.5"
   peerDependencies:
     oxlint: ">=1.60.0"
     oxlint-tsgolint: ">=0.18.1"
-  checksum: 10c0/c3fcc9adf9e71df92b9292dbffb283ea689c27522576b8df1cd231033fd383ee24a2be1c6529cae2ecc1c9f7539b1c3d6dcd93cf83478de89adbebee89b772b2
+  checksum: 10c0/62522f944276ee5e24fda191f41d76da87d3d5df187e249c5d19b0e7c6e8eb11c61c744946d2170e3abb13754ed2962a642c95a9cb70c68821e4d1d1cfde19f9
   languageName: node
   linkType: hard
 
@@ -2013,7 +2013,8 @@ __metadata:
     "@tsconfig/node-ts": "npm:23.6.4"
     "@types/node": "npm:25.6.0"
     "@typescript/native-preview": "npm:7.0.0-dev.20260421.2"
-    "@willbooster/oxfmt-config": "npm:1.2.1"
+    "@willbooster/oxfmt-config": "npm:1.2.2"
+    "@willbooster/oxlint-config": "npm:1.4.5"
     oxfmt: "npm:0.46.0"
     oxlint: "npm:1.61.0"
     oxlint-tsgolint: "npm:0.22.0"
@@ -2055,8 +2056,8 @@ __metadata:
     "@tsconfig/node-ts": "npm:23.6.4"
     "@types/node": "npm:25.6.0"
     "@typescript/native-preview": "npm:7.0.0-dev.20260421.2"
-    "@willbooster/oxfmt-config": "npm:1.2.1"
-    "@willbooster/oxlint-config": "npm:1.4.4"
+    "@willbooster/oxfmt-config": "npm:1.2.2"
+    "@willbooster/oxlint-config": "npm:1.4.5"
     oxfmt: "npm:0.46.0"
     oxlint: "npm:1.61.0"
     oxlint-tsgolint: "npm:0.22.0"

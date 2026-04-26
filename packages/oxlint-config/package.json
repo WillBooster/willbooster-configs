@@ -39,7 +39,7 @@
     "@tsconfig/node-ts": "23.6.4",
     "@types/node": "25.6.0",
     "@typescript/native-preview": "7.0.0-dev.20260421.2",
-    "@willbooster/oxfmt-config": "workspace:*",
+    "@willbooster/oxfmt-config": "1.2.1",
     "oxfmt": "0.46.0",
     "oxlint": "1.61.0",
     "oxlint-tsgolint": "0.22.0",

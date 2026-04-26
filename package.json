@@ -2,22 +2,22 @@
   "name": "@willbooster/configs",
   "version": "0.0.0-semantically-released",
   "private": true,
-  "license": "Apache-2.0",
-  "author": "WillBooster Inc.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WillBooster/willbooster-configs.git"
   },
+  "license": "Apache-2.0",
+  "author": "WillBooster Inc.",
+  "type": "module",
   "workspaces": [
     "packages/*"
   ],
-  "type": "module",
   "scripts": {
     "check-all-for-ai": "yarn check-for-ai && yarn test",
     "check-for-ai": "yarn install > /dev/null && yarn format > /dev/null 2> /dev/null || true && yarn lint-fix --quiet",
     "cleanup": "yarn format && yarn lint-fix",
     "format": "sort-package-json && yarn format-code && yarn prettify && yarn workspaces foreach --all --parallel --verbose run format",
-    "format-code": "oxfmt --write --no-error-on-unmatched-pattern .",
+    "format-code": "oxfmt --write --no-error-on-unmatched-pattern . '!**/package.json'",
     "lint": "yarn workspaces foreach --all --parallel --verbose run lint",
     "lint-fix": "yarn workspaces foreach --all --parallel --verbose run lint-fix",
     "prepare": "lefthook install || true",
@@ -26,6 +26,7 @@
     "test": "CI=1 FORCE_COLOR=3 yarn workspaces foreach --all --verbose run test",
     "typecheck": "yarn workspaces foreach --all --parallel --verbose run typecheck"
   },
+  "prettier": "@willbooster/prettier-config",
   "devDependencies": {
     "@anolilab/multi-semantic-release": "4.4.1",
     "@tsconfig/node-lts": "24.0.0",
@@ -46,6 +47,5 @@
     "semantic-release": "25.0.3",
     "sort-package-json": "3.6.1"
   },
-  "prettier": "@willbooster/prettier-config",
   "packageManager": "yarn@4.14.1"
 }

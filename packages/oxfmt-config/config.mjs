@@ -24,6 +24,7 @@ const config = {
     '**/ios/**',
     '**/no-format/**',
     '**/node_modules/**',
+    '**/package.json',
     '**/temp/**',
     '**/tmp/**',
     '**/test-fixtures/**',

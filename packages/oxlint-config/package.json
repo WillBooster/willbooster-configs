@@ -2,37 +2,34 @@
   "name": "@willbooster/oxlint-config",
   "version": "0.0.0-semantically-released",
   "description": "Oxlint config for WillBooster projects",
-  "license": "Apache-2.0",
-  "author": "WillBooster Inc.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WillBooster/willbooster-configs.git",
     "directory": "packages/oxlint-config"
   },
-  "files": [
-    "config.d.ts",
-    "config.mjs",
-    "oxlint.config.ts",
-    "config.d.mts"
-  ],
+  "license": "Apache-2.0",
+  "author": "WillBooster Inc.",
   "type": "module",
-  "main": "config.mjs",
-  "types": "config.d.ts",
   "exports": {
     ".": {
       "types": "./config.d.ts",
       "default": "./config.mjs"
     }
   },
-  "publishConfig": {
-    "access": "public"
-  },
+  "main": "config.mjs",
+  "types": "config.d.ts",
+  "files": [
+    "config.d.ts",
+    "config.mjs",
+    "oxlint.config.ts",
+    "config.d.mts"
+  ],
   "scripts": {
     "check-all-for-ai": "yarn check-for-ai && yarn test",
     "check-for-ai": "yarn install > /dev/null && yarn format > /dev/null 2> /dev/null || true && yarn lint-fix --quiet",
     "cleanup": "yarn format && yarn lint-fix",
     "format": "sort-package-json && yarn format-code",
-    "format-code": "oxfmt --write --no-error-on-unmatched-pattern .",
+    "format-code": "oxfmt --write --no-error-on-unmatched-pattern . '!**/package.json'",
     "lint": "oxlint --no-error-on-unmatched-pattern .",
     "lint-fix": "yarn lint --fix",
     "typecheck": "tsgo --noEmit"
@@ -43,7 +40,6 @@
     "@types/node": "25.6.0",
     "@typescript/native-preview": "7.0.0-dev.20260421.2",
     "@willbooster/oxfmt-config": "workspace:*",
-    "@willbooster/oxlint-config": "1.4.4",
     "oxfmt": "0.46.0",
     "oxlint": "1.61.0",
     "oxlint-tsgolint": "0.22.0",
@@ -52,5 +48,8 @@
   "peerDependencies": {
     "oxlint": ">=1.60.0",
     "oxlint-tsgolint": ">=0.18.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

@@ -2161,16 +2161,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/oxlint-config@npm:1.4.4":
-  version: 1.4.4
-  resolution: "@willbooster/oxlint-config@npm:1.4.4"
-  peerDependencies:
-    oxlint: ">=1.60.0"
-    oxlint-tsgolint: ">=0.18.1"
-  checksum: 10c0/c3fcc9adf9e71df92b9292dbffb283ea689c27522576b8df1cd231033fd383ee24a2be1c6529cae2ecc1c9f7539b1c3d6dcd93cf83478de89adbebee89b772b2
-  languageName: node
-  linkType: hard
-
 "@willbooster/oxlint-config@workspace:*, @willbooster/oxlint-config@workspace:packages/oxlint-config":
   version: 0.0.0-use.local
   resolution: "@willbooster/oxlint-config@workspace:packages/oxlint-config"
@@ -2180,7 +2170,6 @@ __metadata:
     "@types/node": "npm:25.6.0"
     "@typescript/native-preview": "npm:7.0.0-dev.20260421.2"
     "@willbooster/oxfmt-config": "workspace:*"
-    "@willbooster/oxlint-config": "npm:1.4.4"
     oxfmt: "npm:0.46.0"
     oxlint: "npm:1.61.0"
     oxlint-tsgolint: "npm:0.22.0"

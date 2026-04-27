@@ -17,6 +17,8 @@
     'docker:pinDigests',
   ],
   dependencyDashboardAutoclose: true,
+  // This is Renovate's default, but keep it explicit so minimumReleaseAge gates branch updates.
+  internalChecksFilter: 'strict',
   packageRules: [
     {
       matchDatasources: ['npm', 'pypi'],

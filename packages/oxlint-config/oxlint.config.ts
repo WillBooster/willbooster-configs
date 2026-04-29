@@ -1,3 +1,3 @@
-import config from './config.mjs';
+import config from '@willbooster/oxlint-config';
 
 export default config;

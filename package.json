@@ -24,7 +24,9 @@
     "prettify": "prettier --cache --color --no-error-on-unmatched-pattern --write \"**/{.*/,}*.{java}\" \"!**/packages/**\" \"!**/test{-,/}fixtures/**\" || true",
     "release": "yarn multi-semantic-release --debug",
     "test": "CI=1 FORCE_COLOR=3 yarn workspaces foreach --all --verbose run test",
-    "typecheck": "yarn workspaces foreach --all --parallel --verbose run typecheck"
+    "typecheck": "yarn workspaces foreach --all --parallel --verbose run typecheck",
+    "verify": "wb verify",
+    "verify-full": "wb verify --full"
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
@@ -36,6 +38,7 @@
     "@willbooster/oxfmt-config": "1.2.2",
     "@willbooster/oxlint-config": "1.4.6",
     "@willbooster/prettier-config": "^10.4.0",
+    "@willbooster/wb": "13.12.9",
     "conventional-changelog-conventionalcommits": "9.3.1",
     "dotenv-cli": "11.0.0",
     "lefthook": "2.1.6",

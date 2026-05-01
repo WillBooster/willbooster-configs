@@ -24,13 +24,16 @@
     "format-code": "oxfmt --write --no-error-on-unmatched-pattern . '!**/package.json'",
     "lint": "oxlint --no-error-on-unmatched-pattern .",
     "lint-fix": "yarn lint --fix",
-    "test": "yarn lint"
+    "test": "yarn lint",
+    "verify": "wb verify",
+    "verify-full": "wb verify --full"
   },
   "devDependencies": {
     "@tsconfig/node-lts": "24.0.0",
     "@tsconfig/node-ts": "23.6.4",
     "@willbooster/oxfmt-config": "1.2.2",
     "@willbooster/oxlint-config": "1.4.6",
+    "@willbooster/wb": "13.12.9",
     "oxfmt": "0.47.0",
     "oxlint": "1.62.0",
     "oxlint-tsgolint": "0.22.1",

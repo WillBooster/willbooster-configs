@@ -28,9 +28,12 @@
     "check-all-for-ai": "yarn check-for-ai && yarn test",
     "check-for-ai": "yarn install > /dev/null && yarn format > /dev/null 2> /dev/null || true",
     "cleanup": "yarn format",
-    "format": "sort-package-json"
+    "format": "sort-package-json",
+    "verify": "wb verify",
+    "verify-full": "wb verify --full"
   },
   "devDependencies": {
+    "@willbooster/wb": "13.12.9",
     "sort-package-json": "3.6.1"
   },
   "peerDependencies": {

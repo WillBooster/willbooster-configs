@@ -13,8 +13,6 @@
     "packages/*"
   ],
   "scripts": {
-    "check-all-for-ai": "yarn check-for-ai && yarn test",
-    "check-for-ai": "yarn install > /dev/null && yarn format > /dev/null 2> /dev/null || true && yarn lint-fix --quiet",
     "cleanup": "yarn format && yarn lint-fix",
     "format": "sort-package-json && yarn format-code && yarn prettify && yarn workspaces foreach --all --parallel --verbose run format",
     "format-code": "oxfmt --write --no-error-on-unmatched-pattern . '!**/package.json'",
@@ -24,7 +22,7 @@
     "prettify": "prettier --cache --color --no-error-on-unmatched-pattern --write \"**/{.*/,}*.{java}\" \"!**/packages/**\" \"!**/test{-,/}fixtures/**\" || true",
     "release": "yarn multi-semantic-release --debug",
     "test": "CI=1 FORCE_COLOR=3 yarn workspaces foreach --all --verbose run test",
-    "typecheck": "yarn workspaces foreach --all --parallel --verbose run typecheck",
+    "typecheck": "wb typecheck",
     "verify": "wb verify",
     "verify-full": "wb verify --full"
   },
@@ -34,7 +32,7 @@
     "@tsconfig/node-lts": "24.0.0",
     "@tsconfig/node-ts": "23.6.4",
     "@types/node": "25.6.0",
-    "@typescript/native-preview": "7.0.0-dev.20260426.1",
+    "@typescript/native-preview": "7.0.0-dev.20260421.2",
     "@willbooster/oxfmt-config": "1.2.2",
     "@willbooster/oxlint-config": "1.4.6",
     "@willbooster/prettier-config": "^10.4.0",

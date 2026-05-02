@@ -14,8 +14,6 @@
     ".prettierrc.json"
   ],
   "scripts": {
-    "check-all-for-ai": "yarn check-for-ai && yarn test",
-    "check-for-ai": "yarn install > /dev/null && yarn format > /dev/null 2> /dev/null || true",
     "cleanup": "yarn format",
     "format": "sort-package-json && yarn prettify",
     "prettify": "prettier --cache --color --no-error-on-unmatched-pattern --write \"**/{.*/,}*.{java}\" \"!**/test{-,/}fixtures/**\" || true",

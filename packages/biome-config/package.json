@@ -14,8 +14,6 @@
     "biome.jsonc"
   ],
   "scripts": {
-    "check-all-for-ai": "yarn check-for-ai && yarn test",
-    "check-for-ai": "yarn install > /dev/null && yarn format > /dev/null 2> /dev/null || true",
     "cleanup": "yarn format",
     "format": "sort-package-json",
     "verify": "wb verify",

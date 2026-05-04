@@ -31,7 +31,7 @@
     "@tsconfig/node-ts": "23.6.4",
     "@willbooster/oxfmt-config": "1.2.2",
     "@willbooster/oxlint-config": "1.4.6",
-    "@willbooster/wb": "13.12.10",
+    "@willbooster/wb": "13.12.13",
     "oxfmt": "0.47.0",
     "oxlint": "1.62.0",
     "oxlint-tsgolint": "0.22.1",

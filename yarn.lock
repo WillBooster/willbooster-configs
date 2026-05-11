@@ -1177,66 +1177,66 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-darwin-arm64@npm:7.0.0-dev.20260504.1":
-  version: 7.0.0-dev.20260504.1
-  resolution: "@typescript/native-preview-darwin-arm64@npm:7.0.0-dev.20260504.1"
+"@typescript/native-preview-darwin-arm64@npm:7.0.0-dev.20260421.2":
+  version: 7.0.0-dev.20260421.2
+  resolution: "@typescript/native-preview-darwin-arm64@npm:7.0.0-dev.20260421.2"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-darwin-x64@npm:7.0.0-dev.20260504.1":
-  version: 7.0.0-dev.20260504.1
-  resolution: "@typescript/native-preview-darwin-x64@npm:7.0.0-dev.20260504.1"
+"@typescript/native-preview-darwin-x64@npm:7.0.0-dev.20260421.2":
+  version: 7.0.0-dev.20260421.2
+  resolution: "@typescript/native-preview-darwin-x64@npm:7.0.0-dev.20260421.2"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-linux-arm64@npm:7.0.0-dev.20260504.1":
-  version: 7.0.0-dev.20260504.1
-  resolution: "@typescript/native-preview-linux-arm64@npm:7.0.0-dev.20260504.1"
+"@typescript/native-preview-linux-arm64@npm:7.0.0-dev.20260421.2":
+  version: 7.0.0-dev.20260421.2
+  resolution: "@typescript/native-preview-linux-arm64@npm:7.0.0-dev.20260421.2"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-linux-arm@npm:7.0.0-dev.20260504.1":
-  version: 7.0.0-dev.20260504.1
-  resolution: "@typescript/native-preview-linux-arm@npm:7.0.0-dev.20260504.1"
+"@typescript/native-preview-linux-arm@npm:7.0.0-dev.20260421.2":
+  version: 7.0.0-dev.20260421.2
+  resolution: "@typescript/native-preview-linux-arm@npm:7.0.0-dev.20260421.2"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-linux-x64@npm:7.0.0-dev.20260504.1":
-  version: 7.0.0-dev.20260504.1
-  resolution: "@typescript/native-preview-linux-x64@npm:7.0.0-dev.20260504.1"
+"@typescript/native-preview-linux-x64@npm:7.0.0-dev.20260421.2":
+  version: 7.0.0-dev.20260421.2
+  resolution: "@typescript/native-preview-linux-x64@npm:7.0.0-dev.20260421.2"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-win32-arm64@npm:7.0.0-dev.20260504.1":
-  version: 7.0.0-dev.20260504.1
-  resolution: "@typescript/native-preview-win32-arm64@npm:7.0.0-dev.20260504.1"
+"@typescript/native-preview-win32-arm64@npm:7.0.0-dev.20260421.2":
+  version: 7.0.0-dev.20260421.2
+  resolution: "@typescript/native-preview-win32-arm64@npm:7.0.0-dev.20260421.2"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-win32-x64@npm:7.0.0-dev.20260504.1":
-  version: 7.0.0-dev.20260504.1
-  resolution: "@typescript/native-preview-win32-x64@npm:7.0.0-dev.20260504.1"
+"@typescript/native-preview-win32-x64@npm:7.0.0-dev.20260421.2":
+  version: 7.0.0-dev.20260421.2
+  resolution: "@typescript/native-preview-win32-x64@npm:7.0.0-dev.20260421.2"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview@npm:7.0.0-dev.20260504.1":
-  version: 7.0.0-dev.20260504.1
-  resolution: "@typescript/native-preview@npm:7.0.0-dev.20260504.1"
+"@typescript/native-preview@npm:7.0.0-dev.20260421.2":
+  version: 7.0.0-dev.20260421.2
+  resolution: "@typescript/native-preview@npm:7.0.0-dev.20260421.2"
   dependencies:
-    "@typescript/native-preview-darwin-arm64": "npm:7.0.0-dev.20260504.1"
-    "@typescript/native-preview-darwin-x64": "npm:7.0.0-dev.20260504.1"
-    "@typescript/native-preview-linux-arm": "npm:7.0.0-dev.20260504.1"
-    "@typescript/native-preview-linux-arm64": "npm:7.0.0-dev.20260504.1"
-    "@typescript/native-preview-linux-x64": "npm:7.0.0-dev.20260504.1"
-    "@typescript/native-preview-win32-arm64": "npm:7.0.0-dev.20260504.1"
-    "@typescript/native-preview-win32-x64": "npm:7.0.0-dev.20260504.1"
+    "@typescript/native-preview-darwin-arm64": "npm:7.0.0-dev.20260421.2"
+    "@typescript/native-preview-darwin-x64": "npm:7.0.0-dev.20260421.2"
+    "@typescript/native-preview-linux-arm": "npm:7.0.0-dev.20260421.2"
+    "@typescript/native-preview-linux-arm64": "npm:7.0.0-dev.20260421.2"
+    "@typescript/native-preview-linux-x64": "npm:7.0.0-dev.20260421.2"
+    "@typescript/native-preview-win32-arm64": "npm:7.0.0-dev.20260421.2"
+    "@typescript/native-preview-win32-x64": "npm:7.0.0-dev.20260421.2"
   dependenciesMeta:
     "@typescript/native-preview-darwin-arm64":
       optional: true
@@ -1254,7 +1254,7 @@ __metadata:
       optional: true
   bin:
     tsgo: bin/tsgo.js
-  checksum: 10c0/f39137d17197e7c35fd9f2e4fbb0b829b2568ff8f34496cb5f06933fe4706c00ec525e86719546ddad4e996bfa2ccd1c00cbf689fd651629019372e03038f63a
+  checksum: 10c0/79dbb7e5204c5906bcb3a2946209162efbaac9c8fa78ffeccb8b6718661a5b40f988d60b27350ad538cc1a4143524e5fc97b04fa4767bd42a036000f226438db
   languageName: node
   linkType: hard
 
@@ -1323,10 +1323,7 @@ __metadata:
     "@tsconfig/node-lts": "npm:24.0.0"
     "@tsconfig/node-ts": "npm:23.6.4"
     "@types/node": "npm:25.6.0"
-    "@typescript/native-preview": "npm:7.0.0-dev.20260504.1"
-    "@willbooster/oxfmt-config": "npm:1.2.2"
-    "@willbooster/oxlint-config": "npm:1.4.6"
-    "@willbooster/prettier-config": "npm:^10.4.0"
+    "@typescript/native-preview": "npm:7.0.0-dev.20260421.2"
     "@willbooster/wb": "npm:13.12.16"
     conventional-changelog-conventionalcommits: "npm:9.3.1"
     dotenv-cli: "npm:11.0.0"
@@ -1347,8 +1344,6 @@ __metadata:
   dependencies:
     "@tsconfig/node-lts": "npm:24.0.0"
     "@tsconfig/node-ts": "npm:23.6.4"
-    "@willbooster/oxfmt-config": "npm:1.2.2"
-    "@willbooster/oxlint-config": "npm:1.4.6"
     "@willbooster/wb": "npm:13.12.16"
     oxfmt: "npm:0.48.0"
     oxlint: "npm:1.63.0"
@@ -1366,8 +1361,6 @@ __metadata:
   dependencies:
     "@tsconfig/node-lts": "npm:24.0.0"
     "@tsconfig/node-ts": "npm:23.6.4"
-    "@willbooster/oxfmt-config": "npm:1.2.2"
-    "@willbooster/oxlint-config": "npm:1.4.6"
     "@willbooster/wb": "npm:13.12.16"
     oxfmt: "npm:0.48.0"
     oxlint: "npm:1.63.0"
@@ -1385,9 +1378,7 @@ __metadata:
     "@tsconfig/node-ts": "npm:23.6.4"
     "@types/node": "npm:25.6.0"
     "@types/react": "npm:19.2.14"
-    "@typescript/native-preview": "npm:7.0.0-dev.20260504.1"
-    "@willbooster/oxfmt-config": "npm:1.2.2"
-    "@willbooster/oxlint-config": "npm:1.4.6"
+    "@typescript/native-preview": "npm:7.0.0-dev.20260421.2"
     "@willbooster/wb": "npm:13.12.16"
     oxfmt: "npm:0.48.0"
     oxlint: "npm:1.63.0"
@@ -1408,9 +1399,7 @@ __metadata:
     "@tsconfig/node-ts": "npm:23.6.4"
     "@types/node": "npm:25.6.0"
     "@types/react": "npm:19.2.14"
-    "@typescript/native-preview": "npm:7.0.0-dev.20260504.1"
-    "@willbooster/oxfmt-config": "npm:1.2.2"
-    "@willbooster/oxlint-config": "npm:1.4.6"
+    "@typescript/native-preview": "npm:7.0.0-dev.20260421.2"
     "@willbooster/wb": "npm:13.12.16"
     oxfmt: "npm:0.48.0"
     oxlint: "npm:1.63.0"
@@ -1430,9 +1419,7 @@ __metadata:
     "@tsconfig/node-lts": "npm:24.0.0"
     "@tsconfig/node-ts": "npm:23.6.4"
     "@types/node": "npm:25.6.0"
-    "@typescript/native-preview": "npm:7.0.0-dev.20260504.1"
-    "@willbooster/oxfmt-config": "npm:1.2.2"
-    "@willbooster/oxlint-config": "npm:1.4.6"
+    "@typescript/native-preview": "npm:7.0.0-dev.20260421.2"
     "@willbooster/wb": "npm:13.12.16"
     oxfmt: "npm:0.48.0"
     oxlint: "npm:1.63.0"
@@ -1443,15 +1430,6 @@ __metadata:
     typescript: ">=5"
   languageName: unknown
   linkType: soft
-
-"@willbooster/oxfmt-config@npm:1.2.2":
-  version: 1.2.2
-  resolution: "@willbooster/oxfmt-config@npm:1.2.2"
-  peerDependencies:
-    oxfmt: ">=0.42.0"
-  checksum: 10c0/41d08e269a644210e3f41bfe246e92d8b3f5432339a42eb9bf1611f3b6b0269362189183e1890ea7198803548ec8c04fd0e0d0d4aa75a0cf97e043fc16c59fd9
-  languageName: node
-  linkType: hard
 
 "@willbooster/oxfmt-config@workspace:packages/oxfmt-config":
   version: 0.0.0-use.local
@@ -1464,16 +1442,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/oxlint-config@npm:1.4.6":
-  version: 1.4.6
-  resolution: "@willbooster/oxlint-config@npm:1.4.6"
-  peerDependencies:
-    oxlint: ">=1.60.0"
-    oxlint-tsgolint: ">=0.18.1"
-  checksum: 10c0/56ed1372ad2caffb3dabe0f2357df8caba5871401ba434593c2cde7929e1c28082fbfdc242b1390ceda17761ea589acc57d7d072122045a3225e2f1af96c0411
-  languageName: node
-  linkType: hard
-
 "@willbooster/oxlint-config@workspace:packages/oxlint-config":
   version: 0.0.0-use.local
   resolution: "@willbooster/oxlint-config@workspace:packages/oxlint-config"
@@ -1481,9 +1449,7 @@ __metadata:
     "@tsconfig/node-lts": "npm:24.0.0"
     "@tsconfig/node-ts": "npm:23.6.4"
     "@types/node": "npm:25.6.0"
-    "@typescript/native-preview": "npm:7.0.0-dev.20260504.1"
-    "@willbooster/oxfmt-config": "npm:1.2.2"
-    "@willbooster/oxlint-config": "npm:1.4.6"
+    "@typescript/native-preview": "npm:7.0.0-dev.20260421.2"
     "@willbooster/wb": "npm:13.12.16"
     oxfmt: "npm:0.48.0"
     oxlint: "npm:1.63.0"
@@ -1494,16 +1460,6 @@ __metadata:
     oxlint-tsgolint: ">=0.18.1"
   languageName: unknown
   linkType: soft
-
-"@willbooster/prettier-config@npm:^10.4.0":
-  version: 10.4.0
-  resolution: "@willbooster/prettier-config@npm:10.4.0"
-  peerDependencies:
-    prettier: ">=3"
-    prettier-plugin-java: ">=2.6"
-  checksum: 10c0/37c25f8664d13ab5caf25f57545cbbec4f8005c812ee45d291f2e7ab7ab040c3bcd7ecf1c05c0872da884e044f6139413336fb158777649e249913efe176945f
-  languageName: node
-  linkType: hard
 
 "@willbooster/prettier-config@workspace:packages/prettier-config":
   version: 0.0.0-use.local
@@ -1526,9 +1482,7 @@ __metadata:
     "@tsconfig/node-lts": "npm:24.0.0"
     "@tsconfig/node-ts": "npm:23.6.4"
     "@types/node": "npm:25.6.0"
-    "@typescript/native-preview": "npm:7.0.0-dev.20260504.1"
-    "@willbooster/oxfmt-config": "npm:1.2.2"
-    "@willbooster/oxlint-config": "npm:1.4.6"
+    "@typescript/native-preview": "npm:7.0.0-dev.20260421.2"
     "@willbooster/wb": "npm:13.12.16"
     oxfmt: "npm:0.48.0"
     oxlint: "npm:1.63.0"

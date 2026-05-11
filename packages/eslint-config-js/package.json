@@ -29,7 +29,9 @@
   "devDependencies": {
     "@tsconfig/node-lts": "24.0.0",
     "@tsconfig/node-ts": "23.6.4",
-    "@willbooster/wb": "13.12.16",
+    "@willbooster/oxfmt-config": "1.2.2",
+    "@willbooster/oxlint-config": "1.4.6",
+    "@willbooster/wb": "13.12.17",
     "oxfmt": "0.48.0",
     "oxlint": "1.63.0",
     "oxlint-tsgolint": "0.22.1",

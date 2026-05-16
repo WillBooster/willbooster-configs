@@ -1,5 +1,6 @@
 // wbfy:start oxlint-base
-// oxlint-disable unicorn/prefer-module -- Oxlint only auto-discovers .ts config files, and CommonJS avoids Node typeless ESM warnings.
+/// <reference types="node" />
+// oxlint-disable unicorn/prefer-module -- Oxlint only auto-discovers .ts config files, and CommonJS avoids ESM package loading issues.
 const oxlintBaseConfig = require('@willbooster/oxlint-config');
 
 // Oxlint only supports type-aware options in the root config, while it

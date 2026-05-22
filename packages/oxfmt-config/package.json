@@ -31,7 +31,7 @@
     "verify-full": "wb verify --full"
   },
   "devDependencies": {
-    "@willbooster/wb": "13.19.1",
+    "@willbooster/wb": "13.19.2",
     "sort-package-json": "3.6.1"
   },
   "peerDependencies": {

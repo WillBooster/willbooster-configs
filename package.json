@@ -36,7 +36,7 @@
     "@willbooster/oxfmt-config": "1.2.2",
     "@willbooster/oxlint-config": "1.4.6",
     "@willbooster/prettier-config": "10.4.0",
-    "@willbooster/wb": "13.19.1",
+    "@willbooster/wb": "13.19.2",
     "conventional-changelog-conventionalcommits": "9.3.1",
     "dotenv-cli": "11.0.0",
     "lefthook": "2.1.6",

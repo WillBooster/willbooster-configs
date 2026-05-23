@@ -44,7 +44,7 @@
     "@willbooster/wb": "13.19.3",
     "oxfmt": "0.50.0",
     "oxlint": "1.65.0",
-    "oxlint-tsgolint": "0.22.1",
+    "oxlint-tsgolint": "0.23.0",
     "sort-package-json": "3.6.1"
   },
   "peerDependencies": {

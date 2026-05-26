@@ -21,7 +21,7 @@
     "verify-full": "wb verify --full"
   },
   "devDependencies": {
-    "@willbooster/wb": "13.19.3",
+    "@willbooster/wb": "13.19.4",
     "prettier": "3.8.3",
     "prettier-plugin-java": "2.9.2",
     "sort-package-json": "3.6.1"

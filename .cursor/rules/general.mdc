@@ -50,3 +50,7 @@ alwaysApply: true
 - Prefer using a single template literal for prompts instead of `join()` with a pre-computable array literal of strings.
 - Assume that all environment variables are properly defined.
   - If validation is required, use `assert` to fail fast (e.g., during startup).
+
+# Lessons Learned
+
+- Avoid adding a workspace package as its own dependency, even in `devDependencies`. `multi-semantic-release` uses package manifests to build a release order, so a self dependency can create a topological loop and fail release jobs. When a package needs to consume its own config during local checks, import the local source file instead of the published package name.

@@ -1440,7 +1440,6 @@ __metadata:
     "@types/node": "npm:25.9.0"
     "@typescript/native-preview": "npm:7.0.0-dev.20260518.1"
     "@willbooster/oxfmt-config": "npm:1.2.2"
-    "@willbooster/oxlint-config": "npm:1.4.6"
     "@willbooster/wb": "npm:13.19.7"
     oxfmt: "npm:0.50.0"
     oxlint: "npm:1.65.0"

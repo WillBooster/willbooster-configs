@@ -1,5 +1,5 @@
 // wbfy:start oxlint-base
-import oxlintBaseConfig from '@willbooster/oxlint-config';
+import oxlintBaseConfig from './config.mjs';
 
 // Oxlint only supports type-aware options in the root config, while it
 // still auto-discovers package-local config files in monorepos. Keep this as a

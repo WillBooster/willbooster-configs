@@ -49,12 +49,10 @@ const config = {
     '**/*.min.*js',
   ],
   rules: {
-    // Loose equality can be intentional for nullish checks and legacy APIs, so keep it visible without blocking.
-    eqeqeq: 'warn',
+    eqeqeq: 'error',
     'no-console': 'off',
-    // Unused variables are often temporary during development; type-aware unused-import checks catch the stricter cleanup cases.
     'no-unused-vars': [
-      'warn',
+      'error',
       {
         ignoreRestSiblings: true,
       },
@@ -65,10 +63,8 @@ const config = {
     'import-x/named': 'error',
     'import-x/namespace': 'error',
     'import-x/no-duplicates': 'error',
-    // Some packages intentionally expose useful default imports alongside named exports, so do not block those imports.
-    'import-x/no-named-as-default': 'warn',
-    // Default namespace-style imports such as `yaml.load` can be clearer than detached named imports for module APIs.
-    'import-x/no-named-as-default-member': 'warn',
+    'import-x/no-named-as-default': 'error',
+    'import-x/no-named-as-default-member': 'error',
     'jsx-a11y/alt-text': 'error',
     'jsx-a11y/anchor-has-content': 'error',
     'jsx-a11y/anchor-is-valid': 'error',
@@ -98,19 +94,14 @@ const config = {
     'jsx-a11y/tabindex-no-positive': 'error',
     'promise/always-return': 'error',
     'promise/catch-or-return': 'error',
-    // Callback interop inside promises is common when wrapping older Node APIs, so report it without forcing rewrites.
-    'promise/no-callback-in-promise': 'warn',
+    'promise/no-callback-in-promise': 'error',
     'promise/no-new-statics': 'error',
-    // Nested promise flows can be readable for scoped error handling, so keep this advisory.
-    'promise/no-nesting': 'warn',
-    // Passing promises through callback APIs happens at library boundaries and should not block builds.
-    'promise/no-promise-in-callback': 'warn',
-    // Returning from finally is suspicious but can be intentional in cleanup abstractions, so keep it non-blocking.
-    'promise/no-return-in-finally': 'warn',
+    'promise/no-nesting': 'error',
+    'promise/no-promise-in-callback': 'error',
+    'promise/no-return-in-finally': 'error',
     'promise/no-return-wrap': 'error',
     'promise/param-names': 'error',
-    // This rule can flag library-specific promise signatures, so keep it visible without making it fatal.
-    'promise/valid-params': 'warn',
+    'promise/valid-params': 'error',
     // React Compiler and framework-specific component APIs make these prop allocation rules too noisy
     // for shared enforcement. Projects can still opt in locally when referential stability is required.
     'react-perf/jsx-no-new-array-as-prop': 'off',
@@ -134,8 +125,7 @@ const config = {
     'react/no-unsafe': 'off',
     'react/react-in-jsx-scope': 'off',
     'react/require-render-return': 'error',
-    // Some hooks intentionally omit non-reactive values that are not allowed to change after initialization.
-    'react-hooks/exhaustive-deps': 'warn',
+    'react-hooks/exhaustive-deps': 'error',
     'unicorn/catch-error-name': 'error',
     'unicorn/consistent-assert': 'error',
     'unicorn/consistent-date-clone': 'error',
@@ -163,8 +153,7 @@ const config = {
     'unicorn/no-array-callback-reference': 'off',
     'unicorn/no-array-for-each': 'error',
     'unicorn/no-array-method-this-argument': 'error',
-    // Reduce can be the clearest expression for accumulators, especially when avoiding extra intermediate objects.
-    'unicorn/no-array-reduce': 'warn',
+    'unicorn/no-array-reduce': 'error',
     'unicorn/no-array-reverse': 'error',
     'unicorn/no-array-sort': 'error',
     'unicorn/no-await-expression-member': 'error',
@@ -184,8 +173,7 @@ const config = {
     'unicorn/no-nested-ternary': 'off',
     'unicorn/no-new-array': 'error',
     'unicorn/no-new-buffer': 'error',
-    // Some external APIs and generated config formats require `null` to represent explicit empty values.
-    'unicorn/no-null': 'warn',
+    'unicorn/no-null': 'error',
     'unicorn/no-object-as-default-parameter': 'error',
     'unicorn/no-process-exit': 'off',
     'unicorn/no-single-promise-in-promise-methods': 'error',
@@ -214,8 +202,7 @@ const config = {
       },
     ],
     'unicorn/no-zero-fractions': 'error',
-    // Oxfmt may normalize numeric literal casing differently, so report style mismatches without blocking.
-    'unicorn/number-literal-case': 'warn',
+    'unicorn/number-literal-case': 'error',
     'unicorn/numeric-separators-style': 'error',
     'unicorn/prefer-add-event-listener': 'error',
     'unicorn/prefer-array-find': 'error',
@@ -266,8 +253,7 @@ const config = {
     'unicorn/prefer-string-trim-start-end': 'error',
     'unicorn/prefer-structured-clone': 'error',
     'unicorn/prefer-ternary': 'error',
-    // Top-level await affects module loading semantics and package compatibility, so treat it as guidance.
-    'unicorn/prefer-top-level-await': 'warn',
+    'unicorn/prefer-top-level-await': 'error',
     'unicorn/prefer-type-error': 'error',
     'unicorn/relative-url-style': 'error',
     'unicorn/require-array-join-separator': 'error',

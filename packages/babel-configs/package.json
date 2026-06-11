@@ -20,9 +20,9 @@
   },
   "devDependencies": {
     "@types/babel__core": "7.20.5",
-    "@willbooster/wb": "13.22.11",
+    "@willbooster/wb": "13.22.12",
     "core-js": "3.49.0",
-    "sort-package-json": "3.6.1"
+    "sort-package-json": "4.0.0"
   },
   "peerDependencies": {
     "@babel/core": ">=7",

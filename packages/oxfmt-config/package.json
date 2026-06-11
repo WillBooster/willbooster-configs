@@ -31,8 +31,8 @@
     "verify-full": "wb verify --full"
   },
   "devDependencies": {
-    "@willbooster/wb": "13.22.11",
-    "sort-package-json": "3.6.1"
+    "@willbooster/wb": "13.22.12",
+    "sort-package-json": "4.0.0"
   },
   "peerDependencies": {
     "oxfmt": ">=0.42.0"

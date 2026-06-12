@@ -1242,7 +1242,7 @@ __metadata:
   resolution: "@willbooster/babel-configs@workspace:packages/babel-configs"
   dependencies:
     "@types/babel__core": "npm:7.20.5"
-    "@willbooster/wb": "npm:13.22.12"
+    "@willbooster/wb": "npm:13.22.13"
     core-js: "npm:3.49.0"
     sort-package-json: "npm:4.0.0"
   peerDependencies:
@@ -1266,7 +1266,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/biome-config@workspace:packages/biome-config"
   dependencies:
-    "@willbooster/wb": "npm:13.22.12"
+    "@willbooster/wb": "npm:13.22.13"
     sort-package-json: "npm:4.0.0"
   languageName: unknown
   linkType: soft
@@ -1283,7 +1283,7 @@ __metadata:
     "@willbooster/oxfmt-config": "npm:1.2.2"
     "@willbooster/oxlint-config": "workspace:*"
     "@willbooster/prettier-config": "npm:10.4.0"
-    "@willbooster/wb": "npm:13.22.12"
+    "@willbooster/wb": "npm:13.22.13"
     conventional-changelog-conventionalcommits: "npm:9.3.1"
     lefthook: "npm:2.1.9"
     oxfmt: "npm:0.54.0"
@@ -1304,7 +1304,7 @@ __metadata:
     "@tsconfig/node-ts": "npm:23.6.4"
     "@willbooster/oxfmt-config": "npm:1.2.2"
     "@willbooster/oxlint-config": "workspace:*"
-    "@willbooster/wb": "npm:13.22.12"
+    "@willbooster/wb": "npm:13.22.13"
     oxfmt: "npm:0.54.0"
     oxlint: "npm:1.69.0"
     oxlint-tsgolint: "npm:0.23.0"
@@ -1323,7 +1323,7 @@ __metadata:
     "@tsconfig/node-ts": "npm:23.6.4"
     "@willbooster/oxfmt-config": "npm:1.2.2"
     "@willbooster/oxlint-config": "workspace:*"
-    "@willbooster/wb": "npm:13.22.12"
+    "@willbooster/wb": "npm:13.22.13"
     oxfmt: "npm:0.54.0"
     oxlint: "npm:1.69.0"
     oxlint-tsgolint: "npm:0.23.0"
@@ -1343,7 +1343,7 @@ __metadata:
     "@typescript/native-preview": "npm:7.0.0-dev.20260527.2"
     "@willbooster/oxfmt-config": "npm:1.2.2"
     "@willbooster/oxlint-config": "workspace:*"
-    "@willbooster/wb": "npm:13.22.12"
+    "@willbooster/wb": "npm:13.22.13"
     oxfmt: "npm:0.54.0"
     oxlint: "npm:1.69.0"
     oxlint-tsgolint: "npm:0.23.0"
@@ -1366,7 +1366,7 @@ __metadata:
     "@typescript/native-preview": "npm:7.0.0-dev.20260527.2"
     "@willbooster/oxfmt-config": "npm:1.2.2"
     "@willbooster/oxlint-config": "workspace:*"
-    "@willbooster/wb": "npm:13.22.12"
+    "@willbooster/wb": "npm:13.22.13"
     oxfmt: "npm:0.54.0"
     oxlint: "npm:1.69.0"
     oxlint-tsgolint: "npm:0.23.0"
@@ -1388,7 +1388,7 @@ __metadata:
     "@typescript/native-preview": "npm:7.0.0-dev.20260527.2"
     "@willbooster/oxfmt-config": "npm:1.2.2"
     "@willbooster/oxlint-config": "workspace:*"
-    "@willbooster/wb": "npm:13.22.12"
+    "@willbooster/wb": "npm:13.22.13"
     oxfmt: "npm:0.54.0"
     oxlint: "npm:1.69.0"
     oxlint-tsgolint: "npm:0.23.0"
@@ -1412,7 +1412,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/oxfmt-config@workspace:packages/oxfmt-config"
   dependencies:
-    "@willbooster/wb": "npm:13.22.12"
+    "@willbooster/wb": "npm:13.22.13"
     sort-package-json: "npm:4.0.0"
   peerDependencies:
     oxfmt: ">=0.42.0"
@@ -1439,7 +1439,7 @@ __metadata:
     "@typescript/native-preview": "npm:7.0.0-dev.20260527.2"
     "@willbooster/oxfmt-config": "npm:1.2.2"
     "@willbooster/oxlint-config": "npm:1.4.8"
-    "@willbooster/wb": "npm:13.22.12"
+    "@willbooster/wb": "npm:13.22.13"
     oxfmt: "npm:0.54.0"
     oxlint: "npm:1.69.0"
     oxlint-tsgolint: "npm:0.23.0"
@@ -1464,7 +1464,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@willbooster/prettier-config@workspace:packages/prettier-config"
   dependencies:
-    "@willbooster/wb": "npm:13.22.12"
+    "@willbooster/wb": "npm:13.22.13"
     prettier: "npm:3.8.3"
     prettier-plugin-java: "npm:2.9.7"
     sort-package-json: "npm:4.0.0"
@@ -1484,7 +1484,7 @@ __metadata:
     "@typescript/native-preview": "npm:7.0.0-dev.20260527.2"
     "@willbooster/oxfmt-config": "npm:1.2.2"
     "@willbooster/oxlint-config": "workspace:*"
-    "@willbooster/wb": "npm:13.22.12"
+    "@willbooster/wb": "npm:13.22.13"
     oxfmt: "npm:0.54.0"
     oxlint: "npm:1.69.0"
     oxlint-tsgolint: "npm:0.23.0"
@@ -1492,9 +1492,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/wb@npm:13.22.12":
-  version: 13.22.12
-  resolution: "@willbooster/wb@npm:13.22.12"
+"@willbooster/wb@npm:13.22.13":
+  version: 13.22.13
+  resolution: "@willbooster/wb@npm:13.22.13"
   dependencies:
     chalk: "npm:5.6.2"
     dotenv: "npm:17.4.2"
@@ -1506,7 +1506,7 @@ __metadata:
     yargs: "npm:18.0.0"
   bin:
     wb: bin/index.js
-  checksum: 10c0/ca253049bc12102d87ce701539f1fd6e047046071ce28af741139e3a41f0e1187d94718d100c63056e7b4913ff7d8703fd4dd46f3cc93e1a21912c17e5f147bd
+  checksum: 10c0/77f09c3212fc5456d11db4544d5bbe09118434507464cef71207772e91be019a340876630806d99367900f22df0f9c47f403cfaeb3c0c0982cb01a373747b91c
   languageName: node
   linkType: hard
 

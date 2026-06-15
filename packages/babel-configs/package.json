@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@types/babel__core": "7.20.5",
-    "@willbooster/wb": "13.22.13",
+    "@willbooster/wb": "13.22.16",
     "core-js": "3.49.0",
     "sort-package-json": "4.0.0"
   },

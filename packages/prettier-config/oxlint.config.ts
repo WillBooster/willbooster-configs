@@ -5,9 +5,9 @@ const oxlintBaseConfig = require('@willbooster/oxlint-config');
 
 // Oxlint only supports type-aware options in the root config, while it
 // still auto-discovers package-local config files in monorepos. Keep this as a
-// plain object copy so package typechecks do not export oxlint's private helper
+// structured clone so package typechecks do not export oxlint's private helper
 // types through the generated config variable.
-const oxlintResolvedConfig: Record<string, unknown> = { ...(oxlintBaseConfig.default ?? oxlintBaseConfig) };
+const oxlintResolvedConfig = structuredClone(oxlintBaseConfig.default ?? oxlintBaseConfig) as Record<string, unknown>;
 delete oxlintResolvedConfig.options;
 // wbfy:end oxlint-base
 

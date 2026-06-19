@@ -20,7 +20,7 @@
     "verify-full": "wb verify --full"
   },
   "devDependencies": {
-    "@willbooster/wb": "13.22.16",
+    "@willbooster/wb": "13.22.17",
     "sort-package-json": "4.0.0"
   },
   "publishConfig": {

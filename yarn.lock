@@ -1280,6 +1280,9 @@ __metadata:
     "@tsconfig/node-ts": "npm:23.6.4"
     "@types/node": "npm:25.9.1"
     "@typescript/native-preview": "npm:7.0.0-dev.20260527.2"
+    "@willbooster/oxfmt-config": "workspace:*"
+    "@willbooster/oxlint-config": "workspace:*"
+    "@willbooster/prettier-config": "workspace:*"
     "@willbooster/wb": "npm:13.23.0"
     conventional-changelog-conventionalcommits: "npm:9.3.1"
     lefthook: "npm:2.1.9"
@@ -1299,6 +1302,8 @@ __metadata:
   dependencies:
     "@tsconfig/node-lts": "npm:24.0.0"
     "@tsconfig/node-ts": "npm:23.6.4"
+    "@willbooster/oxfmt-config": "workspace:*"
+    "@willbooster/oxlint-config": "workspace:*"
     "@willbooster/wb": "npm:13.23.0"
     oxfmt: "npm:0.58.0"
     oxlint: "npm:1.73.0"
@@ -1316,6 +1321,8 @@ __metadata:
   dependencies:
     "@tsconfig/node-lts": "npm:24.0.0"
     "@tsconfig/node-ts": "npm:23.6.4"
+    "@willbooster/oxfmt-config": "workspace:*"
+    "@willbooster/oxlint-config": "workspace:*"
     "@willbooster/wb": "npm:13.23.0"
     oxfmt: "npm:0.58.0"
     oxlint: "npm:1.73.0"
@@ -1334,6 +1341,8 @@ __metadata:
     "@types/node": "npm:25.9.1"
     "@types/react": "npm:19.2.15"
     "@typescript/native-preview": "npm:7.0.0-dev.20260527.2"
+    "@willbooster/oxfmt-config": "workspace:*"
+    "@willbooster/oxlint-config": "workspace:*"
     "@willbooster/wb": "npm:13.23.0"
     oxfmt: "npm:0.58.0"
     oxlint: "npm:1.73.0"
@@ -1355,6 +1364,8 @@ __metadata:
     "@types/node": "npm:25.9.1"
     "@types/react": "npm:19.2.15"
     "@typescript/native-preview": "npm:7.0.0-dev.20260527.2"
+    "@willbooster/oxfmt-config": "workspace:*"
+    "@willbooster/oxlint-config": "workspace:*"
     "@willbooster/wb": "npm:13.23.0"
     oxfmt: "npm:0.58.0"
     oxlint: "npm:1.73.0"
@@ -1375,6 +1386,8 @@ __metadata:
     "@tsconfig/node-ts": "npm:23.6.4"
     "@types/node": "npm:25.9.1"
     "@typescript/native-preview": "npm:7.0.0-dev.20260527.2"
+    "@willbooster/oxfmt-config": "workspace:*"
+    "@willbooster/oxlint-config": "workspace:*"
     "@willbooster/wb": "npm:13.23.0"
     oxfmt: "npm:0.58.0"
     oxlint: "npm:1.73.0"
@@ -1386,7 +1399,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/oxfmt-config@workspace:packages/oxfmt-config":
+"@willbooster/oxfmt-config@workspace:*, @willbooster/oxfmt-config@workspace:packages/oxfmt-config":
   version: 0.0.0-use.local
   resolution: "@willbooster/oxfmt-config@workspace:packages/oxfmt-config"
   dependencies:
@@ -1397,7 +1410,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/oxlint-config@workspace:packages/oxlint-config":
+"@willbooster/oxlint-config@npm:1.4.8":
+  version: 1.4.8
+  resolution: "@willbooster/oxlint-config@npm:1.4.8"
+  peerDependencies:
+    oxlint: ">=1.60.0"
+    oxlint-tsgolint: ">=0.18.1"
+  checksum: 10c0/996d270241223d1bef400bc043e400f2e4b1d5b4251c77e06694de850528b6f82f5ce7ea5f25d68cd2107a5b00d67fdcff57d31c08ce7856b70f7c8b2e4e4ef3
+  languageName: node
+  linkType: hard
+
+"@willbooster/oxlint-config@workspace:*, @willbooster/oxlint-config@workspace:packages/oxlint-config":
   version: 0.0.0-use.local
   resolution: "@willbooster/oxlint-config@workspace:packages/oxlint-config"
   dependencies:
@@ -1405,6 +1428,8 @@ __metadata:
     "@tsconfig/node-ts": "npm:23.6.4"
     "@types/node": "npm:25.9.1"
     "@typescript/native-preview": "npm:7.0.0-dev.20260527.2"
+    "@willbooster/oxfmt-config": "workspace:*"
+    "@willbooster/oxlint-config": "npm:1.4.8"
     "@willbooster/wb": "npm:13.23.0"
     oxfmt: "npm:0.58.0"
     oxlint: "npm:1.73.0"
@@ -1416,7 +1441,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@willbooster/prettier-config@workspace:packages/prettier-config":
+"@willbooster/prettier-config@workspace:*, @willbooster/prettier-config@workspace:packages/prettier-config":
   version: 0.0.0-use.local
   resolution: "@willbooster/prettier-config@workspace:packages/prettier-config"
   dependencies:
@@ -1438,6 +1463,8 @@ __metadata:
     "@tsconfig/node-ts": "npm:23.6.4"
     "@types/node": "npm:25.9.1"
     "@typescript/native-preview": "npm:7.0.0-dev.20260527.2"
+    "@willbooster/oxfmt-config": "workspace:*"
+    "@willbooster/oxlint-config": "workspace:*"
     "@willbooster/wb": "npm:13.23.0"
     oxfmt: "npm:0.58.0"
     oxlint: "npm:1.73.0"

@@ -32,15 +32,15 @@
     "@tsconfig/node-ts": "23.6.4",
     "@types/node": "25.9.1",
     "@types/react": "19.2.15",
-    "@typescript/native-preview": "7.0.0-dev.20260527.2",
     "@willbooster/oxfmt-config": "workspace:*",
     "@willbooster/oxlint-config": "workspace:*",
-    "@willbooster/wb": "13.23.1",
+    "@willbooster/wb": "13.26.0",
     "oxfmt": "0.58.0",
     "oxlint": "1.73.0",
     "oxlint-tsgolint": "0.24.0",
     "react": "19.2.7",
     "sort-package-json": "4.0.0",
+    "typescript": "7.0.2",
     "use-immer": "0.11.0"
   },
   "peerDependencies": {

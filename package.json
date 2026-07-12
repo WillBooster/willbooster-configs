@@ -35,7 +35,7 @@
     "@willbooster/oxfmt-config": "workspace:*",
     "@willbooster/oxlint-config": "workspace:*",
     "@willbooster/prettier-config": "workspace:*",
-    "@willbooster/wb": "13.26.0",
+    "@willbooster/wb": "13.26.1",
     "conventional-changelog-conventionalcommits": "9.3.1",
     "lefthook": "2.1.9",
     "oxfmt": "0.58.0",

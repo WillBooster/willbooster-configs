@@ -40,7 +40,7 @@
     "@types/node": "25.9.1",
     "@willbooster/oxfmt-config": "workspace:*",
     "@willbooster/oxlint-config": "1.4.8",
-    "@willbooster/wb": "13.28.6",
+    "@willbooster/wb": "13.28.7",
     "oxfmt": "0.59.0",
     "oxlint": "1.74.0",
     "oxlint-tsgolint": "0.24.0",

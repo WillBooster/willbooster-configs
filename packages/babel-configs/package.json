@@ -13,14 +13,17 @@
     "babel.*.cjs"
   ],
   "scripts": {
-    "cleanup": "yarn format",
-    "format": "sort-package-json",
-    "verify": "wb verify",
-    "verify-full": "wb verify --full"
+    "cleanup": "bun wb lint --fix --format",
+    "format": "bun wb lint --format",
+    "lint": "bun wb lint",
+    "lint-fix": "bun wb lint --fix",
+    "test": "bun wb test",
+    "verify": "bun wb verify",
+    "verify-full": "bun wb verify --full"
   },
   "devDependencies": {
     "@types/babel__core": "7.20.5",
-    "@willbooster/wb": "13.28.7",
+    "@willbooster/wb": "15.0.4",
     "core-js": "3.49.0",
     "sort-package-json": "4.0.0"
   },

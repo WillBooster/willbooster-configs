@@ -1,7 +1,6 @@
 {
   "name": "@willbooster/configs",
   "version": "0.0.0-semantically-released",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WillBooster/willbooster-configs.git"
@@ -13,39 +12,38 @@
     "packages/*"
   ],
   "scripts": {
-    "cleanup": "yarn format && yarn lint-fix",
-    "format": "sort-package-json && yarn format-code && yarn prettify && yarn workspaces foreach --all --parallel --verbose run format",
-    "format-code": "oxfmt --write --no-error-on-unmatched-pattern . '!**/package.json'",
-    "lint": "yarn workspaces foreach --all --parallel --verbose run lint",
-    "lint-fix": "yarn workspaces foreach --all --parallel --verbose run lint-fix",
+    "cleanup": "bun wb lint --fix --format",
+    "format": "bun wb lint --format",
+    "lint": "bun wb lint",
+    "lint-fix": "bun wb lint --fix",
     "prepare": "lefthook install || true",
-    "prettify": "prettier --cache --no-error-on-unmatched-pattern --write \"**/{.*/,}*.{java}\" \"!**/packages/**\" \"!**/test{-,/}fixtures/**\" || true",
-    "release": "yarn multi-semantic-release --debug",
-    "test": "CI=1 yarn workspaces foreach --all --verbose run test",
-    "typecheck": "wb typecheck",
-    "verify": "wb verify",
-    "verify-full": "wb verify --full"
+    "release": "bun run multi-semantic-release --debug",
+    "test": "bun wb test",
+    "typecheck": "bun wb typecheck",
+    "verify": "bun wb verify",
+    "verify-full": "bun wb verify --full"
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
     "@anolilab/multi-semantic-release": "4.4.4",
+    "@tsconfig/bun": "1.0.10",
     "@tsconfig/node-lts": "24.0.0",
     "@tsconfig/node-ts": "23.6.4",
+    "@types/bun": "1.3.14",
     "@types/node": "25.9.1",
-    "@willbooster/oxfmt-config": "workspace:*",
-    "@willbooster/oxlint-config": "workspace:*",
-    "@willbooster/prettier-config": "workspace:*",
-    "@willbooster/wb": "13.28.7",
+    "@willbooster/wb": "15.0.4",
     "conventional-changelog-conventionalcommits": "9.3.1",
     "lefthook": "2.1.10",
     "oxfmt": "0.59.0",
     "oxlint": "1.74.0",
-    "oxlint-tsgolint": "0.24.0",
+    "oxlint-tsgolint": "0.25.0",
     "prettier": "3.8.3",
     "prettier-plugin-java": "2.9.7",
     "semantic-release": "25.0.3",
     "sort-package-json": "4.0.0",
     "typescript": "7.0.2"
   },
-  "packageManager": "yarn@4.17.1"
+  "publishConfig": {
+    "access": "public"
+  }
 }

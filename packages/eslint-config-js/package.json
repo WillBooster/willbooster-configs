@@ -17,24 +17,20 @@
     "eslint.config.js"
   ],
   "scripts": {
-    "cleanup": "yarn format && yarn lint-fix",
-    "format": "sort-package-json && yarn format-code",
-    "format-code": "oxfmt --write --no-error-on-unmatched-pattern . '!**/package.json'",
-    "lint": "oxlint --no-error-on-unmatched-pattern .",
-    "lint-fix": "yarn lint --fix",
-    "test": "yarn lint",
-    "verify": "wb verify",
-    "verify-full": "wb verify --full"
+    "cleanup": "bun wb lint --fix --format",
+    "format": "bun wb lint --format",
+    "lint": "bun wb lint",
+    "lint-fix": "bun wb lint --fix",
+    "test": "bun wb test",
+    "verify": "bun wb verify",
+    "verify-full": "bun wb verify --full"
   },
   "devDependencies": {
-    "@tsconfig/node-lts": "24.0.0",
-    "@tsconfig/node-ts": "23.6.4",
-    "@willbooster/oxfmt-config": "workspace:*",
-    "@willbooster/oxlint-config": "workspace:*",
-    "@willbooster/wb": "13.28.7",
+    "@tsconfig/bun": "1.0.10",
+    "@willbooster/wb": "15.0.4",
     "oxfmt": "0.59.0",
     "oxlint": "1.74.0",
-    "oxlint-tsgolint": "0.24.0",
+    "oxlint-tsgolint": "0.25.0",
     "sort-package-json": "4.0.0"
   },
   "publishConfig": {

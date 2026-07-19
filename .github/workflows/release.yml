@@ -6,6 +6,7 @@ on:
 concurrency:
   group: ${{ github.workflow }}
   cancel-in-progress: false
+  queue: max
 permissions:
   id-token: write
   contents: write
@@ -17,3 +18,4 @@ jobs:
     secrets:
       DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL_FOR_RELEASE }}
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      VERDACCIO_TOKEN: ${{ secrets.VERDACCIO_TOKEN }}

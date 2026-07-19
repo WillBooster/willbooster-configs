@@ -14,13 +14,16 @@
     "biome.jsonc"
   ],
   "scripts": {
-    "cleanup": "yarn format",
-    "format": "sort-package-json",
-    "verify": "wb verify",
-    "verify-full": "wb verify --full"
+    "cleanup": "bun wb lint --fix --format",
+    "format": "bun wb lint --format",
+    "lint": "bun wb lint",
+    "lint-fix": "bun wb lint --fix",
+    "test": "bun wb test",
+    "verify": "bun wb verify",
+    "verify-full": "bun wb verify --full"
   },
   "devDependencies": {
-    "@willbooster/wb": "13.28.7",
+    "@willbooster/wb": "15.0.4",
     "sort-package-json": "4.0.0"
   },
   "publishConfig": {

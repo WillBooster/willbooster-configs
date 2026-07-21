@@ -3,7 +3,7 @@
 import type { OxlintConfig } from 'oxlint';
 
 // oxlint-disable unicorn/prefer-module -- Oxlint only auto-discovers .ts config files, and CommonJS avoids ESM package loading issues.
-const oxlintBaseConfig = require('@willbooster/oxlint-config');
+const oxlintBaseConfig = require('../oxlint-config/config.mjs');
 
 // Oxlint rejects the root-only type-aware options outside the root config, so delete them
 // here. This does NOT disable type checking: the lint commands pass the --type-aware and

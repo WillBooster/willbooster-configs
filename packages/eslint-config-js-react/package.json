@@ -27,12 +27,10 @@
   },
   "devDependencies": {
     "@tsconfig/bun": "1.0.10",
-    "@willbooster/oxfmt-config": "1.2.2",
-    "@willbooster/oxlint-config": "1.4.8",
-    "@willbooster/wb": "15.1.1",
+    "@willbooster/wb": "15.3.0",
     "oxfmt": "0.59.0",
     "oxlint": "1.74.0",
-    "oxlint-tsgolint": "0.25.0",
+    "oxlint-tsgolint": "7.0.2001",
     "react": "19.2.7",
     "sort-package-json": "4.0.0"
   },

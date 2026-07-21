@@ -1,7 +1,7 @@
 // wbfy:start oxlint-base
 import type { OxlintConfig } from 'oxlint';
 
-import oxlintBaseConfig from '@willbooster/oxlint-config';
+import oxlintBaseConfig from '../oxlint-config/config.mjs';
 
 // Oxlint rejects the root-only type-aware options outside the root config, so delete them
 // here. This does NOT disable type checking: the lint commands pass the --type-aware and

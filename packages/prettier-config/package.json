@@ -23,7 +23,7 @@
     "verify-full": "bun wb verify --full"
   },
   "devDependencies": {
-    "@willbooster/wb": "15.1.1",
+    "@willbooster/wb": "15.3.0",
     "prettier": "3.8.3",
     "prettier-plugin-java": "2.9.7",
     "sort-package-json": "4.0.0"

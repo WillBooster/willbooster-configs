@@ -207,6 +207,11 @@
       "ignoreUnstable": false,
     },
     {
+      "description": "Update vinext packages published only as beta prereleases",
+      "matchPackageNames": ["vinext", "/^@vinext\\//"],
+      "ignoreUnstable": false,
+    },
+    {
       "description": "Ignore Drizzle commit-suffixed prereleases that SemVer can sort after beta releases",
       "matchDatasources": ["npm"],
       "matchPackageNames": ["drizzle-kit", "drizzle-orm"],

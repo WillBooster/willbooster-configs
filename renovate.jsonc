@@ -1,7 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>WillBooster/willbooster-configs:renovate.jsonc",
     "config:recommended",
     ":automergeDigest",
     ":automergeLinters",

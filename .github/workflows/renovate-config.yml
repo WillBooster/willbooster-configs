@@ -1,0 +1,26 @@
+name: Validate Renovate config
+on:
+  pull_request:
+    paths:
+      - renovate.jsonc
+      - .github/workflows/renovate-config.yml
+  push:
+    branches:
+      - main
+    paths:
+      - renovate.jsonc
+      - .github/workflows/renovate-config.yml
+permissions:
+  contents: read
+concurrency:
+  group: renovate-config-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      # This file is a shared preset consumed via `extends`, so `--no-global` validates it as a repo
+      # config instead of a self-hosted global config. The version is unpinned on purpose: the preset
+      # must stay valid for whichever Renovate version the hosted app currently runs.
+      - run: npx --yes --package renovate -- renovate-config-validator --strict --no-global renovate.jsonc

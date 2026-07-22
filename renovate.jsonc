@@ -211,9 +211,10 @@
       "ignoreUnstable": false,
     },
     {
-      "description": "Ignore Drizzle commit-suffixed prereleases that SemVer can sort after beta releases",
+      "description": "Update Drizzle packages published only as beta/rc prereleases, ignoring commit-suffixed ones that SemVer can sort after them",
       "matchDatasources": ["npm"],
-      "matchPackageNames": ["drizzle-kit", "drizzle-orm"],
+      "matchPackageNames": ["/^drizzle-/", "/^@drizzle-team\\//"],
+      "ignoreUnstable": false,
       "allowedVersions": "/^\\d+\\.\\d+\\.\\d+(?:-[a-z]+\\.\\d+)?$/",
     },
     {

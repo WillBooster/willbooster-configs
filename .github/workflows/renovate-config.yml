@@ -1,0 +1,32 @@
+name: Validate Renovate config
+on:
+  pull_request:
+    paths:
+      - renovate.jsonc
+      - .github/workflows/renovate-config.yml
+  push:
+    branches:
+      - main
+    paths:
+      - renovate.jsonc
+      - .github/workflows/renovate-config.yml
+permissions:
+  contents: read
+concurrency:
+  group: renovate-config-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      # Renovate requires a recent Node version, and npm silently installs an ancient Renovate that
+      # cannot even parse JSONC when the runner's Node is older, so install the pinned Node first.
+      - uses: jdx/mise-action@v4.2.0
+        with:
+          cache: true
+      # This file is a shared preset consumed via `extends`, so `--no-global` validates it as a repo
+      # config instead of a self-hosted global config. `@latest` is intentional: the preset must stay
+      # valid for whichever Renovate version the hosted app currently runs, and it also makes an
+      # incompatible Node version fail loudly instead of silently selecting an obsolete validator.
+      - run: npx --yes --package renovate@latest -- renovate-config-validator --strict --no-global renovate.jsonc

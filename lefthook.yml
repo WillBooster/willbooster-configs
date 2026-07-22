@@ -29,3 +29,6 @@ pre-commit:
           fi
         done
         exit "$failed"
+    - name: validate-renovate-config
+      glob: renovate.jsonc
+      run: npx --yes --package renovate@latest -- renovate-config-validator --strict --no-global {staged_files}

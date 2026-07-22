@@ -234,7 +234,7 @@
       "automergeStrategy": "squash",
     },
     {
-      "matchPackageNames": ["*", "!zod"],
+      "matchPackageNames": ["*"],
       "rangeStrategy": "pin",
     },
     {

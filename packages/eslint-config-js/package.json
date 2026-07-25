@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@tsconfig/bun": "1.0.10",
-    "@willbooster/wb": "15.3.0",
+    "@willbooster/wb": "15.4.0",
     "oxfmt": "0.59.0",
     "oxlint": "1.74.0",
     "oxlint-tsgolint": "7.0.2001",

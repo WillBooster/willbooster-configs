@@ -27,7 +27,7 @@
     "verify-full": "bun wb verify --full"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "3.3.5",
+    "@eslint/eslintrc": "3.3.6",
     "@tsconfig/bun": "1.0.10",
     "@tsconfig/node-lts": "24.0.0",
     "@tsconfig/node-ts": "23.6.4",

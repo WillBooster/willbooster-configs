@@ -186,6 +186,12 @@
       "enabled": true,
     },
     {
+      "description": "Supply-chain security pins must never be rewritten: clear-any-console >= 1.16.4 bundles the obfuscated command-code AI CLI, and http is aliased away from npm's security-holder package that the Takumi Guard proxy blocks (see WillBooster/survey-system#535)",
+      "matchDepTypes": ["overrides", "resolutions"],
+      "matchDepNames": ["clear-any-console", "http"],
+      "enabled": false,
+    },
+    {
       "groupName": "willbooster-config",
       "matchPackageNames": ["/^@willbooster/.*config/"],
     },

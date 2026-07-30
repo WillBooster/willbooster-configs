@@ -23,10 +23,11 @@
     "verify-full": "bun wb verify --full"
   },
   "devDependencies": {
-    "@willbooster/wb": "15.4.0",
+    "@willbooster/wb": "19.5.4",
     "sort-package-json": "4.0.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }

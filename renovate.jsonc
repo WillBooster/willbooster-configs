@@ -14,16 +14,6 @@
   "automerge": true,
   "dependencyDashboardAutoclose": true,
   "internalChecksFilter": "strict",
-  "hostRules": [
-    {
-      "hostType": "npm",
-      "matchHost": "https://verdaccio-production-e389.up.railway.app/",
-      "authType": "Basic",
-      "token": "{{ secrets.VerdaccioBasicAuth }}",
-    },
-  ],
-  "npmrc": "@willbooster-private:registry=https://verdaccio-production-e389.up.railway.app/",
-  "npmrcMerge": true,
   "packageRules": [
     {
       "matchDatasources": ["npm", "pypi"],

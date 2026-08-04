@@ -19,7 +19,7 @@
       "hostType": "npm",
       "matchHost": "https://verdaccio-production-e389.up.railway.app/",
       "authType": "Basic",
-      "token": "{{ secrets.VerdaccioReadonlyBasicAuth }}",
+      "token": "{{ secrets.VerdaccioBasicAuth }}",
     },
   ],
   "npmrc": "@willbooster-private:registry=https://verdaccio-production-e389.up.railway.app/",

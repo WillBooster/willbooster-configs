@@ -23,6 +23,7 @@
     },
   ],
   "npmrc": "@willbooster-private:registry=https://verdaccio-production-e389.up.railway.app/",
+  "npmrcMerge": true,
   "packageRules": [
     {
       "matchDatasources": ["npm", "pypi"],

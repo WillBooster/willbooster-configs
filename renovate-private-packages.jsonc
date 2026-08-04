@@ -1,14 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Authenticate Renovate with the WillBooster private npm registry",
-  "hostRules": [
-    {
-      "hostType": "npm",
-      "matchHost": "https://verdaccio-production-e389.up.railway.app/",
-      "authType": "Basic",
-      "token": "{{ secrets.VerdaccioBasicAuth }}",
-    },
-  ],
+  "description": "Map WillBooster private npm packages to Verdaccio; authentication comes from the Mend organization host rule",
   "npmrc": "@willbooster-private:registry=https://verdaccio-production-e389.up.railway.app/",
   "npmrcMerge": true,
 }

@@ -2,12 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended",
-    ":automergeDigest",
-    ":automergeLinters",
-    ":automergeMinor",
     ":automergePr",
-    ":automergeTesters",
-    ":automergeTypes",
     ":maintainLockFilesWeekly",
     ":prImmediately",
     ":rebaseStalePrs",
@@ -16,6 +11,7 @@
     "docker:pinDigests",
   ],
   "description": "Default preset for use with WillBooster and WillBoosterLab repos",
+  "automerge": true,
   "dependencyDashboardAutoclose": true,
   "internalChecksFilter": "strict",
   "packageRules": [
@@ -176,6 +172,12 @@
     {
       "matchDepTypes": ["overrides", "resolutions"],
       "enabled": true,
+    },
+    {
+      "description": "Supply-chain security pins must never be rewritten: clear-any-console >= 1.16.3 adds the author's AI SDK langbase as an unused dependency (>= 1.16.4 also bundles the obfuscated command-code AI CLI), so 1.16.2 is the last clean release (see WillBooster/literacy-test#932); http is aliased away from npm's security-holder package that the Takumi Guard proxy blocks (see WillBooster/survey-system#535)",
+      "matchDepTypes": ["overrides", "resolutions"],
+      "matchDepNames": ["clear-any-console", "http"],
+      "enabled": false,
     },
     {
       "groupName": "willbooster-config",

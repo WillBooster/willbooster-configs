@@ -1,5 +1,4 @@
 // wbfy:start oxlint-base
-/// <reference types="node" />
 import type { OxlintConfig } from 'oxlint';
 
 // oxlint-disable unicorn/prefer-module -- Oxlint only auto-discovers .ts config files, and CommonJS avoids ESM package loading issues.

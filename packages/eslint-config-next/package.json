@@ -33,7 +33,7 @@
     "@tsconfig/node-ts": "23.6.4",
     "@types/bun": "1.3.14",
     "@types/node": "26.1.1",
-    "@types/react": "19.2.17",
+    "@types/react": "19.2.18",
     "@willbooster/shared": "*",
     "@willbooster/wb": "19.5.5",
     "oxfmt": "0.61.0",

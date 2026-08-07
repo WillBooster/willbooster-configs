@@ -17,7 +17,7 @@
   "packageRules": [
     {
       "matchDatasources": ["npm", "pypi"],
-      "minimumReleaseAge": "5 days",
+      "minimumReleaseAge": "7 days",
     },
     {
       "groupName": "all patch dependencies",
@@ -166,15 +166,7 @@
     {
       "description": "Allow immediate updates for preapproved npm packages",
       "matchDatasources": ["npm"],
-      "matchPackageNames": [
-        "/^@exercode\\//",
-        "/^@willbooster\\//",
-        "agent-runtime-kit",
-        "next",
-        "/^@next\\//",
-        "react",
-        "react-dom",
-      ],
+      "matchPackageNames": ["/^@exercode\\//", "/^@willbooster\\//", "agent-runtime-kit"],
       "minimumReleaseAge": "0 days",
     },
     {

@@ -21,7 +21,7 @@
   "packageRules": [
     {
       "matchDatasources": ["npm", "pypi"],
-      "minimumReleaseAge": "5 days",
+      "minimumReleaseAge": "7 days",
     },
     {
       "groupName": "all patch dependencies",

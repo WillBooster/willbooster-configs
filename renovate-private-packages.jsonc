@@ -1,6 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Map WillBooster private npm packages to Verdaccio; authentication comes from the Mend organization host rule",
-  "npmrc": "@willbooster-private:registry=https://verdaccio-production-e389.up.railway.app/",
-  "npmrcMerge": true,
+  "description": "Compatibility preset; private package settings are now included in renovate.jsonc",
 }

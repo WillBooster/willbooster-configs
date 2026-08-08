@@ -10,10 +10,12 @@
     "docker:enableMajor",
     "docker:pinDigests",
   ],
-  "description": "Default preset for use with WillBooster and WillBoosterLab repos",
+  "description": "Default preset for use with WillBooster and WillBoosterLab repos, including the private Verdaccio registry",
   "automerge": true,
   "dependencyDashboardAutoclose": true,
   "internalChecksFilter": "strict",
+  "npmrc": "@willbooster-private:registry=https://verdaccio-production-e389.up.railway.app/",
+  "npmrcMerge": true,
   "packageRules": [
     {
       "matchDatasources": ["npm", "pypi"],

@@ -1,4 +1,0 @@
-{
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Compatibility preset; private package settings are now included in renovate.jsonc",
-}

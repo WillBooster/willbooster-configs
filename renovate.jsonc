@@ -10,7 +10,7 @@
     "docker:enableMajor",
     "docker:pinDigests",
   ],
-  "description": "Preset for use with WillBooster and WillBoosterLab repos, including the private Verdaccio registry",
+  "description": "Preset for use with WillBooster and WillBoosterLab repos",
   "automerge": true,
   "dependencyDashboardAutoclose": true,
   "internalChecksFilter": "strict",

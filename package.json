@@ -40,7 +40,7 @@
     "oxlint-tsgolint": "7.0.2001",
     "prettier": "3.9.6",
     "prettier-plugin-java": "2.10.3",
-    "semantic-release": "25.0.8",
+    "semantic-release": "25.0.9",
     "sort-package-json": "4.0.0",
     "typescript": "7.0.2"
   },

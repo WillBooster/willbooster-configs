@@ -26,8 +26,7 @@
     "verify-full": "bun wb verify --full"
   },
   "devDependencies": {
-    "@tsconfig/bun": "1.0.10",
-    "@willbooster/wb": "21.0.1",
+    "@willbooster/wb": "21.7.2",
     "oxfmt": "0.62.0",
     "oxlint": "1.77.0",
     "oxlint-tsgolint": "7.0.2001",

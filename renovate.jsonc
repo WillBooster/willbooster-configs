@@ -12,6 +12,14 @@
   ],
   "description": "Preset for use with WillBooster and WillBoosterLab repos",
   "automerge": true,
+  // Cargo has no client-side release-age gate (unlike bunfig.toml / .npmrc), so the 7-day cooldown
+  // below is the only one for crates.io: keep weekly lockfile maintenance from refreshing
+  // Cargo.lock to crates published moments ago, and require a human merge because a normal update
+  // PR regenerates Cargo.lock with transitive crates that never see minimumReleaseAge.
+  "cargo": {
+    "lockFileMaintenance": { "enabled": false },
+    "automerge": false,
+  },
   "dependencyDashboardAutoclose": true,
   "internalChecksFilter": "strict",
   "hostRules": [
@@ -25,7 +33,7 @@
   "npmrcMerge": true,
   "packageRules": [
     {
-      "matchDatasources": ["npm", "pypi"],
+      "matchDatasources": ["npm", "pypi", "crate"],
       "minimumReleaseAge": "7 days",
     },
     {
@@ -39,6 +47,13 @@
       "groupSlug": "all-minor",
       "matchPackageNames": ["*"],
       "matchUpdateTypes": ["minor"],
+    },
+    {
+      "description": "A grouped branch automerges only when every upgrade in it does, so keep the non-automerged Cargo updates out of the cross-manager patch/minor groups above",
+      "groupName": "cargo dependencies",
+      "groupSlug": "cargo",
+      "matchManagers": ["cargo"],
+      "matchUpdateTypes": ["patch", "minor"],
     },
     {
       "description": "Custom replacement for group:nextjsMonorepo, merged with React",

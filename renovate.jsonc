@@ -49,6 +49,13 @@
       "matchUpdateTypes": ["minor"],
     },
     {
+      "description": "A grouped branch automerges only when every upgrade in it does, so keep the non-automerged Cargo updates out of the cross-manager patch/minor groups above",
+      "groupName": "cargo dependencies",
+      "groupSlug": "cargo",
+      "matchManagers": ["cargo"],
+      "matchUpdateTypes": ["patch", "minor"],
+    },
+    {
       "description": "Custom replacement for group:nextjsMonorepo, merged with React",
       "groupName": "nextjs and react",
       "groupSlug": "nextjs-react",

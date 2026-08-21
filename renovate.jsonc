@@ -12,6 +12,14 @@
   ],
   "description": "Preset for use with WillBooster and WillBoosterLab repos",
   "automerge": true,
+  // Cargo has no client-side release-age gate (unlike bunfig.toml / .npmrc), so the 7-day cooldown
+  // below is the only one for crates.io: keep weekly lockfile maintenance from refreshing
+  // Cargo.lock to crates published moments ago, and require a human merge because a normal update
+  // PR regenerates Cargo.lock with transitive crates that never see minimumReleaseAge.
+  "cargo": {
+    "lockFileMaintenance": { "enabled": false },
+    "automerge": false,
+  },
   "dependencyDashboardAutoclose": true,
   "internalChecksFilter": "strict",
   "hostRules": [
@@ -27,11 +35,6 @@
     {
       "matchDatasources": ["npm", "pypi", "crate"],
       "minimumReleaseAge": "7 days",
-    },
-    {
-      "description": "Cargo has no client-side release-age gate (unlike bunfig.toml / .npmrc), so lockfile maintenance would refresh Cargo.lock to crates published moments ago, bypassing the cooldown above",
-      "matchManagers": ["cargo"],
-      "lockFileMaintenance": { "enabled": false },
     },
     {
       "groupName": "all patch dependencies",

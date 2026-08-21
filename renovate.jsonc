@@ -25,8 +25,13 @@
   "npmrcMerge": true,
   "packageRules": [
     {
-      "matchDatasources": ["npm", "pypi"],
+      "matchDatasources": ["npm", "pypi", "crate"],
       "minimumReleaseAge": "7 days",
+    },
+    {
+      "description": "Cargo has no client-side release-age gate (unlike bunfig.toml / .npmrc), so lockfile maintenance would refresh Cargo.lock to crates published moments ago, bypassing the cooldown above",
+      "matchManagers": ["cargo"],
+      "lockFileMaintenance": { "enabled": false },
     },
     {
       "groupName": "all patch dependencies",

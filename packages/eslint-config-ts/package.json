@@ -34,8 +34,8 @@
     "@types/node": "26.2.0",
     "@willbooster/shared": "*",
     "@willbooster/wb": "21.7.2",
-    "oxfmt": "0.62.0",
-    "oxlint": "1.77.0",
+    "oxfmt": "0.63.0",
+    "oxlint": "1.78.0",
     "oxlint-tsgolint": "7.0.2001",
     "sort-package-json": "4.0.0",
     "use-immer": "0.11.0"

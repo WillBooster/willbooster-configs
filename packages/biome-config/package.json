@@ -23,7 +23,7 @@
     "verify-full": "bun wb verify --full"
   },
   "devDependencies": {
-    "@willbooster/wb": "22.0.1",
+    "@willbooster/wb": "22.1.4",
     "sort-package-json": "4.0.0"
   },
   "publishConfig": {

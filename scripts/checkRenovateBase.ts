@@ -11,7 +11,7 @@ const builtInPresetPattern =
   /^(?:|abandonments|config|customManagers|default|docker|global|group|helpers|mergeConfidence|monorepo|packages|preview|replacements|schedule|security|workarounds):[A-Za-z][\w-]*$/;
 
 async function main(): Promise<void> {
-  const filePath = path.resolve(process.argv[2] ?? 'renovate-base.jsonc');
+  const filePath = path.resolve('renovate-base.jsonc');
   const module: { default: unknown } = await import(filePath);
   const problems = findProblems(module.default, '');
   if (problems.length === 0) return;

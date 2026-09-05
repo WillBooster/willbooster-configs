@@ -10,11 +10,11 @@
     "docker:enableMajor",
     "docker:pinDigests",
   ],
-  // Never add hostRules, npmrc, npmToken, a Mend secret or variable placeholder, or an extends of another
-  // preset in this repository here: repositories outside the WillBooster and WillBoosterLab organizations
-  // extend this file, Renovate resolves placeholders against the extending repository, and an extending
-  // repository cannot remove inherited hostRules, so such an entry stops every one of them with an
-  // "Unknown secrets name" or "Unknown variables name" error. Put credentials in renovate.jsonc.
+  // Never add hostRules, npmrc, npmToken, a Mend secret or variable placeholder, or an extends of anything
+  // but a built-in Renovate preset here (scripts/checkRenovateBase.ts enforces this): repositories outside
+  // the WillBooster and WillBoosterLab organizations extend this file, Renovate resolves placeholders
+  // against the extending repository, and an extending repository cannot remove inherited hostRules, so
+  // such an entry stops every one of them with an "Unknown secrets name" error. Put credentials in renovate.jsonc.
   "description": "Preset for repos outside the WillBooster and WillBoosterLab organizations; WillBooster repos extend renovate.jsonc, which adds the private registry credentials on top of this file",
   "automerge": true,
   // Cargo has no client-side release-age gate (unlike bunfig.toml / .npmrc), so the 7-day cooldown

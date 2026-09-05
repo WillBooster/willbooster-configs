@@ -33,3 +33,6 @@ pre-commit:
     - name: validate-renovate-config
       glob: renovate*.jsonc
       run: npx --yes --package renovate@latest -- renovate-config-validator --strict --no-global {staged_files}
+    - name: check-renovate-base
+      glob: '{renovate-base.jsonc,scripts/checkRenovateBase.ts}'
+      run: bun scripts/checkRenovateBase.ts

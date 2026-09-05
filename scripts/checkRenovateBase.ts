@@ -5,8 +5,8 @@ const placeholderPattern = /\{\{\s*(?:secrets|variables)\./;
 // Only Renovate's built-in presets without arguments are allowed: a repository, npm, relative, or URL
 // preset could re-import the credentials that renovate-base.jsonc must stay free of, and a built-in
 // that takes an argument can inject one (`:githubComToken(token)` expands to a hostRules entry).
-// Renovate treats exactly these namespaces (and the bare `:name` form of `default`) as built in; any
-// other `name:preset` is an npm package.
+// These are the namespaces that actually hold built-in presets (plus the bare `:name` form of
+// `default`); any other `name:preset` is either an npm package or an unresolvable reference.
 // Built-in names may contain dots and spaces (e.g. `monorepo:system.io.abstractions`), but never `/`,
 // `>`, `:`, or parentheses, which are what repository, URL, and parameterized references contain.
 const builtInPresetPattern =

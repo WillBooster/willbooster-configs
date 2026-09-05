@@ -11,10 +11,11 @@ const placeholderPattern = /\{\{\s*(?:secrets|variables)\./;
 // `default`). The deprecated alias namespaces `npm:` and `compatibility:` are left out on purpose so
 // the check fails closed, and any other `name:preset` is an npm package.
 // Built-in names may contain dots and inner spaces (e.g. `monorepo:system.io.abstractions`), but never
-// `/`, `>`, `:`, or parentheses, which are what repository, URL, and parameterized references contain,
+// `/`, `>`, `:`, `#`, or parentheses, which are what repository, URL, tagged, and parameterized references
+// contain,
 // and never leading or trailing whitespace, which Renovate does not trim.
 const builtInPresetPattern =
-  /^(?:|abandonments|config|customManagers|default|docker|global|group|helpers|mergeConfidence|monorepo|packages|preview|replacements|schedule|security|workarounds):[A-Za-z](?:[^/>:()]*[^\s/>:()])?$/;
+  /^(?:|abandonments|config|customManagers|default|docker|global|group|helpers|mergeConfidence|monorepo|packages|preview|replacements|schedule|security|workarounds):[A-Za-z](?:[^/>:()#]*[^\s/>:()#])?$/;
 // The only built-ins whose definitions contain hostRules; they expand to one even without an argument.
 const hostRulesBuiltInPresets = new Set(['githubComToken', 'disableHost', 'disableDomain']);
 

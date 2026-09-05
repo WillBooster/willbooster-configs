@@ -1,6 +1,8 @@
 import path from 'node:path';
 
-const forbiddenKeys = new Set(['hostRules', 'npmrc', 'npmToken']);
+// The repository-level options that can carry a credential, plus `encrypted`, whose blobs only the
+// WillBooster organization key can decrypt and which break any other consumer that has a key.
+const forbiddenKeys = new Set(['hostRules', 'npmrc', 'npmToken', 'encrypted']);
 const placeholderPattern = /\{\{\s*(?:secrets|variables)\./;
 // Only Renovate's built-in presets without arguments are allowed: a repository, npm, relative, or URL
 // preset could re-import the credentials that renovate-base.jsonc must stay free of, and a built-in

@@ -12,9 +12,10 @@
   ],
   // Never add hostRules, npmrc, npmToken, encrypted, a Mend secret or variable placeholder, or an extends of anything
   // but an argument-free built-in Renovate preset that does not expand to hostRules here
-  // (scripts/checkRenovateBase.ts enforces this): repositories outside
-  // the WillBooster and WillBoosterLab organizations extend this file and cannot remove inherited hostRules,
-  // so a placeholder stops every one of them with an "Unknown secrets name" error and a literal credential
+  // (scripts/checkRenovateBase.ts enforces this): repositories outside the WillBooster and WillBoosterLab
+  // organizations extend this file, Renovate resolves every placeholder against the extending repository,
+  // and an extending repository cannot remove inherited hostRules, so a placeholder anywhere stops every
+  // one of them with an "Unknown secrets name" or "Unknown variables name" error and a literal credential
   // is handed to all of them from this public repository. Put credentials in renovate.jsonc.
   "description": "Preset for repos outside the WillBooster and WillBoosterLab organizations; WillBooster repos extend renovate.jsonc, which adds the private registry credentials on top of this file",
   "automerge": true,

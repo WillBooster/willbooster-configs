@@ -34,9 +34,9 @@ jobs:
       # cannot remove inherited hostRules and lack the Mend secrets, so it must stay credential-free.
       - run: |
           status=0
-          grep -nE '"hostRules"|"npmrc"|secrets\.' renovate-base.jsonc || status=$?
+          grep -nE '"hostRules"|"npmrc"|(secrets|variables)\.' renovate-base.jsonc || status=$?
           case $status in
-            0) echo "::error::renovate-base.jsonc must not contain hostRules, npmrc, or secrets; put them in renovate.jsonc"; exit 1 ;;
+            0) echo "::error::renovate-base.jsonc must not contain hostRules, npmrc, secrets, or variables; put them in renovate.jsonc"; exit 1 ;;
             1) ;;
             *) echo "::error::could not scan renovate-base.jsonc"; exit 1 ;;
           esac

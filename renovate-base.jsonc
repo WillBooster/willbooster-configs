@@ -10,7 +10,7 @@
     "docker:enableMajor",
     "docker:pinDigests",
   ],
-  // Never add hostRules, npmrc, or a Mend secret placeholder here: repositories outside the
+  // Never add hostRules, npmrc, or a Mend secret or variable placeholder here: repositories outside the
   // WillBooster and WillBoosterLab organizations extend this file, Renovate resolves secrets against
   // the extending repository, and an extending repository cannot remove inherited hostRules, so such
   // an entry stops every one of them with "Unknown secrets name". Put credentials in renovate.jsonc.

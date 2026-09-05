@@ -9,6 +9,8 @@ const placeholderPattern = /\{\{\s*(?:secrets|variables)\./;
 // other `name:preset` is an npm package.
 const builtInPresetPattern =
   /^(?:|abandonments|config|customManagers|default|docker|global|group|helpers|mergeConfidence|monorepo|packages|preview|replacements|schedule|security|workarounds):[A-Za-z][\w-]*$/;
+// The only built-ins whose definitions contain hostRules; they expand to one even without an argument.
+const hostRulesBuiltInPresets = new Set(['githubComToken', 'disableHost', 'disableDomain']);
 
 async function main(): Promise<void> {
   const filePath = path.resolve('renovate-base.jsonc');
@@ -38,6 +40,8 @@ function findProblems(value: unknown, valuePath: string): string[] {
       for (const preset of Array.isArray(child) ? child : [child]) {
         if (typeof preset !== 'string' || !builtInPresetPattern.test(preset)) {
           problems.unshift(`${childPath} may only list built-in presets, found ${JSON.stringify(preset)}`);
+        } else if (hostRulesBuiltInPresets.has(preset.replace(/^(?:default)?:/, ''))) {
+          problems.unshift(`${childPath} must not list ${preset}, which expands to hostRules`);
         }
       }
     }

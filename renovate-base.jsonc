@@ -31,8 +31,8 @@
   "dependencyDashboardAutoclose": true,
   "internalChecksFilter": "strict",
   // Renovate matches `matchPackageNames` entries as globs, or as regular expressions when written as
-  // `/pattern/`; the regex entries below are deliberate because a glob cannot express them (e.g. a name
-  // that ends with `node` after a `/`, or `config` anywhere after the scope).
+  // `/pattern/`; the regex entries below are valid as written and kept so that their match sets stay
+  // exactly what they were before this file was split out.
   "packageRules": [
     {
       "matchDatasources": ["npm", "pypi", "crate"],

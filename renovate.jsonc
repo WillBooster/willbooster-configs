@@ -1,6 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["./renovate-base.jsonc"],
+  // This file is also the repository config of willbooster-configs itself, and Renovate rejects a
+  // relative preset reference there, so the absolute form is required. It always reads
+  // renovate-base.jsonc from the default branch, so consumers must not pin this preset to a tag or commit.
+  "extends": ["github>WillBooster/willbooster-configs:renovate-base.jsonc"],
   "description": "Preset for use with WillBooster and WillBoosterLab repos",
   // The token is a Mend organization secret that exists only in the WillBooster and WillBoosterLab
   // organizations, and hostRules from a preset cannot be removed by the extending repository, so

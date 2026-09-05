@@ -2,11 +2,13 @@ import path from 'node:path';
 
 const forbiddenKeys = new Set(['hostRules', 'npmrc', 'npmToken']);
 const placeholderPattern = /\{\{\s*(?:secrets|variables)\./;
-// Only Renovate's built-in presets are allowed: a repository, npm, relative, or URL preset could
-// re-import the credentials that renovate-base.jsonc must stay free of. Renovate treats exactly these
-// namespaces (and the bare `:name` form of `default`) as built in; any other `name:preset` is an npm package.
+// Only Renovate's built-in presets without arguments are allowed: a repository, npm, relative, or URL
+// preset could re-import the credentials that renovate-base.jsonc must stay free of, and a built-in
+// that takes an argument can inject one (`:githubComToken(token)` expands to a hostRules entry).
+// Renovate treats exactly these namespaces (and the bare `:name` form of `default`) as built in; any
+// other `name:preset` is an npm package.
 const builtInPresetPattern =
-  /^(?:|abandonments|config|customManagers|default|docker|global|group|helpers|mergeConfidence|monorepo|packages|preview|replacements|schedule|security|workarounds):[A-Za-z][\w-]*(?:\(.*\))?$/;
+  /^(?:|abandonments|config|customManagers|default|docker|global|group|helpers|mergeConfidence|monorepo|packages|preview|replacements|schedule|security|workarounds):[A-Za-z][\w-]*$/;
 
 async function main(): Promise<void> {
   const filePath = path.resolve(process.argv[2] ?? 'renovate-base.jsonc');

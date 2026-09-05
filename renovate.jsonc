@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>WillBooster/willbooster-configs:renovate-base.jsonc"],
+  "extends": ["./renovate-base.jsonc"],
   "description": "Preset for use with WillBooster and WillBoosterLab repos",
   // The token is a Mend organization secret that exists only in the WillBooster and WillBoosterLab
   // organizations, and hostRules from a preset cannot be removed by the extending repository, so

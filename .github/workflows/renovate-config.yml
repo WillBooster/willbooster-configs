@@ -30,3 +30,10 @@ jobs:
       # valid for whichever Renovate version the hosted app currently runs, and it also makes an
       # incompatible Node version fail loudly instead of silently selecting an obsolete validator.
       - run: npx --yes --package renovate@latest -- renovate-config-validator --strict --no-global renovate*.jsonc
+      # renovate-base.jsonc is extended by repositories outside the WillBooster organizations, which
+      # cannot remove inherited hostRules and lack the Mend secrets, so it must stay credential-free.
+      - run: |
+          if grep -nE '"hostRules"|"npmrc"|secrets\.' renovate-base.jsonc; then
+            echo "::error::renovate-base.jsonc must not contain hostRules, npmrc, or secrets; put them in renovate.jsonc"
+            exit 1
+          fi

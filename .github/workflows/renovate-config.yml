@@ -31,12 +31,15 @@ jobs:
       # incompatible Node version fail loudly instead of silently selecting an obsolete validator.
       - run: npx --yes --package renovate@latest -- renovate-config-validator --strict --no-global renovate*.jsonc
       # renovate-base.jsonc is extended by repositories outside the WillBooster organizations, which
-      # cannot remove inherited hostRules and lack the Mend secrets, so it must stay credential-free.
+      # cannot remove inherited hostRules and lack the Mend secrets, so it must stay credential-free:
+      # hostRules, npmrc, and npmToken are the only repository-level options that can carry a
+      # credential, secrets and variables placeholders resolve only inside WillBooster, and a nested
+      # extends of another preset in this repository could smuggle any of them past a single-file grep.
       - run: |
           status=0
-          grep -nE '"hostRules"|"npmrc"|(secrets|variables)\.' renovate-base.jsonc || status=$?
+          grep -nE '"hostRules"|"npmrc"|"npmToken"|(secrets|variables)\.|willbooster-configs(:|//)' renovate-base.jsonc || status=$?
           case $status in
-            0) echo "::error::renovate-base.jsonc must not contain hostRules, npmrc, secrets, or variables; put them in renovate.jsonc"; exit 1 ;;
+            0) echo "::error::renovate-base.jsonc must not contain hostRules, npmrc, npmToken, secret or variable placeholders, or a nested extends of this repository; put credentials in renovate.jsonc"; exit 1 ;;
             1) ;;
             *) echo "::error::could not scan renovate-base.jsonc"; exit 1 ;;
           esac

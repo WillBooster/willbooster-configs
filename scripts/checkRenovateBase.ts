@@ -6,7 +6,8 @@ const placeholderPattern = /\{\{\s*(?:secrets|variables)\./;
 // preset could re-import the credentials that renovate-base.jsonc must stay free of, and a built-in
 // that takes an argument can inject one (`:githubComToken(token)` expands to a hostRules entry).
 // These are the namespaces that actually hold built-in presets (plus the bare `:name` form of
-// `default`); any other `name:preset` is either an npm package or an unresolvable reference.
+// `default`). The deprecated alias namespaces `npm:` and `compatibility:` are left out on purpose so
+// the check fails closed, and any other `name:preset` is an npm package.
 // Built-in names may contain dots and spaces (e.g. `monorepo:system.io.abstractions`), but never `/`,
 // `>`, `:`, or parentheses, which are what repository, URL, and parameterized references contain.
 const builtInPresetPattern =

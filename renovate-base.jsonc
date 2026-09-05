@@ -11,7 +11,8 @@
     "docker:pinDigests",
   ],
   // Never add hostRules, npmrc, npmToken, a Mend secret or variable placeholder, or an extends of anything
-  // but a built-in Renovate preset here (scripts/checkRenovateBase.ts enforces this): repositories outside
+  // but an argument-free built-in Renovate preset that does not expand to hostRules here
+  // (scripts/checkRenovateBase.ts enforces this): repositories outside
   // the WillBooster and WillBoosterLab organizations extend this file and cannot remove inherited hostRules,
   // so a placeholder stops every one of them with an "Unknown secrets name" error and a literal credential
   // is handed to all of them from this public repository. Put credentials in renovate.jsonc.

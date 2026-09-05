@@ -38,7 +38,9 @@ async function main(): Promise<void> {
 function findProblems(value: unknown, valuePath: string): string[] {
   if (typeof value === 'string') {
     if (placeholderPattern.test(value)) return [`${valuePath} contains a secret or variable placeholder`];
-    if (userinfoUrlPattern.test(value)) return [`${valuePath} contains a URL with embedded credentials`];
+    // The URL parser drops tabs and newlines and treats backslashes as slashes, so test the same shape.
+    const normalizedUrl = value.replaceAll(/[\t\n\r]/g, '').replaceAll('\\', '/');
+    if (userinfoUrlPattern.test(normalizedUrl)) return [`${valuePath} contains a URL with embedded credentials`];
     return [];
   }
   if (Array.isArray(value)) {

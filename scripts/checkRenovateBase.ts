@@ -4,11 +4,12 @@ import path from 'node:path';
 // WillBooster organization key can decrypt and which break any other consumer that has a key.
 const forbiddenKeys = new Set(['hostRules', 'npmrc', 'npmToken', 'encrypted']);
 const placeholderPattern = /\{\{\s*(?:secrets|variables)\./;
-// A URL such as https://user:token@host is sent with basic auth, so it is a credential too, wherever it
-// sits in a string (URL parsing strips surrounding whitespace, and templates embed URLs). A literal
+// An HTTP(S) URL such as https://user:token@host is sent with basic auth, so it is a credential too,
+// wherever it sits in a string (URL parsing strips surrounding whitespace, and templates embed URLs);
+// other schemes such as ssh://git@host carry a public user name, not a credential. A literal
 // secret in any other shape (a query parameter, a plain string) cannot be recognized structurally;
 // GitHub secret scanning is the safeguard for those.
-const userinfoUrlPattern = /[a-z][a-z\d+.-]*:\/\/[^/\s@]+@/i;
+const userinfoUrlPattern = /https?:\/\/[^/\s@]+@/i;
 // Only Renovate's built-in presets without arguments are allowed: a repository, npm, relative, or URL
 // preset could re-import the credentials that renovate-base.jsonc must stay free of, and a built-in
 // that takes an argument can inject one (`:githubComToken(token)` expands to a hostRules entry).

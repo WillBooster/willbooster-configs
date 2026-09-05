@@ -10,8 +10,9 @@
     "docker:enableMajor",
     "docker:pinDigests",
   ],
-  // Never add hostRules, npmrc, npmToken, encrypted, a Mend secret or variable placeholder, or an extends of anything
-  // but an argument-free built-in Renovate preset that does not expand to hostRules here
+  // Never add hostRules, npmrc, npmToken, encrypted, a Mend secret or variable placeholder, an HTTP(S) URL with
+  // user info, or an extends of anything but an argument-free built-in Renovate preset that does not expand
+  // to hostRules here
   // (scripts/checkRenovateBase.ts enforces this): repositories outside the WillBooster and WillBoosterLab
   // organizations extend this file, Renovate resolves every placeholder against the extending repository,
   // and an extending repository cannot remove inherited hostRules, so a placeholder anywhere stops every

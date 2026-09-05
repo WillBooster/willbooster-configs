@@ -2,13 +2,13 @@ name: Validate Renovate config
 on:
   pull_request:
     paths:
-      - renovate.jsonc
+      - renovate*.jsonc
       - .github/workflows/renovate-config.yml
   push:
     branches:
       - main
     paths:
-      - renovate.jsonc
+      - renovate*.jsonc
       - .github/workflows/renovate-config.yml
 permissions:
   contents: read
@@ -29,4 +29,4 @@ jobs:
       # config instead of a self-hosted global config. `@latest` is intentional: the preset must stay
       # valid for whichever Renovate version the hosted app currently runs, and it also makes an
       # incompatible Node version fail loudly instead of silently selecting an obsolete validator.
-      - run: npx --yes --package renovate@latest -- renovate-config-validator --strict --no-global renovate.jsonc
+      - run: npx --yes --package renovate@latest -- renovate-config-validator --strict --no-global renovate.jsonc renovate-base.jsonc

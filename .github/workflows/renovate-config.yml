@@ -33,7 +33,9 @@ jobs:
       # renovate-base.jsonc is extended by repositories outside the WillBooster organizations, which
       # cannot remove inherited hostRules and lack the Mend secrets, so it must stay credential-free.
       - run: |
-          if grep -nE '"hostRules"|"npmrc"|secrets\.' renovate-base.jsonc; then
-            echo "::error::renovate-base.jsonc must not contain hostRules, npmrc, or secrets; put them in renovate.jsonc"
-            exit 1
-          fi
+          grep -nE '"hostRules"|"npmrc"|secrets\.' renovate-base.jsonc
+          case $? in
+            0) echo "::error::renovate-base.jsonc must not contain hostRules, npmrc, or secrets; put them in renovate.jsonc"; exit 1 ;;
+            1) ;;
+            *) echo "::error::could not scan renovate-base.jsonc"; exit 1 ;;
+          esac

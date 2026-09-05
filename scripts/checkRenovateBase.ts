@@ -31,8 +31,9 @@ function findProblems(value: unknown, valuePath: string): string[] {
     const childPath = valuePath ? `${valuePath}.${key}` : key;
     const problems = findProblems(child, childPath);
     if (forbiddenKeys.has(key)) problems.unshift(`${childPath} must not be set`);
-    if (key === 'extends' && Array.isArray(child)) {
-      for (const preset of child) {
+    if (key === 'extends') {
+      // Renovate also accepts a single preset string here.
+      for (const preset of Array.isArray(child) ? child : [child]) {
         if (typeof preset !== 'string' || !builtInPresetPattern.test(preset)) {
           problems.unshift(`${childPath} may only list built-in presets, found ${JSON.stringify(preset)}`);
         }

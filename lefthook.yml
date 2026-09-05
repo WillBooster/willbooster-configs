@@ -31,5 +31,8 @@ pre-commit:
       run: bash .lefthook/normalize-bun-lockfile.sh {staged_files}
       stage_fixed: true
     - name: validate-renovate-config
-      glob: renovate.jsonc
+      glob: renovate*.jsonc
       run: npx --yes --package renovate@latest -- renovate-config-validator --strict --no-global {staged_files}
+    - name: check-renovate-base
+      glob: '{renovate-base.jsonc,scripts/checkRenovateBase.ts}'
+      run: bun scripts/checkRenovateBase.ts

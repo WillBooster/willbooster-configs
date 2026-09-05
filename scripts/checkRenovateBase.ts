@@ -5,10 +5,10 @@ import path from 'node:path';
 const forbiddenKeys = new Set(['hostRules', 'npmrc', 'npmToken', 'encrypted']);
 const placeholderPattern = /\{\{\s*(?:secrets|variables)\./;
 // An HTTP(S) URL such as https://user:token@host is sent with basic auth, so it is a credential too,
-// wherever it sits in a string (URL parsing strips surrounding whitespace, and templates embed URLs);
-// other schemes such as ssh://git@host carry a public user name, not a credential. A literal
-// secret in any other shape (a query parameter, a plain string) cannot be recognized structurally,
-// so only code review catches those.
+// wherever it sits in a string (URL parsing strips surrounding whitespace, and templates embed URLs).
+// Other schemes are out of scope because Renovate never dereferences them: ssh://git@host carries a
+// public user name, and a postgres://user:pass@host DSN does hold a secret but stays inert text, like
+// any other literal secret (a query parameter, a plain string), which only code review catches.
 // The URL parser accepts any number of slashes after the scheme, including none, and the user info ends at the first
 // `/`, `?`, or `#`, which end the URL's authority, so an `@` in a query or fragment is not a credential.
 const userinfoUrlPattern = /https?:\/*[^/\s@?#]+@/i;

@@ -9,9 +9,9 @@ const placeholderPattern = /\{\{\s*(?:secrets|variables)\./;
 // other schemes such as ssh://git@host carry a public user name, not a credential. A literal
 // secret in any other shape (a query parameter, a plain string) cannot be recognized structurally,
 // so only code review catches those.
-// The URL parser accepts any number of slashes after the scheme, and the user info ends at the first
+// The URL parser accepts any number of slashes after the scheme, including none, and the user info ends at the first
 // `/`, `?`, or `#`, which end the URL's authority, so an `@` in a query or fragment is not a credential.
-const userinfoUrlPattern = /https?:\/+[^/\s@?#]+@/i;
+const userinfoUrlPattern = /https?:\/*[^/\s@?#]+@/i;
 // Only Renovate's built-in presets without arguments are allowed: a repository, npm, relative, or URL
 // preset could re-import the credentials that renovate-base.jsonc must stay free of, and a built-in
 // that takes an argument can inject one (`:githubComToken(token)` expands to a hostRules entry).

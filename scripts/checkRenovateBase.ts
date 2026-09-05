@@ -7,8 +7,8 @@ const placeholderPattern = /\{\{\s*(?:secrets|variables)\./;
 // An HTTP(S) URL such as https://user:token@host is sent with basic auth, so it is a credential too,
 // wherever it sits in a string (URL parsing strips surrounding whitespace, and templates embed URLs);
 // other schemes such as ssh://git@host carry a public user name, not a credential. A literal
-// secret in any other shape (a query parameter, a plain string) cannot be recognized structurally;
-// GitHub secret scanning is the safeguard for those.
+// secret in any other shape (a query parameter, a plain string) cannot be recognized structurally,
+// so only code review catches those.
 const userinfoUrlPattern = /https?:\/\/[^/\s@]+@/i;
 // Only Renovate's built-in presets without arguments are allowed: a repository, npm, relative, or URL
 // preset could re-import the credentials that renovate-base.jsonc must stay free of, and a built-in

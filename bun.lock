@@ -11,7 +11,7 @@
         "@tsconfig/node-ts": "23.6.4",
         "@types/bun": "1.4.0",
         "@types/node": "26.4.0",
-        "@willbooster/wb": "22.0.1",
+        "@willbooster/wb": "22.1.4",
         "conventional-changelog-conventionalcommits": "10.2.1",
         "lefthook": "2.1.12",
         "oxfmt": "0.65.0",
@@ -29,7 +29,7 @@
       "version": "0.0.0-semantically-released",
       "devDependencies": {
         "@types/babel__core": "7.20.5",
-        "@willbooster/wb": "22.0.1",
+        "@willbooster/wb": "22.1.4",
         "core-js": "3.49.0",
         "sort-package-json": "4.0.0",
       },
@@ -52,7 +52,7 @@
       "name": "@willbooster/biome-config",
       "version": "0.0.0-semantically-released",
       "devDependencies": {
-        "@willbooster/wb": "22.0.1",
+        "@willbooster/wb": "22.1.4",
         "sort-package-json": "4.0.0",
       },
     },
@@ -60,7 +60,7 @@
       "name": "@willbooster/eslint-config-js",
       "version": "0.0.0-semantically-released",
       "devDependencies": {
-        "@willbooster/wb": "22.0.1",
+        "@willbooster/wb": "22.1.4",
         "oxfmt": "0.65.0",
         "oxlint": "1.80.0",
         "oxlint-tsgolint": "7.0.2001",
@@ -71,7 +71,7 @@
       "name": "@willbooster/eslint-config-js-react",
       "version": "0.0.0-semantically-released",
       "devDependencies": {
-        "@willbooster/wb": "22.0.1",
+        "@willbooster/wb": "22.1.4",
         "oxfmt": "0.65.0",
         "oxlint": "1.80.0",
         "oxlint-tsgolint": "7.0.2001",
@@ -94,7 +94,7 @@
         "@types/node": "26.4.0",
         "@types/react": "19.2.18",
         "@willbooster/shared": "*",
-        "@willbooster/wb": "22.0.1",
+        "@willbooster/wb": "22.1.4",
         "oxfmt": "0.65.0",
         "oxlint": "1.80.0",
         "oxlint-tsgolint": "7.0.2001",
@@ -117,7 +117,7 @@
         "@types/bun": "1.4.0",
         "@types/node": "26.4.0",
         "@willbooster/shared": "*",
-        "@willbooster/wb": "22.0.1",
+        "@willbooster/wb": "22.1.4",
         "oxfmt": "0.65.0",
         "oxlint": "1.80.0",
         "oxlint-tsgolint": "7.0.2001",
@@ -139,7 +139,7 @@
         "@types/node": "26.4.0",
         "@types/react": "19.2.18",
         "@willbooster/shared": "*",
-        "@willbooster/wb": "22.0.1",
+        "@willbooster/wb": "22.1.4",
         "oxfmt": "0.65.0",
         "oxlint": "1.80.0",
         "oxlint-tsgolint": "7.0.2001",
@@ -155,7 +155,7 @@
       "name": "@willbooster/oxfmt-config",
       "version": "0.0.0-semantically-released",
       "devDependencies": {
-        "@willbooster/wb": "22.0.1",
+        "@willbooster/wb": "22.1.4",
         "sort-package-json": "4.0.0",
       },
       "peerDependencies": {
@@ -171,7 +171,7 @@
         "@tsconfig/node-ts": "23.6.4",
         "@types/bun": "1.4.0",
         "@types/node": "26.4.0",
-        "@willbooster/wb": "22.0.1",
+        "@willbooster/wb": "22.1.4",
         "oxfmt": "0.65.0",
         "oxlint": "1.80.0",
         "oxlint-tsgolint": "7.0.2001",
@@ -186,7 +186,7 @@
       "name": "@willbooster/prettier-config",
       "version": "0.0.0-semantically-released",
       "devDependencies": {
-        "@willbooster/wb": "22.0.1",
+        "@willbooster/wb": "22.1.4",
         "prettier": "3.9.6",
         "prettier-plugin-java": "2.10.3",
         "sort-package-json": "4.0.0",
@@ -205,7 +205,7 @@
         "@tsconfig/node-ts": "23.6.4",
         "@types/bun": "1.4.0",
         "@types/node": "26.4.0",
-        "@willbooster/wb": "22.0.1",
+        "@willbooster/wb": "22.1.4",
         "oxfmt": "0.65.0",
         "oxlint": "1.80.0",
         "oxlint-tsgolint": "7.0.2001",
@@ -657,7 +657,7 @@
 
     "@willbooster/shared": ["@willbooster/shared@workspace:packages/shared"],
 
-    "@willbooster/wb": ["@willbooster/wb@22.0.1", "", { "dependencies": { "chalk": "6.0.0", "dotenv": "17.4.2", "dotenv-expand": "13.0.0", "fast-glob": "3.3.3", "fastest-levenshtein": "1.0.16", "globby": "16.2.3", "jsonc-parser": "3.3.1", "minimal-promise-pool": "6.0.3", "semver": "7.8.5", "smol-toml": "1.8.0", "yargs": "18.1.0" }, "bin": { "wb": "bin/index.js" } }, "sha512-Njc/+KL6Acq8IxOsmoS7FZvIz0ITbip0CArZCh0pJDB5Wlt1nNE/en4RjgwGSupuOFvtz49bh9QrOjz4APi7WA=="],
+    "@willbooster/wb": ["@willbooster/wb@22.1.4", "", { "dependencies": { "chalk": "6.0.0", "dotenv": "17.4.2", "dotenv-expand": "13.0.0", "fast-glob": "3.3.3", "fastest-levenshtein": "1.0.16", "globby": "16.2.4", "jsonc-parser": "3.3.1", "minimal-promise-pool": "6.0.3", "semver": "7.8.5", "smol-toml": "1.8.0", "yargs": "18.1.0" }, "bin": { "wb": "bin/index.js" } }, "sha512-42+9FeF98giS5pqmkA76Zza7CVRIsANuaEFCaup+lJqDEeHaNsPWK0IHHfxGVb1RlyhDZLMGNwXzooUkWSM4Gg=="],
 
     "acorn": ["acorn@8.18.0", "", { "bin": { "acorn": "bin/acorn" } }, "sha512-lGq+9yr1/GuAWaVYIHRjvvySG5/4VfKIvC8EWxStPdcDh/Ka7FG3twP6v4d5BkravUilhIAsG4Qj83t02LWUPQ=="],
 
@@ -847,7 +847,7 @@
 
     "globals": ["globals@14.0.0", "", {}, "sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ=="],
 
-    "globby": ["globby@16.2.3", "", { "dependencies": { "@sindresorhus/merge-streams": "^4.0.0", "fast-glob": "^3.3.3", "ignore": "^7.0.5", "is-path-inside": "^4.0.0", "slash": "^5.1.0", "unicorn-magic": "^0.4.0" } }, "sha512-VZX7TV7jmd/pn71vdnLKtgwy1IWqc3KjI9x1/UtPkwoKk5fKrNLY30ltDe3cAM5xruIN7YuuaulFt133jRrKZg=="],
+    "globby": ["globby@16.2.4", "", { "dependencies": { "@sindresorhus/merge-streams": "^4.0.0", "fast-glob": "^3.3.3", "ignore": "^7.0.5", "is-path-inside": "^4.0.0", "micromatch": "^4.0.8", "slash": "^5.1.0", "unicorn-magic": "^0.4.0" } }, "sha512-c8B/VNLmxRcmqqenRA9t+9IyOjf9+V6lTxPaUJLqOCONdQkWZ0ETYgX0qbtJqPsgCNusT9MZ5Jeidw8Eb9tn2g=="],
 
     "graceful-fs": ["graceful-fs@4.2.11", "", {}, "sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ=="],
 

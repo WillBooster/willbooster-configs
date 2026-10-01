@@ -258,6 +258,11 @@
       "rangeStrategy": "pin",
     },
     {
+      "description": "Cargo allows only one version per semver-compatible series of a crate in a dependency graph, so an exact requirement in a published crate's Cargo.toml stops its dependents from resolving any other compatible version; keep the ranges and let Cargo.lock hold the tested versions (auto updates Cargo.lock within a range and replaces the range otherwise, keeping an exact requirement exact)",
+      "matchManagers": ["cargo"],
+      "rangeStrategy": "auto",
+    },
+    {
       "matchDepTypes": ["engines", "peerDependencies"],
       "rangeStrategy": "auto",
     },

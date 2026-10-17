@@ -35,13 +35,12 @@
     "@types/node": "26.6.5",
     "@types/react": "19.3.0",
     "@willbooster/shared": "*",
-    "@willbooster/wb": "22.24.0",
+    "@willbooster/wb": "22.26.1",
     "oxfmt": "0.72.0",
     "oxlint": "1.87.0",
     "oxlint-tsgolint": "7.0.2004",
     "react": "19.3.0",
     "sort-package-json": "4.0.0",
-    "typescript": "7.0.2",
     "use-immer": "0.11.0"
   },
   "peerDependencies": {

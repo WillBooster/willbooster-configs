@@ -34,7 +34,7 @@
     "@types/node": "26.6.5",
     "@types/react": "19.3.0",
     "@willbooster/shared": "*",
-    "@willbooster/wb": "22.24.0",
+    "@willbooster/wb": "22.26.1",
     "oxfmt": "0.72.0",
     "oxlint": "1.87.0",
     "oxlint-tsgolint": "7.0.2004",

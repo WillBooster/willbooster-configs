@@ -37,7 +37,7 @@
     "lefthook": "2.1.16",
     "oxfmt": "0.72.0",
     "oxlint": "1.87.0",
-    "oxlint-tsgolint": "7.0.2003",
+    "oxlint-tsgolint": "7.0.2004",
     "prettier": "3.9.10",
     "prettier-plugin-java": "2.10.4",
     "semantic-release": "25.0.9",

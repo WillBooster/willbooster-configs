@@ -26,9 +26,9 @@
     "verify-full": "bun wb verify --full"
   },
   "devDependencies": {
-    "@willbooster/wb": "22.26.1",
-    "oxfmt": "0.72.0",
-    "oxlint": "1.87.0",
+    "@willbooster/wb": "22.26.2",
+    "oxfmt": "0.73.0",
+    "oxlint": "1.88.0",
     "oxlint-tsgolint": "7.0.2004",
     "sort-package-json": "4.0.0"
   },

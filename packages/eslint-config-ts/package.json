@@ -33,11 +33,11 @@
     "@types/bun": "1.4.3",
     "@types/node": "26.6.5",
     "@willbooster/shared": "*",
-    "@willbooster/wb": "22.26.2",
+    "@willbooster/wb": "22.26.3",
     "oxfmt": "0.73.0",
     "oxlint": "1.88.0",
     "oxlint-tsgolint": "7.0.2004",
-    "sort-package-json": "4.0.0",
+    "sort-package-json": "4.1.0",
     "use-immer": "0.11.0"
   },
   "peerDependencies": {

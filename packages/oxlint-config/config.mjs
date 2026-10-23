@@ -202,7 +202,8 @@ const config = {
       },
     ],
     'unicorn/no-zero-fractions': 'error',
-    'unicorn/number-literal-case': 'error',
+    // The formatter lowercases numeric literals (e.g. `0xD800` -> `0xd800`), which this rule rejects.
+    'unicorn/number-literal-case': 'off',
     'unicorn/numeric-separators-style': 'error',
     'unicorn/prefer-add-event-listener': 'error',
     'unicorn/prefer-array-find': 'error',

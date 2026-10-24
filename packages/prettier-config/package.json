@@ -29,7 +29,7 @@
   "devDependencies": {
     "@willbooster/wb": "22.29.3",
     "prettier": "3.9.10",
-    "prettier-plugin-java": "2.10.4"
+    "prettier-plugin-java": "2.11.0"
   },
   "peerDependencies": {
     "prettier": ">=3",

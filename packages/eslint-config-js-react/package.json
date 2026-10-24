@@ -2,20 +2,24 @@
   "name": "@willbooster/eslint-config-js-react",
   "version": "0.0.0-semantically-released",
   "description": "ESLint flat config for JavaScript React projects",
+  "license": "Apache-2.0",
+  "author": "WillBooster Inc.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WillBooster/willbooster-configs.git",
     "directory": "packages/eslint-config-js-react"
   },
-  "license": "Apache-2.0",
-  "author": "WillBooster Inc.",
-  "type": "module",
-  "main": "eslint.config.js",
-  "types": "eslint.config.d.ts",
   "files": [
     "eslint.config.d.ts",
     "eslint.config.js"
   ],
+  "type": "module",
+  "main": "eslint.config.js",
+  "types": "eslint.config.d.ts",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "cleanup": "bun wb lint --fix --format",
     "format": "bun wb lint --format",
@@ -26,18 +30,12 @@
     "verify-full": "bun wb verify --full"
   },
   "devDependencies": {
-    "@willbooster/wb": "22.26.3",
-    "oxfmt": "0.73.0",
+    "@willbooster/wb": "22.29.3",
     "oxlint": "1.88.0",
     "oxlint-tsgolint": "7.0.2004",
-    "react": "19.3.1",
-    "sort-package-json": "4.1.0"
+    "react": "19.3.1"
   },
   "peerDependencies": {
     "typescript": ">=5"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
   }
 }

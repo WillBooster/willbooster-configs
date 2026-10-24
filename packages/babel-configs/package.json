@@ -2,16 +2,20 @@
   "name": "@willbooster/babel-configs",
   "version": "0.0.0-semantically-released",
   "description": "Babel configs for WillBooster projects",
+  "license": "Apache-2.0",
+  "author": "WillBooster Inc.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WillBooster/willbooster-configs.git",
     "directory": "packages/babel-configs"
   },
-  "license": "Apache-2.0",
-  "author": "WillBooster Inc.",
   "files": [
     "babel.*.cjs"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "cleanup": "bun wb lint --fix --format",
     "format": "bun wb lint --format",
@@ -23,9 +27,8 @@
   },
   "devDependencies": {
     "@types/babel__core": "7.20.5",
-    "@willbooster/wb": "22.26.3",
-    "core-js": "3.49.0",
-    "sort-package-json": "4.1.0"
+    "@willbooster/wb": "22.29.3",
+    "core-js": "3.49.0"
   },
   "peerDependencies": {
     "@babel/core": ">=7",
@@ -44,9 +47,5 @@
     "core-js": {
       "optional": true
     }
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
   }
 }

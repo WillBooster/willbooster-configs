@@ -2,28 +2,32 @@
   "name": "@willbooster/oxlint-config",
   "version": "0.0.0-semantically-released",
   "description": "Oxlint config for WillBooster projects",
+  "license": "Apache-2.0",
+  "author": "WillBooster Inc.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WillBooster/willbooster-configs.git",
     "directory": "packages/oxlint-config"
   },
-  "license": "Apache-2.0",
-  "author": "WillBooster Inc.",
-  "type": "module",
-  "exports": {
-    ".": {
-      "types": "./config.d.ts",
-      "default": "./config.mjs"
-    }
-  },
-  "main": "config.mjs",
-  "types": "config.d.ts",
   "files": [
     "config.d.ts",
     "config.mjs",
     "oxlint.config.ts",
     "config.d.mts"
   ],
+  "type": "module",
+  "main": "config.mjs",
+  "types": "config.d.ts",
+  "exports": {
+    ".": {
+      "types": "./config.d.ts",
+      "default": "./config.mjs"
+    }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "cleanup": "bun wb lint --fix --format",
     "format": "bun wb lint --format",
@@ -40,18 +44,12 @@
     "@tsconfig/node-ts": "23.6.4",
     "@types/bun": "1.4.3",
     "@types/node": "26.6.5",
-    "@willbooster/wb": "22.26.3",
-    "oxfmt": "0.73.0",
+    "@willbooster/wb": "22.29.3",
     "oxlint": "1.88.0",
-    "oxlint-tsgolint": "7.0.2004",
-    "sort-package-json": "4.1.0"
+    "oxlint-tsgolint": "7.0.2004"
   },
   "peerDependencies": {
     "oxlint": ">=1.60.0",
     "oxlint-tsgolint": ">=0.18.1"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
   }
 }

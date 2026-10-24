@@ -274,6 +274,11 @@
       "rangeStrategy": "auto",
     },
     {
+      "description": "requires-python is the supported-interpreter range of a Python package (like engines): pinning it to the latest Python makes the built wheel uninstallable on every other version; replace keeps a range that still admits the new Python and bumps an exact version",
+      "matchDepTypes": ["requires-python"],
+      "rangeStrategy": "replace",
+    },
+    {
       "matchPackageNames": ["zod"],
       "rangeStrategy": "replace",
     },

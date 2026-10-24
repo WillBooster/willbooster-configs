@@ -1,16 +1,20 @@
 {
   "name": "@willbooster/configs",
   "version": "0.0.0-semantically-released",
+  "license": "Apache-2.0",
+  "author": "WillBooster Inc.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WillBooster/willbooster-configs.git"
   },
-  "license": "Apache-2.0",
-  "author": "WillBooster Inc.",
-  "type": "module",
   "workspaces": [
     "packages/*"
   ],
+  "type": "module",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "cleanup": "bun wb lint --fix --format",
     "format": "bun wb lint --format",
@@ -24,7 +28,6 @@
     "verify": "bun wb verify",
     "verify-full": "bun wb verify --full"
   },
-  "prettier": "@willbooster/prettier-config",
   "devDependencies": {
     "@anolilab/multi-semantic-release": "4.4.25",
     "@tsconfig/bun": "1.0.11",
@@ -32,19 +35,14 @@
     "@tsconfig/node-ts": "23.6.4",
     "@types/bun": "1.4.3",
     "@types/node": "26.6.5",
-    "@willbooster/wb": "22.26.3",
+    "@willbooster/wb": "22.29.3",
     "conventional-changelog-conventionalcommits": "10.2.1",
     "lefthook": "2.2.2",
-    "oxfmt": "0.73.0",
     "oxlint": "1.88.0",
     "oxlint-tsgolint": "7.0.2004",
     "prettier": "3.9.10",
     "prettier-plugin-java": "2.10.4",
-    "semantic-release": "25.0.9",
-    "sort-package-json": "4.1.0"
+    "semantic-release": "25.0.9"
   },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
-  }
+  "prettier": "./packages/prettier-config/.prettierrc.json"
 }

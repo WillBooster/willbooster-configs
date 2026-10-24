@@ -2,17 +2,21 @@
   "name": "@willbooster/prettier-config",
   "version": "0.0.0-semantically-released",
   "description": "Prettier config for WillBooster projects",
+  "license": "Apache-2.0",
+  "author": "WillBooster Inc.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WillBooster/willbooster-configs.git",
     "directory": "packages/prettier-config"
   },
-  "license": "Apache-2.0",
-  "author": "WillBooster Inc.",
-  "main": ".prettierrc.json",
   "files": [
     ".prettierrc.json"
   ],
+  "main": ".prettierrc.json",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "cleanup": "bun wb lint --fix --format",
     "format": "bun wb lint --format",
@@ -23,17 +27,12 @@
     "verify-full": "bun wb verify --full"
   },
   "devDependencies": {
-    "@willbooster/wb": "22.26.3",
+    "@willbooster/wb": "22.29.3",
     "prettier": "3.9.10",
-    "prettier-plugin-java": "2.10.4",
-    "sort-package-json": "4.1.0"
+    "prettier-plugin-java": "2.10.4"
   },
   "peerDependencies": {
     "prettier": ">=3",
     "prettier-plugin-java": ">=2.6"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
   }
 }

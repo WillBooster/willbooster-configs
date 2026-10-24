@@ -2,12 +2,12 @@
   "name": "@willbooster/shared",
   "version": "0.0.0-semantically-released",
   "private": true,
+  "license": "Apache-2.0",
+  "author": "WillBooster Inc.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WillBooster/willbooster-configs.git"
   },
-  "license": "Apache-2.0",
-  "author": "WillBooster Inc.",
   "type": "module",
   "main": "./src",
   "scripts": {
@@ -26,10 +26,8 @@
     "@tsconfig/node-ts": "23.6.4",
     "@types/bun": "1.4.3",
     "@types/node": "26.6.5",
-    "@willbooster/wb": "22.26.3",
-    "oxfmt": "0.73.0",
+    "@willbooster/wb": "22.29.3",
     "oxlint": "1.88.0",
-    "oxlint-tsgolint": "7.0.2004",
-    "sort-package-json": "4.1.0"
+    "oxlint-tsgolint": "7.0.2004"
   }
 }

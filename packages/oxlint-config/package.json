@@ -42,11 +42,11 @@
     "@tsconfig/bun": "1.0.11",
     "@tsconfig/node-lts": "24.0.1",
     "@tsconfig/node-ts": "23.6.4",
-    "@types/bun": "1.4.3",
+    "@types/bun": "1.4.4",
     "@types/node": "26.6.5",
-    "@willbooster/wb": "22.29.3",
-    "oxlint": "1.88.0",
-    "oxlint-tsgolint": "7.0.2004"
+    "@willbooster/wb": "23.0.0",
+    "oxlint": "1.89.0",
+    "oxlint-tsgolint": "7.0.2005"
   },
   "peerDependencies": {
     "oxlint": ">=1.60.0",

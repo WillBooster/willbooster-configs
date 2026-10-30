@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@types/babel__core": "7.20.5",
-    "@willbooster/wb": "22.29.3",
+    "@willbooster/wb": "23.0.0",
     "core-js": "3.49.0"
   },
   "peerDependencies": {

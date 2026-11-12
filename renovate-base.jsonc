@@ -225,10 +225,6 @@
       "matchPackageNames": ["/yarn/"],
     },
     {
-      "matchPackageNames": ["node"],
-      "allowedVersions": "<25",
-    },
-    {
       "matchPackageNames": ["babel-plugin-react-compiler", "eslint-plugin-react-compiler"],
       "ignoreUnstable": false,
     },

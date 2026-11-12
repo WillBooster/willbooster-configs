@@ -28,7 +28,7 @@
     "lockFileMaintenance": { "enabled": false },
     "automerge": false,
   },
-  "dependencyDashboardAutoclose": true,
+  "dependencyDashboard": { "autoclose": true },
   "internalChecksFilter": "strict",
   // Renovate matches `matchPackageNames` entries as globs, or as regular expressions when written as
   // `/pattern/`; the regex entries below are valid as written and kept so that their match sets stay
@@ -223,10 +223,6 @@
     {
       "ignoreUnstable": false,
       "matchPackageNames": ["/yarn/"],
-    },
-    {
-      "matchPackageNames": ["node"],
-      "allowedVersions": "<25",
     },
     {
       "matchPackageNames": ["babel-plugin-react-compiler", "eslint-plugin-react-compiler"],

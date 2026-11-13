@@ -38,8 +38,8 @@
     "@types/node": "26.6.6",
     "@willbooster/shared": "*",
     "@willbooster/wb": "23.3.0",
-    "oxlint": "1.90.0",
-    "oxlint-tsgolint": "7.0.2005",
+    "oxlint": "1.92.0",
+    "oxlint-tsgolint": "7.0.2006",
     "use-immer": "0.11.0"
   },
   "peerDependencies": {

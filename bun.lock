@@ -5,13 +5,13 @@
     "": {
       "name": "@willbooster/configs",
       "devDependencies": {
-        "@anolilab/multi-semantic-release": "4.6.1",
+        "@anolilab/multi-semantic-release": "4.6.3",
         "@tsconfig/bun": "1.0.11",
         "@tsconfig/node-lts": "24.0.1",
         "@tsconfig/node-ts": "23.6.4",
         "@types/bun": "1.4.4",
         "@types/node": "26.6.6",
-        "@willbooster/wb": "23.3.0",
+        "@willbooster/wb": "23.3.4",
         "conventional-changelog-conventionalcommits": "10.2.1",
         "lefthook": "2.2.2",
         "oxlint": "1.92.0",
@@ -26,7 +26,7 @@
       "version": "0.0.0-semantically-released",
       "devDependencies": {
         "@types/babel__core": "7.20.5",
-        "@willbooster/wb": "23.3.0",
+        "@willbooster/wb": "23.3.4",
         "core-js": "3.49.0",
       },
       "peerDependencies": {
@@ -48,14 +48,14 @@
       "name": "@willbooster/biome-config",
       "version": "0.0.0-semantically-released",
       "devDependencies": {
-        "@willbooster/wb": "23.3.0",
+        "@willbooster/wb": "23.3.4",
       },
     },
     "packages/eslint-config-js": {
       "name": "@willbooster/eslint-config-js",
       "version": "0.0.0-semantically-released",
       "devDependencies": {
-        "@willbooster/wb": "23.3.0",
+        "@willbooster/wb": "23.3.4",
         "oxlint": "1.92.0",
         "oxlint-tsgolint": "7.0.2006",
       },
@@ -64,7 +64,7 @@
       "name": "@willbooster/eslint-config-js-react",
       "version": "0.0.0-semantically-released",
       "devDependencies": {
-        "@willbooster/wb": "23.3.0",
+        "@willbooster/wb": "23.3.4",
         "oxlint": "1.92.0",
         "oxlint-tsgolint": "7.0.2006",
         "react": "19.3.1",
@@ -85,7 +85,7 @@
         "@types/node": "26.6.6",
         "@types/react": "19.3.0",
         "@willbooster/shared": "*",
-        "@willbooster/wb": "23.3.0",
+        "@willbooster/wb": "23.3.4",
         "oxlint": "1.92.0",
         "oxlint-tsgolint": "7.0.2006",
         "react": "19.3.1",
@@ -105,7 +105,7 @@
         "@types/bun": "1.4.4",
         "@types/node": "26.6.6",
         "@willbooster/shared": "*",
-        "@willbooster/wb": "23.3.0",
+        "@willbooster/wb": "23.3.4",
         "oxlint": "1.92.0",
         "oxlint-tsgolint": "7.0.2006",
         "use-immer": "0.11.0",
@@ -125,7 +125,7 @@
         "@types/node": "26.6.6",
         "@types/react": "19.3.0",
         "@willbooster/shared": "*",
-        "@willbooster/wb": "23.3.0",
+        "@willbooster/wb": "23.3.4",
         "oxlint": "1.92.0",
         "oxlint-tsgolint": "7.0.2006",
         "react": "19.3.1",
@@ -139,7 +139,7 @@
       "name": "@willbooster/oxfmt-config",
       "version": "0.0.0-semantically-released",
       "devDependencies": {
-        "@willbooster/wb": "23.3.0",
+        "@willbooster/wb": "23.3.4",
       },
       "peerDependencies": {
         "oxfmt": ">=0.42.0",
@@ -154,7 +154,7 @@
         "@tsconfig/node-ts": "23.6.4",
         "@types/bun": "1.4.4",
         "@types/node": "26.6.6",
-        "@willbooster/wb": "23.3.0",
+        "@willbooster/wb": "23.3.4",
         "oxlint": "1.92.0",
         "oxlint-tsgolint": "7.0.2006",
       },
@@ -167,7 +167,7 @@
       "name": "@willbooster/prettier-config",
       "version": "0.0.0-semantically-released",
       "devDependencies": {
-        "@willbooster/wb": "23.3.0",
+        "@willbooster/wb": "23.3.4",
         "prettier": "3.9.10",
         "prettier-plugin-java": "2.11.0",
       },
@@ -185,7 +185,7 @@
         "@tsconfig/node-ts": "23.6.4",
         "@types/bun": "1.4.4",
         "@types/node": "26.6.6",
-        "@willbooster/wb": "23.3.0",
+        "@willbooster/wb": "23.3.4",
         "oxlint": "1.92.0",
         "oxlint-tsgolint": "7.0.2006",
       },
@@ -200,7 +200,7 @@
 
     "@actions/io": ["@actions/io@3.0.2", "", {}, "sha512-nRBchcMM+QK1pdjO7/idu86rbJI5YHUKCvKs0KxnSYbVe3F51UfGxuZX4Qy/fWlp6l7gWFwIkrOzN+oUK03kfw=="],
 
-    "@anolilab/multi-semantic-release": ["@anolilab/multi-semantic-release@4.6.1", "", { "dependencies": { "@semrel-extra/topo": "^1.14.1", "@visulima/fs": "^5.1.0", "@visulima/path": "^3.1.0", "cosmiconfig": "10.0.1", "debug": "^4.4.3", "detect-indent": "^7.0.2", "execa": "^10.2.0", "git-log-parser": "^1.2.1", "lodash-es": "4.18.1", "resolve-from": "^5.0.0", "semver": "7.8.5", "signale": "^1.4.0", "stream-buffers": "^3.0.3", "yaml": "2.9.1", "yargs": "18.2.0" }, "peerDependencies": { "semantic-release": ">=24.2.9" }, "os": [ "linux", "win32", "darwin", ], "bin": { "multi-semantic-release": "./dist/bin/cli.js" } }, "sha512-a901zDHLGG6ain4BfTwPQFESDlwSogUCAwlZhWMU873szvvCw60rhGH5Po7RXMlBG/uu06RCMcSxJKcYQX6PMQ=="],
+    "@anolilab/multi-semantic-release": ["@anolilab/multi-semantic-release@4.6.3", "", { "dependencies": { "@semrel-extra/topo": "^1.14.1", "@visulima/fs": "^7.0.0", "@visulima/path": "^3.1.0", "cosmiconfig": "10.0.1", "debug": "^4.4.3", "detect-indent": "^7.0.2", "execa": "^10.2.1", "git-log-parser": "^1.2.1", "lodash-es": "4.18.1", "resolve-from": "^5.0.0", "semver": "7.8.5", "signale": "^1.4.0", "stream-buffers": "^3.0.3", "yaml": "2.9.1", "yargs": "18.2.0" }, "peerDependencies": { "semantic-release": ">=24.2.9" }, "os": [ "linux", "win32", "darwin", ], "bin": { "multi-semantic-release": "./dist/bin/cli.js" } }, "sha512-otVpADSuC6S8BaBrQFNPi5lHbHyv/bdxYtvKHi2Z7FAzOuXFco+QMUcnmrbUEsyW4Dzx3kjRgoyyQZtllXTXXg=="],
 
     "@babel/code-frame": ["@babel/code-frame@8.0.6", "", { "dependencies": { "@babel/helper-validator-identifier": "^8.0.6", "js-tokens": "^10.0.0" } }, "sha512-uMHhvmDmwFiLuiozaoRYTZHqMFuu3fem/X9JY78lohAuLoh8LSGGC8JqUzo2cVuBsBxkjMZNk56CE7ock8Xxkw=="],
 
@@ -638,7 +638,7 @@
 
     "@typescript/typescript-win32-x64": ["@typescript/typescript-win32-x64@7.0.2", "", { "os": "win32", "cpu": "x64" }, "sha512-0BQ3HkAHHlKLSp1qRvf3SUhGpGsDuhB/jgFw75guyqbxJqEaS0Cw/VFO8i2nHglJUzQCRtMMR/IBAKE3ETMC4g=="],
 
-    "@visulima/fs": ["@visulima/fs@5.1.0", "", { "dependencies": { "@visulima/path": "3.1.0" }, "peerDependencies": { "ini": "^7.0.0", "json5": "^2.2.3", "jsonc-parser": "^3.3.1", "smol-toml": "^1.7.0", "yaml": ">=2.9.0" }, "optionalPeers": ["ini", "json5", "jsonc-parser", "smol-toml", "yaml"], "os": [ "linux", "win32", "darwin", ] }, "sha512-KJmLA9iJAwx+GOhjLT1kcqBhY/s1uOU8eJrBz+TeyZX0h2p5USYKHlNd1p+VaB4/9ltl1MR4oRuXgY5jLP0vOA=="],
+    "@visulima/fs": ["@visulima/fs@7.0.0", "", { "dependencies": { "@visulima/path": "5.0.0" }, "peerDependencies": { "@visulima/yaml": "2.0.0", "ini": "^7.0.0", "json5": "^2.2.3", "jsonc-parser": "^3.3.1", "smol-toml": "^1.8.1" }, "optionalPeers": ["@visulima/yaml", "ini", "json5", "jsonc-parser", "smol-toml"], "os": [ "linux", "win32", "darwin", ] }, "sha512-6XPkHW+d4t8jZjXl7a9r7DjvoMPjbzVbQVklmHQmvDYaSAYX5jEpBrAL4ZpuS9voSw2Mfzj8cccaZuGcMZYkyA=="],
 
     "@visulima/path": ["@visulima/path@3.1.0", "", { "os": [ "linux", "win32", "darwin", ] }, "sha512-vCncF9YVP4zf+GKPRx7PTyxtivlUqJP22jWFcFpLhrM8raGX+WckNQWV/uxeOpfkEWN363zBi9TWcc5XQLcagw=="],
 
@@ -666,7 +666,7 @@
 
     "@willbooster/shared-lib": ["@willbooster/shared-lib@10.18.0", "", {}, "sha512-R3wgsiueBaFvWU/uj8JXCvq3nkRQPfsb7j2ShZlkgAHYodiOBQt13kXuj/kDiEI9YJTdn9b0UvchuV3JBootOw=="],
 
-    "@willbooster/wb": ["@willbooster/wb@23.3.0", "", { "dependencies": { "@textlint-rule/textlint-rule-no-invalid-control-character": "3.0.0", "@textlint/kernel": "15.8.0", "@textlint/module-interop": "15.8.0", "@textlint/textlint-plugin-markdown": "15.8.0", "chalk": "6.0.1", "code-gauge": "10.3.0", "dotenv": "18.0.9", "dotenv-expand": "13.0.0", "fast-glob": "3.3.3", "fastest-levenshtein": "1.0.16", "globby": "16.2.4", "jsonc-parser": "3.3.1", "minimal-promise-pool": "6.0.4", "semver": "7.8.5", "smol-toml": "1.9.1", "textlint-filter-rule-node-types": "1.1.0", "textlint-rule-ja-space-between-half-and-full-width": "3.0.4", "textlint-rule-no-zero-width-spaces": "1.0.1", "yargs": "18.2.0", "zod": "4.6.7" }, "bin": { "wb": "bin/index.js" } }, "sha512-TEE0qbT1Px9QavVHNMyB7G/eRtLU8Wqm2j+xVwYrUBoIF+RBzy63cW0NvM7Pm9vyNDR/GZMmsBqE4D0xmiVg3A=="],
+    "@willbooster/wb": ["@willbooster/wb@23.3.4", "", { "dependencies": { "@textlint-rule/textlint-rule-no-invalid-control-character": "3.0.0", "@textlint/kernel": "15.8.0", "@textlint/module-interop": "15.8.0", "@textlint/textlint-plugin-markdown": "15.8.0", "chalk": "6.0.1", "code-gauge": "10.3.0", "dotenv": "18.0.9", "dotenv-expand": "13.0.0", "fast-glob": "3.3.3", "fastest-levenshtein": "1.0.16", "globby": "16.2.4", "jsonc-parser": "3.3.1", "minimal-promise-pool": "6.0.4", "semver": "7.8.5", "smol-toml": "1.9.1", "textlint-filter-rule-node-types": "1.1.0", "textlint-rule-ja-space-between-half-and-full-width": "3.0.4", "textlint-rule-no-zero-width-spaces": "1.0.1", "yargs": "18.2.0", "zod": "4.6.7" }, "bin": { "wb": "bin/index.js" } }, "sha512-ruzi0tJgVM8o4+T3x10PxiwUk2OSXn7GXcjxHypDxSFwZK48nm8X0myhI9ki0eOB1HZxx7e+erML37pyKrlt7w=="],
 
     "acorn": ["acorn@8.19.0", "", { "bin": { "acorn": "bin/acorn" } }, "sha512-oJlA3XiRm7Cyk6qFD2Jn8ak9B7jSy0qy00ADO3+8dpT0LSjFihQYv4C02LFCSYJV3Q37xYwwRy5m+IpIiUzqWw=="],
 
@@ -1637,6 +1637,8 @@
     "@semantic-release/release-notes-generator/read-package-up": ["read-package-up@11.0.0", "", { "dependencies": { "find-up-simple": "^1.0.0", "read-pkg": "^9.0.0", "type-fest": "^4.6.0" } }, "sha512-MbgfoNPANMdb4oRBNg5eqLbB2t2r+o5Ua1pNt8BqGp4I0FJZhuVSOj3PaBPni4azWuSzEdNn2evevzVmEk1ohQ=="],
 
     "@textlint/regexp-string-matcher/escape-string-regexp": ["escape-string-regexp@4.0.0", "", {}, "sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA=="],
+
+    "@visulima/fs/@visulima/path": ["@visulima/path@5.0.0", "", { "os": [ "linux", "win32", "darwin", ] }, "sha512-4OBtMLJYmAWPHMxqpC2yijvdq1DLyX8aiG5H/qQLBHaeh7H2vCDGamXGA3hi9zvcA7NULAXpgLjQIHHgt5p1eQ=="],
 
     "clean-stack/escape-string-regexp": ["escape-string-regexp@5.0.0", "", {}, "sha512-/veY75JbMK4j1yjvuUxuVsiS/hr/4iHs9FTT6cgTexxdE0Ly/glccBAkloH/DofkjRbZU3bnoj38mOmhkZ0lHw=="],
 

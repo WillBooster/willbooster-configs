@@ -46,7 +46,7 @@
     "@types/node": "26.6.6",
     "@willbooster/wb": "23.4.0",
     "oxlint": "1.93.0",
-    "oxlint-tsgolint": "7.0.2006"
+    "oxlint-tsgolint": "7.0.2007"
   },
   "peerDependencies": {
     "oxlint": ">=1.60.0",

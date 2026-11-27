@@ -199,7 +199,13 @@
     {
       "description": "Allow immediate updates for preapproved npm packages",
       "matchDatasources": ["npm"],
-      "matchPackageNames": ["/^@exercode\\//", "/^@willbooster\\//", "agent-runtime-kit"],
+      "matchPackageNames": [
+        "/^@exercode\\//",
+        "/^@reviewfixloop\\//",
+        "/^@willbooster\\//",
+        "agent-runtime-kit",
+        "reviewer-protocol",
+      ],
       "minimumReleaseAge": "0 days",
     },
     {

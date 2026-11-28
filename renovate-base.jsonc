@@ -285,6 +285,12 @@
       "rangeStrategy": "replace",
     },
     {
+      "description": "Cap semantic-release below 26 until @anolilab/multi-semantic-release stops importing removed internal modules (lib/git.js, lib/get-config.js)",
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["semantic-release"],
+      "allowedVersions": "<26",
+    },
+    {
       "matchPackageNames": ["prisma", "@prisma/client"],
       "enabled": false,
     },

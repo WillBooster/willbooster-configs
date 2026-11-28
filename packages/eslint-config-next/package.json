@@ -40,7 +40,7 @@
     "@types/react": "19.3.0",
     "@willbooster/shared": "*",
     "@willbooster/wb": "23.5.1",
-    "oxlint": "1.93.0",
+    "oxlint": "1.94.0",
     "oxlint-tsgolint": "7.0.2007",
     "react": "19.3.1",
     "use-immer": "0.11.0"

@@ -38,6 +38,7 @@ async function main(): Promise<void> {
   process.exit(1);
 }
 
+// code-gauge-allow functionCognitiveComplexity -- Validation handles distinct JSON value types and URL checks together.
 function findProblems(value: unknown, valuePath: string): string[] {
   if (typeof value === 'string') {
     if (placeholderPattern.test(value)) return [`${valuePath} contains a secret or variable placeholder`];
